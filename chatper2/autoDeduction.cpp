@@ -3,8 +3,7 @@
 int main() {
     int x1 = 3;
     int& ref = x1;//x1 type int, ref type int&
-    auto ref2 = ref;//ref type int.ref作为右值，类型退化。因此ref2类型为int
-    std::cout << std::is_same_v<decltype(ref2), int&> << std::endl;
+    auto ref2 = ref;//ref type int&。ref作为右值，类型退化。因此ref2类型为int
     std::cout << std::is_same_v<decltype(ref2), int> << std::endl;
 
     const auto y = 3;
@@ -49,4 +48,14 @@ int main() {
 
     int* ptr = &x1;
     std::cout << std::is_same_v<decltype(*ptr), int&> << std::endl;
+    std::cout << std::is_same_v<decltype(ptr), int*> << std::endl;
+    std::cout << std::is_same_v<decltype((ptr)), int*&> << std::endl;
+
+    auto x = 3.5 + 15l;
+    decltype(3.5 + 15l) a = 3.5 + 15l;//太麻烦
+    decltype(auto) a1 = 3.5 + 15l;
+    std::cout << std::is_same_v<decltype(x), double> << std::endl;
+    std::cout << std::is_same_v<decltype(a), double> << std::endl;
+    std::cout << std::is_same_v<decltype(a1), double> << std::endl;
+
 }
