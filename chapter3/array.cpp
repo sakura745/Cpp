@@ -5,7 +5,6 @@ int main() {
     int a;
     int b[10];//b type is int[10]
     std::cout << std::is_same_v<decltype(b), int[10]> << '\n';
-
 /*
     int x;
     std::cin >> x;
