@@ -37,6 +37,12 @@
 
 常量表达式`constexpr`，也是编译器常量。
 
+```cpp
+std::cin >> x;
+const int y = x;
+constexpr int y = x;//error
+```
+`constexpr`表示百分百可用于编译阶段。
 ###4.类型别名和类型自动推导
 **类型别名**
 
