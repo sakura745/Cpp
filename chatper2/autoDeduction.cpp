@@ -31,4 +31,22 @@ int main() {
     const int& z7 = 4;
     auto& z8 = z7;
     std::cout << std::is_same_v<decltype(z8), const int&> << std::endl;
+
+    int w[3] = {1,2,3};
+    auto w1 = w;
+    std::cout << std::is_same_v<decltype(w1), int*> << std::endl;
+
+    int w2[3] = {1,2,3};
+    auto &w3 = w2;
+    std::cout << std::is_same_v<decltype(w3), int(&)[3]> << std::endl;
+
+    std::cout << "Decltype" << std::endl;
+    int& q1 = x1;
+    auto q2 = q1;
+    decltype(q1) q3 = q1;
+    std::cout << std::is_same_v<decltype(q2), int> << std::endl;
+    std::cout << std::is_same_v<decltype(q3), int&> << std::endl;
+
+    int* ptr = &x1;
+    std::cout << std::is_same_v<decltype(*ptr), int&> << std::endl;
 }

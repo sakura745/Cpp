@@ -1,54 +1,30 @@
-io:
+### 1.从hello world 开始谈起
+函数：返回类型、函数名、形参列表、函数体
 
-终端输入
-```shell
-./io > txt1 2 > txt2
-cat ./txt1
-cat ./txt2
-```
-分别显示
-```shell
-Output from cout
-```
-```shell
-Output from cerrOutput from clog
-```
----
-namespace:
-输出(mangling)
-```shell
-nm ./namespace.cpp.o 
-```
+`main`函数：整个程序的入口
 
-```shell
-                 U __cxa_atexit
-                 U __dso_handle
-                 U _GLOBAL_OFFSET_TABLE_
-0000000000000062 t _GLOBAL__sub_I__ZN10NameSpace13funEv
-000000000000000e T main
-0000000000000019 t _Z41__static_initialization_and_destruction_0ii
-0000000000000000 T _ZN10NameSpace13funEv
-0000000000000007 T _ZN10NameSpace23funEv
-                 U _ZNSt8ios_base4InitC1Ev
-                 U _ZNSt8ios_base4InitD1Ev
-0000000000000000 b _ZStL8__ioinit
-```
+类型：是C++引入的概念，不是硬件引入的。
 
-demangling
-```shell
-nm ./namespace.cpp.o | c++filt -t
-```
+### 2.系统I/O
+`iostream`标准库提供的接口，用于人机交互。
 
-```shell
-                 U __cxa_atexit
-                 U __dso_handle
-                 U _GLOBAL_OFFSET_TABLE_
-0000000000000062 unsigned short _GLOBAL__sub_I__ZN10NameSpace13funEv
-000000000000000e T main
-0000000000000019 unsigned short __static_initialization_and_destruction_0(int, int)
-0000000000000000 T NameSpace1::fun()
-0000000000000007 T NameSpace2::fun()
-                 U std::ios_base::Init::Init()
-                 U std::ios_base::Init::~Init()
-0000000000000000 bool std::__ioinit
-```
+输入流`cin`
+
+输出流`cout` `cerr` `clog`
+
+|传出位置|屏幕|文件日志|
+|---|---|---|
+|名称|`cout`、`cerr`、`clog`|`cerr`、`clog`|
+
+|名称|`cout`|`cerr`|`clog`|
+|---|---|---|---|
+|是否立即缓冲|否|否|是| 
+
+| |缓冲|换行|
+|---|---|---|
+|`std::flush`|是|否|
+|`'\n'`|否|是|
+|`std::endl`|是|是|
+
+`printf`比较直观，但容易出错。`cout`不容易出错，但书写冗长。
+
