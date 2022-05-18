@@ -3,7 +3,7 @@
 #include <cstdio>//引入printf
 
 int main() {
-    int y;
-    int x = y = 10;
-    std::cout << x << std::endl << y;
+    int x = 10;
+    std::cout << "I have " << x << " pens\n";
+    printf("I have %d pens\n", x);
 }
