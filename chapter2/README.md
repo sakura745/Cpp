@@ -50,7 +50,7 @@ constexpr int y = x;//error
 
 **类型自动推导**
 
-自动推导可能会产生类型退化:都变为`int`:`const int`--> `int`;`int&`-->`int`;`const int&`-->`int`
+自动推导可能会产生类型退化decay:都变为`int`:`const int`--> `int`;`int&`-->`int`;`const int&`-->`int`
 
 `auto`会产生退化
 

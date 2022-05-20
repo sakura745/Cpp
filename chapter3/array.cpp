@@ -24,7 +24,7 @@ int main() {
     std::cout << std::is_same_v<decltype(j), std::initializer_list<int>> << '\n';
 
     //int k[3] = f; error. Array cannot copy.
-    auto l = f;//f type degenerate from int[3] to int*
+    auto l = f;//f type decay from int[3] to int*
     auto& m = f;
     std::cout << std::is_same_v<decltype(l), int*> << '\n';
     std::cout << std::is_same_v<decltype(m), int(&)[3]> << '\n';
