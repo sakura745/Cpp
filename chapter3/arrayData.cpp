@@ -36,11 +36,13 @@ int main() {
     fun();
     std::cout << array << std::endl;
 
-
+    //begin address
     std::cout << &(a[0]) << '\n';//begin array address
     std::cout << a << '\n';//begin array address
     std::cout << std::begin(a) << '\n';//begin array address
     std::cout << std::cbegin(a) << '\n';//begin array address. c = const
+
+    //end address
     std::cout << &(a[3]) << '\n';//end array address
     std::cout << a + 3 << '\n';//end array address
     std::cout << std::end(a) << '\n';//end array address
