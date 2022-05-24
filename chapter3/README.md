@@ -1,4 +1,4 @@
-###1.数组
+### 1.数组
 C++内建数组，性能强，但易用性差。`vector`标准库建立数组，性能差，但易用性强。
 
 将多个类型相同的**对象**串联到一起，组成的类型。
@@ -70,7 +70,7 @@ int b[10];//type is int [10]
 
 别名的使用
 
-###2.vector
+### 2.vector
 `#include <vector>` 注重易用性。
 
 初始化
@@ -80,7 +80,7 @@ int b[10];//type is int [10]
 迭代器
 
 `./->`
-###3.string:c++字符串
+### 3.string:c++字符串
 `#include <string>` 侧重易用性。
 
 初始化等详见cpp reference
