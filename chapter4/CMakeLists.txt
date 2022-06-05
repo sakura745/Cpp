@@ -7,3 +7,6 @@ set(CMAKE_CXX_STANDARD  17)
 
 add_executable(expression expression.cpp)
 add_executable(lvalrval lvalrval.cpp)
+add_executable(typeConvert typeConvert.cpp)
+add_executable(arithmeticOperator arithmeticOperator.cpp)
+add_executable(logicOperator logicOperator.cpp)
