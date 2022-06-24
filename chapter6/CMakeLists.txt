@@ -9,5 +9,6 @@ add_executable(fundamentalFunction fundamentalFunction.cpp)
 add_executable(functionParameter functionParameter.cpp)
 add_executable(twoParaMain twoParaMain.cpp)
 add_executable(function function.cpp)
+add_executable(functionReturnType functionReturnType.cpp)
 
 
