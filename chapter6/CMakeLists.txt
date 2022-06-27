@@ -10,5 +10,7 @@ add_executable(functionParameter functionParameter.cpp)
 add_executable(twoParaMain twoParaMain.cpp)
 add_executable(function function.cpp)
 add_executable(functionReturnType functionReturnType.cpp)
+add_executable(functionOverload functionOverload.cpp)
+add_executable(nameLookup nameLookup.cpp)
 
 
