@@ -15,5 +15,6 @@ add_executable(nameLookup nameLookup.cpp)
 add_executable(nonviableCandidates nonviableCandidates.cpp)
 add_executable(inlineFunction inlineMain.cpp inlineSource.cpp)
 add_executable(constexpr constexpr.cpp)
+add_executable(function2 function2.cpp)
 
 

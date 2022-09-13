@@ -4,7 +4,7 @@
 
 void/*隐式返回的原因*/ fun() {
     std::cout << "Hello" << std::endl;
-    //隐式返回：应该返回到main函数，返回到函数的调用者
+    //[space]隐式返回：应该返回到main函数，返回到函数的调用者
     return;//显式返回
 }
 int fun1() {
