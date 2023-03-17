@@ -58,12 +58,13 @@ void funa(int x = 0, int y = 0){//legal
 
 //void funb(int x, int y = 2, int z = 3);//funb的声明，y、z缺省实参的定义
 
-//void funb(int x, int y , int z = 3);
-//void funb(int x, int y = 2, int z );//是合法的，但注意要先定义最右边的z，再定义y
+//下两行代码是合法的，但注意要先定义最右边的z，再定义y
+//void funb(int x, int y, int z = 3);
+//void funb(int x, int y = 2, int z);
 
 void funb(int x, int y, int z) {//y、z不能再定义一次
 //void funb(int x, int y = 2, int z = 3) {illegal
-//funb declare中y、z定义去掉，可以在funb定义上添加yz定义（实参定义优先级声明高于定义 ）
+//funb 声明中y、z定义去掉，可以在funb定义上添加yz定义（实参定义优先级声明高于定义 ）
     std::cout << x + y + z << std::endl;
 }
 
@@ -78,8 +79,9 @@ int main() {
     fun(val);
     fun(Str());//没有输出copy constructor 被省略
 
+    //传值
     int arg = 3;
-    fun1(arg);//传值
+    fun1(arg);
     std::cout << arg << std::endl;
     /*等价于
      int par = arg;
