@@ -22,6 +22,7 @@ int main() {
     std::cout << std::numeric_limits<int>::max() << std::endl;
     std::cout << std::numeric_limits<unsigned int>::min() << std::endl;
     std::cout << std::numeric_limits<unsigned int>::max() << std::endl;
+    std::cout << "---------" << std::endl;
 
     unsigned int z = std::numeric_limits<unsigned int>::max();
     z = z + 1;

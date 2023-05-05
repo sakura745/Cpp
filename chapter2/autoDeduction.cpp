@@ -29,7 +29,9 @@ int main() {
 
     const int& z7 = 4;
     auto& z8 = z7;
+    auto z9 = z7;//const和&都退化掉了
     std::cout << std::is_same_v<decltype(z8), const int&> << std::endl;
+    std::cout << std::is_same_v<decltype(z9), int> << std::endl;
 
     int w[3] = {1,2,3};
     auto w1 = w;
@@ -39,7 +41,7 @@ int main() {
     auto &w3 = w2;
     std::cout << std::is_same_v<decltype(w3), int(&)[3]> << std::endl;
 
-    std::cout << "Decltype" << std::endl;
+    std::cout << std::endl << "Decltype:" << std::endl;
     int& q1 = x1;
     auto q2 = q1;
     decltype(q1) q3 = q1;
@@ -53,7 +55,7 @@ int main() {
 
     auto x = 3.5 + 15l;
     decltype(3.5 + 15l) a = 3.5 + 15l;//太麻烦
-    decltype(auto) a1 = 3.5 + 15l;
+    decltype(auto) a1 = 3.5 + 15l;//c14
     std::cout << std::is_same_v<decltype(x), double> << std::endl;
     std::cout << std::is_same_v<decltype(a), double> << std::endl;
     std::cout << std::is_same_v<decltype(a1), double> << std::endl;
