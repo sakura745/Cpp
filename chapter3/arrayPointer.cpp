@@ -10,8 +10,8 @@ int main() {
     std::cout << std::is_same_v<decltype(a), int*[3]> << '\n';
 
     int c[3];
-    //int (*b)[3] = {&x1, &x2, &x3};error. b is pointer, cannot initialize through aggregate initialization.
-    int (*b)[3] = &c;//数组的指针. Using array by initialization。(*b)是一个整体
+//    int (*b)[3] = {&x1, &x2, &x3};//error. b is pointer, cannot initialize through aggregate initialization.
+    int (*b)[3] = &c;//数组的指针. Using array by initialization。(*b)是一个整体. int[3] *b
     std::cout << std::is_same_v<decltype(*b), int(&)[3]> << '\n';//decltype(rval)左值+引用。
     std::cout << typeid(*b).name() << '\n';//实际上，*b的类型为int [3]
     std::cout << std::is_same_v<decltype(b), int(*)[3]> << '\n';//表示*修饰的是对象，即为b，而不是修饰int

@@ -54,7 +54,7 @@ constexpr int y = x;//error
 
 自动推导可能会产生类型退化decay:都变为`int`:`const int`--> `int`;`int&`-->`int`;`const int&`-->`int`
 
-`auto`会产生退化
+`auto`会产生退化(但不会退化指针，`const int*`--> `const int*`)
 
 `auto&`会避免类型退化，但是会引入`&`
 

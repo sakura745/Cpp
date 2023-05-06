@@ -16,6 +16,7 @@ int main() {
 
     std::cout << std::is_same_v<decltype((a)), int(&)[3]> << std::endl;
     std::cout << std::is_same_v<decltype(a), int [3]> << std::endl;
+    std::cout << "-------------" << std::endl;
 
     auto b = a;//b type decay from int [3] to int*
     std::cout << std::is_same_v<decltype(b), int*> << std::endl;
@@ -23,6 +24,7 @@ int main() {
     std::cout << b << std::endl;
     std::cout << &(a[0]) << std::endl;
     std::cout << b[1] << std::endl;//[]不是数组转有的，对于指针来说也可以
+    std::cout << "-------------" << std::endl;
 
     int y = 100;
     int* ptr = &y;
@@ -32,6 +34,7 @@ int main() {
     std::cout << 0[ptr] << '\n';//0[ptr] == *(0 + ptr)
 
     std::cout << sizeof(a) << '\n';//No decay.
+    std::cout << "-------------" << std::endl;
 
     fun();
     std::cout << array << std::endl;
@@ -41,17 +44,21 @@ int main() {
     std::cout << a << '\n';//begin array address
     std::cout << std::begin(a) << '\n';//begin array address
     std::cout << std::cbegin(a) << '\n';//begin array address. c = const
+    std::cout << "-------------" << std::endl;
 
     //end address
+    //a+3是结尾指针，a[3]只有a,a+1,a+2三个元素
+    //所以说a的范围是[begin, end) 左闭右开区间
     std::cout << &(a[3]) << '\n';//end array address
     std::cout << a + 3 << '\n';//end array address
     std::cout << std::end(a) << '\n';//end array address
     std::cout << std::cend(a) << '\n';//end array address. c = const
+    std::cout << "-------------" << std::endl;
 
     b = b + 1;//increase
     auto b1 = b - 1;//decrease
     std::cout << (b1 == b) << '\n';//compare
-    std::cout << b - b1 << '\n';//distance. (b address -b1 address ) / type length
+    std::cout << b - b1 << '\n';//distance. (b address - b1 address) / type_length
 
 
 
