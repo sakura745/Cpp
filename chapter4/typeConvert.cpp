@@ -31,16 +31,16 @@ int main() {
     int* ptr = nullptr;
     void* v = ptr;
 
-    //error int* ptr2 = v;
+//    int* ptr2 = v;//error
     int* ptr2 = static_cast<int*>(v);
 
-    int* pt;
-    double* pt2;
+    int* pt = nullptr;
+    double* pt2 = nullptr;
     fun(pt, 1);
     fun(pt2, 2);
 
-    const int* p;
-    //error: static_cast<int*>(p);
+    const int* p = nullptr;
+//    static_cast<int*>(p);//error
     const_cast<int*>(p);
 
     int a = 3;
@@ -57,10 +57,10 @@ int main() {
     std::cout << b << std::endl;//output 3
 
     int c = 3;
-    //error double d = reinterpret_cast<double>(c);
+//    double d = reinterpret_cast<double>(c);//error
     int* pp = &c;
     double* pp2 = reinterpret_cast<double*>(pp);
     std::cout << *pp2 << std::endl;//输出的值不为c，是int强行转换为double类型的值。字节数不同，
 
-    (double)3; 
+    (double)3;
 }

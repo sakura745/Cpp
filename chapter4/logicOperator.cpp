@@ -23,18 +23,21 @@ int main() {
     // a || b && c -> a || (b && c)   建议加上括号
 
     int d = 4, e = 5, f = 6;
-    std::cout << (f > e > d) << std::endl;//f > e > d ->  true > d -> 1 > 3 -> 0
+    std::cout << (f > e > d) << std::endl;//(f > e > d) ->  (true > d) -> (1 > 3) -> 0
     std::cout << ((f > e) && (e > d)) << std::endl;
 
     if (d == true) {//d == true -> d == 1，只会将bool类型转换为int型，不会反过来转换。
 
     }
 
-    /* C++standard 20
+/*
+     C++standard 20
      * auto res = (d <=> f);
      * if (res > 0) { }
      * else if (res < 0) {}
      * else if (res == 0) {}
-     */
+*/
+
+
     std::cout << sqrt(-1) << std::endl;//nan is not a number.
 }

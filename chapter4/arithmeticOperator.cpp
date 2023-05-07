@@ -7,7 +7,7 @@ int main() {
     -x;
     x + y;
     3 + 5 * 7;
-    7 * + 3;//先+3（一元），再 7 *
+    7 * + 3;//先+3（一元），再 7 *.因为一元+的优先级高于乘法*
     int a[3] = {1, 2, 3};
     int* ptr = a;
     ptr = ptr + 1;
@@ -25,5 +25,7 @@ int main() {
     //向0取整
     std::cout << 3 / 2 << std::endl;
     std::cout << -3 / 2 << std::endl;
-
+    
+    std::cout << 3 % 2 << std::endl;
+    std::cout << -3 % 2 << std::endl;
 }
