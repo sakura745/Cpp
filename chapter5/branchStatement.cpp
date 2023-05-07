@@ -5,8 +5,7 @@ int main() {
    int x = -1;
    if (x > 2) {
        std::cout << "x > 2\n";
-   }
-   else if (x > 0)
+   } else if (x > 0)
        std::cout << "x > 0\n";
    else
        std::cout << "x <= 0\n";
@@ -17,21 +16,18 @@ int main() {
            std::cout << "Excellent\n";
 //       else
 //           std::cout << "Good\n";
-   }
-   else
+   } else
        std::cout << "Bad!\n";
 
    //from C standard 17 编译器选择分支，删除不满足条件的分支。优化
    constexpr int grade2 = 80;
    if constexpr (grade2 < 60) {
        std::cout << "Fail\n";
-   }
-   else {
+   } else {
        std::cout << "Pass\n";
        if constexpr (grade2 == 100) {
            std::cout << "Excellent\n";
-       }
-       else {
+       } else {
            std::cout << "Not bad\n";
        }
    }
@@ -42,17 +38,16 @@ int main() {
        int b = 3 * a;//希望b是不可见的，在c++17之前加上域{}
        if (b > 100) {
 
-       }
-       else {
+       } else {
 
        }
        // ...没有用到b
    }
+
    //from C standard 17
    if (int b = 3 * a; b > 100) {
 
-   }
-   else {
+   } else {
 
    }
 
@@ -84,7 +79,7 @@ int main() {
            std::cout << "Harbin\n";
            [[fallthrough]];//c++17：表示[[fallthrough]]属性，除去部分编译器的warning.是为了告知编译器，需要这种特性。
        case 8:
-           std::cout << "Heilongliang\n";
+           std::cout << "Heilongjiang\n";
            break;
    }
 }

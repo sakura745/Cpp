@@ -7,33 +7,39 @@ int main() {
         std::cout << x << std::endl;
         --x;
     }
+    std::cout << "--------" << std::endl;
 
     int y = 3;
     do {
         std::cout << y << std::endl;
         --y;
     } while (y);
+    std::cout << "--------" << std::endl;
 
     int a = 0;
     while (a > 0) {
         std::cout << a << std::endl;
         --a;
     }
+    std::cout << "--------" << std::endl;
 
     int b = 0;
     do {
         std::cout << b << std::endl;
         --b;
     } while (b > 0);
+    std::cout << "--------" << std::endl;
 
     for (int c = 0; c < 5; ++c) {
         std::cout << c << std::endl;
     }
+    std::cout << "--------" << std::endl;
 
     std::vector<int> arr{1, 2, 3, 4, 5};
     for (int v : arr) {//读取arr中元素
         std::cout << v << '\n';
     }
+    std::cout << "--------" << std::endl;
 
     std::vector<std::string> arr2{"H", "E", "L"};
     //for (std::string v : arr2) {//读取arr2中元素，相当于再construct 一个 v，然后再 deconstruct
@@ -41,14 +47,16 @@ int main() {
     for (auto& v : arr2) {//系统自动推导
         std::cout << v << '\n';
     }
+    std::cout << "--------" << std::endl;
 
     std::vector<int> arr3{1, 2, 3, 4, 5};
-    for (auto& v : arr3) {//对arr3中元素进行修改，写操作
+    for (auto& v : arr3) {//对arr3中元素进行修改。引用，写操作
         v = v + 1;
     }
     for (auto v : arr3) {
         std::cout << v << '\n';
     }
+    std::cout << "--------" << std::endl;
 
     std::vector<bool> arr4{true, false, true};
     //for (auto& v : arr4) {//error 是因为bool内部逻辑问题

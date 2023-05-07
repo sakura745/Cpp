@@ -1,7 +1,7 @@
 #include <iostream>
 
 void fun() {
-    //goto label2;不能跨函数跳转
+//    goto label2;//不能跨函数跳转
 }
 int main() {
     int x;

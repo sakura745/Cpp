@@ -17,7 +17,7 @@ int main() {
         }
     }
 label:
-    ;
+    std::cout << "Jump out~";
 
     std::cout << '\n';
 
