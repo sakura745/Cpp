@@ -3,7 +3,7 @@ project(project)
 
 set(CMAKE_BUILD_TYPE Release)
 
-set(CMAKE_CXX_STANDARD  17)
+set(CMAKE_CXX_STANDARD  20)
 
 add_executable(fundamentalFunction fundamentalFunction.cpp)
 add_executable(functionParameter functionParameter.cpp)
@@ -15,6 +15,8 @@ add_executable(nameLookup nameLookup.cpp)
 add_executable(nonviableCandidates nonviableCandidates.cpp)
 add_executable(inlineFunction inlineMain.cpp inlineSource.cpp)
 add_executable(constexpr constexpr.cpp)
-add_executable(function2 function2.cpp)
+add_executable(functionPointer functionPointer.cpp)
+add_executable(consteval consteval.cc)
+
 
 

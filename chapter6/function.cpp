@@ -26,7 +26,7 @@ int& fun4() {
     return x;
 }
 int& fun5() {
-    static int x = 3;
+    static int x = 3;//局部静态对象。生存周期是从初始化开始，到整个程序结束，而不是函数返回。
     return x;
 }
 
@@ -48,6 +48,7 @@ int /*main虽然返回类型是int，但可以隐式返回*/ main() {
     auto y = fun2();
 
     auto z = fun3();//warning:initializer_list包含首尾两个指针，指针指向了被销毁的对象
+    //用z进行操作时，可能会报错。
 
     int& ref = fun4();//同样是生命周期的危险
 
@@ -56,7 +57,7 @@ int /*main虽然返回类型是int，但可以隐式返回*/ main() {
     Str a;
     Str b = a;//copy constructor is called
 
-    Str res = fun6();//两次copy constructor首先是fun6中返回的x拷贝构造临时对象（函数域中的临时对象），再拷贝到res中。
-//named （具名）RVO:直接将第一步构造临时对象省略，将返回的对象直接在res上操作。目的是提升性能
+    Str res = fun6();//两次copy constructor.首先是fun6中返回的x拷贝出Str函数，构造临时对象（函数域中的临时对象），再是fun6()拷贝到res中。
+//named （具名）RVO:直接将构造临时对象省略，返回的对象直接在res上操作。底层是：获取res的地址，直接在res上进行操作。目的是提升性能
 }
 

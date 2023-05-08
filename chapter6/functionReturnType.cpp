@@ -60,12 +60,11 @@ int main() {
     res.y;
 
     //C++ standard 17
-    auto [resx, resy] = fun5();//语法糖
-    resx;
-    resy;
+    auto [v1, v2] = fun5();//语法糖
+    v1;
+    v2;
 
-    fun(2, 3);//没有保存返回值，空耗了计算资源，不是很好。
+    /*int x = */fun(2, 3);//没有保存返回值，空耗了计算资源，不是很好。
     //但fun函数添加nodiscard属性，就会有warning
-    //[[nodiscard]] int fun(int a, int b) {
+    //改成：[[nodiscard]] int fun(int a, int b) {
 }
-

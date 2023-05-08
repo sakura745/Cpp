@@ -42,13 +42,14 @@ void fun7(std::initializer_list<int> par){
 
 }
 
-std::initializer_list<int> fun8() {
+std::initializer_list<int> fun8() {//初始化列表有风险
     return {1, 2, 3, 4};
 }
 
 void fun9(int x = 0) {//缺省实参
 
 }
+
 void funa(int x = 0, int y = 0){//legal
     std::cout << x + y << std::endl;
 }
@@ -56,15 +57,15 @@ void funa(int x = 0, int y = 0){//legal
 //  std::cout << x + y << std::endl;
 //}
 
+
 //void funb(int x, int y = 2, int z = 3);//funb的声明，y、z缺省实参的定义
 
 //下两行代码是合法的，但注意要先定义最右边的z，再定义y
 //void funb(int x, int y, int z = 3);
 //void funb(int x, int y = 2, int z);
 
+//函数的缺省实参在一个翻译单元内，只能定义一次。函数声明定义缺省实参，函数定义就不能定义缺省实参；反之亦然。
 void funb(int x, int y, int z) {//y、z不能再定义一次
-//void funb(int x, int y = 2, int z = 3) {illegal
-//funb 声明中y、z定义去掉，可以在funb定义上添加yz定义（实参定义优先级声明高于定义 ）
     std::cout << x + y + z << std::endl;
 }
 
@@ -77,7 +78,7 @@ int main() {
     fun(1, int{});//int{}为临时对象，c++17会省略
     Str val;
     fun(val);
-    fun(Str());//没有输出copy constructor 被省略
+    fun(Str());//没有输出,copy constructor 被省略
 
     //传值
     int arg = 3;
@@ -93,7 +94,7 @@ int main() {
     fun1(&arg2);//传址
     std::cout << arg2 << std::endl;
     /*等价于
-     int *par = &arg2;
+     int* par = &arg2;
      ++(*par);
      std::cout << arg2 << std::endl;
      */
@@ -108,7 +109,7 @@ int main() {
      */
 
     int a[3];
-    auto b = a;//拷贝初始化类型引起的退化 a->int [3]  b->int*
+    auto b = a;//拷贝初始化类型引起的退化 a->int[3]  b->int*
     fun3(a);//可以用a来拷贝初始化par
     /*等价于
     int* par = a;
@@ -117,9 +118,9 @@ int main() {
     fun6(a);//避免类型退化
 
     int c[3][4] = {};
-    fun5(c);//实参可以拷贝初始化到对应的形参
+    fun5(c);//实参可以拷贝初始化到对应的形参，也是拷贝初始化引起的类型退化。c外层数组是int [3]退化成int*
 
-    fun7({1, 2, 3, 4});
+    fun7({1, 2, 3, 4, 5});
     auto e = fun8();//该函数虽然合法，但很危险。初始化列表的原理是包含首、尾两个指针。
     // 在函数内变量被销毁时，会引起指针的非法使用
 
@@ -128,7 +129,6 @@ int main() {
     funa(1);
 
     func();//没给实参时，编译器会将func()解释为func(x)，而不是func(3).输出为3
-
     x = 5;//注意不是int x = 5;全局变量和局部变量的区别
     func();//输出为5
 }
