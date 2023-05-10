@@ -16,6 +16,7 @@ int main() {
     //p2 = &y;//illegal
     *p2 = y;//legal
 
+    //常量引用，防止被非本意地修改，为了节省空间。
     fun(x);
     fun(3);//equal to "const int& x = 3";
 

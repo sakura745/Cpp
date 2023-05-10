@@ -44,6 +44,8 @@ constexpr int y = x;//error
 ```
 `constexpr`表示百分百可用于编译阶段。
 
+常量引用主要用于函数形参
+
 对于复杂类型，如`int*` `const`和`constexpr`是有区别的
 ## 4.类型别名和类型自动推导
 **类型别名**
