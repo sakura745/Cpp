@@ -26,6 +26,8 @@
 |`'\n'`|否|是|
 |`std::endl`|是|是|
 
+`std::flush` + `\n` = `std::endl`
+
 `#include<cstdio> printf`比较直观，但容易出错。
 
 `#include<iostream> cout`不容易出错，但书写冗长。
