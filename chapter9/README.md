@@ -31,7 +31,17 @@ range：支持迭代器
 
 `deque` **double ended queue**的简写，是vector和list的折中组合。一段一段的。段中的元素是连续的，每段之间不连续
 
-`basic_string`  
+`basic_string` 
+
+## 3.关联容器
+### `set`,`map`,`multiset`,`multimap`
+底层是用红黑树实现的。
+
+`set`迭代器指的对象是const类型
+
+`map`的键是const类型
+
+### `unordered_xxx`底层是哈希表实现的。
 
 
 
