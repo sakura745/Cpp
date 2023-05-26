@@ -17,7 +17,7 @@ std::vector<int> fun2() {
     std::cout << "Hello2" << std::endl;
     return {1, 2, 3, 4, 5};
 }
-std::initializer_list<int> fun3() {
+std::initializer_list<int> fun3() {//初始化列表推荐作为函数形参，不推荐作为函数返回类型
     std::cout << "Hello3" << std::endl;
     return {1, 2, 3, 4, 5};
 }

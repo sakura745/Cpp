@@ -35,7 +35,7 @@ int main() {
 
     //自定义hash与判等函数
     std::unordered_set<Str, decltype(&MyHash), decltype(&MyEqual)> ss(1, MyHash, MyEqual);
-    ss.emplace(3);
+    ss.emplace(3);//// 应该是合法的，gcc从9升到10解决了
     ss.insert(Str{3});
 
     std::unordered_set<Str, MyHashFunction> sss;
