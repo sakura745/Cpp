@@ -43,6 +43,25 @@ range：支持迭代器
 
 ### `unordered_xxx`底层是哈希表实现的。
 
+## 4.适配器与生成器
+对现有容器的调整，产生新的接口
+### 类型适配器
+`string_view` c17
+
+`span` c20 使用与连续容器，如`vector` `array`等
+### 接口适配器
+对底层容器配置接口
+
+`stack`底层容器为`deque`
+
+`queue`底层容器为`deque`
+
+`priority_queue`底层容器为`vector`
+### 数值适配器(c20)
+STL 2.0 `ranges`
+
+### 生成器(c20)
+STL 2.0 `ranges`
 
 
 
