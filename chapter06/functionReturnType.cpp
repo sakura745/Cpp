@@ -6,13 +6,14 @@ int fun(int a, int b) {
 void fun1(int a, int b) {
     std::cout << a << ' ' << b << std::endl;//改变系统的状态
 }
-/*c++ standard 11
+/*
+//c++ standard 11
 auto fun2(int a, int b) -> int{
     return a + b;
 }
- */
+*/
 
-/*c++ standard 14
+/*//c++ standard 14
 auto fun3(int a, int b) {//类型基于return 语句推导
     return a + b;
 }
