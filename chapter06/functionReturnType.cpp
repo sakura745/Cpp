@@ -6,24 +6,21 @@ int fun(int a, int b) {
 void fun1(int a, int b) {
     std::cout << a << ' ' << b << std::endl;//改变系统的状态
 }
-/*
+
 //c++ standard 11
 auto fun2(int a, int b) -> int{
     return a + b;
 }
-*/
 
-/*//c++ standard 14
+//c++ standard 14
 auto fun3(int a, int b) {//类型基于return 语句推导
     return a + b;
 }
- */
 
-/*c++ standard 14
-decltype(auto) fun3(int a, int b) {
+//c++ standard 14
+decltype(auto) fun4(int a, int b) {
     return a + b;
 }
- */
 
 /*illegal,两条return类型不同
 auto fun3(bool input) {
@@ -34,7 +31,7 @@ auto fun3(bool input) {
         return 1.5;
     }
 }
- */
+*/
 
 //legal
 constexpr bool value = true;

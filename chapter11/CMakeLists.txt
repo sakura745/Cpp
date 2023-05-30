@@ -8,3 +8,5 @@ set(CMAKE_CXX_STANDARD  20)
 
 
 add_executable(struct struct.cc)
+add_executable(memberFunction memberFunction.cc)
+add_executable(access access.cc)
