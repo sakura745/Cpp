@@ -53,5 +53,7 @@ int main() {
     //decltype(std::move(x)) g = x;//error: rvalue reference cannot bind lvalue,但可以绑定到左值引用、右值、将亡值上
     decltype(std::move(x)) g = std::move(x);//g->int&&, 绑定到将亡值上
 
+    //左值通常希望访问地址
+    //右值引用对象用作表达式时是左值
 
 }
