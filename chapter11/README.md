@@ -39,3 +39,16 @@
 **[cppreference:useful resources](https://en.cppreference.com/w/cpp/links)** 可以查到c98 c11 c14 c17 c20等标准
 
 ## 5.字面值类，成员指针与`bind`交互
+
+### 字面值类 
+`literal.cc`
+
+字面值类：可以构造成比编译期常量的类型
+
+抽象数据类型构造成编译期常量
+
+### 成员指针
+`memberPointer.cc`
+
+### `bind`
+
