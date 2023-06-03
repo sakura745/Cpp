@@ -8,3 +8,4 @@ set(CMAKE_CXX_STANDARD  20)
 
 
 add_executable(operatorOverload operatorOverload.cc)
+add_executable(operatorOverload2 operatorOverload2.cc)

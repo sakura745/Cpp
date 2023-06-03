@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <compare>
+
 int main() {
     3 < 5;
     5 < 3;
@@ -30,14 +32,25 @@ int main() {
 
     }
 
-/*
-     C++standard 20
-     * auto res = (d <=> f);
-     * if (res > 0) { }
-     * else if (res < 0) {}
-     * else if (res == 0) {}
-*/
+     //C20
+     auto res = (d <=> f);//res -> strong_ordering
+     if (res == std::strong_ordering::greater/* 等价于res > 0 */ ) {}
+     else if (res == std::strong_ordering::less/*res < 0*/) {}
+     else if (res == std::strong_ordering::equal/*res == 0*/) {}
+    //strong_ordering : 有四种状态 greater less equivalent equal      ，其中equal相等 equivalent等价 程度不一样
+    //比如比较面积 长3高5 和 长5高3 的面积都是15，但是却不是equal的，只能说是equivalent。
+    //weak_ordering : 有三种状态 greater less equivalent            ，其中equivalent等价
 
+    auto res1 = (3.0 <=> 4.0);//res1 -> partial_ordering
+    //partial_ordering : 有四种状态 greater less equivalent unordered  ，其中unordered不可比较的
 
-    std::cout << sqrt(-1) << std::endl;//nan is not a number.
+    std::cout << sqrt(-1) << std::endl;//Not a Number(NaN).
+    //nan不能比较，因此引入了partial_ordering
+    auto res2 = (sqrt(-1) <=> 3.0);
+    std::cout << (res2 > 0) << std::endl;
+    std::cout << (res2 < 0) << std::endl;
+    std::cout << (res2 == 0) << std::endl;
+    //上三个输出全是0
+    std::cout << (res2 == std::partial_ordering::unordered) << std::endl;//输出1
+
 }
