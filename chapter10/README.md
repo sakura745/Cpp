@@ -20,6 +20,20 @@
 
 并发算法
 
+---
+《Essential C++》: 
+
+算法通常有重载的两个版本：其一是使用底层元素所属之类型的内置运算符，其二是接收function object或function pointer的传入，
+借此提供和内置运算符不同的行为。如`sort(vector.begin(), vector.end())`和`sort(vector.begin(), vector.end()， greater<int>())`
+
+另有一些算法干脆以不同的名称区分不同版本，形成两个函数；以_if为名称后缀的，指“可指定特定行为”。如`find()`和`find_if()`
+
+对于“会更改目标容器的内容”的算法，也都提供两种版本：一种是称为in-place版本，会改变容器的内容；另一种称为copy版本，不改变传入
+容器内容，而是先为它制作一份副本，再改变副本的内容，然后返回该副本。如`replace()`和`replace_copy()`。copy版本的名称必包含`_copy`
+后缀，此版本的第三个iterator参数，用以指向它所更改的容器的第一个元素。
+
+---
+
 ## 2.`bind`与`lambda`表达式
 
 ### `bind`
