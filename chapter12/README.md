@@ -8,6 +8,8 @@
 
 因为成员函数第一个参数是`*this`，会导致有的运算符重载只能定义为非成员函数。
 ## 2.类继承
+派生类**是一个**基类。 只要有派生类的构建，一直围绕着这一性质展开的。
+
 继承是指一个类（称为派生类或子类）可以继承另一个类（称为基类或父类）的特性和行为。通过类的继承（派生）来引入**是一个**的关系
 
 ![inheritance](https://cdn.staticaly.com/gh/sakura745/picx-images-hosting@master/20230604/inheritance.yy6ts2ylbhc.png)

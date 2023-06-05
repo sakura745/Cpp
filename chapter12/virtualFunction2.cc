@@ -88,7 +88,7 @@ namespace virtualFunction2 {
     };
     class Derive6 final : public Base6 {
     public:
-        ~Derive6() {}
+//        ~Derive6() {}//不用写
     };
 
     class Base7 {
@@ -129,14 +129,14 @@ int main() {
     //先输出~Derive4() 再输出~Base4()，先构造的后析构
 
 
-    //行为未定义（析构函数不是虚函数）
+    //行为未定义（基类析构函数不是虚函数）
     Derive4* d5 = new Derive4();
     Base4* b4 = d5;
     delete b4;
     std::shared_ptr<Base4> ptr(new Derive4());
     std::unique_ptr<Base4> ptr2(new Derive4());
 
-    //行为确定（析构函数为虚函数）：先输出~Derive5() 再输出~Base5()，先构造的后析构。
+    //行为确定（基类析构函数为虚函数）：先输出~Derive5() 再输出~Base5()，先构造的后析构。
     Base5* b5 = new Derive5();
     delete b5;
     std::shared_ptr<Base5> ptr3(new Derive5());
@@ -144,7 +144,7 @@ int main() {
     //删除逻辑 对应vtable构造的顺序。Derive5构造的对象，动态类型是Derive5，析构Derive5()，c++规定，调用完派生类析构函数，
     //再调用基类析构函数
     //让上述行为确定的，是通过将基类析构设置为虚函数。上述什么行为：是通过基类的指针来删除派生类的对象。
-    //换句话说：基类析构函数为虚函数是“通过基类的指针来删除派生类的对象”的情况下设置的。
+    //换句话说：基类析构函数为虚函数是在“通过基类的指针来删除派生类的对象”的情况下设置的，可以防止内存泄漏。
 
     Derive7 d6;
     d6.fun();
