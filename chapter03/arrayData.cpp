@@ -29,7 +29,7 @@ int main() {
     int y = 100;
     int* ptr = &y;
     std::cout << *ptr << '\n';
-    //x[y] == *(x + y)  '*' means dereference.
+    //x[y] == *(x + y)  '*' means dereference. 每个y都为int所占字节数
     std::cout << ptr[0] << '\n';//ptr[0] == *(ptr + 0)
     std::cout << 0[ptr] << '\n';//0[ptr] == *(0 + ptr)
 

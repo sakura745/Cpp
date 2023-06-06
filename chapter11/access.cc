@@ -14,7 +14,7 @@ class Str {
 
     //友元类不能在类内定义
     //友元函数可以区分类内定义和类外定义
-    friend void fun1(const Str& val) {//友元函数的类内定义，会产生隐藏友元
+    friend void fun1(const Str&/*Str&才是友元函数的使用方式*/ val) {//友元函数的类内定义，会产生隐藏友元
     //fun1函数的作用域是什么？
     //一定不是Str内，因为属于Str的友元函数。所以是位于Str外的全局域中
         std::cout << val.y << std::endl;
