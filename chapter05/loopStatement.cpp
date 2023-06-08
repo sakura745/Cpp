@@ -60,7 +60,7 @@ int main() {
 
     std::vector<bool> arr4{true, false, true};
     //for (auto& v : arr4) {//error 是因为bool内部逻辑问题
-    for (auto&& v : arr4) {//legal 使用万能引用 universal reference
+    for (auto&& v : arr4) {//legal 使用万能引用 universal reference. 万能引用可以引用左值也可以引用右值
         v = false;
     }
 
