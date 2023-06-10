@@ -29,4 +29,9 @@ void fun3(T x) {
     std::cout << "Template fun3 is called.\n";
 }
 
+
+template <typename T>
+void fun4(T x) {
+    std::cout << x << std::endl;
+}
 #endif //PROJECT_HEADER_H
