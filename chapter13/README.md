@@ -19,3 +19,7 @@ Concepts 可以在编译时捕获错误，让编译器更容易推断类型和�
 通过引入`parameter_pack`从而引入可变长度的模板
 
 如何使用可变长模板，通过[包展开](https://en.cppreference.com/w/cpp/language/parameter_pack)和[折叠表达式](https://en.cppreference.com/w/cpp/language/fold)：`expensionFolding.cc`
+
+完美转发与lambda表达式模板：`perfectForwardingLambda.cc`
+
+消除歧义和变量模板：`resolveAmbiguityVariableTemplates.cc`
