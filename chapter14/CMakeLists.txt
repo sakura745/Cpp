@@ -10,3 +10,5 @@ set(CMAKE_CXX_FLAGS "-Wall")
 
 
 add_executable(metaProgramming metaProgramming.cc)
+add_executable(order order.cc)
+add_executable(branch branch.cc)
