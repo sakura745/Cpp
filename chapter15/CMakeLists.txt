@@ -10,3 +10,5 @@ set(CMAKE_CXX_FLAGS "-Wall")
 
 add_executable(except except.cc)
 add_executable(except2 except2.cc)
+add_executable(except3 except3.cc)
+add_executable(except4 except4.cc)
