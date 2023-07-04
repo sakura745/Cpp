@@ -13,5 +13,6 @@ add_executable(except2 except2.cc)
 add_executable(except3 except3.cc)
 add_executable(except4 except4.cc)
 add_executable(enum enum.cc)
-
 add_executable(union union.cc)
+add_executable(nestClass nestClass.cc)
+add_executable(nestNamespace nestNamespace.cc)
