@@ -1,8 +1,5 @@
 #include <iostream>
 
-extern int x;
 int main() {
-
-    std::cout << x << '\n';
-    return 0;
+    std::cout << "Hello World";
 }
