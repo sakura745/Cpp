@@ -5,13 +5,13 @@ set(CMAKE_BUILD_TYPE Debug)
 
 set(CMAKE_CXX_STANDARD  17)
 
-add_executable(init init.cpp)
+add_executable(initialization initialization.cpp)
 add_executable(type1 type1.cpp)
 add_executable(type2 type2.cpp)
 add_executable(variable variable.cpp)
-add_executable(TypeChange TypeChange.cpp)
-add_executable(PtrRef PtrRef.cpp)
-add_executable(PtrRef2 PtrRef2.cpp)
+add_executable(typeConversion typeConversion.cpp)
+add_executable(ptrRef ptrRef.cpp)
+
 add_executable(PtrRef3 PtrRef3.cpp)
 add_executable(PtrRef4 PtrRef4.cpp)
 add_executable(PtrRef5 PtrRef5.cpp)
@@ -19,3 +19,6 @@ add_executable(const const.cpp)
 add_executable(typeAlias typeAlias.cpp)
 add_executable(autoDeduction autoDeduction.cpp)
 add_executable(scope scope.cpp)
+
+
+

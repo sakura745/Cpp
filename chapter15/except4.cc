@@ -33,13 +33,10 @@ int main() {
         fun2();
         fun3();
         fun4();
-    }
-    catch (std::runtime_error& e) {
+    } catch (std::runtime_error& e) {
+        std::cout << e.what() << std::endl;
+    } catch (std::bad_alloc& e) {
         std::cout << e.what() << std::endl;
     }
-    catch (std::bad_alloc& e) {
-        std::cout << e.what() << std::endl;
-    }
-
 
 }

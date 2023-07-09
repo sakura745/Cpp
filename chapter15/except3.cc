@@ -52,8 +52,7 @@ int main() {
 
 //    try {
 //        fooo();
-//    }
-//    catch (...) {
+//    } catch (...) {
 //        std::cout << "Exception is caught.\n";
 //    }
     //还是会调用terminate。因为函数声明时已经说明noexcept，就不会栈展开，但是还是抛出异常，直接在调用fooo时直接调用terminate

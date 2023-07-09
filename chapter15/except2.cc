@@ -13,8 +13,7 @@ class Cla {
 public:
 /*    Cla() {
         //想要捕获异常，但是异常是在m_mem初始化的时候抛出的，构造函数中的不是初始化，是赋值。因此不能捕获
-        try {}
-        catch (int) {
+        try {} catch (int) {
             std::cout << "Exception is caught at Cla::Cla.\n";
         }
     }*/
@@ -22,8 +21,7 @@ public:
     Cla()
     try : m_mem() /* ": m_mem()" 不写也可以 以初始化来捕获*/ {
 
-    }
-    catch (int) {
+    } catch (int) {
         std::cout << "Exception is caught at Cla::Cla.\n";
     }
 
@@ -36,16 +34,14 @@ private:
 void fun()
 try {
     throw 123;
-}
-catch (...) {
+} catch (...) {
     std::cout << "Catch exception 123.\n";
 }
 
 void fun(Str x)
 try {
     throw 123;
-}
-catch (...) {
+} catch (...) {
     std::cout << "Catch exception fun(Str{}).\n";
 }
 
@@ -56,8 +52,7 @@ public:
     Cla2()
     try {
 
-    }
-    catch (int) {
+    } catch (int) {
         std::cout << "Exception is caught at Cla2::Cla2.\n";
     }
     ~Cla2() {
@@ -72,8 +67,7 @@ private:
 int main() {
     try {
         Cla obj;
-    }
-    catch (int) {
+    } catch (int) {
         std::cout << "Cla exception is caught at main().\n";
     }
     //输出 Exception is caught at Cla::Cla.
@@ -88,16 +82,14 @@ int main() {
     //而不是调用Str{}出现的。想要捕获，有如下：
     try {
         fun(Str{});
-    }
-    catch (...) {
+    } catch (...) {
         std::cout << "Catch exception fun(Str{}) in main.\n";
     }
     std::cout << "---------------------------------" << std::endl;
 
     try {
         Cla2 obj2;//Str2{}已经构造了。在构造Str{}，抛出异常，通过栈展开，销毁Str2{}，调用Str2的析构函数
-    }
-    catch (...) {
+    } catch (...) {
         std::cout << "Cla2 exception is caught at main().\n";
     }
 

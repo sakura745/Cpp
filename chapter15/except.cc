@@ -17,8 +17,7 @@ void f2() {
     Str obj2;
     try {
         f1();
-    }
-    catch (int/*异常对象*/ e) {
+    } catch (int/*异常对象*/ e) {
         std::cout << "Exception is caught in f2(): " << e << std::endl;
     }
     std::cout << "Other logic in f2().\n";
@@ -39,11 +38,9 @@ void f22() {
 void f33() {
     try {
         f22();
-    }
-    catch (double) {
+    } catch (double) {
         std::cout << "Exception double is caught in f33().\n";
-    }
-    catch (int) {
+    } catch (int) {
         std::cout << "Exception int is caught in f33().\n";
     }
 
@@ -59,20 +56,16 @@ void f111() {
 void f222() {
     try {
         f111();
-    }
-    //输出Base exception is caught in f222.
-    catch(Base& e) {
+    } catch(Base& e) {//输出Base exception is caught in f222.
         std::cout << "Base exception is caught in f222.\n";
-    }
-    catch(Derive& e) {
+    } catch(Derive& e) {
         std::cout << "Derive exception is caught in f222.\n";
     }
 
 //如果想输出Derive exception is caught in f222.需要将Derive& 放到上面，如下：
 //    catch(Derive& e) {
 //        std::cout << "Derive exception is caught in f222.\n";
-//    }
-//    catch(Base& e) {
+//    } catch(Base& e) {
 //        std::cout << "Base exception is caught in f222.\n";
 //    }
 
@@ -91,8 +84,7 @@ void f1111() {
 void f2222() {
     try {
         f1111();
-    }
-    catch(.../*捕获任意类型的异常*/) {//通常置于多个catch语句块的最后
+    } catch(.../*捕获任意类型的异常*/) {//通常置于多个catch语句块的最后
         std::cout << "Exception is caught in f2222.\n";
         throw;//表示抛出接收到的异常对象。只能在catch中使用
     }
@@ -100,8 +92,7 @@ void f2222() {
 void f3333() {
     try {
         f2222();
-    }
-    catch (Str) {
+    } catch (Str) {
         std::cout << "Str exception is caught in f3333.\n";
     }
 }
@@ -119,8 +110,7 @@ void f11111() {
 void f22222() {
     try {
         f11111();
-    }
-    catch(...) {
+    } catch(...) {
         std::cout << "Exception is caught in f22222.\n";
     }
 }
@@ -128,8 +118,7 @@ void f22222() {
 int main() {
     try {
         f3();
-    }
-    catch (int) {
+    } catch (int) {
         std::cout << "Exception is occurred f3.\n";
     }
     //f1抛出异常，f1进行栈展开。执行到f2中的f1，发现位于try中，try会根catch子句，由于抛出的异常为1，int型。因此被catch(int)
@@ -139,8 +128,7 @@ int main() {
     std::cout << "---------------------------------" << std::endl;
     try {
         f33();
-    }
-    catch (int) {
+    } catch (int) {
         std::cout << "Exception is occurred f33.\n";
     }
     std::cout << "---------------------------------" << std::endl;
