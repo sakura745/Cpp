@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Output from cout";
-    std::cerr << "Output from cerr";
-    std::clog << "Output from clog";
+    std::cout << "Output from cout\n";
+    std::cerr << "Output from cerr\n";
+    std::clog << "Output from clog\n";
 }

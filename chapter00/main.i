@@ -4,15 +4,15 @@
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 1 "<command-line>" 2
 # 1 "main.cpp"
-# 1 "/usr/include/c++/7/iostream" 1 3
-# 36 "/usr/include/c++/7/iostream" 3
+# 1 "/usr/include/c++/10/iostream" 1 3
+# 36 "/usr/include/c++/10/iostream" 3
        
-# 37 "/usr/include/c++/7/iostream" 3
+# 37 "/usr/include/c++/10/iostream" 3
 
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h" 1 3
-# 229 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h" 1 3
+# 262 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h" 3
 
-# 229 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h" 3
+# 262 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h" 3
 namespace std
 {
   typedef long unsigned int size_t;
@@ -22,7 +22,7 @@ namespace std
   typedef decltype(nullptr) nullptr_t;
 
 }
-# 251 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h" 3
+# 284 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h" 3
 namespace std
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
@@ -31,69 +31,72 @@ namespace __gnu_cxx
 {
   inline namespace __cxx11 __attribute__((__abi_tag__ ("cxx11"))) { }
 }
-# 533 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h" 3
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h" 1 3
-# 39 "/usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h" 3
+# 522 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h" 1 3
+# 39 "/usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h" 3
 # 1 "/usr/include/features.h" 1 3 4
-# 424 "/usr/include/features.h" 3 4
+# 461 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
-# 427 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
+# 452 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 428 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 453 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
-# 429 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 425 "/usr/include/features.h" 2 3 4
-# 448 "/usr/include/features.h" 3 4
+# 454 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
+# 462 "/usr/include/features.h" 2 3 4
+# 485 "/usr/include/features.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
 # 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
 # 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
-# 449 "/usr/include/features.h" 2 3 4
-# 40 "/usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h" 2 3
-# 534 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h" 2 3
+# 486 "/usr/include/features.h" 2 3 4
+# 40 "/usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h" 2 3
+# 523 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h" 2 3
 
 
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h" 1 3
-# 537 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h" 2 3
-# 39 "/usr/include/c++/7/iostream" 2 3
-# 1 "/usr/include/c++/7/ostream" 1 3
-# 36 "/usr/include/c++/7/ostream" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h" 1 3
+# 526 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h" 2 3
+# 39 "/usr/include/c++/10/iostream" 2 3
+# 1 "/usr/include/c++/10/ostream" 1 3
+# 36 "/usr/include/c++/10/ostream" 3
        
-# 37 "/usr/include/c++/7/ostream" 3
+# 37 "/usr/include/c++/10/ostream" 3
 
-# 1 "/usr/include/c++/7/ios" 1 3
-# 36 "/usr/include/c++/7/ios" 3
+# 1 "/usr/include/c++/10/ios" 1 3
+# 36 "/usr/include/c++/10/ios" 3
        
-# 37 "/usr/include/c++/7/ios" 3
+# 37 "/usr/include/c++/10/ios" 3
 
-# 1 "/usr/include/c++/7/iosfwd" 1 3
-# 36 "/usr/include/c++/7/iosfwd" 3
+# 1 "/usr/include/c++/10/iosfwd" 1 3
+# 36 "/usr/include/c++/10/iosfwd" 3
        
-# 37 "/usr/include/c++/7/iosfwd" 3
+# 37 "/usr/include/c++/10/iosfwd" 3
 
 
-# 1 "/usr/include/c++/7/bits/stringfwd.h" 1 3
-# 37 "/usr/include/c++/7/bits/stringfwd.h" 3
+# 1 "/usr/include/c++/10/bits/stringfwd.h" 1 3
+# 37 "/usr/include/c++/10/bits/stringfwd.h" 3
        
-# 38 "/usr/include/c++/7/bits/stringfwd.h" 3
+# 38 "/usr/include/c++/10/bits/stringfwd.h" 3
 
 
-# 1 "/usr/include/c++/7/bits/memoryfwd.h" 1 3
-# 46 "/usr/include/c++/7/bits/memoryfwd.h" 3
+# 1 "/usr/include/c++/10/bits/memoryfwd.h" 1 3
+# 46 "/usr/include/c++/10/bits/memoryfwd.h" 3
        
-# 47 "/usr/include/c++/7/bits/memoryfwd.h" 3
+# 47 "/usr/include/c++/10/bits/memoryfwd.h" 3
 
 
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 63 "/usr/include/c++/7/bits/memoryfwd.h" 3
+# 63 "/usr/include/c++/10/bits/memoryfwd.h" 3
   template<typename>
     class allocator;
 
+
   template<>
     class allocator<void>;
+
+
 
 
   template<typename, typename>
@@ -102,8 +105,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+
 }
-# 41 "/usr/include/c++/7/bits/stringfwd.h" 2 3
+# 41 "/usr/include/c++/10/bits/stringfwd.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -126,6 +130,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+
+
+
   template<> struct char_traits<char16_t>;
   template<> struct char_traits<char32_t>;
 
@@ -136,39 +143,35 @@ namespace __cxx11 {
            typename _Alloc = allocator<_CharT> >
     class basic_string;
 
+}
+
 
   typedef basic_string<char> string;
 
 
 
   typedef basic_string<wchar_t> wstring;
-
-
-
-
-
+# 93 "/usr/include/c++/10/bits/stringfwd.h" 3
   typedef basic_string<char16_t> u16string;
 
 
   typedef basic_string<char32_t> u32string;
 
 
-}
-
 
 
 
 }
-# 40 "/usr/include/c++/7/iosfwd" 2 3
-# 1 "/usr/include/c++/7/bits/postypes.h" 1 3
-# 38 "/usr/include/c++/7/bits/postypes.h" 3
+# 40 "/usr/include/c++/10/iosfwd" 2 3
+# 1 "/usr/include/c++/10/bits/postypes.h" 1 3
+# 38 "/usr/include/c++/10/bits/postypes.h" 3
        
-# 39 "/usr/include/c++/7/bits/postypes.h" 3
+# 39 "/usr/include/c++/10/bits/postypes.h" 3
 
-# 1 "/usr/include/c++/7/cwchar" 1 3
-# 39 "/usr/include/c++/7/cwchar" 3
+# 1 "/usr/include/c++/10/cwchar" 1 3
+# 39 "/usr/include/c++/10/cwchar" 3
        
-# 40 "/usr/include/c++/7/cwchar" 3
+# 40 "/usr/include/c++/10/cwchar" 3
 
 
 
@@ -189,13 +192,13 @@ typedef __float128 _Float128;
 # 24 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/long-double.h" 1 3 4
 # 25 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 2 3 4
-# 207 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+# 214 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
 typedef float _Float32;
-# 244 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+# 251 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
 typedef double _Float64;
-# 261 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+# 268 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
 typedef double _Float32x;
-# 278 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
+# 285 "/usr/include/x86_64-linux-gnu/bits/floatn-common.h" 3 4
 typedef long double _Float64x;
 # 121 "/usr/include/x86_64-linux-gnu/bits/floatn.h" 2 3 4
 # 31 "/usr/include/wchar.h" 2 3 4
@@ -203,14 +206,14 @@ typedef long double _Float64x;
 
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
-# 216 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
+# 209 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 3 4
 typedef long unsigned int size_t;
 # 36 "/usr/include/wchar.h" 2 3 4
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h" 1 3 4
-# 40 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h" 1 3 4
+# 40 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
 # 39 "/usr/include/wchar.h" 2 3 4
 
@@ -753,7 +756,24 @@ extern int wscanf (const wchar_t *__restrict __format, ...)
 extern int swscanf (const wchar_t *__restrict __s,
       const wchar_t *__restrict __format, ...)
      throw () ;
-# 673 "/usr/include/wchar.h" 3 4
+
+
+
+
+
+
+extern int fwscanf (__FILE *__restrict __stream, const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc99_fwscanf")
+
+
+                                                          ;
+extern int wscanf (const wchar_t *__restrict __format, ...) __asm__ ("" "__isoc99_wscanf")
+
+                                                          ;
+extern int swscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, ...) throw () __asm__ ("" "__isoc99_swscanf")
+
+
+                                                          ;
+# 671 "/usr/include/wchar.h" 3 4
 extern int vfwscanf (__FILE *__restrict __s,
        const wchar_t *__restrict __format,
        __gnuc_va_list __arg)
@@ -770,7 +790,24 @@ extern int vswscanf (const wchar_t *__restrict __s,
        const wchar_t *__restrict __format,
        __gnuc_va_list __arg)
      throw () ;
-# 727 "/usr/include/wchar.h" 3 4
+
+
+
+
+
+
+extern int vfwscanf (__FILE *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfwscanf")
+
+
+                                                          ;
+extern int vwscanf (const wchar_t *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vwscanf")
+
+                                                          ;
+extern int vswscanf (const wchar_t *__restrict __s, const wchar_t *__restrict __format, __gnuc_va_list __arg) throw () __asm__ ("" "__isoc99_vswscanf")
+
+
+                                                          ;
+# 726 "/usr/include/wchar.h" 3 4
 extern wint_t fgetwc (__FILE *__stream);
 extern wint_t getwc (__FILE *__stream);
 
@@ -816,7 +853,7 @@ extern int fputws (const wchar_t *__restrict __ws,
 
 
 extern wint_t ungetwc (wint_t __wc, __FILE *__stream);
-# 782 "/usr/include/wchar.h" 3 4
+# 781 "/usr/include/wchar.h" 3 4
 extern wint_t getwc_unlocked (__FILE *__stream);
 extern wint_t getwchar_unlocked (void);
 
@@ -835,10 +872,10 @@ extern wint_t fgetwc_unlocked (__FILE *__stream);
 
 
 extern wint_t fputwc_unlocked (wchar_t __wc, __FILE *__stream);
-# 808 "/usr/include/wchar.h" 3 4
+# 807 "/usr/include/wchar.h" 3 4
 extern wint_t putwc_unlocked (wchar_t __wc, __FILE *__stream);
 extern wint_t putwchar_unlocked (wchar_t __wc);
-# 818 "/usr/include/wchar.h" 3 4
+# 817 "/usr/include/wchar.h" 3 4
 extern wchar_t *fgetws_unlocked (wchar_t *__restrict __ws, int __n,
      __FILE *__restrict __stream);
 
@@ -867,15 +904,17 @@ extern size_t wcsftime_l (wchar_t *__restrict __s, size_t __maxsize,
      const wchar_t *__restrict __format,
      const struct tm *__restrict __tp,
      locale_t __loc) throw ();
-# 857 "/usr/include/wchar.h" 3 4
+# 856 "/usr/include/wchar.h" 3 4
 }
-# 45 "/usr/include/c++/7/cwchar" 2 3
-# 62 "/usr/include/c++/7/cwchar" 3
+# 45 "/usr/include/c++/10/cwchar" 2 3
+# 62 "/usr/include/c++/10/cwchar" 3
 namespace std
 {
   using ::mbstate_t;
 }
-# 135 "/usr/include/c++/7/cwchar" 3
+# 135 "/usr/include/c++/10/cwchar" 3
+extern "C++"
+{
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -950,8 +989,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
   using ::wcsrchr;
   using ::wcsstr;
   using ::wmemchr;
-# 232 "/usr/include/c++/7/cwchar" 3
+# 234 "/usr/include/c++/10/cwchar" 3
 
+}
 }
 
 
@@ -968,7 +1008,7 @@ namespace __gnu_cxx
 
 
   using ::wcstold;
-# 257 "/usr/include/c++/7/cwchar" 3
+# 260 "/usr/include/c++/10/cwchar" 3
   using ::wcstoll;
   using ::wcstoull;
 
@@ -980,7 +1020,7 @@ namespace std
   using ::__gnu_cxx::wcstoll;
   using ::__gnu_cxx::wcstoull;
 }
-# 277 "/usr/include/c++/7/cwchar" 3
+# 280 "/usr/include/c++/10/cwchar" 3
 namespace std
 {
 
@@ -1002,16 +1042,16 @@ namespace std
   using std::wcstoull;
 
 }
-# 41 "/usr/include/c++/7/bits/postypes.h" 2 3
-# 68 "/usr/include/c++/7/bits/postypes.h" 3
+# 41 "/usr/include/c++/10/bits/postypes.h" 2 3
+# 68 "/usr/include/c++/10/bits/postypes.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 88 "/usr/include/c++/7/bits/postypes.h" 3
+# 88 "/usr/include/c++/10/bits/postypes.h" 3
   typedef long streamoff;
-# 98 "/usr/include/c++/7/bits/postypes.h" 3
+# 98 "/usr/include/c++/10/bits/postypes.h" 3
   typedef ptrdiff_t streamsize;
-# 111 "/usr/include/c++/7/bits/postypes.h" 3
+# 111 "/usr/include/c++/10/bits/postypes.h" 3
   template<typename _StateT>
     class fpos
     {
@@ -1026,9 +1066,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       fpos()
       : _M_off(0), _M_state() { }
-# 133 "/usr/include/c++/7/bits/postypes.h" 3
+# 133 "/usr/include/c++/10/bits/postypes.h" 3
       fpos(streamoff __off)
       : _M_off(__off), _M_state() { }
+
+
+      fpos(const fpos&) = default;
+      fpos& operator=(const fpos&) = default;
+      ~fpos() = default;
+
 
 
       operator streamoff() const { return _M_off; }
@@ -1125,9 +1171,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   typedef fpos<mbstate_t> streampos;
 
   typedef fpos<mbstate_t> wstreampos;
-
-
-
+# 245 "/usr/include/c++/10/bits/postypes.h" 3
   typedef fpos<mbstate_t> u16streampos;
 
   typedef fpos<mbstate_t> u32streampos;
@@ -1135,12 +1179,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 41 "/usr/include/c++/7/iosfwd" 2 3
+# 41 "/usr/include/c++/10/iosfwd" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 74 "/usr/include/c++/7/iosfwd" 3
+# 74 "/usr/include/c++/10/iosfwd" 3
   class ios_base;
 
   template<typename _CharT, typename _Traits = char_traits<_CharT> >
@@ -1281,19 +1325,19 @@ namespace __cxx11 {
 
 
 }
-# 39 "/usr/include/c++/7/ios" 2 3
-# 1 "/usr/include/c++/7/exception" 1 3
-# 33 "/usr/include/c++/7/exception" 3
+# 39 "/usr/include/c++/10/ios" 2 3
+# 1 "/usr/include/c++/10/exception" 1 3
+# 33 "/usr/include/c++/10/exception" 3
        
-# 34 "/usr/include/c++/7/exception" 3
+# 34 "/usr/include/c++/10/exception" 3
 
 #pragma GCC visibility push(default)
 
 
-# 1 "/usr/include/c++/7/bits/exception.h" 1 3
-# 34 "/usr/include/c++/7/bits/exception.h" 3
+# 1 "/usr/include/c++/10/bits/exception.h" 1 3
+# 34 "/usr/include/c++/10/bits/exception.h" 3
        
-# 35 "/usr/include/c++/7/bits/exception.h" 3
+# 35 "/usr/include/c++/10/bits/exception.h" 3
 
 #pragma GCC visibility push(default)
 
@@ -1303,12 +1347,18 @@ extern "C++" {
 
 namespace std
 {
-# 60 "/usr/include/c++/7/bits/exception.h" 3
+# 60 "/usr/include/c++/10/bits/exception.h" 3
   class exception
   {
   public:
     exception() noexcept { }
     virtual ~exception() noexcept;
+
+    exception(const exception&) = default;
+    exception& operator=(const exception&) = default;
+    exception(exception&&) = default;
+    exception& operator=(exception&&) = default;
+
 
 
 
@@ -1321,12 +1371,16 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 39 "/usr/include/c++/7/exception" 2 3
+# 39 "/usr/include/c++/10/exception" 2 3
 
 extern "C++" {
 
 namespace std
 {
+
+
+
+
 
 
   class bad_exception : public exception
@@ -1372,7 +1426,8 @@ namespace std
 
 
   void unexpected() __attribute__ ((__noreturn__));
-# 101 "/usr/include/c++/7/exception" 3
+# 105 "/usr/include/c++/10/exception" 3
+ 
   bool uncaught_exception() noexcept __attribute__ ((__pure__));
 
 
@@ -1387,7 +1442,7 @@ namespace std
 namespace __gnu_cxx
 {
 
-# 132 "/usr/include/c++/7/exception" 3
+# 137 "/usr/include/c++/10/exception" 3
   void __verbose_terminate_handler();
 
 
@@ -1398,28 +1453,28 @@ namespace __gnu_cxx
 #pragma GCC visibility pop
 
 
-# 1 "/usr/include/c++/7/bits/exception_ptr.h" 1 3
-# 34 "/usr/include/c++/7/bits/exception_ptr.h" 3
+# 1 "/usr/include/c++/10/bits/exception_ptr.h" 1 3
+# 34 "/usr/include/c++/10/bits/exception_ptr.h" 3
 #pragma GCC visibility push(default)
 
 
-# 1 "/usr/include/c++/7/bits/exception_defines.h" 1 3
-# 38 "/usr/include/c++/7/bits/exception_ptr.h" 2 3
-# 1 "/usr/include/c++/7/bits/cxxabi_init_exception.h" 1 3
-# 34 "/usr/include/c++/7/bits/cxxabi_init_exception.h" 3
+# 1 "/usr/include/c++/10/bits/exception_defines.h" 1 3
+# 38 "/usr/include/c++/10/bits/exception_ptr.h" 2 3
+# 1 "/usr/include/c++/10/bits/cxxabi_init_exception.h" 1 3
+# 34 "/usr/include/c++/10/bits/cxxabi_init_exception.h" 3
        
-# 35 "/usr/include/c++/7/bits/cxxabi_init_exception.h" 3
+# 35 "/usr/include/c++/10/bits/cxxabi_init_exception.h" 3
 
 #pragma GCC visibility push(default)
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
-# 149 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
+# 143 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 3 4
 typedef long int ptrdiff_t;
-# 426 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 3 4
+# 415 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 3 4
 typedef struct {
   long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
-# 437 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 3 4
+# 426 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 3 4
 } max_align_t;
 
 
@@ -1428,8 +1483,8 @@ typedef struct {
 
 
   typedef decltype(nullptr) nullptr_t;
-# 39 "/usr/include/c++/7/bits/cxxabi_init_exception.h" 2 3
-# 50 "/usr/include/c++/7/bits/cxxabi_init_exception.h" 3
+# 39 "/usr/include/c++/10/bits/cxxabi_init_exception.h" 2 3
+# 50 "/usr/include/c++/10/bits/cxxabi_init_exception.h" 3
 namespace std
 {
   class type_info;
@@ -1459,18 +1514,18 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 39 "/usr/include/c++/7/bits/exception_ptr.h" 2 3
-# 1 "/usr/include/c++/7/typeinfo" 1 3
-# 32 "/usr/include/c++/7/typeinfo" 3
+# 39 "/usr/include/c++/10/bits/exception_ptr.h" 2 3
+# 1 "/usr/include/c++/10/typeinfo" 1 3
+# 32 "/usr/include/c++/10/typeinfo" 3
        
-# 33 "/usr/include/c++/7/typeinfo" 3
+# 33 "/usr/include/c++/10/typeinfo" 3
 
 
 
-# 1 "/usr/include/c++/7/bits/hash_bytes.h" 1 3
-# 33 "/usr/include/c++/7/bits/hash_bytes.h" 3
+# 1 "/usr/include/c++/10/bits/hash_bytes.h" 1 3
+# 33 "/usr/include/c++/10/bits/hash_bytes.h" 3
        
-# 34 "/usr/include/c++/7/bits/hash_bytes.h" 3
+# 34 "/usr/include/c++/10/bits/hash_bytes.h" 3
 
 
 
@@ -1495,7 +1550,7 @@ namespace std
 
 
 }
-# 37 "/usr/include/c++/7/typeinfo" 2 3
+# 37 "/usr/include/c++/10/typeinfo" 2 3
 
 
 #pragma GCC visibility push(default)
@@ -1506,7 +1561,7 @@ namespace __cxxabiv1
 {
   class __class_type_info;
 }
-# 80 "/usr/include/c++/7/typeinfo" 3
+# 80 "/usr/include/c++/10/typeinfo" 3
 namespace std
 {
 
@@ -1528,7 +1583,7 @@ namespace std
 
     const char* name() const noexcept
     { return __name[0] == '*' ? __name + 1 : __name; }
-# 115 "/usr/include/c++/7/typeinfo" 3
+# 115 "/usr/include/c++/10/typeinfo" 3
     bool before(const type_info& __arg) const noexcept
     { return (__name[0] == '*' && __arg.__name[0] == '*')
  ? __name < __arg.__name
@@ -1540,9 +1595,10 @@ namespace std
        || (__name[0] != '*' &&
     __builtin_strcmp (__name, __arg.__name) == 0));
     }
-# 136 "/usr/include/c++/7/typeinfo" 3
+# 138 "/usr/include/c++/10/typeinfo" 3
     bool operator!=(const type_info& __arg) const noexcept
     { return !operator==(__arg); }
+
 
 
     size_t hash_code() const noexcept
@@ -1626,15 +1682,15 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 40 "/usr/include/c++/7/bits/exception_ptr.h" 2 3
-# 1 "/usr/include/c++/7/new" 1 3
-# 37 "/usr/include/c++/7/new" 3
+# 40 "/usr/include/c++/10/bits/exception_ptr.h" 2 3
+# 1 "/usr/include/c++/10/new" 1 3
+# 38 "/usr/include/c++/10/new" 3
        
-# 38 "/usr/include/c++/7/new" 3
+# 39 "/usr/include/c++/10/new" 3
 
 
-# 1 "/usr/include/c++/7/exception" 1 3
-# 41 "/usr/include/c++/7/new" 2 3
+# 1 "/usr/include/c++/10/exception" 1 3
+# 42 "/usr/include/c++/10/new" 2 3
 
 #pragma GCC visibility push(default)
 
@@ -1654,6 +1710,11 @@ namespace std
     bad_alloc() throw() { }
 
 
+    bad_alloc(const bad_alloc&) = default;
+    bad_alloc& operator=(const bad_alloc&) = default;
+
+
+
 
     virtual ~bad_alloc() throw();
 
@@ -1665,7 +1726,7 @@ namespace std
   class bad_array_new_length : public bad_alloc
   {
   public:
-    bad_array_new_length() throw() { };
+    bad_array_new_length() throw() { }
 
 
 
@@ -1702,10 +1763,10 @@ namespace std
   new_handler get_new_handler() noexcept;
 
 }
-# 120 "/usr/include/c++/7/new" 3
-void* operator new(std::size_t)
+# 126 "/usr/include/c++/10/new" 3
+ void* operator new(std::size_t)
   __attribute__((__externally_visible__));
-void* operator new[](std::size_t)
+ void* operator new[](std::size_t)
   __attribute__((__externally_visible__));
 void operator delete(void*) noexcept
   __attribute__((__externally_visible__));
@@ -1717,18 +1778,18 @@ void operator delete(void*, std::size_t) noexcept
 void operator delete[](void*, std::size_t) noexcept
   __attribute__((__externally_visible__));
 
-void* operator new(std::size_t, const std::nothrow_t&) noexcept
-  __attribute__((__externally_visible__));
-void* operator new[](std::size_t, const std::nothrow_t&) noexcept
-  __attribute__((__externally_visible__));
+ void* operator new(std::size_t, const std::nothrow_t&) noexcept
+  __attribute__((__externally_visible__, __malloc__));
+ void* operator new[](std::size_t, const std::nothrow_t&) noexcept
+  __attribute__((__externally_visible__, __malloc__));
 void operator delete(void*, const std::nothrow_t&) noexcept
   __attribute__((__externally_visible__));
 void operator delete[](void*, const std::nothrow_t&) noexcept
   __attribute__((__externally_visible__));
-# 168 "/usr/include/c++/7/new" 3
-inline void* operator new(std::size_t, void* __p) noexcept
+# 174 "/usr/include/c++/10/new" 3
+ inline void* operator new(std::size_t, void* __p) noexcept
 { return __p; }
-inline void* operator new[](std::size_t, void* __p) noexcept
+ inline void* operator new[](std::size_t, void* __p) noexcept
 { return __p; }
 
 
@@ -1736,15 +1797,16 @@ inline void operator delete (void*, void*) noexcept { }
 inline void operator delete[](void*, void*) noexcept { }
 
 }
-# 216 "/usr/include/c++/7/new" 3
+# 230 "/usr/include/c++/10/new" 3
 #pragma GCC visibility pop
-# 41 "/usr/include/c++/7/bits/exception_ptr.h" 2 3
+# 41 "/usr/include/c++/10/bits/exception_ptr.h" 2 3
 
 extern "C++" {
 
 namespace std
 {
   class type_info;
+
 
 
 
@@ -1806,7 +1868,7 @@ namespace std
       exception_ptr(exception_ptr&& __o) noexcept
       : _M_exception_object(__o._M_exception_object)
       { __o._M_exception_object = 0; }
-# 117 "/usr/include/c++/7/bits/exception_ptr.h" 3
+# 118 "/usr/include/c++/10/bits/exception_ptr.h" 3
       exception_ptr&
       operator=(const exception_ptr&) noexcept;
 
@@ -1823,7 +1885,7 @@ namespace std
 
       void
       swap(exception_ptr&) noexcept;
-# 144 "/usr/include/c++/7/bits/exception_ptr.h" 3
+# 145 "/usr/include/c++/10/bits/exception_ptr.h" 3
       explicit operator bool() const
       { return _M_exception_object; }
 
@@ -1837,6 +1899,8 @@ namespace std
  __attribute__ ((__pure__));
     };
 
+
+
     bool
     operator==(const exception_ptr&, const exception_ptr&)
       noexcept __attribute__ ((__pure__));
@@ -1849,10 +1913,14 @@ namespace std
     swap(exception_ptr& __lhs, exception_ptr& __rhs)
     { __lhs.swap(__rhs); }
 
+
+
+
     template<typename _Ex>
       inline void
       __dest_thunk(void* __x)
       { static_cast<_Ex*>(__x)->~_Ex(); }
+
 
   }
 
@@ -1876,21 +1944,8 @@ namespace std
    __cxxabiv1::__cxa_free_exception(__e);
    return current_exception();
  }
-# 208 "/usr/include/c++/7/bits/exception_ptr.h" 3
+# 215 "/usr/include/c++/10/bits/exception_ptr.h" 3
     }
-
-
-
-
-
-  template<typename _Ex>
-    exception_ptr
-    copy_exception(_Ex __ex) noexcept __attribute__ ((__deprecated__));
-
-  template<typename _Ex>
-    exception_ptr
-    copy_exception(_Ex __ex) noexcept
-    { return std::make_exception_ptr<_Ex>(__ex); }
 
 
 }
@@ -1898,9 +1953,9 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 143 "/usr/include/c++/7/exception" 2 3
-# 1 "/usr/include/c++/7/bits/nested_exception.h" 1 3
-# 33 "/usr/include/c++/7/bits/nested_exception.h" 3
+# 148 "/usr/include/c++/10/exception" 2 3
+# 1 "/usr/include/c++/10/bits/nested_exception.h" 1 3
+# 33 "/usr/include/c++/10/bits/nested_exception.h" 3
 #pragma GCC visibility push(default)
 
 
@@ -1908,14 +1963,8 @@ namespace std
 
 
 
-# 1 "/usr/include/c++/7/bits/move.h" 1 3
-# 34 "/usr/include/c++/7/bits/move.h" 3
-# 1 "/usr/include/c++/7/bits/concept_check.h" 1 3
-# 33 "/usr/include/c++/7/bits/concept_check.h" 3
-       
-# 34 "/usr/include/c++/7/bits/concept_check.h" 3
-# 35 "/usr/include/c++/7/bits/move.h" 2 3
-
+# 1 "/usr/include/c++/10/bits/move.h" 1 3
+# 38 "/usr/include/c++/10/bits/move.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -1931,19 +1980,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
     { return __builtin_addressof(__r); }
 
 
+
+
 }
 
-
-# 1 "/usr/include/c++/7/type_traits" 1 3
-# 32 "/usr/include/c++/7/type_traits" 3
+# 1 "/usr/include/c++/10/type_traits" 1 3
+# 32 "/usr/include/c++/10/type_traits" 3
        
-# 33 "/usr/include/c++/7/type_traits" 3
-# 42 "/usr/include/c++/7/type_traits" 3
-namespace std
-{
-  typedef short unsigned int uint_least16_t;
-  typedef unsigned int uint_least32_t;
-}
+# 33 "/usr/include/c++/10/type_traits" 3
+
+
 
 
 
@@ -1952,7 +1998,7 @@ namespace std
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 68 "/usr/include/c++/7/type_traits" 3
+# 56 "/usr/include/c++/10/type_traits" 3
   template<typename _Tp, _Tp __v>
     struct integral_constant
     {
@@ -1979,9 +2025,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<bool __v>
     using __bool_constant = integral_constant<bool, __v>;
-# 103 "/usr/include/c++/7/type_traits" 3
+# 91 "/usr/include/c++/10/type_traits" 3
   template<bool, typename, typename>
     struct conditional;
+
+  template <typename _Type>
+    struct __type_identity
+    { using type = _Type; };
+
+  template<typename _Tp>
+    using __type_identity_t = typename __type_identity<_Tp>::type;
 
   template<typename...>
     struct __or_;
@@ -2033,7 +2086,38 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __not_
     : public __bool_constant<!bool(_Pp::value)>
     { };
-# 192 "/usr/include/c++/7/type_traits" 3
+# 188 "/usr/include/c++/10/type_traits" 3
+  template<typename>
+    struct is_reference;
+  template<typename>
+    struct is_function;
+  template<typename>
+    struct is_void;
+  template<typename>
+    struct __is_array_unknown_bounds;
+
+
+
+
+  template <typename _Tp, size_t = sizeof(_Tp)>
+    constexpr true_type __is_complete_or_unbounded(__type_identity<_Tp>)
+    { return {}; }
+
+  template <typename _TypeIdentity,
+      typename _NestedType = typename _TypeIdentity::type>
+    constexpr typename __or_<
+      is_reference<_NestedType>,
+      is_function<_NestedType>,
+      is_void<_NestedType>,
+      __is_array_unknown_bounds<_NestedType>
+    >::type __is_complete_or_unbounded(_TypeIdentity)
+    { return {}; }
+
+
+
+
+
+
   template<typename _Tp>
     struct __success_type
     { typedef _Tp type; };
@@ -2041,10 +2125,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
   struct __failure_type
   { };
 
-
-
   template<typename>
     struct remove_cv;
+
+
+  template<typename _Tp>
+    using __remove_cv_t = typename remove_cv<_Tp>::type;
+
+  template<typename>
+    struct is_const;
+
+
 
   template<typename>
     struct __is_void_helper
@@ -2057,7 +2148,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct is_void
-    : public __is_void_helper<typename remove_cv<_Tp>::type>::type
+    : public __is_void_helper<__remove_cv_t<_Tp>>::type
     { };
 
   template<typename>
@@ -2084,8 +2175,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __is_integral_helper<wchar_t>
     : public true_type { };
-
-
+# 284 "/usr/include/c++/10/type_traits" 3
   template<>
     struct __is_integral_helper<char16_t>
     : public true_type { };
@@ -2136,10 +2226,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __is_integral_helper<unsigned __int128>
     : public true_type { };
-# 324 "/usr/include/c++/7/type_traits" 3
+# 364 "/usr/include/c++/10/type_traits" 3
   template<typename _Tp>
     struct is_integral
-    : public __is_integral_helper<typename remove_cv<_Tp>::type>::type
+    : public __is_integral_helper<__remove_cv_t<_Tp>>::type
     { };
 
   template<typename>
@@ -2167,7 +2257,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct is_floating_point
-    : public __is_floating_point_helper<typename remove_cv<_Tp>::type>::type
+    : public __is_floating_point_helper<__remove_cv_t<_Tp>>::type
     { };
 
 
@@ -2194,7 +2284,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct is_pointer
-    : public __is_pointer_helper<typename remove_cv<_Tp>::type>::type
+    : public __is_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
 
 
@@ -2216,21 +2306,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
     : public true_type { };
 
   template<typename>
-    struct is_function;
-
-  template<typename>
     struct __is_member_object_pointer_helper
     : public false_type { };
 
   template<typename _Tp, typename _Cp>
     struct __is_member_object_pointer_helper<_Tp _Cp::*>
-    : public integral_constant<bool, !is_function<_Tp>::value> { };
+    : public __not_<is_function<_Tp>>::type { };
 
 
   template<typename _Tp>
     struct is_member_object_pointer
-    : public __is_member_object_pointer_helper<
-    typename remove_cv<_Tp>::type>::type
+    : public __is_member_object_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
 
   template<typename>
@@ -2239,13 +2325,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp, typename _Cp>
     struct __is_member_function_pointer_helper<_Tp _Cp::*>
-    : public integral_constant<bool, is_function<_Tp>::value> { };
+    : public is_function<_Tp>::type { };
 
 
   template<typename _Tp>
     struct is_member_function_pointer
-    : public __is_member_function_pointer_helper<
-    typename remove_cv<_Tp>::type>::type
+    : public __is_member_function_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
 
 
@@ -2267,105 +2352,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
     { };
 
 
-  template<typename>
+  template<typename _Tp>
     struct is_function
+    : public __bool_constant<!is_const<const _Tp>::value> { };
+
+  template<typename _Tp>
+    struct is_function<_Tp&>
     : public false_type { };
 
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) volatile && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) volatile && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const volatile && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const volatile && >
-    : public true_type { };
+  template<typename _Tp>
+    struct is_function<_Tp&&>
+    : public false_type { };
 
 
 
@@ -2380,14 +2377,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct is_null_pointer
-    : public __is_null_pointer_helper<typename remove_cv<_Tp>::type>::type
+    : public __is_null_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
 
 
   template<typename _Tp>
     struct __is_nullptr_t
     : public is_null_pointer<_Tp>
-    { };
+    { } __attribute__ ((__deprecated__ ("use '" "std::is_null_pointer" "' instead")));
 
 
 
@@ -2431,7 +2428,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct is_compound
-    : public integral_constant<bool, !is_fundamental<_Tp>::value> { };
+    : public __not_<is_fundamental<_Tp>>::type { };
 
   template<typename _Tp>
     struct __is_member_pointer_helper
@@ -2444,23 +2441,52 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct is_member_pointer
-    : public __is_member_pointer_helper<typename remove_cv<_Tp>::type>::type
+    : public __is_member_pointer_helper<__remove_cv_t<_Tp>>::type
     { };
 
+  template<typename, typename>
+    struct is_same;
+
+  template<typename _Tp, typename... _Types>
+    using __is_one_of = __or_<is_same<_Tp, _Types>...>;
 
 
   template<typename _Tp>
+    using __is_signed_integer = __is_one_of<__remove_cv_t<_Tp>,
+   signed char, signed short, signed int, signed long,
+   signed long long
+
+   , signed __int128
+# 604 "/usr/include/c++/10/type_traits" 3
+   >;
+
+
+  template<typename _Tp>
+    using __is_unsigned_integer = __is_one_of<__remove_cv_t<_Tp>,
+   unsigned char, unsigned short, unsigned int, unsigned long,
+   unsigned long long
+
+   , unsigned __int128
+# 623 "/usr/include/c++/10/type_traits" 3
+   >;
+
+
+  template<typename _Tp>
+    using __is_standard_integer
+      = __or_<__is_signed_integer<_Tp>, __is_unsigned_integer<_Tp>>;
+
+
+  template<typename...> using __void_t = void;
+
+
+
+  template<typename _Tp, typename = void>
     struct __is_referenceable
-    : public __or_<is_object<_Tp>, is_reference<_Tp>>::type
+    : public false_type
     { };
 
-  template<typename _Res, typename... _Args >
-    struct __is_referenceable<_Res(_Args...) >
-    : public true_type
-    { };
-
-  template<typename _Res, typename... _Args >
-    struct __is_referenceable<_Res(_Args......) >
+  template<typename _Tp>
+    struct __is_referenceable<_Tp, __void_t<_Tp&>>
     : public true_type
     { };
 
@@ -2488,32 +2514,49 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Tp>
     struct is_trivial
     : public integral_constant<bool, __is_trivial(_Tp)>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp>
     struct is_trivially_copyable
     : public integral_constant<bool, __is_trivially_copyable(_Tp)>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp>
     struct is_standard_layout
     : public integral_constant<bool, __is_standard_layout(_Tp)>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
 
   template<typename _Tp>
-    struct is_pod
+    struct
+   
+    is_pod
     : public integral_constant<bool, __is_pod(_Tp)>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp>
     struct is_literal_type
     : public integral_constant<bool, __is_literal_type(_Tp)>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp>
@@ -2563,19 +2606,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct is_unsigned
     : public __and_<is_arithmetic<_Tp>, __not_<is_signed<_Tp>>>
     { };
-
-
-
-
-  template<typename>
-    struct add_rvalue_reference;
-
-
-
-
+# 770 "/usr/include/c++/10/type_traits" 3
+  template<typename _Tp, typename _Up = _Tp&&>
+    _Up
+    __declval(int);
 
   template<typename _Tp>
-    typename add_rvalue_reference<_Tp>::type declval() noexcept;
+    _Tp
+    __declval(long);
+
+  template<typename _Tp>
+    auto declval() noexcept -> decltype(__declval<_Tp>(0));
 
   template<typename, unsigned = 0>
     struct extent;
@@ -2639,7 +2680,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Tp>
     struct is_destructible
     : public __is_destructible_safe<_Tp>::type
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
 
@@ -2648,8 +2692,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
   struct __do_is_nt_destructible_impl
   {
     template<typename _Tp>
-      static integral_constant<bool, noexcept(declval<_Tp&>().~_Tp())>
-        __test(int);
+      static __bool_constant<noexcept(declval<_Tp&>().~_Tp())>
+      __test(int);
 
     template<typename>
       static false_type __test(...);
@@ -2687,252 +2731,33 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Tp>
     struct is_nothrow_destructible
     : public __is_nt_destructible_safe<_Tp>::type
-    { };
-
-  struct __do_is_default_constructible_impl
-  {
-    template<typename _Tp, typename = decltype(_Tp())>
-      static true_type __test(int);
-
-    template<typename>
-      static false_type __test(...);
-  };
-
-  template<typename _Tp>
-    struct __is_default_constructible_impl
-    : public __do_is_default_constructible_impl
     {
-      typedef decltype(__test<_Tp>(0)) type;
-    };
-
-  template<typename _Tp>
-    struct __is_default_constructible_atom
-    : public __and_<__not_<is_void<_Tp>>,
-                    __is_default_constructible_impl<_Tp>>
-    { };
-
-  template<typename _Tp, bool = is_array<_Tp>::value>
-    struct __is_default_constructible_safe;
-
-
-
-
-
-
-  template<typename _Tp>
-    struct __is_default_constructible_safe<_Tp, true>
-    : public __and_<__is_array_known_bounds<_Tp>,
-      __is_default_constructible_atom<typename
-                      remove_all_extents<_Tp>::type>>
-    { };
-
-  template<typename _Tp>
-    struct __is_default_constructible_safe<_Tp, false>
-    : public __is_default_constructible_atom<_Tp>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_default_constructible
-    : public __is_default_constructible_safe<_Tp>::type
-    { };
-# 936 "/usr/include/c++/7/type_traits" 3
-  struct __do_is_static_castable_impl
-  {
-    template<typename _From, typename _To, typename
-             = decltype(static_cast<_To>(declval<_From>()))>
-      static true_type __test(int);
-
-    template<typename, typename>
-      static false_type __test(...);
-  };
-
-  template<typename _From, typename _To>
-    struct __is_static_castable_impl
-    : public __do_is_static_castable_impl
-    {
-      typedef decltype(__test<_From, _To>(0)) type;
-    };
-
-  template<typename _From, typename _To>
-    struct __is_static_castable_safe
-    : public __is_static_castable_impl<_From, _To>::type
-    { };
-
-
-  template<typename _From, typename _To>
-    struct __is_static_castable
-    : public integral_constant<bool, (__is_static_castable_safe<
-          _From, _To>::value)>
-    { };
-
-
-
-
-
-
-  struct __do_is_direct_constructible_impl
-  {
-    template<typename _Tp, typename _Arg, typename
-      = decltype(::new _Tp(declval<_Arg>()))>
-      static true_type __test(int);
-
-    template<typename, typename>
-      static false_type __test(...);
-  };
-
-  template<typename _Tp, typename _Arg>
-    struct __is_direct_constructible_impl
-    : public __do_is_direct_constructible_impl
-    {
-      typedef decltype(__test<_Tp, _Arg>(0)) type;
-    };
-
-  template<typename _Tp, typename _Arg>
-    struct __is_direct_constructible_new_safe
-    : public __and_<is_destructible<_Tp>,
-                    __is_direct_constructible_impl<_Tp, _Arg>>
-    { };
-
-  template<typename, typename>
-    struct is_same;
-
-  template<typename, typename>
-    struct is_base_of;
-
-  template<typename>
-    struct remove_reference;
-
-  template<typename _From, typename _To, bool
-           = __not_<__or_<is_void<_From>,
-                          is_function<_From>>>::value>
-    struct __is_base_to_derived_ref;
-
-  template<typename _Tp, typename... _Args>
-    struct is_constructible;
-
-
-
-  template<typename _From, typename _To>
-    struct __is_base_to_derived_ref<_From, _To, true>
-    {
-      typedef typename remove_cv<typename remove_reference<_From
-        >::type>::type __src_t;
-      typedef typename remove_cv<typename remove_reference<_To
-        >::type>::type __dst_t;
-      typedef __and_<__not_<is_same<__src_t, __dst_t>>,
-       is_base_of<__src_t, __dst_t>,
-       __not_<is_constructible<__dst_t, _From>>> type;
-      static constexpr bool value = type::value;
-    };
-
-  template<typename _From, typename _To>
-    struct __is_base_to_derived_ref<_From, _To, false>
-    : public false_type
-    { };
-
-  template<typename _From, typename _To, bool
-           = __and_<is_lvalue_reference<_From>,
-                    is_rvalue_reference<_To>>::value>
-    struct __is_lvalue_to_rvalue_ref;
-
-
-
-  template<typename _From, typename _To>
-    struct __is_lvalue_to_rvalue_ref<_From, _To, true>
-    {
-      typedef typename remove_cv<typename remove_reference<
-        _From>::type>::type __src_t;
-      typedef typename remove_cv<typename remove_reference<
-        _To>::type>::type __dst_t;
-      typedef __and_<__not_<is_function<__src_t>>,
-        __or_<is_same<__src_t, __dst_t>,
-      is_base_of<__dst_t, __src_t>>> type;
-      static constexpr bool value = type::value;
-    };
-
-  template<typename _From, typename _To>
-    struct __is_lvalue_to_rvalue_ref<_From, _To, false>
-    : public false_type
-    { };
-
-
-
-
-
-
-
-  template<typename _Tp, typename _Arg>
-    struct __is_direct_constructible_ref_cast
-    : public __and_<__is_static_castable<_Arg, _Tp>,
-                    __not_<__or_<__is_base_to_derived_ref<_Arg, _Tp>,
-                                 __is_lvalue_to_rvalue_ref<_Arg, _Tp>
-                   >>>
-    { };
-
-  template<typename _Tp, typename _Arg>
-    struct __is_direct_constructible_new
-    : public conditional<is_reference<_Tp>::value,
-    __is_direct_constructible_ref_cast<_Tp, _Arg>,
-    __is_direct_constructible_new_safe<_Tp, _Arg>
-    >::type
-    { };
-
-  template<typename _Tp, typename _Arg>
-    struct __is_direct_constructible
-    : public __is_direct_constructible_new<_Tp, _Arg>::type
-    { };
-
-
-
-
-
-
-  struct __do_is_nary_constructible_impl
-  {
-    template<typename _Tp, typename... _Args, typename
-             = decltype(_Tp(declval<_Args>()...))>
-      static true_type __test(int);
-
-    template<typename, typename...>
-      static false_type __test(...);
-  };
-
-  template<typename _Tp, typename... _Args>
-    struct __is_nary_constructible_impl
-    : public __do_is_nary_constructible_impl
-    {
-      typedef decltype(__test<_Tp, _Args...>(0)) type;
-    };
-
-  template<typename _Tp, typename... _Args>
-    struct __is_nary_constructible
-    : public __is_nary_constructible_impl<_Tp, _Args...>::type
-    {
-      static_assert(sizeof...(_Args) > 1,
-                    "Only useful for > 1 arguments");
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
     };
 
   template<typename _Tp, typename... _Args>
     struct __is_constructible_impl
-    : public __is_nary_constructible<_Tp, _Args...>
-    { };
-
-  template<typename _Tp, typename _Arg>
-    struct __is_constructible_impl<_Tp, _Arg>
-    : public __is_direct_constructible<_Tp, _Arg>
-    { };
-
-  template<typename _Tp>
-    struct __is_constructible_impl<_Tp>
-    : public is_default_constructible<_Tp>
+    : public __bool_constant<__is_constructible(_Tp, _Args...)>
     { };
 
 
   template<typename _Tp, typename... _Args>
     struct is_constructible
-    : public __is_constructible_impl<_Tp, _Args...>::type
-    { };
+      : public __is_constructible_impl<_Tp, _Args...>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
+
+
+  template<typename _Tp>
+    struct is_default_constructible
+    : public __is_constructible_impl<_Tp>::type
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_copy_constructible_impl;
@@ -2943,14 +2768,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_copy_constructible_impl<_Tp, true>
-    : public is_constructible<_Tp, const _Tp&>
+    : public __is_constructible_impl<_Tp, const _Tp&>
     { };
 
 
   template<typename _Tp>
     struct is_copy_constructible
     : public __is_copy_constructible_impl<_Tp>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_move_constructible_impl;
@@ -2961,64 +2789,66 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_move_constructible_impl<_Tp, true>
-    : public is_constructible<_Tp, _Tp&&>
+    : public __is_constructible_impl<_Tp, _Tp&&>
     { };
 
 
   template<typename _Tp>
     struct is_move_constructible
     : public __is_move_constructible_impl<_Tp>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
-  template<typename _Tp>
-    struct __is_nt_default_constructible_atom
-    : public integral_constant<bool, noexcept(_Tp())>
-    { };
-
-  template<typename _Tp, bool = is_array<_Tp>::value>
-    struct __is_nt_default_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_nt_default_constructible_impl<_Tp, true>
-    : public __and_<__is_array_known_bounds<_Tp>,
-      __is_nt_default_constructible_atom<typename
-                      remove_all_extents<_Tp>::type>>
-    { };
-
-  template<typename _Tp>
-    struct __is_nt_default_constructible_impl<_Tp, false>
-    : public __is_nt_default_constructible_atom<_Tp>
-    { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_default_constructible
-    : public __and_<is_default_constructible<_Tp>,
-                    __is_nt_default_constructible_impl<_Tp>>
+  template<bool, typename _Tp, typename... _Args>
+    struct __is_nt_constructible_impl
+    : public false_type
     { };
 
   template<typename _Tp, typename... _Args>
-    struct __is_nt_constructible_impl
-    : public integral_constant<bool, noexcept(_Tp(declval<_Args>()...))>
+    struct __is_nt_constructible_impl<true, _Tp, _Args...>
+    : public __bool_constant<noexcept(_Tp(std::declval<_Args>()...))>
     { };
 
   template<typename _Tp, typename _Arg>
-    struct __is_nt_constructible_impl<_Tp, _Arg>
-    : public integral_constant<bool,
-                               noexcept(static_cast<_Tp>(declval<_Arg>()))>
+    struct __is_nt_constructible_impl<true, _Tp, _Arg>
+    : public __bool_constant<noexcept(static_cast<_Tp>(std::declval<_Arg>()))>
     { };
 
   template<typename _Tp>
-    struct __is_nt_constructible_impl<_Tp>
-    : public is_nothrow_default_constructible<_Tp>
+    struct __is_nt_constructible_impl<true, _Tp>
+    : public __bool_constant<noexcept(_Tp())>
     { };
+
+  template<typename _Tp, size_t _Num>
+    struct __is_nt_constructible_impl<true, _Tp[_Num]>
+    : public __bool_constant<noexcept(typename remove_all_extents<_Tp>::type())>
+    { };
+# 1001 "/usr/include/c++/10/type_traits" 3
+  template<typename _Tp, typename... _Args>
+    using __is_nothrow_constructible_impl
+      = __is_nt_constructible_impl<__is_constructible(_Tp, _Args...),
+       _Tp, _Args...>;
 
 
   template<typename _Tp, typename... _Args>
     struct is_nothrow_constructible
-    : public __and_<is_constructible<_Tp, _Args...>,
-      __is_nt_constructible_impl<_Tp, _Args...>>
-    { };
+    : public __is_nothrow_constructible_impl<_Tp, _Args...>::type
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
+
+
+  template<typename _Tp>
+    struct is_nothrow_default_constructible
+    : public __is_nothrow_constructible_impl<_Tp>::type
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
+
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_nothrow_copy_constructible_impl;
@@ -3029,14 +2859,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_nothrow_copy_constructible_impl<_Tp, true>
-    : public is_nothrow_constructible<_Tp, const _Tp&>
+    : public __is_nothrow_constructible_impl<_Tp, const _Tp&>
     { };
 
 
   template<typename _Tp>
     struct is_nothrow_copy_constructible
-    : public __is_nothrow_copy_constructible_impl<_Tp>
-    { };
+    : public __is_nothrow_copy_constructible_impl<_Tp>::type
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_nothrow_move_constructible_impl;
@@ -3047,36 +2880,26 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_nothrow_move_constructible_impl<_Tp, true>
-    : public is_nothrow_constructible<_Tp, _Tp&&>
+    : public __is_nothrow_constructible_impl<_Tp, _Tp&&>
     { };
 
 
   template<typename _Tp>
     struct is_nothrow_move_constructible
-    : public __is_nothrow_move_constructible_impl<_Tp>
-    { };
-
-  template<typename _Tp, typename _Up>
-    class __is_assignable_helper
+    : public __is_nothrow_move_constructible_impl<_Tp>::type
     {
-      template<typename _Tp1, typename _Up1,
-        typename = decltype(declval<_Tp1>() = declval<_Up1>())>
- static true_type
- __test(int);
-
-      template<typename, typename>
- static false_type
- __test(...);
-
-    public:
-      typedef decltype(__test<_Tp, _Up>(0)) type;
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
     };
 
 
   template<typename _Tp, typename _Up>
     struct is_assignable
-      : public __is_assignable_helper<_Tp, _Up>::type
-    { };
+    : public __bool_constant<__is_assignable(_Tp, _Up)>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_copy_assignable_impl;
@@ -3087,14 +2910,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_copy_assignable_impl<_Tp, true>
-    : public is_assignable<_Tp&, const _Tp&>
+    : public __bool_constant<__is_assignable(_Tp&, const _Tp&)>
     { };
 
 
   template<typename _Tp>
     struct is_copy_assignable
-    : public __is_copy_assignable_impl<_Tp>
-    { };
+    : public __is_copy_assignable_impl<_Tp>::type
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_move_assignable_impl;
@@ -3105,26 +2931,37 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_move_assignable_impl<_Tp, true>
-    : public is_assignable<_Tp&, _Tp&&>
+    : public __bool_constant<__is_assignable(_Tp&, _Tp&&)>
     { };
 
 
   template<typename _Tp>
     struct is_move_assignable
-    : public __is_move_assignable_impl<_Tp>
-    { };
+    : public __is_move_assignable_impl<_Tp>::type
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, typename _Up>
     struct __is_nt_assignable_impl
     : public integral_constant<bool, noexcept(declval<_Tp>() = declval<_Up>())>
     { };
 
+  template<typename _Tp, typename _Up>
+    struct __is_nothrow_assignable_impl
+    : public __and_<__bool_constant<__is_assignable(_Tp, _Up)>,
+      __is_nt_assignable_impl<_Tp, _Up>>
+    { };
+
 
   template<typename _Tp, typename _Up>
     struct is_nothrow_assignable
-    : public __and_<is_assignable<_Tp, _Up>,
-      __is_nt_assignable_impl<_Tp, _Up>>
-    { };
+    : public __is_nothrow_assignable_impl<_Tp, _Up>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_nt_copy_assignable_impl;
@@ -3135,14 +2972,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_nt_copy_assignable_impl<_Tp, true>
-    : public is_nothrow_assignable<_Tp&, const _Tp&>
+    : public __is_nothrow_assignable_impl<_Tp&, const _Tp&>
     { };
 
 
   template<typename _Tp>
     struct is_nothrow_copy_assignable
     : public __is_nt_copy_assignable_impl<_Tp>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   template<typename _Tp, bool = __is_referenceable<_Tp>::value>
     struct __is_nt_move_assignable_impl;
@@ -3153,27 +2993,35 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_nt_move_assignable_impl<_Tp, true>
-    : public is_nothrow_assignable<_Tp&, _Tp&&>
+    : public __is_nothrow_assignable_impl<_Tp&, _Tp&&>
     { };
 
 
   template<typename _Tp>
     struct is_nothrow_move_assignable
     : public __is_nt_move_assignable_impl<_Tp>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp, typename... _Args>
     struct is_trivially_constructible
-    : public __and_<is_constructible<_Tp, _Args...>, integral_constant<bool,
-   __is_trivially_constructible(_Tp, _Args...)>>
-    { };
+    : public __bool_constant<__is_trivially_constructible(_Tp, _Args...)>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp>
     struct is_trivially_default_constructible
-    : public is_trivially_constructible<_Tp>::type
-    { };
+    : public __bool_constant<__is_trivially_constructible(_Tp)>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
   struct __do_is_implicitly_default_constructible_impl
   {
@@ -3189,75 +3037,138 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_implicitly_default_constructible_impl
-      : public __do_is_implicitly_default_constructible_impl
-  {
-    typedef decltype(__test(declval<_Tp>())) type;
-  };
+    : public __do_is_implicitly_default_constructible_impl
+    {
+      typedef decltype(__test(declval<_Tp>())) type;
+    };
 
   template<typename _Tp>
     struct __is_implicitly_default_constructible_safe
-      : public __is_implicitly_default_constructible_impl<_Tp>::type
-  { };
+    : public __is_implicitly_default_constructible_impl<_Tp>::type
+    { };
 
   template <typename _Tp>
     struct __is_implicitly_default_constructible
-      : public __and_<is_default_constructible<_Tp>,
-                      __is_implicitly_default_constructible_safe<_Tp>>
-  { };
+    : public __and_<__is_constructible_impl<_Tp>,
+      __is_implicitly_default_constructible_safe<_Tp>>
+    { };
 
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_copy_constructible_impl;
 
   template<typename _Tp>
-    struct is_trivially_copy_constructible
-    : public __and_<is_copy_constructible<_Tp>,
+    struct __is_trivially_copy_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_copy_constructible_impl<_Tp, true>
+    : public __and_<__is_copy_constructible_impl<_Tp>,
       integral_constant<bool,
    __is_trivially_constructible(_Tp, const _Tp&)>>
     { };
 
 
   template<typename _Tp>
-    struct is_trivially_move_constructible
-    : public __and_<is_move_constructible<_Tp>,
+    struct is_trivially_copy_constructible
+    : public __is_trivially_copy_constructible_impl<_Tp>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_move_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_trivially_move_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_move_constructible_impl<_Tp, true>
+    : public __and_<__is_move_constructible_impl<_Tp>,
       integral_constant<bool,
    __is_trivially_constructible(_Tp, _Tp&&)>>
     { };
 
 
+  template<typename _Tp>
+    struct is_trivially_move_constructible
+    : public __is_trivially_move_constructible_impl<_Tp>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
+
+
   template<typename _Tp, typename _Up>
     struct is_trivially_assignable
-    : public __and_<is_assignable<_Tp, _Up>,
-      integral_constant<bool,
-   __is_trivially_assignable(_Tp, _Up)>>
+    : public __bool_constant<__is_trivially_assignable(_Tp, _Up)>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_copy_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_trivially_copy_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_copy_assignable_impl<_Tp, true>
+    : public __bool_constant<__is_trivially_assignable(_Tp&, const _Tp&)>
     { };
 
 
   template<typename _Tp>
     struct is_trivially_copy_assignable
-    : public __and_<is_copy_assignable<_Tp>,
-      integral_constant<bool,
-   __is_trivially_assignable(_Tp&, const _Tp&)>>
+    : public __is_trivially_copy_assignable_impl<_Tp>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_move_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_trivially_move_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_move_assignable_impl<_Tp, true>
+    : public __bool_constant<__is_trivially_assignable(_Tp&, _Tp&&)>
     { };
 
 
   template<typename _Tp>
     struct is_trivially_move_assignable
-    : public __and_<is_move_assignable<_Tp>,
-      integral_constant<bool,
-   __is_trivially_assignable(_Tp&, _Tp&&)>>
-    { };
+    : public __is_trivially_move_assignable_impl<_Tp>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp>
     struct is_trivially_destructible
-    : public __and_<is_destructible<_Tp>, integral_constant<bool,
-         __has_trivial_destructor(_Tp)>>
-    { };
+    : public __and_<__is_destructible_safe<_Tp>,
+      __bool_constant<__has_trivial_destructor(_Tp)>>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
 
   template<typename _Tp>
     struct has_virtual_destructor
     : public integral_constant<bool, __has_virtual_destructor(_Tp)>
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
 
@@ -3265,7 +3176,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct alignment_of
-    : public integral_constant<std::size_t, __alignof__(_Tp)> { };
+    : public integral_constant<std::size_t, alignof(_Tp)>
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename>
@@ -3303,15 +3218,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-  template<typename, typename>
+  template<typename _Tp, typename _Up>
     struct is_same
-    : public false_type { };
 
-  template<typename _Tp>
-    struct is_same<_Tp, _Tp>
-    : public true_type { };
+    : public integral_constant<bool, __is_same_as(_Tp, _Up)>
 
 
+
+    { };
+# 1410 "/usr/include/c++/10/type_traits" 3
   template<typename _Base, typename _Derived>
     struct is_base_of
     : public integral_constant<bool, __is_base_of(_Base, _Derived)>
@@ -3321,13 +3236,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
            bool = __or_<is_void<_From>, is_function<_To>,
                         is_array<_To>>::value>
     struct __is_convertible_helper
-    { typedef typename is_void<_To>::type type; };
+    {
+      typedef typename is_void<_To>::type type;
+    };
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wctor-dtor-privacy"
   template<typename _From, typename _To>
     class __is_convertible_helper<_From, _To, false>
     {
-       template<typename _To1>
- static void __test_aux(_To1);
+      template<typename _To1>
+ static void __test_aux(_To1) noexcept;
 
       template<typename _From1, typename _To1,
         typename = decltype(__test_aux<_To1>(std::declval<_From1>()))>
@@ -3341,7 +3260,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     public:
       typedef decltype(__test<_From, _To>(0)) type;
     };
-
+#pragma GCC diagnostic pop
 
 
   template<typename _From, typename _To>
@@ -3350,9 +3269,45 @@ namespace std __attribute__ ((__visibility__ ("default")))
     { };
 
 
+  template<typename _ToElementType, typename _FromElementType>
+    using __is_array_convertible
+      = is_convertible<_FromElementType(*)[], _ToElementType(*)[]>;
+
+  template<typename _From, typename _To,
+           bool = __or_<is_void<_From>, is_function<_To>,
+                        is_array<_To>>::value>
+    struct __is_nt_convertible_helper
+    : is_void<_To>
+    { };
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wctor-dtor-privacy"
+  template<typename _From, typename _To>
+    class __is_nt_convertible_helper<_From, _To, false>
+    {
+      template<typename _To1>
+ static void __test_aux(_To1) noexcept;
+
+      template<typename _From1, typename _To1>
+ static
+ __bool_constant<noexcept(__test_aux<_To1>(std::declval<_From1>()))>
+ __test(int);
+
+      template<typename, typename>
+ static false_type
+ __test(...);
+
+    public:
+      using type = decltype(__test<_From, _To>(0));
+    };
+#pragma GCC diagnostic pop
 
 
-
+  template<typename _From, typename _To>
+    struct __is_nothrow_convertible
+    : public __is_nt_convertible_helper<_From, _To>::type
+    { };
+# 1508 "/usr/include/c++/10/type_traits" 3
   template<typename _Tp>
     struct remove_const
     { typedef _Tp type; };
@@ -3373,10 +3328,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct remove_cv
-    {
-      typedef typename
-      remove_const<typename remove_volatile<_Tp>::type>::type type;
-    };
+    { using type = _Tp; };
+
+  template<typename _Tp>
+    struct remove_cv<const _Tp>
+    { using type = _Tp; };
+
+  template<typename _Tp>
+    struct remove_cv<volatile _Tp>
+    { using type = _Tp; };
+
+  template<typename _Tp>
+    struct remove_cv<const volatile _Tp>
+    { using type = _Tp; };
 
 
   template<typename _Tp>
@@ -3546,15 +3510,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<>
-    struct __make_unsigned<wchar_t> : __make_unsigned<int>
-    { };
-
-
-
-  template<>
     struct __make_unsigned<__int128>
     { typedef unsigned __int128 __type; };
-# 1771 "/usr/include/c++/7/type_traits" 3
+# 1730 "/usr/include/c++/10/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
     bool _IsEnum = is_enum<_Tp>::value>
@@ -3563,36 +3521,76 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Tp>
     class __make_unsigned_selector<_Tp, true, false>
     {
-      typedef __make_unsigned<typename remove_cv<_Tp>::type> __unsignedt;
-      typedef typename __unsignedt::__type __unsigned_type;
-      typedef __match_cv_qualifiers<_Tp, __unsigned_type> __cv_unsigned;
+      using __unsigned_type
+ = typename __make_unsigned<__remove_cv_t<_Tp>>::__type;
 
     public:
-      typedef typename __cv_unsigned::__type __type;
+      using __type
+ = typename __match_cv_qualifiers<_Tp, __unsigned_type>::__type;
     };
+
+  class __make_unsigned_selector_base
+  {
+  protected:
+    template<typename...> struct _List { };
+
+    template<typename _Tp, typename... _Up>
+      struct _List<_Tp, _Up...> : _List<_Up...>
+      { static constexpr size_t __size = sizeof(_Tp); };
+
+    template<size_t _Sz, typename _Tp, bool = (_Sz <= _Tp::__size)>
+      struct __select;
+
+    template<size_t _Sz, typename _Uint, typename... _UInts>
+      struct __select<_Sz, _List<_Uint, _UInts...>, true>
+      { using __type = _Uint; };
+
+    template<size_t _Sz, typename _Uint, typename... _UInts>
+      struct __select<_Sz, _List<_Uint, _UInts...>, false>
+      : __select<_Sz, _List<_UInts...>>
+      { };
+  };
+
 
   template<typename _Tp>
     class __make_unsigned_selector<_Tp, false, true>
+    : __make_unsigned_selector_base
     {
 
-      typedef unsigned char __smallest;
-      static const bool __b0 = sizeof(_Tp) <= sizeof(__smallest);
-      static const bool __b1 = sizeof(_Tp) <= sizeof(unsigned short);
-      static const bool __b2 = sizeof(_Tp) <= sizeof(unsigned int);
-      static const bool __b3 = sizeof(_Tp) <= sizeof(unsigned long);
-      typedef conditional<__b3, unsigned long, unsigned long long> __cond3;
-      typedef typename __cond3::type __cond3_type;
-      typedef conditional<__b2, unsigned int, __cond3_type> __cond2;
-      typedef typename __cond2::type __cond2_type;
-      typedef conditional<__b1, unsigned short, __cond2_type> __cond1;
-      typedef typename __cond1::type __cond1_type;
+      using _UInts = _List<unsigned char, unsigned short, unsigned int,
+      unsigned long, unsigned long long>;
 
-      typedef typename conditional<__b0, __smallest, __cond1_type>::type
- __unsigned_type;
-      typedef __match_cv_qualifiers<_Tp, __unsigned_type> __cv_unsigned;
+      using __unsigned_type = typename __select<sizeof(_Tp), _UInts>::__type;
 
     public:
-      typedef typename __cv_unsigned::__type __type;
+      using __type
+ = typename __match_cv_qualifiers<_Tp, __unsigned_type>::__type;
+    };
+
+
+
+
+
+
+  template<>
+    struct __make_unsigned<wchar_t>
+    {
+      using __type
+ = typename __make_unsigned_selector<wchar_t, false, true>::__type;
+    };
+# 1806 "/usr/include/c++/10/type_traits" 3
+  template<>
+    struct __make_unsigned<char16_t>
+    {
+      using __type
+ = typename __make_unsigned_selector<char16_t, false, true>::__type;
+    };
+
+  template<>
+    struct __make_unsigned<char32_t>
+    {
+      using __type
+ = typename __make_unsigned_selector<char32_t, false, true>::__type;
     };
 
 
@@ -3636,20 +3634,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __make_signed<unsigned long long>
     { typedef signed long long __type; };
-# 1860 "/usr/include/c++/7/type_traits" 3
-  template<>
-    struct __make_signed<char16_t> : __make_signed<uint_least16_t>
-    { };
-  template<>
-    struct __make_signed<char32_t> : __make_signed<uint_least32_t>
-    { };
-
 
 
   template<>
     struct __make_signed<unsigned __int128>
     { typedef __int128 __type; };
-# 1890 "/usr/include/c++/7/type_traits" 3
+# 1884 "/usr/include/c++/10/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
     bool _IsEnum = is_enum<_Tp>::value>
@@ -3658,13 +3648,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Tp>
     class __make_signed_selector<_Tp, true, false>
     {
-      typedef __make_signed<typename remove_cv<_Tp>::type> __signedt;
-      typedef typename __signedt::__type __signed_type;
-      typedef __match_cv_qualifiers<_Tp, __signed_type> __cv_signed;
+      using __signed_type
+ = typename __make_signed<__remove_cv_t<_Tp>>::__type;
 
     public:
-      typedef typename __cv_signed::__type __type;
+      using __type
+ = typename __match_cv_qualifiers<_Tp, __signed_type>::__type;
     };
+
 
   template<typename _Tp>
     class __make_signed_selector<_Tp, false, true>
@@ -3673,6 +3664,32 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     public:
       typedef typename __make_signed_selector<__unsigned_type>::__type __type;
+    };
+
+
+
+
+
+
+  template<>
+    struct __make_signed<wchar_t>
+    {
+      using __type
+ = typename __make_signed_selector<wchar_t, false, true>::__type;
+    };
+# 1932 "/usr/include/c++/10/type_traits" 3
+  template<>
+    struct __make_signed<char16_t>
+    {
+      using __type
+ = typename __make_signed_selector<char16_t, false, true>::__type;
+    };
+
+  template<>
+    struct __make_signed<char32_t>
+    {
+      using __type
+ = typename __make_signed_selector<char32_t, false, true>::__type;
     };
 
 
@@ -3748,7 +3765,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct remove_pointer
-    : public __remove_pointer_helper<_Tp, typename remove_cv<_Tp>::type>
+    : public __remove_pointer_helper<_Tp, __remove_cv_t<_Tp>>
     { };
 
 
@@ -3785,7 +3802,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  struct __attribute__((__aligned__)) { } __align;
       };
     };
-# 2036 "/usr/include/c++/7/type_traits" 3
+# 2067 "/usr/include/c++/10/type_traits" 3
   template<std::size_t _Len, std::size_t _Align =
     __alignof__(typename __aligned_storage_msa<_Len>::__type)>
     struct aligned_storage
@@ -3814,7 +3831,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
         sizeof(_Tp) > __strictest_alignment<_Types...>::_S_size
  ? sizeof(_Tp) : __strictest_alignment<_Types...>::_S_size;
     };
-# 2075 "/usr/include/c++/7/type_traits" 3
+# 2106 "/usr/include/c++/10/type_traits" 3
   template <size_t _Len, typename... _Types>
     struct aligned_union
     {
@@ -3844,7 +3861,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Up>
     struct __decay_selector<_Up, false, false>
-    { typedef typename remove_cv<_Up>::type __type; };
+    { typedef __remove_cv_t<_Up> __type; };
 
   template<typename _Up>
     struct __decay_selector<_Up, true, false>
@@ -3864,6 +3881,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef typename __decay_selector<__remove_type>::__type type;
     };
 
+
+  template<typename _Tp>
+    using __decay_t = typename decay<_Tp>::type;
+
   template<typename _Tp>
     class reference_wrapper;
 
@@ -3881,11 +3902,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     };
 
   template<typename _Tp>
-    struct __decay_and_strip
-    {
-      typedef typename __strip_reference_wrapper<
- typename decay<_Tp>::type>::__type __type;
-    };
+    using __decay_and_strip = __strip_reference_wrapper<__decay_t<_Tp>>;
 
 
 
@@ -3899,8 +3916,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct enable_if<true, _Tp>
     { typedef _Tp type; };
 
+
+  template<bool _Cond, typename _Tp = void>
+    using __enable_if_t = typename enable_if<_Cond, _Tp>::type;
+
   template<typename... _Cond>
-    using _Require = typename enable_if<__and_<_Cond...>::value>::type;
+    using _Require = __enable_if_t<__and_<_Cond...>::value>;
 
 
 
@@ -3914,6 +3935,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     { typedef _Iffalse type; };
 
 
+  template<typename _Tp>
+    using __remove_cvref_t
+     = typename remove_cv<typename remove_reference<_Tp>::type>::type;
+
+
   template<typename... _Tp>
     struct common_type;
 
@@ -3922,83 +3948,116 @@ namespace std __attribute__ ((__visibility__ ("default")))
   struct __do_common_type_impl
   {
     template<typename _Tp, typename _Up>
-      static __success_type<typename decay<decltype
-       (true ? std::declval<_Tp>()
-        : std::declval<_Up>())>::type> _S_test(int);
+      using __cond_t
+ = decltype(true ? std::declval<_Tp>() : std::declval<_Up>());
 
+
+
+    template<typename _Tp, typename _Up>
+      static __success_type<__decay_t<__cond_t<_Tp, _Up>>>
+      _S_test(int);
+# 2239 "/usr/include/c++/10/type_traits" 3
     template<typename, typename>
-      static __failure_type _S_test(...);
+      static __failure_type
+      _S_test_2(...);
+
+    template<typename _Tp, typename _Up>
+      static decltype(_S_test_2<_Tp, _Up>(0))
+      _S_test(...);
   };
 
-  template<typename _Tp, typename _Up>
-    struct __common_type_impl
-    : private __do_common_type_impl
-    {
-      typedef decltype(_S_test<_Tp, _Up>(0)) type;
-    };
 
-  struct __do_member_type_wrapper
-  {
-    template<typename _Tp>
-      static __success_type<typename _Tp::type> _S_test(int);
-
-    template<typename>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _Tp>
-    struct __member_type_wrapper
-    : private __do_member_type_wrapper
-    {
-      typedef decltype(_S_test<_Tp>(0)) type;
-    };
-
-  template<typename _CTp, typename... _Args>
-    struct __expanded_common_type_wrapper
-    {
-      typedef common_type<typename _CTp::type, _Args...> type;
-    };
-
-  template<typename... _Args>
-    struct __expanded_common_type_wrapper<__failure_type, _Args...>
-    { typedef __failure_type type; };
-
-  template<typename _Tp>
-    struct common_type<_Tp>
-    { typedef typename decay<_Tp>::type type; };
-
-  template<typename _Tp, typename _Up>
-    struct common_type<_Tp, _Up>
-    : public __common_type_impl<_Tp, _Up>::type
+  template<>
+    struct common_type<>
     { };
 
-  template<typename _Tp, typename _Up, typename... _Vp>
-    struct common_type<_Tp, _Up, _Vp...>
-    : public __expanded_common_type_wrapper<typename __member_type_wrapper<
-               common_type<_Tp, _Up>>::type, _Vp...>::type
+
+  template<typename _Tp0>
+    struct common_type<_Tp0>
+    : public common_type<_Tp0, _Tp0>
+    { };
+
+
+  template<typename _Tp1, typename _Tp2,
+    typename _Dp1 = __decay_t<_Tp1>, typename _Dp2 = __decay_t<_Tp2>>
+    struct __common_type_impl
+    {
+
+
+      using type = common_type<_Dp1, _Dp2>;
+    };
+
+  template<typename _Tp1, typename _Tp2>
+    struct __common_type_impl<_Tp1, _Tp2, _Tp1, _Tp2>
+    : private __do_common_type_impl
+    {
+
+
+      using type = decltype(_S_test<_Tp1, _Tp2>(0));
+    };
+
+
+  template<typename _Tp1, typename _Tp2>
+    struct common_type<_Tp1, _Tp2>
+    : public __common_type_impl<_Tp1, _Tp2>::type
+    { };
+
+  template<typename...>
+    struct __common_type_pack
+    { };
+
+  template<typename, typename, typename = void>
+    struct __common_type_fold;
+
+
+  template<typename _Tp1, typename _Tp2, typename... _Rp>
+    struct common_type<_Tp1, _Tp2, _Rp...>
+    : public __common_type_fold<common_type<_Tp1, _Tp2>,
+    __common_type_pack<_Rp...>>
+    { };
+
+
+
+
+  template<typename _CTp, typename... _Rp>
+    struct __common_type_fold<_CTp, __common_type_pack<_Rp...>,
+         __void_t<typename _CTp::type>>
+    : public common_type<typename _CTp::type, _Rp...>
+    { };
+
+
+  template<typename _CTp, typename _Rp>
+    struct __common_type_fold<_CTp, _Rp, void>
+    { };
+
+  template<typename _Tp, bool = is_enum<_Tp>::value>
+    struct __underlying_type_impl
+    {
+      using type = __underlying_type(_Tp);
+    };
+
+  template<typename _Tp>
+    struct __underlying_type_impl<_Tp, false>
     { };
 
 
   template<typename _Tp>
     struct underlying_type
-    {
-      typedef __underlying_type(_Tp) type;
-    };
+    : public __underlying_type_impl<_Tp>
+    { };
 
   template<typename _Tp>
     struct __declval_protector
     {
       static const bool __stop = false;
-      static typename add_rvalue_reference<_Tp>::type __delegate();
     };
 
   template<typename _Tp>
-    inline typename add_rvalue_reference<_Tp>::type
-    declval() noexcept
+    auto declval() noexcept -> decltype(__declval<_Tp>(0))
     {
       static_assert(__declval_protector<_Tp>::__stop,
       "declval() must not be used!");
-      return __declval_protector<_Tp>::__delegate();
+      return __declval<_Tp>(0);
     }
 
 
@@ -4102,8 +4161,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Res, typename _Class, typename _Arg>
     struct __result_of_memobj<_Res _Class::*, _Arg>
     {
-      typedef typename remove_cv<typename remove_reference<
-        _Arg>::type>::type _Argval;
+      typedef __remove_cvref_t<_Arg> _Argval;
       typedef _Res _Class::* _MemPtr;
       typedef typename conditional<__or_<is_same<_Argval, _Class>,
         is_base_of<_Class, _Argval>>::value,
@@ -4118,11 +4176,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Res, typename _Class, typename _Arg, typename... _Args>
     struct __result_of_memfun<_Res _Class::*, _Arg, _Args...>
     {
-      typedef typename remove_cv<typename remove_reference<
-        _Arg>::type>::type _Argval;
+      typedef typename remove_reference<_Arg>::type _Argval;
       typedef _Res _Class::* _MemPtr;
-      typedef typename conditional<__or_<is_same<_Argval, _Class>,
-        is_base_of<_Class, _Argval>>::value,
+      typedef typename conditional<is_base_of<_Class, _Argval>::value,
         __result_of_memfun_ref<_MemPtr, _Arg, _Args...>,
         __result_of_memfun_deref<_MemPtr, _Arg, _Args...>
       >::type::type type;
@@ -4133,7 +4189,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-  template<typename _Tp, typename _Up = typename decay<_Tp>::type>
+  template<typename _Tp, typename _Up = __remove_cvref_t<_Tp>>
     struct __inv_unwrap
     {
       using type = _Tp;
@@ -4153,13 +4209,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _MemPtr, typename _Arg>
     struct __result_of_impl<true, false, _MemPtr, _Arg>
-    : public __result_of_memobj<typename decay<_MemPtr>::type,
+    : public __result_of_memobj<__decay_t<_MemPtr>,
     typename __inv_unwrap<_Arg>::type>
     { };
 
   template<typename _MemPtr, typename _Arg, typename... _Args>
     struct __result_of_impl<false, true, _MemPtr, _Arg, _Args...>
-    : public __result_of_memfun<typename decay<_MemPtr>::type,
+    : public __result_of_memfun<__decay_t<_MemPtr>,
     typename __inv_unwrap<_Arg>::type, _Args...>
     { };
 
@@ -4236,13 +4292,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-  template<bool _Cond, typename _Tp = void>
-    using __enable_if_t = typename enable_if<_Cond, _Tp>::type;
-
-
-  template<typename...> using __void_t = void;
-
-
 
 
   template<typename...> using void_t = void;
@@ -4276,7 +4325,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     typename... _Args>
     using __detected_or_t
       = typename __detected_or<_Default, _Op, _Args...>::type;
-# 2553 "/usr/include/c++/7/type_traits" 3
+# 2624 "/usr/include/c++/10/type_traits" 3
   template <typename _Tp>
     struct __is_swappable;
 
@@ -4297,22 +4346,23 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct __is_tuple_like
-    : public __is_tuple_like_impl<typename remove_cv<
-      typename remove_reference<_Tp>::type>::type>::type
+    : public __is_tuple_like_impl<__remove_cvref_t<_Tp>>::type
     { };
 
   template<typename _Tp>
+   
     inline
-    typename enable_if<__and_<__not_<__is_tuple_like<_Tp>>,
-         is_move_constructible<_Tp>,
-         is_move_assignable<_Tp>>::value>::type
+    _Require<__not_<__is_tuple_like<_Tp>>,
+      is_move_constructible<_Tp>,
+      is_move_assignable<_Tp>>
     swap(_Tp&, _Tp&)
     noexcept(__and_<is_nothrow_move_constructible<_Tp>,
              is_nothrow_move_assignable<_Tp>>::value);
 
   template<typename _Tp, size_t _Nm>
+   
     inline
-    typename enable_if<__is_swappable<_Tp>::value>::type
+    __enable_if_t<__is_swappable<_Tp>::value>
     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
     noexcept(__is_nothrow_swappable<_Tp>::value);
 
@@ -4374,13 +4424,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Tp>
     struct is_swappable
     : public __is_swappable_impl<_Tp>::type
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
   template<typename _Tp>
     struct is_nothrow_swappable
     : public __is_nothrow_swappable_impl<_Tp>::type
-    { };
+    {
+      static_assert(std::__is_complete_or_unbounded(__type_identity<_Tp>{}),
+ "template argument must be a complete class or an unbounded array");
+    };
 
 
 
@@ -4482,13 +4538,48 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-  template<typename _Result, typename _Ret, typename = void>
+
+  template<typename _Result, typename _Ret,
+    bool = is_void<_Ret>::value, typename = void>
     struct __is_invocable_impl : false_type { };
 
+
   template<typename _Result, typename _Ret>
-    struct __is_invocable_impl<_Result, _Ret, __void_t<typename _Result::type>>
-    : __or_<is_void<_Ret>, is_convertible<typename _Result::type, _Ret>>::type
+    struct __is_invocable_impl<_Result, _Ret,
+                                true,
+          __void_t<typename _Result::type>>
+    : true_type
     { };
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wctor-dtor-privacy"
+
+  template<typename _Result, typename _Ret>
+    struct __is_invocable_impl<_Result, _Ret,
+                                false,
+          __void_t<typename _Result::type>>
+    {
+    private:
+
+
+      static typename _Result::type _S_get();
+
+      template<typename _Tp>
+ static void _S_conv(_Tp);
+
+
+      template<typename _Tp, typename = decltype(_S_conv<_Tp>(_S_get()))>
+ static true_type
+ _S_test(int);
+
+      template<typename _Tp>
+ static false_type
+ _S_test(...);
+
+    public:
+      using type = decltype(_S_test<_Ret>(1));
+    };
+#pragma GCC diagnostic pop
 
   template<typename _Fn, typename... _ArgTypes>
     struct __is_invocable
@@ -4547,21 +4638,24 @@ namespace std __attribute__ ((__visibility__ ("default")))
              __call_is_nothrow_<_Fn, _Args...>>::type
     { };
 
-  struct __nonesuch {
-    __nonesuch() = delete;
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wctor-dtor-privacy"
+  struct __nonesuchbase {};
+  struct __nonesuch : private __nonesuchbase {
     ~__nonesuch() = delete;
     __nonesuch(__nonesuch const&) = delete;
     void operator=(__nonesuch const&) = delete;
   };
-# 3108 "/usr/include/c++/7/type_traits" 3
+#pragma GCC diagnostic pop
+# 3455 "/usr/include/c++/10/type_traits" 3
 
 }
-# 55 "/usr/include/c++/7/bits/move.h" 2 3
+# 58 "/usr/include/c++/10/bits/move.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 71 "/usr/include/c++/7/bits/move.h" 3
+# 74 "/usr/include/c++/10/bits/move.h" 3
   template<typename _Tp>
     constexpr _Tp&&
     forward(typename std::remove_reference<_Tp>::type& __t) noexcept
@@ -4597,13 +4691,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __move_if_noexcept_cond
     : public __and_<__not_<is_nothrow_move_constructible<_Tp>>,
                     is_copy_constructible<_Tp>>::type { };
-# 115 "/usr/include/c++/7/bits/move.h" 3
+# 118 "/usr/include/c++/10/bits/move.h" 3
   template<typename _Tp>
     constexpr typename
     conditional<__move_if_noexcept_cond<_Tp>::value, const _Tp&, _Tp&&>::type
     move_if_noexcept(_Tp& __x) noexcept
     { return std::move(__x); }
-# 135 "/usr/include/c++/7/bits/move.h" 3
+# 138 "/usr/include/c++/10/bits/move.h" 3
   template<typename _Tp>
     inline _Tp*
     addressof(_Tp& __r) noexcept
@@ -4616,6 +4710,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template <typename _Tp, typename _Up = _Tp>
+   
     inline _Tp
     __exchange(_Tp& __obj, _Up&& __new_val)
     {
@@ -4623,31 +4718,24 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __obj = std::forward<_Up>(__new_val);
       return __old_val;
     }
-
-
-
-}
-# 166 "/usr/include/c++/7/bits/move.h" 3
-namespace std __attribute__ ((__visibility__ ("default")))
-{
-
-# 181 "/usr/include/c++/7/bits/move.h" 3
+# 179 "/usr/include/c++/10/bits/move.h" 3
   template<typename _Tp>
+   
     inline
 
     typename enable_if<__and_<__not_<__is_tuple_like<_Tp>>,
          is_move_constructible<_Tp>,
          is_move_assignable<_Tp>>::value>::type
+
+
+
     swap(_Tp& __a, _Tp& __b)
-    noexcept(__and_<is_nothrow_move_constructible<_Tp>,
-             is_nothrow_move_assignable<_Tp>>::value)
-
-
-
+    noexcept(__and_<is_nothrow_move_constructible<_Tp>, is_nothrow_move_assignable<_Tp>>::value)
 
     {
 
-     
+
+
 
       _Tp __tmp = std::move(__a);
       __a = std::move(__b);
@@ -4658,15 +4746,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<typename _Tp, size_t _Nm>
+   
     inline
 
     typename enable_if<__is_swappable<_Tp>::value>::type
+
+
+
     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
     noexcept(__is_nothrow_swappable<_Tp>::value)
-
-
-
-
     {
       for (size_t __n = 0; __n < _Nm; ++__n)
  swap(__a[__n], __b[__n]);
@@ -4675,7 +4763,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 41 "/usr/include/c++/7/bits/nested_exception.h" 2 3
+# 41 "/usr/include/c++/10/bits/nested_exception.h" 2 3
 
 extern "C++" {
 
@@ -4714,6 +4802,8 @@ namespace std
     { return _M_ptr; }
   };
 
+
+
   template<typename _Except>
     struct _Nested_exception : public _Except, public nested_exception
     {
@@ -4730,6 +4820,7 @@ namespace std
 
 
   template<typename _Tp>
+    [[noreturn]]
     inline void
     __throw_with_nested_impl(_Tp&& __t, true_type)
     {
@@ -4738,9 +4829,12 @@ namespace std
     }
 
   template<typename _Tp>
+    [[noreturn]]
     inline void
     __throw_with_nested_impl(_Tp&& __t, false_type)
     { throw std::forward<_Tp>(__t); }
+
+
 
 
 
@@ -4758,6 +4852,8 @@ namespace std
        __not_<is_base_of<nested_exception, _Up>>>;
       std::__throw_with_nested_impl(std::forward<_Tp>(__t), __nest{});
     }
+
+
 
 
   template<typename _Tp>
@@ -4782,6 +4878,8 @@ namespace std
   { }
 
 
+
+
   template<typename _Ex>
     inline void
     rethrow_if_nested(const _Ex& __ex)
@@ -4795,17 +4893,17 @@ namespace std
 
 
 #pragma GCC visibility pop
-# 144 "/usr/include/c++/7/exception" 2 3
-# 40 "/usr/include/c++/7/ios" 2 3
-# 1 "/usr/include/c++/7/bits/char_traits.h" 1 3
-# 37 "/usr/include/c++/7/bits/char_traits.h" 3
+# 149 "/usr/include/c++/10/exception" 2 3
+# 40 "/usr/include/c++/10/ios" 2 3
+# 1 "/usr/include/c++/10/bits/char_traits.h" 1 3
+# 37 "/usr/include/c++/10/bits/char_traits.h" 3
        
-# 38 "/usr/include/c++/7/bits/char_traits.h" 3
+# 38 "/usr/include/c++/10/bits/char_traits.h" 3
 
-# 1 "/usr/include/c++/7/bits/stl_algobase.h" 1 3
-# 60 "/usr/include/c++/7/bits/stl_algobase.h" 3
-# 1 "/usr/include/c++/7/bits/functexcept.h" 1 3
-# 42 "/usr/include/c++/7/bits/functexcept.h" 3
+# 1 "/usr/include/c++/10/bits/stl_algobase.h" 1 3
+# 60 "/usr/include/c++/10/bits/stl_algobase.h" 3
+# 1 "/usr/include/c++/10/bits/functexcept.h" 1 3
+# 42 "/usr/include/c++/10/bits/functexcept.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -4862,7 +4960,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
   __throw_ios_failure(const char*) __attribute__((__noreturn__));
 
   void
+  __throw_ios_failure(const char*, int) __attribute__((__noreturn__));
+
+
+  void
   __throw_system_error(int) __attribute__((__noreturn__));
+
 
   void
   __throw_future_error(int) __attribute__((__noreturn__));
@@ -4873,12 +4976,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 61 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
-# 1 "/usr/include/c++/7/bits/cpp_type_traits.h" 1 3
-# 35 "/usr/include/c++/7/bits/cpp_type_traits.h" 3
+# 61 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+# 1 "/usr/include/c++/10/bits/cpp_type_traits.h" 1 3
+# 35 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
        
-# 36 "/usr/include/c++/7/bits/cpp_type_traits.h" 3
-# 67 "/usr/include/c++/7/bits/cpp_type_traits.h" 3
+# 36 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
+# 67 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
 extern "C++" {
 
 namespace std __attribute__ ((__visibility__ ("default")))
@@ -4984,9 +5087,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       enum { __value = 1 };
       typedef __true_type __type;
     };
-
-
-
+# 184 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
   template<>
     struct __is_integer<char16_t>
     {
@@ -5057,9 +5158,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 261 "/usr/include/c++/7/bits/cpp_type_traits.h" 3
+# 270 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
 template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_type __type; }; template<> struct __is_integer<unsigned __int128> { enum { __value = 1 }; typedef __true_type __type; };
-# 278 "/usr/include/c++/7/bits/cpp_type_traits.h" 3
+# 287 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_floating
     {
@@ -5175,10 +5276,98 @@ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_
       enum { __value = 1 };
       typedef __true_type __type;
     };
+# 423 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
+  template<typename> struct iterator_traits;
+
+
+  template<typename _Tp>
+    struct __is_nonvolatile_trivially_copyable
+    {
+      enum { __value = __is_trivially_copyable(_Tp) };
+    };
 
 
 
 
+  template<typename _Tp>
+    struct __is_nonvolatile_trivially_copyable<volatile _Tp>
+    {
+      enum { __value = 0 };
+    };
+
+
+  template<typename _OutputIter, typename _InputIter>
+    struct __memcpyable
+    {
+      enum { __value = 0 };
+    };
+
+  template<typename _Tp>
+    struct __memcpyable<_Tp*, _Tp*>
+    : __is_nonvolatile_trivially_copyable<_Tp>
+    { };
+
+  template<typename _Tp>
+    struct __memcpyable<_Tp*, const _Tp*>
+    : __is_nonvolatile_trivially_copyable<_Tp>
+    { };
+
+
+
+
+
+
+  template<typename _Iter1, typename _Iter2>
+    struct __memcmpable
+    {
+      enum { __value = 0 };
+    };
+
+
+  template<typename _Tp>
+    struct __memcmpable<_Tp*, _Tp*>
+    : __is_nonvolatile_trivially_copyable<_Tp>
+    { };
+
+  template<typename _Tp>
+    struct __memcmpable<const _Tp*, _Tp*>
+    : __is_nonvolatile_trivially_copyable<_Tp>
+    { };
+
+  template<typename _Tp>
+    struct __memcmpable<_Tp*, const _Tp*>
+    : __is_nonvolatile_trivially_copyable<_Tp>
+    { };
+
+
+
+
+  template<typename _Tp, bool _TreatAsBytes = __is_byte<_Tp>::__value>
+    struct __is_memcmp_ordered
+    {
+      static const bool __value = _Tp(-1) > _Tp(1);
+    };
+
+  template<typename _Tp>
+    struct __is_memcmp_ordered<_Tp, false>
+    {
+      static const bool __value = false;
+    };
+
+
+  template<typename _Tp, typename _Up, bool = sizeof(_Tp) == sizeof(_Up)>
+    struct __is_memcmp_ordered_with
+    {
+      static const bool __value = __is_memcmp_ordered<_Tp>::__value
+ && __is_memcmp_ordered<_Up>::__value;
+    };
+
+  template<typename _Tp, typename _Up>
+    struct __is_memcmp_ordered_with<_Tp, _Up, false>
+    {
+      static const bool __value = false;
+    };
+# 532 "/usr/include/c++/10/bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_move_iterator
     {
@@ -5189,6 +5378,7 @@ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_
 
 
   template<typename _Iterator>
+   
     inline _Iterator
     __miter_base(_Iterator __it)
     { return __it; }
@@ -5196,11 +5386,11 @@ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_
 
 }
 }
-# 62 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
-# 1 "/usr/include/c++/7/ext/type_traits.h" 1 3
-# 32 "/usr/include/c++/7/ext/type_traits.h" 3
+# 62 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+# 1 "/usr/include/c++/10/ext/type_traits.h" 1 3
+# 32 "/usr/include/c++/10/ext/type_traits.h" 3
        
-# 33 "/usr/include/c++/7/ext/type_traits.h" 3
+# 33 "/usr/include/c++/10/ext/type_traits.h" 3
 
 
 
@@ -5388,11 +5578,11 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 }
 }
-# 63 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
-# 1 "/usr/include/c++/7/ext/numeric_traits.h" 1 3
-# 32 "/usr/include/c++/7/ext/numeric_traits.h" 3
+# 63 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+# 1 "/usr/include/c++/10/ext/numeric_traits.h" 1 3
+# 32 "/usr/include/c++/10/ext/numeric_traits.h" 3
        
-# 33 "/usr/include/c++/7/ext/numeric_traits.h" 3
+# 33 "/usr/include/c++/10/ext/numeric_traits.h" 3
 
 
 
@@ -5400,18 +5590,36 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
-# 54 "/usr/include/c++/7/ext/numeric_traits.h" 3
+# 50 "/usr/include/c++/10/ext/numeric_traits.h" 3
+  template<typename _Tp>
+    struct __is_integer_nonstrict
+    : public std::__is_integer<_Tp>
+    {
+      using std::__is_integer<_Tp>::__value;
+
+
+      enum { __width = __value ? sizeof(_Tp) * 8 : 0 };
+    };
+
   template<typename _Value>
     struct __numeric_traits_integer
     {
 
-      static const _Value __min = (((_Value)(-1) < 0) ? (_Value)1 << (sizeof(_Value) * 8 - ((_Value)(-1) < 0)) : (_Value)0);
-      static const _Value __max = (((_Value)(-1) < 0) ? (((((_Value)1 << ((sizeof(_Value) * 8 - ((_Value)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(_Value)0);
+      static_assert(__is_integer_nonstrict<_Value>::__value,
+      "invalid specialization");
 
 
 
-      static const bool __is_signed = ((_Value)(-1) < 0);
-      static const int __digits = (sizeof(_Value) * 8 - ((_Value)(-1) < 0));
+
+      static const bool __is_signed = (_Value)(-1) < 0;
+      static const int __digits
+ = __is_integer_nonstrict<_Value>::__width - __is_signed;
+
+
+      static const _Value __max = __is_signed
+ ? (((((_Value)1 << (__digits - 1)) - 1) << 1) + 1)
+ : ~(_Value)0;
+      static const _Value __min = __is_signed ? -__max - 1 : (_Value)0;
     };
 
   template<typename _Value>
@@ -5425,7 +5633,10 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
   template<typename _Value>
     const int __numeric_traits_integer<_Value>::__digits;
-# 99 "/usr/include/c++/7/ext/numeric_traits.h" 3
+# 135 "/usr/include/c++/10/ext/numeric_traits.h" 3
+  template<typename _Tp>
+    using __int_traits = __numeric_traits_integer<_Tp>;
+# 155 "/usr/include/c++/10/ext/numeric_traits.h" 3
   template<typename _Value>
     struct __numeric_traits_floating
     {
@@ -5452,25 +5663,27 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
   template<typename _Value>
     struct __numeric_traits
-    : public __conditional_type<std::__is_integer<_Value>::__value,
+    : public __conditional_type<__is_integer_nonstrict<_Value>::__value,
     __numeric_traits_integer<_Value>,
     __numeric_traits_floating<_Value> >::__type
     { };
 
 
 }
-# 64 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
-# 1 "/usr/include/c++/7/bits/stl_pair.h" 1 3
-# 65 "/usr/include/c++/7/bits/stl_pair.h" 3
+# 64 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+# 1 "/usr/include/c++/10/bits/stl_pair.h" 1 3
+# 69 "/usr/include/c++/10/bits/stl_pair.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 76 "/usr/include/c++/7/bits/stl_pair.h" 3
+# 80 "/usr/include/c++/10/bits/stl_pair.h" 3
   struct piecewise_construct_t { explicit piecewise_construct_t() = default; };
 
 
   constexpr piecewise_construct_t piecewise_construct =
     piecewise_construct_t();
+
+
 
 
   template<typename...>
@@ -5573,13 +5786,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
   };
 
 
-
-
-  struct __nonesuch_no_braces : std::__nonesuch {
-    explicit __nonesuch_no_braces(const __nonesuch&) = delete;
-  };
-
-
   template<typename _U1, typename _U2> class __pair_base
   {
 
@@ -5590,13 +5796,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __pair_base& operator=(const __pair_base&) = delete;
 
   };
-
-
-
-
-
-
-
+# 210 "/usr/include/c++/10/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     struct pair
     : private __pair_base<_T1, _T2>
@@ -5634,8 +5834,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
                                    ::value, bool>::type = false>
       explicit constexpr pair()
       : first(), second() { }
-# 252 "/usr/include/c++/7/bits/stl_pair.h" 3
+# 256 "/usr/include/c++/10/bits/stl_pair.h" 3
       using _PCCP = _PCC<true, _T1, _T2>;
+
+
 
       template<typename _U1 = _T1, typename _U2=_T2, typename
         enable_if<_PCCP::template
@@ -5646,6 +5848,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr pair(const _T1& __a, const _T2& __b)
       : first(__a), second(__b) { }
 
+
        template<typename _U1 = _T1, typename _U2=_T2, typename
   enable_if<_PCCP::template
        _ConstructiblePair<_U1, _U2>()
@@ -5654,11 +5857,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
                          bool>::type=false>
       explicit constexpr pair(const _T1& __a, const _T2& __b)
       : first(__a), second(__b) { }
-# 280 "/usr/include/c++/7/bits/stl_pair.h" 3
+# 288 "/usr/include/c++/10/bits/stl_pair.h" 3
       template <typename _U1, typename _U2>
         using _PCCFP = _PCC<!is_same<_T1, _U1>::value
        || !is_same<_T2, _U2>::value,
        _T1, _T2>;
+
 
       template<typename _U1, typename _U2, typename
         enable_if<_PCCFP<_U1, _U2>::template
@@ -5677,6 +5881,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
                          bool>::type=false>
  explicit constexpr pair(const pair<_U1, _U2>& __p)
  : first(__p.first), second(__p.second) { }
+
+
 
       constexpr pair(const pair&) = default;
       constexpr pair(pair&&) = default;
@@ -5750,13 +5956,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
    second(std::forward<_U2>(__p.second)) { }
 
       template<typename... _Args1, typename... _Args2>
+
         pair(piecewise_construct_t, tuple<_Args1...>, tuple<_Args2...>);
 
       pair&
       operator=(typename conditional<
   __and_<is_copy_assignable<_T1>,
          is_copy_assignable<_T2>>::value,
-  const pair&, const __nonesuch_no_braces&>::type __p)
+  const pair&, const __nonesuch&>::type __p)
       {
  first = __p.first;
  second = __p.second;
@@ -5767,7 +5974,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator=(typename conditional<
   __and_<is_move_assignable<_T1>,
          is_move_assignable<_T2>>::value,
-  pair&&, __nonesuch_no_braces&&>::type __p)
+  pair&&, __nonesuch&&>::type __p)
       noexcept(__and_<is_nothrow_move_assignable<_T1>,
         is_nothrow_move_assignable<_T2>>::value)
       {
@@ -5777,9 +5984,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       }
 
       template<typename _U1, typename _U2>
-      typename enable_if<__and_<is_assignable<_T1&, const _U1&>,
-    is_assignable<_T2&, const _U2&>>::value,
-    pair&>::type
+
+ typename enable_if<__and_<is_assignable<_T1&, const _U1&>,
+      is_assignable<_T2&, const _U2&>>::value,
+      pair&>::type
  operator=(const pair<_U1, _U2>& __p)
  {
    first = __p.first;
@@ -5788,15 +5996,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
 
       template<typename _U1, typename _U2>
-      typename enable_if<__and_<is_assignable<_T1&, _U1&&>,
-    is_assignable<_T2&, _U2&&>>::value,
-    pair&>::type
+
+ typename enable_if<__and_<is_assignable<_T1&, _U1&&>,
+      is_assignable<_T2&, _U2&&>>::value,
+      pair&>::type
  operator=(pair<_U1, _U2>&& __p)
  {
    first = std::forward<_U1>(__p.first);
    second = std::forward<_U2>(__p.second);
    return *this;
  }
+
 
       void
       swap(pair& __p)
@@ -5811,22 +6021,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
     private:
       template<typename... _Args1, std::size_t... _Indexes1,
                typename... _Args2, std::size_t... _Indexes2>
+
         pair(tuple<_Args1...>&, tuple<_Args2...>&,
              _Index_tuple<_Indexes1...>, _Index_tuple<_Indexes2...>);
 
     };
-
-
-
-
-
-
+# 464 "/usr/include/c++/10/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     inline constexpr bool
     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
     { return __x.first == __y.first && __x.second == __y.second; }
-
-
+# 487 "/usr/include/c++/10/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     inline constexpr bool
     operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
@@ -5856,11 +6061,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline constexpr bool
     operator>=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
     { return !(__x < __y); }
-
-
-
-
-
+# 524 "/usr/include/c++/10/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     inline
 
@@ -5879,7 +6080,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     typename enable_if<!__and_<__is_swappable<_T1>,
           __is_swappable<_T2>>::value>::type
     swap(pair<_T1, _T2>&, pair<_T1, _T2>&) = delete;
-# 521 "/usr/include/c++/7/bits/stl_pair.h" 3
+# 564 "/usr/include/c++/10/bits/stl_pair.h" 3
   template<typename _T1, typename _T2>
     constexpr pair<typename __decay_and_strip<_T1>::__type,
                    typename __decay_and_strip<_T2>::__type>
@@ -5890,25 +6091,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef pair<__ds_type1, __ds_type2> __pair_type;
       return __pair_type(std::forward<_T1>(__x), std::forward<_T2>(__y));
     }
-# 540 "/usr/include/c++/7/bits/stl_pair.h" 3
+# 583 "/usr/include/c++/10/bits/stl_pair.h" 3
 
 }
-# 65 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
-# 1 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 1 3
-# 62 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 3
+# 65 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+# 1 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 1 3
+# 62 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 3
        
-# 63 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 3
-
-
-
-
-
-
-
+# 63 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 3
+# 74 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 89 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 3
+# 93 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 3
   struct input_iterator_tag { };
 
 
@@ -5924,7 +6119,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   struct random_access_iterator_tag : public bidirectional_iterator_tag { };
-# 116 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 3
+# 125 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 3
   template<typename _Category, typename _Tp, typename _Distance = ptrdiff_t,
            typename _Pointer = _Tp*, typename _Reference = _Tp&>
     struct iterator
@@ -5940,9 +6135,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef _Reference reference;
     };
-# 143 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 3
+# 149 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 3
+  template<typename _Iterator>
+    struct iterator_traits;
+
+
+
+
   template<typename _Iterator, typename = __void_t<>>
     struct __iterator_traits { };
+
+
 
   template<typename _Iterator>
     struct __iterator_traits<_Iterator,
@@ -5959,10 +6162,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef typename _Iterator::reference reference;
     };
 
+
   template<typename _Iterator>
     struct iterator_traits
     : public __iterator_traits<_Iterator> { };
-# 177 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 3
+# 209 "/usr/include/c++/10/bits/stl_iterator_base_types.h" 3
   template<typename _Tp>
     struct iterator_traits<_Tp*>
     {
@@ -5988,39 +6192,64 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+
   template<typename _Iter>
     inline constexpr
     typename iterator_traits<_Iter>::iterator_category
     __iterator_category(const _Iter&)
     { return typename iterator_traits<_Iter>::iterator_category(); }
-# 231 "/usr/include/c++/7/bits/stl_iterator_base_types.h" 3
+
+
+
+
+  template<typename _Iter>
+    using __iterator_category_t
+      = typename iterator_traits<_Iter>::iterator_category;
+
   template<typename _InIter>
-    using _RequireInputIter = typename
-      enable_if<is_convertible<typename
-  iterator_traits<_InIter>::iterator_category,
-          input_iterator_tag>::value>::type;
+    using _RequireInputIter =
+      __enable_if_t<is_convertible<__iterator_category_t<_InIter>,
+       input_iterator_tag>::value>;
+
+  template<typename _It,
+    typename _Cat = __iterator_category_t<_It>>
+    struct __is_random_access_iter
+      : is_base_of<random_access_iterator_tag, _Cat>
+    {
+      typedef is_base_of<random_access_iterator_tag, _Cat> _Base;
+      enum { __value = _Base::value };
+    };
+
+
+
+
+
 
 
 
 }
-# 66 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
-# 1 "/usr/include/c++/7/bits/stl_iterator_base_funcs.h" 1 3
-# 62 "/usr/include/c++/7/bits/stl_iterator_base_funcs.h" 3
+# 66 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+# 1 "/usr/include/c++/10/bits/stl_iterator_base_funcs.h" 1 3
+# 62 "/usr/include/c++/10/bits/stl_iterator_base_funcs.h" 3
        
-# 63 "/usr/include/c++/7/bits/stl_iterator_base_funcs.h" 3
+# 63 "/usr/include/c++/10/bits/stl_iterator_base_funcs.h" 3
 
-
-# 1 "/usr/include/c++/7/debug/assertions.h" 1 3
-# 66 "/usr/include/c++/7/bits/stl_iterator_base_funcs.h" 2 3
+# 1 "/usr/include/c++/10/bits/concept_check.h" 1 3
+# 33 "/usr/include/c++/10/bits/concept_check.h" 3
+       
+# 34 "/usr/include/c++/10/bits/concept_check.h" 3
+# 65 "/usr/include/c++/10/bits/stl_iterator_base_funcs.h" 2 3
+# 1 "/usr/include/c++/10/debug/assertions.h" 1 3
+# 66 "/usr/include/c++/10/bits/stl_iterator_base_funcs.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
+
+
   template <typename> struct _List_iterator;
   template <typename> struct _List_const_iterator;
-
-
 
 
   template<typename _InputIterator>
@@ -6066,7 +6295,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __distance(std::_List_const_iterator<_Tp>,
         std::_List_const_iterator<_Tp>,
         input_iterator_tag);
-# 135 "/usr/include/c++/7/bits/stl_iterator_base_funcs.h" 3
+# 135 "/usr/include/c++/10/bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator>
     inline
     typename iterator_traits<_InputIterator>::difference_type
@@ -6112,9 +6341,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
      
 
-      __i += __n;
+      if (__builtin_constant_p(__n) && __n == 1)
+ ++__i;
+      else if (__builtin_constant_p(__n) && __n == -1)
+ --__i;
+      else
+ __i += __n;
     }
-# 195 "/usr/include/c++/7/bits/stl_iterator_base_funcs.h" 3
+# 200 "/usr/include/c++/10/bits/stl_iterator_base_funcs.h" 3
   template<typename _InputIterator, typename _Distance>
     inline void
     advance(_InputIterator& __i, _Distance __n)
@@ -6126,14 +6360,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-  template<typename _ForwardIterator>
-    inline _ForwardIterator
-    next(_ForwardIterator __x, typename
-  iterator_traits<_ForwardIterator>::difference_type __n = 1)
+  template<typename _InputIterator>
+    inline _InputIterator
+    next(_InputIterator __x, typename
+  iterator_traits<_InputIterator>::difference_type __n = 1)
     {
 
      
-
       std::advance(__x, __n);
       return __x;
     }
@@ -6154,11 +6387,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 67 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
-# 1 "/usr/include/c++/7/bits/stl_iterator.h" 1 3
-# 66 "/usr/include/c++/7/bits/stl_iterator.h" 3
-# 1 "/usr/include/c++/7/bits/ptr_traits.h" 1 3
-# 37 "/usr/include/c++/7/bits/ptr_traits.h" 3
+# 67 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+# 1 "/usr/include/c++/10/bits/stl_iterator.h" 1 3
+# 66 "/usr/include/c++/10/bits/stl_iterator.h" 3
+# 1 "/usr/include/c++/10/bits/ptr_traits.h" 1 3
+# 42 "/usr/include/c++/10/bits/ptr_traits.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -6271,18 +6504,28 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Ptr, typename _Tp>
     using __ptr_rebind = typename pointer_traits<_Ptr>::template rebind<_Tp>;
 
+  template<typename _Tp>
+    constexpr _Tp*
+    __to_address(_Tp* __ptr) noexcept
+    {
+      static_assert(!std::is_function<_Tp>::value, "not a function pointer");
+      return __ptr;
+    }
+
+
+  template<typename _Ptr>
+    constexpr typename std::pointer_traits<_Ptr>::element_type*
+    __to_address(const _Ptr& __ptr)
+    { return std::__to_address(__ptr.operator->()); }
+# 210 "/usr/include/c++/10/bits/ptr_traits.h" 3
 
 }
-# 67 "/usr/include/c++/7/bits/stl_iterator.h" 2 3
-
-
-
-
-
+# 67 "/usr/include/c++/10/bits/stl_iterator.h" 2 3
+# 85 "/usr/include/c++/10/bits/stl_iterator.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 100 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 124 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Iterator>
     class reverse_iterator
     : public iterator<typename iterator_traits<_Iterator>::iterator_category,
@@ -6301,7 +6544,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef typename __traits_type::difference_type difference_type;
       typedef typename __traits_type::pointer pointer;
       typedef typename __traits_type::reference reference;
-# 126 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 160 "/usr/include/c++/10/bits/stl_iterator.h" 3
      
       reverse_iterator() : current() { }
 
@@ -6319,6 +6562,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       : current(__x.current) { }
 
 
+      reverse_iterator& operator=(const reverse_iterator&) = default;
+
+
+
 
 
 
@@ -6333,17 +6580,32 @@ namespace std __attribute__ ((__visibility__ ("default")))
       iterator_type
       base() const
       { return current; }
-# 168 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 206 "/usr/include/c++/10/bits/stl_iterator.h" 3
       reference
       operator*() const
       {
  _Iterator __tmp = current;
  return *--__tmp;
       }
-# 182 "/usr/include/c++/7/bits/stl_iterator.h" 3
+
+
+
+
+
+
       pointer
       operator->() const
-      { return std::__addressof(operator*()); }
+
+
+
+
+      {
+
+
+ _Iterator __tmp = current;
+ --__tmp;
+ return _S_to_pointer(__tmp);
+      }
 
 
 
@@ -6447,8 +6709,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       operator[](difference_type __n) const
       { return *(*this + __n); }
+# 360 "/usr/include/c++/10/bits/stl_iterator.h" 3
+    private:
+      template<typename _Tp>
+ static _Tp*
+ _S_to_pointer(_Tp* __p)
+        { return __p; }
+
+      template<typename _Tp>
+ static pointer
+ _S_to_pointer(_Tp __t)
+        { return __t.operator->(); }
     };
-# 300 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 383 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Iterator>
     inline bool
     operator==(const reverse_iterator<_Iterator>& __x,
@@ -6522,7 +6795,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     operator>=(const reverse_iterator<_IteratorL>& __x,
         const reverse_iterator<_IteratorR>& __y)
     { return !(__x < __y); }
-# 390 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 523 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     inline auto
     operator-(const reverse_iterator<_IteratorL>& __x,
@@ -6554,11 +6827,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline reverse_iterator<_Iterator>
     make_reverse_iterator(_Iterator __i)
     { return reverse_iterator<_Iterator>(__i); }
-
-
-
-
+# 564 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Iterator>
+   
     auto
     __niter_base(reverse_iterator<_Iterator> __it)
     -> decltype(__make_reverse_iterator(__niter_base(__it.base())))
@@ -6570,11 +6841,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
     { };
 
   template<typename _Iterator>
+   
     auto
     __miter_base(reverse_iterator<_Iterator> __it)
     -> decltype(__make_reverse_iterator(__miter_base(__it.base())))
     { return __make_reverse_iterator(__miter_base(__it.base())); }
-# 454 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 595 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Container>
     class back_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -6587,10 +6859,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef _Container container_type;
 
 
+
+
+
+
+
       explicit
       back_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 489 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 635 "/usr/include/c++/10/bits/stl_iterator.h" 3
+     
       back_insert_iterator&
       operator=(const typename _Container::value_type& __value)
       {
@@ -6598,6 +6876,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return *this;
       }
 
+     
       back_insert_iterator&
       operator=(typename _Container::value_type&& __value)
       {
@@ -6607,26 +6886,30 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+     
       back_insert_iterator&
       operator*()
       { return *this; }
 
 
+     
       back_insert_iterator&
       operator++()
       { return *this; }
 
 
+     
       back_insert_iterator
       operator++(int)
       { return *this; }
     };
-# 531 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 682 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Container>
+   
     inline back_insert_iterator<_Container>
     back_inserter(_Container& __x)
     { return back_insert_iterator<_Container>(__x); }
-# 546 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 698 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Container>
     class front_insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
@@ -6639,9 +6922,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef _Container container_type;
 
 
-      explicit front_insert_iterator(_Container& __x)
+
+
+
+
+
+      explicit
+      front_insert_iterator(_Container& __x)
       : container(std::__addressof(__x)) { }
-# 580 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 738 "/usr/include/c++/10/bits/stl_iterator.h" 3
+     
       front_insert_iterator&
       operator=(const typename _Container::value_type& __value)
       {
@@ -6649,6 +6939,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return *this;
       }
 
+     
       front_insert_iterator&
       operator=(typename _Container::value_type&& __value)
       {
@@ -6658,45 +6949,57 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+     
       front_insert_iterator&
       operator*()
       { return *this; }
 
 
+     
       front_insert_iterator&
       operator++()
       { return *this; }
 
 
+     
       front_insert_iterator
       operator++(int)
       { return *this; }
     };
-# 622 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 785 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Container>
+   
     inline front_insert_iterator<_Container>
     front_inserter(_Container& __x)
     { return front_insert_iterator<_Container>(__x); }
-# 641 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 805 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Container>
     class insert_iterator
     : public iterator<output_iterator_tag, void, void, void, void>
     {
+
+
+
+
+
+
+
+      typedef typename _Container::iterator _Iter;
+
     protected:
       _Container* container;
-      typename _Container::iterator iter;
+      _Iter iter;
+
 
     public:
 
       typedef _Container container_type;
-
-
-
-
-
-      insert_iterator(_Container& __x, typename _Container::iterator __i)
+# 837 "/usr/include/c++/10/bits/stl_iterator.h" 3
+     
+      insert_iterator(_Container& __x, _Iter __i)
       : container(std::__addressof(__x)), iter(__i) {}
-# 692 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 873 "/usr/include/c++/10/bits/stl_iterator.h" 3
+     
       insert_iterator&
       operator=(const typename _Container::value_type& __value)
       {
@@ -6705,6 +7008,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return *this;
       }
 
+     
       insert_iterator&
       operator=(typename _Container::value_type&& __value)
       {
@@ -6715,28 +7019,29 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+     
       insert_iterator&
       operator*()
       { return *this; }
 
 
+     
       insert_iterator&
       operator++()
       { return *this; }
 
 
+     
       insert_iterator&
       operator++(int)
       { return *this; }
     };
-# 736 "/usr/include/c++/7/bits/stl_iterator.h" 3
-  template<typename _Container, typename _Iterator>
+# 929 "/usr/include/c++/10/bits/stl_iterator.h" 3
+  template<typename _Container>
     inline insert_iterator<_Container>
-    inserter(_Container& __x, _Iterator __i)
-    {
-      return insert_iterator<_Container>(__x,
-      typename _Container::iterator(__i));
-    }
+    inserter(_Container& __x, typename _Container::iterator __i)
+    { return insert_iterator<_Container>(__x, __i); }
+
 
 
 
@@ -6746,16 +7051,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
-# 760 "/usr/include/c++/7/bits/stl_iterator.h" 3
-  using std::iterator_traits;
-  using std::iterator;
+# 951 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Iterator, typename _Container>
     class __normal_iterator
     {
     protected:
       _Iterator _M_current;
 
-      typedef iterator_traits<_Iterator> __traits_type;
+      typedef std::iterator_traits<_Iterator> __traits_type;
 
     public:
       typedef _Iterator iterator_type;
@@ -6764,6 +7067,10 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       typedef typename __traits_type::difference_type difference_type;
       typedef typename __traits_type::reference reference;
       typedef typename __traits_type::pointer pointer;
+
+
+
+
 
       constexpr __normal_iterator() noexcept
       : _M_current(_Iterator()) { }
@@ -6774,6 +7081,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
       template<typename _Iter>
+       
         __normal_iterator(const __normal_iterator<_Iter,
      typename __enable_if<
               (std::__are_same<_Iter, typename _Container::pointer>::__value),
@@ -6781,14 +7089,17 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
         : _M_current(__i.base()) { }
 
 
+     
       reference
       operator*() const noexcept
       { return *_M_current; }
 
+     
       pointer
       operator->() const noexcept
       { return _M_current; }
 
+     
       __normal_iterator&
       operator++() noexcept
       {
@@ -6796,11 +7107,13 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
  return *this;
       }
 
+     
       __normal_iterator
       operator++(int) noexcept
       { return __normal_iterator(_M_current++); }
 
 
+     
       __normal_iterator&
       operator--() noexcept
       {
@@ -6808,37 +7121,45 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
  return *this;
       }
 
+     
       __normal_iterator
       operator--(int) noexcept
       { return __normal_iterator(_M_current--); }
 
 
+     
       reference
       operator[](difference_type __n) const noexcept
       { return _M_current[__n]; }
 
+     
       __normal_iterator&
       operator+=(difference_type __n) noexcept
       { _M_current += __n; return *this; }
 
+     
       __normal_iterator
       operator+(difference_type __n) const noexcept
       { return __normal_iterator(_M_current + __n); }
 
+     
       __normal_iterator&
       operator-=(difference_type __n) noexcept
       { _M_current -= __n; return *this; }
 
+     
       __normal_iterator
       operator-(difference_type __n) const noexcept
       { return __normal_iterator(_M_current - __n); }
 
+     
       const _Iterator&
       base() const noexcept
       { return _M_current; }
     };
-# 860 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 1083 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR, typename _Container>
+   
     inline bool
     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
         const __normal_iterator<_IteratorR, _Container>& __rhs)
@@ -6846,6 +7167,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() == __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline bool
     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
         const __normal_iterator<_Iterator, _Container>& __rhs)
@@ -6853,6 +7175,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() == __rhs.base(); }
 
   template<typename _IteratorL, typename _IteratorR, typename _Container>
+   
     inline bool
     operator!=(const __normal_iterator<_IteratorL, _Container>& __lhs,
         const __normal_iterator<_IteratorR, _Container>& __rhs)
@@ -6860,6 +7183,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() != __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline bool
     operator!=(const __normal_iterator<_Iterator, _Container>& __lhs,
         const __normal_iterator<_Iterator, _Container>& __rhs)
@@ -6875,6 +7199,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() < __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline bool
     operator<(const __normal_iterator<_Iterator, _Container>& __lhs,
        const __normal_iterator<_Iterator, _Container>& __rhs)
@@ -6889,6 +7214,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() > __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline bool
     operator>(const __normal_iterator<_Iterator, _Container>& __lhs,
        const __normal_iterator<_Iterator, _Container>& __rhs)
@@ -6903,6 +7229,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() <= __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline bool
     operator<=(const __normal_iterator<_Iterator, _Container>& __lhs,
         const __normal_iterator<_Iterator, _Container>& __rhs)
@@ -6917,6 +7244,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() >= __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline bool
     operator>=(const __normal_iterator<_Iterator, _Container>& __lhs,
         const __normal_iterator<_Iterator, _Container>& __rhs)
@@ -6927,9 +7255,11 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 
+
   template<typename _IteratorL, typename _IteratorR, typename _Container>
 
 
+   
     inline auto
     operator-(const __normal_iterator<_IteratorL, _Container>& __lhs,
        const __normal_iterator<_IteratorR, _Container>& __rhs) noexcept
@@ -6942,6 +7272,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() - __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline typename __normal_iterator<_Iterator, _Container>::difference_type
     operator-(const __normal_iterator<_Iterator, _Container>& __lhs,
        const __normal_iterator<_Iterator, _Container>& __rhs)
@@ -6949,6 +7280,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     { return __lhs.base() - __rhs.base(); }
 
   template<typename _Iterator, typename _Container>
+   
     inline __normal_iterator<_Iterator, _Container>
     operator+(typename __normal_iterator<_Iterator, _Container>::difference_type
        __n, const __normal_iterator<_Iterator, _Container>& __i)
@@ -6963,30 +7295,27 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<typename _Iterator, typename _Container>
+   
     _Iterator
     __niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)
+    noexcept(std::is_nothrow_copy_constructible<_Iterator>::value)
     { return __it.base(); }
-
-
-}
-
-
-
-namespace std __attribute__ ((__visibility__ ("default")))
-{
-
-# 1012 "/usr/include/c++/7/bits/stl_iterator.h" 3
+# 1282 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Iterator>
     class move_iterator
     {
-    protected:
       _Iterator _M_current;
 
-      typedef iterator_traits<_Iterator> __traits_type;
-      typedef typename __traits_type::reference __base_ref;
+      using __traits_type = iterator_traits<_Iterator>;
+
+
+
+      using __base_ref = typename __traits_type::reference;
+
 
     public:
-      typedef _Iterator iterator_type;
+      using iterator_type = _Iterator;
+# 1306 "/usr/include/c++/10/bits/stl_iterator.h" 3
       typedef typename __traits_type::iterator_category iterator_category;
       typedef typename __traits_type::value_type value_type;
       typedef typename __traits_type::difference_type difference_type;
@@ -6998,26 +7327,40 @@ namespace std __attribute__ ((__visibility__ ("default")))
     typename remove_reference<__base_ref>::type&&,
     __base_ref>::type reference;
 
+
      
       move_iterator()
       : _M_current() { }
 
       explicit
       move_iterator(iterator_type __i)
-      : _M_current(__i) { }
+      : _M_current(std::move(__i)) { }
 
       template<typename _Iter>
 
  move_iterator(const move_iterator<_Iter>& __i)
  : _M_current(__i.base()) { }
 
+      template<typename _Iter>
+
+ move_iterator& operator=(const move_iterator<_Iter>& __i)
+ {
+   _M_current = __i.base();
+   return *this;
+ }
+
+
       iterator_type
       base() const
       { return _M_current; }
-
+# 1356 "/usr/include/c++/10/bits/stl_iterator.h" 3
       reference
       operator*() const
+
+
+
       { return static_cast<reference>(*_M_current); }
+
 
       pointer
       operator->() const
@@ -7037,6 +7380,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
  ++_M_current;
  return __tmp;
       }
+
+
+
+
+
+
 
       move_iterator&
       operator--()
@@ -7077,29 +7426,70 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       reference
       operator[](difference_type __n) const
+
+
+
       { return std::move(_M_current[__n]); }
+# 1461 "/usr/include/c++/10/bits/stl_iterator.h" 3
     };
-
-
-
 
   template<typename _IteratorL, typename _IteratorR>
     inline bool
     operator==(const move_iterator<_IteratorL>& __x,
         const move_iterator<_IteratorR>& __y)
-    { return __x.base() == __y.base(); }
 
-  template<typename _Iterator>
-    inline bool
-    operator==(const move_iterator<_Iterator>& __x,
-        const move_iterator<_Iterator>& __y)
-    { return __x.base() == __y.base(); }
 
+
+    { return __x.base() == __y.base(); }
+# 1480 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _IteratorL, typename _IteratorR>
     inline bool
     operator!=(const move_iterator<_IteratorL>& __x,
         const move_iterator<_IteratorR>& __y)
     { return !(__x == __y); }
+
+
+  template<typename _IteratorL, typename _IteratorR>
+    inline bool
+    operator<(const move_iterator<_IteratorL>& __x,
+       const move_iterator<_IteratorR>& __y)
+
+
+
+    { return __x.base() < __y.base(); }
+
+  template<typename _IteratorL, typename _IteratorR>
+    inline bool
+    operator<=(const move_iterator<_IteratorL>& __x,
+        const move_iterator<_IteratorR>& __y)
+
+
+
+    { return !(__y < __x); }
+
+  template<typename _IteratorL, typename _IteratorR>
+    inline bool
+    operator>(const move_iterator<_IteratorL>& __x,
+       const move_iterator<_IteratorR>& __y)
+
+
+
+    { return __y < __x; }
+
+  template<typename _IteratorL, typename _IteratorR>
+    inline bool
+    operator>=(const move_iterator<_IteratorL>& __x,
+        const move_iterator<_IteratorR>& __y)
+
+
+
+    { return !(__x < __y); }
+# 1531 "/usr/include/c++/10/bits/stl_iterator.h" 3
+  template<typename _Iterator>
+    inline bool
+    operator==(const move_iterator<_Iterator>& __x,
+        const move_iterator<_Iterator>& __y)
+    { return __x.base() == __y.base(); }
 
   template<typename _Iterator>
     inline bool
@@ -7107,23 +7497,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
         const move_iterator<_Iterator>& __y)
     { return !(__x == __y); }
 
-  template<typename _IteratorL, typename _IteratorR>
-    inline bool
-    operator<(const move_iterator<_IteratorL>& __x,
-       const move_iterator<_IteratorR>& __y)
-    { return __x.base() < __y.base(); }
-
   template<typename _Iterator>
     inline bool
     operator<(const move_iterator<_Iterator>& __x,
        const move_iterator<_Iterator>& __y)
     { return __x.base() < __y.base(); }
-
-  template<typename _IteratorL, typename _IteratorR>
-    inline bool
-    operator<=(const move_iterator<_IteratorL>& __x,
-        const move_iterator<_IteratorR>& __y)
-    { return !(__y < __x); }
 
   template<typename _Iterator>
     inline bool
@@ -7131,29 +7509,18 @@ namespace std __attribute__ ((__visibility__ ("default")))
         const move_iterator<_Iterator>& __y)
     { return !(__y < __x); }
 
-  template<typename _IteratorL, typename _IteratorR>
-    inline bool
-    operator>(const move_iterator<_IteratorL>& __x,
-       const move_iterator<_IteratorR>& __y)
-    { return __y < __x; }
-
   template<typename _Iterator>
     inline bool
     operator>(const move_iterator<_Iterator>& __x,
        const move_iterator<_Iterator>& __y)
     { return __y < __x; }
 
-  template<typename _IteratorL, typename _IteratorR>
-    inline bool
-    operator>=(const move_iterator<_IteratorL>& __x,
-        const move_iterator<_IteratorR>& __y)
-    { return !(__x < __y); }
-
   template<typename _Iterator>
     inline bool
     operator>=(const move_iterator<_Iterator>& __x,
         const move_iterator<_Iterator>& __y)
     { return !(__x < __y); }
+
 
 
   template<typename _IteratorL, typename _IteratorR>
@@ -7172,7 +7539,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<typename _Iterator>
     inline move_iterator<_Iterator>
     make_move_iterator(_Iterator __i)
-    { return move_iterator<_Iterator>(__i); }
+    { return move_iterator<_Iterator>(std::move(__i)); }
 
   template<typename _Iterator, typename _ReturnType
     = typename conditional<__move_if_noexcept_cond
@@ -7190,9 +7557,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline _ReturnType
     __make_move_if_noexcept_iterator(_Tp* __i)
     { return _ReturnType(__i); }
-
-
-
+# 2188 "/usr/include/c++/10/bits/stl_iterator.h" 3
   template<typename _Iterator>
     auto
     __niter_base(move_iterator<_Iterator> __it)
@@ -7211,13 +7576,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __miter_base(move_iterator<_Iterator> __it)
     -> decltype(__miter_base(__it.base()))
     { return __miter_base(__it.base()); }
-
+# 2235 "/usr/include/c++/10/bits/stl_iterator.h" 3
 
 }
-# 68 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
+# 68 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
 
-# 1 "/usr/include/c++/7/debug/debug.h" 1 3
-# 48 "/usr/include/c++/7/debug/debug.h" 3
+# 1 "/usr/include/c++/10/debug/debug.h" 1 3
+# 48 "/usr/include/c++/10/debug/debug.h" 3
 namespace std
 {
   namespace __debug { }
@@ -7229,11 +7594,14 @@ namespace std
 namespace __gnu_debug
 {
   using namespace std::__debug;
-}
-# 70 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
 
-# 1 "/usr/include/c++/7/bits/predefined_ops.h" 1 3
-# 33 "/usr/include/c++/7/bits/predefined_ops.h" 3
+  template<typename _Ite, typename _Seq, typename _Cat>
+    struct _Safe_iterator;
+}
+# 70 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+
+# 1 "/usr/include/c++/10/bits/predefined_ops.h" 1 3
+# 33 "/usr/include/c++/10/bits/predefined_ops.h" 3
 namespace __gnu_cxx
 {
 namespace __ops
@@ -7260,19 +7628,23 @@ namespace __ops
 
 
 
+   
     explicit
     _Iter_less_val(_Iter_less_iter) { }
 
     template<typename _Iterator, typename _Value>
+     
       bool
       operator()(_Iterator __it, _Value& __val) const
       { return *__it < __val; }
   };
 
+ 
   inline _Iter_less_val
   __iter_less_val()
   { return _Iter_less_val(); }
 
+ 
   inline _Iter_less_val
   __iter_comp_val(_Iter_less_iter)
   { return _Iter_less_val(); }
@@ -7285,19 +7657,23 @@ namespace __ops
 
 
 
+   
     explicit
     _Val_less_iter(_Iter_less_iter) { }
 
     template<typename _Value, typename _Iterator>
+     
       bool
       operator()(_Value& __val, _Iterator __it) const
       { return __val < *__it; }
   };
 
+ 
   inline _Val_less_iter
   __val_less_iter()
   { return _Val_less_iter(); }
 
+ 
   inline _Val_less_iter
   __val_comp_iter(_Iter_less_iter)
   { return _Val_less_iter(); }
@@ -7305,11 +7681,13 @@ namespace __ops
   struct _Iter_equal_to_iter
   {
     template<typename _Iterator1, typename _Iterator2>
+     
       bool
       operator()(_Iterator1 __it1, _Iterator2 __it2) const
       { return *__it1 == *__it2; }
   };
 
+ 
   inline _Iter_equal_to_iter
   __iter_equal_to_iter()
   { return _Iter_equal_to_iter(); }
@@ -7317,15 +7695,18 @@ namespace __ops
   struct _Iter_equal_to_val
   {
     template<typename _Iterator, typename _Value>
+     
       bool
       operator()(_Iterator __it, _Value& __val) const
       { return *__it == __val; }
   };
 
+ 
   inline _Iter_equal_to_val
   __iter_equal_to_val()
   { return _Iter_equal_to_val(); }
 
+ 
   inline _Iter_equal_to_val
   __iter_comp_val(_Iter_equal_to_iter)
   { return _Iter_equal_to_val(); }
@@ -7358,17 +7739,20 @@ namespace __ops
     {
       _Compare _M_comp;
 
+     
       explicit
       _Iter_comp_val(_Compare __comp)
  : _M_comp(std::move(__comp))
       { }
 
+     
       explicit
       _Iter_comp_val(const _Iter_comp_iter<_Compare>& __comp)
  : _M_comp(__comp._M_comp)
       { }
 
 
+     
       explicit
       _Iter_comp_val(_Iter_comp_iter<_Compare>&& __comp)
  : _M_comp(std::move(__comp._M_comp))
@@ -7376,17 +7760,20 @@ namespace __ops
 
 
       template<typename _Iterator, typename _Value>
+
  bool
  operator()(_Iterator __it, _Value& __val)
  { return bool(_M_comp(*__it, __val)); }
     };
 
   template<typename _Compare>
-   inline _Iter_comp_val<_Compare>
+   
+    inline _Iter_comp_val<_Compare>
     __iter_comp_val(_Compare __comp)
     { return _Iter_comp_val<_Compare>(std::move(__comp)); }
 
   template<typename _Compare>
+   
     inline _Iter_comp_val<_Compare>
     __iter_comp_val(_Iter_comp_iter<_Compare> __comp)
     { return _Iter_comp_val<_Compare>(std::move(__comp)); }
@@ -7396,17 +7783,20 @@ namespace __ops
     {
       _Compare _M_comp;
 
+     
       explicit
       _Val_comp_iter(_Compare __comp)
  : _M_comp(std::move(__comp))
       { }
 
+     
       explicit
       _Val_comp_iter(const _Iter_comp_iter<_Compare>& __comp)
  : _M_comp(__comp._M_comp)
       { }
 
 
+     
       explicit
       _Val_comp_iter(_Iter_comp_iter<_Compare>&& __comp)
  : _M_comp(std::move(__comp._M_comp))
@@ -7414,17 +7804,20 @@ namespace __ops
 
 
       template<typename _Value, typename _Iterator>
+
  bool
  operator()(_Value& __val, _Iterator __it)
  { return bool(_M_comp(__val, *__it)); }
     };
 
   template<typename _Compare>
+   
     inline _Val_comp_iter<_Compare>
     __val_comp_iter(_Compare __comp)
     { return _Val_comp_iter<_Compare>(std::move(__comp)); }
 
   template<typename _Compare>
+   
     inline _Val_comp_iter<_Compare>
     __val_comp_iter(_Iter_comp_iter<_Compare> __comp)
     { return _Val_comp_iter<_Compare>(std::move(__comp)); }
@@ -7434,18 +7827,21 @@ namespace __ops
     {
       _Value& _M_value;
 
+     
       explicit
       _Iter_equals_val(_Value& __value)
  : _M_value(__value)
       { }
 
       template<typename _Iterator>
+
  bool
  operator()(_Iterator __it)
  { return *__it == _M_value; }
     };
 
   template<typename _Value>
+   
     inline _Iter_equals_val<_Value>
     __iter_equals_val(_Value& __val)
     { return _Iter_equals_val<_Value>(__val); }
@@ -7455,18 +7851,21 @@ namespace __ops
     {
       _Iterator1 _M_it1;
 
+     
       explicit
       _Iter_equals_iter(_Iterator1 __it1)
  : _M_it1(__it1)
       { }
 
       template<typename _Iterator2>
+
  bool
  operator()(_Iterator2 __it2)
  { return *__it2 == *_M_it1; }
     };
 
   template<typename _Iterator>
+   
     inline _Iter_equals_iter<_Iterator>
     __iter_comp_iter(_Iter_equal_to_iter, _Iterator __it)
     { return _Iter_equals_iter<_Iterator>(__it); }
@@ -7476,18 +7875,21 @@ namespace __ops
     {
       _Predicate _M_pred;
 
+     
       explicit
       _Iter_pred(_Predicate __pred)
  : _M_pred(std::move(__pred))
       { }
 
       template<typename _Iterator>
+
  bool
  operator()(_Iterator __it)
  { return bool(_M_pred(*__it)); }
     };
 
   template<typename _Predicate>
+   
     inline _Iter_pred<_Predicate>
     __pred_iter(_Predicate __pred)
     { return _Iter_pred<_Predicate>(std::move(__pred)); }
@@ -7498,11 +7900,13 @@ namespace __ops
       _Compare _M_comp;
       _Value& _M_value;
 
+     
       _Iter_comp_to_val(_Compare __comp, _Value& __value)
  : _M_comp(std::move(__comp)), _M_value(__value)
       { }
 
       template<typename _Iterator>
+
  bool
  operator()(_Iterator __it)
  { return bool(_M_comp(*__it, _M_value)); }
@@ -7510,6 +7914,7 @@ namespace __ops
 
   template<typename _Compare, typename _Value>
     _Iter_comp_to_val<_Compare, _Value>
+   
     __iter_comp_val(_Compare __comp, _Value &__val)
     {
       return _Iter_comp_to_val<_Compare, _Value>(std::move(__comp), __val);
@@ -7521,17 +7926,20 @@ namespace __ops
       _Compare _M_comp;
       _Iterator1 _M_it1;
 
+     
       _Iter_comp_to_iter(_Compare __comp, _Iterator1 __it1)
  : _M_comp(std::move(__comp)), _M_it1(__it1)
       { }
 
       template<typename _Iterator2>
+
  bool
  operator()(_Iterator2 __it2)
  { return bool(_M_comp(*__it2, *_M_it1)); }
     };
 
   template<typename _Compare, typename _Iterator>
+   
     inline _Iter_comp_to_iter<_Compare, _Iterator>
     __iter_comp_iter(_Iter_comp_iter<_Compare> __comp, _Iterator __it)
     {
@@ -7544,31 +7952,56 @@ namespace __ops
     {
       _Predicate _M_pred;
 
+     
       explicit
       _Iter_negate(_Predicate __pred)
  : _M_pred(std::move(__pred))
       { }
 
       template<typename _Iterator>
+
  bool
  operator()(_Iterator __it)
  { return !bool(_M_pred(*__it)); }
     };
 
   template<typename _Predicate>
+   
     inline _Iter_negate<_Predicate>
     __negate(_Iter_pred<_Predicate> __pred)
     { return _Iter_negate<_Predicate>(std::move(__pred._M_pred)); }
 
 }
 }
-# 72 "/usr/include/c++/7/bits/stl_algobase.h" 2 3
+# 72 "/usr/include/c++/10/bits/stl_algobase.h" 2 3
+
+
+
+
+
+
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 118 "/usr/include/c++/7/bits/stl_algobase.h" 3
+
+
+
+
+
+  template<typename _Tp, typename _Up>
+    constexpr
+    inline int
+    __memcmp(const _Tp* __first1, const _Up* __first2, size_t __num)
+    {
+
+      static_assert(sizeof(_Tp) == sizeof(_Up), "can be compared with memcmp");
+# 105 "/usr/include/c++/10/bits/stl_algobase.h" 3
+ return __builtin_memcmp(__first1, __first2, sizeof(_Tp) * __num);
+    }
+# 149 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
+   
     inline void
     iter_swap(_ForwardIterator1 __a, _ForwardIterator2 __b)
     {
@@ -7576,12 +8009,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
      
 
      
-# 148 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 182 "/usr/include/c++/10/bits/stl_algobase.h" 3
       swap(*__a, *__b);
 
     }
-# 164 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 198 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _ForwardIterator1, typename _ForwardIterator2>
+   
     _ForwardIterator2
     swap_ranges(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
   _ForwardIterator2 __first2)
@@ -7597,7 +8031,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  std::iter_swap(__first1, __first2);
       return __first2;
     }
-# 192 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 227 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _Tp>
     constexpr
     inline const _Tp&
@@ -7610,7 +8044,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return __b;
       return __a;
     }
-# 216 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 251 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _Tp>
     constexpr
     inline const _Tp&
@@ -7623,7 +8057,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return __b;
       return __a;
     }
-# 240 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 275 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
     constexpr
     inline const _Tp&
@@ -7634,7 +8068,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  return __b;
       return __a;
     }
-# 262 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 297 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _Tp, typename _Compare>
     constexpr
     inline const _Tp&
@@ -7649,23 +8083,42 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<typename _Iterator>
+   
     inline _Iterator
     __niter_base(_Iterator __it)
+    noexcept(std::is_nothrow_copy_constructible<_Iterator>::value)
     { return __it; }
 
 
 
 
+  template<typename _From, typename _To>
+   
+    inline _From
+    __niter_wrap(_From __from, _To __res)
+    { return __from + (__res - std::__niter_base(__from)); }
+
+
+  template<typename _Iterator>
+   
+    inline _Iterator
+    __niter_wrap(const _Iterator&, _Iterator __res)
+    { return __res; }
 
 
 
-  template<bool, bool, typename>
+
+
+
+
+  template<bool _IsMove, bool _IsSimple, typename _Category>
     struct __copy_move
     {
       template<typename _II, typename _OI>
-        static _OI
-        __copy_m(_II __first, _II __last, _OI __result)
-        {
+
+ static _OI
+ __copy_m(_II __first, _II __last, _OI __result)
+ {
    for (; __first != __last; ++__result, (void)++__first)
      *__result = *__first;
    return __result;
@@ -7677,9 +8130,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move<true, false, _Category>
     {
       template<typename _II, typename _OI>
-        static _OI
-        __copy_m(_II __first, _II __last, _OI __result)
-        {
+
+ static _OI
+ __copy_m(_II __first, _II __last, _OI __result)
+ {
    for (; __first != __last; ++__result, (void)++__first)
      *__result = std::move(*__first);
    return __result;
@@ -7691,9 +8145,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move<false, false, random_access_iterator_tag>
     {
       template<typename _II, typename _OI>
-        static _OI
-        __copy_m(_II __first, _II __last, _OI __result)
-        {
+
+ static _OI
+ __copy_m(_II __first, _II __last, _OI __result)
+ {
    typedef typename iterator_traits<_II>::difference_type _Distance;
    for(_Distance __n = __last - __first; __n > 0; --__n)
      {
@@ -7710,9 +8165,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move<true, false, random_access_iterator_tag>
     {
       template<typename _II, typename _OI>
-        static _OI
-        __copy_m(_II __first, _II __last, _OI __result)
-        {
+
+ static _OI
+ __copy_m(_II __first, _II __last, _OI __result)
+ {
    typedef typename iterator_traits<_II>::difference_type _Distance;
    for(_Distance __n = __last - __first; __n > 0; --__n)
      {
@@ -7729,9 +8185,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move<_IsMove, true, random_access_iterator_tag>
     {
       template<typename _Tp>
-        static _Tp*
-        __copy_m(const _Tp* __first, const _Tp* __last, _Tp* __result)
-        {
+
+ static _Tp*
+ __copy_m(const _Tp* __first, const _Tp* __last, _Tp* __result)
+ {
 
    using __assignable = conditional<_IsMove,
         is_move_assignable<_Tp>,
@@ -7745,22 +8202,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
    return __result + _Num;
  }
     };
-
-  template<bool _IsMove, typename _II, typename _OI>
-    inline _OI
-    __copy_move_a(_II __first, _II __last, _OI __result)
-    {
-      typedef typename iterator_traits<_II>::value_type _ValueTypeI;
-      typedef typename iterator_traits<_OI>::value_type _ValueTypeO;
-      typedef typename iterator_traits<_II>::iterator_category _Category;
-      const bool __simple = (__is_trivial(_ValueTypeI)
-                      && __is_pointer<_II>::__value
-                      && __is_pointer<_OI>::__value
-        && __are_same<_ValueTypeI, _ValueTypeO>::__value);
-
-      return std::__copy_move<_IsMove, __simple,
-                       _Category>::__copy_m(__first, __last, __result);
-    }
 
 
 
@@ -7792,15 +8233,87 @@ namespace std __attribute__ ((__visibility__ ("default")))
      istreambuf_iterator<_CharT, char_traits<_CharT> >, _CharT*);
 
   template<bool _IsMove, typename _II, typename _OI>
+   
     inline _OI
     __copy_move_a2(_II __first, _II __last, _OI __result)
     {
-      return _OI(std::__copy_move_a<_IsMove>(std::__niter_base(__first),
+      typedef typename iterator_traits<_II>::iterator_category _Category;
+
+
+
+
+
+      return std::__copy_move<_IsMove, __memcpyable<_OI, _II>::__value,
+         _Category>::__copy_m(__first, __last, __result);
+    }
+
+
+
+  template<typename _Tp, typename _Ref, typename _Ptr>
+    struct _Deque_iterator;
+
+
+
+  template<bool _IsMove,
+    typename _Tp, typename _Ref, typename _Ptr, typename _OI>
+    _OI
+    __copy_move_a1(std::_Deque_iterator<_Tp, _Ref, _Ptr>,
+     std::_Deque_iterator<_Tp, _Ref, _Ptr>,
+     _OI);
+
+  template<bool _IsMove,
+    typename _ITp, typename _IRef, typename _IPtr, typename _OTp>
+    std::_Deque_iterator<_OTp, _OTp&, _OTp*>
+    __copy_move_a1(std::_Deque_iterator<_ITp, _IRef, _IPtr>,
+     std::_Deque_iterator<_ITp, _IRef, _IPtr>,
+     std::_Deque_iterator<_OTp, _OTp&, _OTp*>);
+
+  template<bool _IsMove, typename _II, typename _Tp>
+    typename __gnu_cxx::__enable_if<
+      __is_random_access_iter<_II>::__value,
+      std::_Deque_iterator<_Tp, _Tp&, _Tp*> >::__type
+    __copy_move_a1(_II, _II, std::_Deque_iterator<_Tp, _Tp&, _Tp*>);
+
+  template<bool _IsMove, typename _II, typename _OI>
+   
+    inline _OI
+    __copy_move_a1(_II __first, _II __last, _OI __result)
+    { return std::__copy_move_a2<_IsMove>(__first, __last, __result); }
+
+  template<bool _IsMove, typename _II, typename _OI>
+   
+    inline _OI
+    __copy_move_a(_II __first, _II __last, _OI __result)
+    {
+      return std::__niter_wrap(__result,
+  std::__copy_move_a1<_IsMove>(std::__niter_base(__first),
           std::__niter_base(__last),
           std::__niter_base(__result)));
     }
-# 444 "/usr/include/c++/7/bits/stl_algobase.h" 3
+
+  template<bool _IsMove,
+    typename _Ite, typename _Seq, typename _Cat, typename _OI>
+    _OI
+    __copy_move_a(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
+    const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
+    _OI);
+
+  template<bool _IsMove,
+    typename _II, typename _Ite, typename _Seq, typename _Cat>
+    __gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>
+    __copy_move_a(_II, _II,
+    const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&);
+
+  template<bool _IsMove,
+    typename _IIte, typename _ISeq, typename _ICat,
+    typename _OIte, typename _OSeq, typename _OCat>
+    ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>
+    __copy_move_a(const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
+    const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
+    const ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>&);
+# 557 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
+   
     inline _OI
     copy(_II __first, _II __last, _OI __result)
     {
@@ -7810,12 +8323,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       ;
 
-      return (std::__copy_move_a2<__is_move_iterator<_II>::__value>
-       (std::__miter_base(__first), std::__miter_base(__last),
-        __result));
+      return std::__copy_move_a<__is_move_iterator<_II>::__value>
+      (std::__miter_base(__first), std::__miter_base(__last), __result);
     }
-# 477 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 590 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _II, typename _OI>
+   
     inline _OI
     move(_II __first, _II __last, _OI __result)
     {
@@ -7825,8 +8338,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       ;
 
-      return std::__copy_move_a2<true>(std::__miter_base(__first),
-           std::__miter_base(__last), __result);
+      return std::__copy_move_a<true>(std::__miter_base(__first),
+          std::__miter_base(__last), __result);
     }
 
 
@@ -7834,13 +8347,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-  template<bool, bool, typename>
+  template<bool _IsMove, bool _IsSimple, typename _Category>
     struct __copy_move_backward
     {
       template<typename _BI1, typename _BI2>
-        static _BI2
-        __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
-        {
+
+ static _BI2
+ __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
+ {
    while (__first != __last)
      *--__result = *--__last;
    return __result;
@@ -7852,9 +8366,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move_backward<true, false, _Category>
     {
       template<typename _BI1, typename _BI2>
-        static _BI2
-        __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
-        {
+
+ static _BI2
+ __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
+ {
    while (__first != __last)
      *--__result = std::move(*--__last);
    return __result;
@@ -7866,11 +8381,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move_backward<false, false, random_access_iterator_tag>
     {
       template<typename _BI1, typename _BI2>
-        static _BI2
-        __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
-        {
-   typename iterator_traits<_BI1>::difference_type __n;
-   for (__n = __last - __first; __n > 0; --__n)
+
+ static _BI2
+ __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
+ {
+   typename iterator_traits<_BI1>::difference_type
+     __n = __last - __first;
+   for (; __n > 0; --__n)
      *--__result = *--__last;
    return __result;
  }
@@ -7881,11 +8398,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move_backward<true, false, random_access_iterator_tag>
     {
       template<typename _BI1, typename _BI2>
-        static _BI2
-        __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
-        {
-   typename iterator_traits<_BI1>::difference_type __n;
-   for (__n = __last - __first; __n > 0; --__n)
+
+ static _BI2
+ __copy_move_b(_BI1 __first, _BI1 __last, _BI2 __result)
+ {
+   typename iterator_traits<_BI1>::difference_type
+     __n = __last - __first;
+   for (; __n > 0; --__n)
      *--__result = std::move(*--__last);
    return __result;
  }
@@ -7896,9 +8415,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __copy_move_backward<_IsMove, true, random_access_iterator_tag>
     {
       template<typename _Tp>
-        static _Tp*
-        __copy_move_b(const _Tp* __first, const _Tp* __last, _Tp* __result)
-        {
+
+ static _Tp*
+ __copy_move_b(const _Tp* __first, const _Tp* __last, _Tp* __result)
+ {
 
    using __assignable = conditional<_IsMove,
         is_move_assignable<_Tp>,
@@ -7914,33 +8434,87 @@ namespace std __attribute__ ((__visibility__ ("default")))
     };
 
   template<bool _IsMove, typename _BI1, typename _BI2>
+   
     inline _BI2
-    __copy_move_backward_a(_BI1 __first, _BI1 __last, _BI2 __result)
+    __copy_move_backward_a2(_BI1 __first, _BI1 __last, _BI2 __result)
     {
-      typedef typename iterator_traits<_BI1>::value_type _ValueType1;
-      typedef typename iterator_traits<_BI2>::value_type _ValueType2;
       typedef typename iterator_traits<_BI1>::iterator_category _Category;
-      const bool __simple = (__is_trivial(_ValueType1)
-                      && __is_pointer<_BI1>::__value
-                      && __is_pointer<_BI2>::__value
-        && __are_same<_ValueType1, _ValueType2>::__value);
 
-      return std::__copy_move_backward<_IsMove, __simple,
-                                _Category>::__copy_move_b(__first,
+
+
+
+
+      return std::__copy_move_backward<_IsMove,
+           __memcpyable<_BI2, _BI1>::__value,
+           _Category>::__copy_move_b(__first,
          __last,
          __result);
     }
 
   template<bool _IsMove, typename _BI1, typename _BI2>
+   
     inline _BI2
-    __copy_move_backward_a2(_BI1 __first, _BI1 __last, _BI2 __result)
+    __copy_move_backward_a1(_BI1 __first, _BI1 __last, _BI2 __result)
+    { return std::__copy_move_backward_a2<_IsMove>(__first, __last, __result); }
+
+  template<bool _IsMove,
+    typename _Tp, typename _Ref, typename _Ptr, typename _OI>
+    _OI
+    __copy_move_backward_a1(std::_Deque_iterator<_Tp, _Ref, _Ptr>,
+       std::_Deque_iterator<_Tp, _Ref, _Ptr>,
+       _OI);
+
+  template<bool _IsMove,
+    typename _ITp, typename _IRef, typename _IPtr, typename _OTp>
+    std::_Deque_iterator<_OTp, _OTp&, _OTp*>
+    __copy_move_backward_a1(
+   std::_Deque_iterator<_ITp, _IRef, _IPtr>,
+   std::_Deque_iterator<_ITp, _IRef, _IPtr>,
+   std::_Deque_iterator<_OTp, _OTp&, _OTp*>);
+
+  template<bool _IsMove, typename _II, typename _Tp>
+    typename __gnu_cxx::__enable_if<
+      __is_random_access_iter<_II>::__value,
+      std::_Deque_iterator<_Tp, _Tp&, _Tp*> >::__type
+    __copy_move_backward_a1(_II, _II,
+       std::_Deque_iterator<_Tp, _Tp&, _Tp*>);
+
+  template<bool _IsMove, typename _II, typename _OI>
+   
+    inline _OI
+    __copy_move_backward_a(_II __first, _II __last, _OI __result)
     {
-      return _BI2(std::__copy_move_backward_a<_IsMove>
+      return std::__niter_wrap(__result,
+  std::__copy_move_backward_a1<_IsMove>
     (std::__niter_base(__first), std::__niter_base(__last),
      std::__niter_base(__result)));
     }
-# 620 "/usr/include/c++/7/bits/stl_algobase.h" 3
+
+  template<bool _IsMove,
+    typename _Ite, typename _Seq, typename _Cat, typename _OI>
+    _OI
+    __copy_move_backward_a(
+  const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
+  const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
+  _OI);
+
+  template<bool _IsMove,
+    typename _II, typename _Ite, typename _Seq, typename _Cat>
+    __gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>
+    __copy_move_backward_a(_II, _II,
+  const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&);
+
+  template<bool _IsMove,
+    typename _IIte, typename _ISeq, typename _ICat,
+    typename _OIte, typename _OSeq, typename _OCat>
+    ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>
+    __copy_move_backward_a(
+  const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
+  const ::__gnu_debug::_Safe_iterator<_IIte, _ISeq, _ICat>&,
+  const ::__gnu_debug::_Safe_iterator<_OIte, _OSeq, _OCat>&);
+# 794 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
+   
     inline _BI2
     copy_backward(_BI1 __first, _BI1 __last, _BI2 __result)
     {
@@ -7952,12 +8526,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       ;
 
-      return (std::__copy_move_backward_a2<__is_move_iterator<_BI1>::__value>
-       (std::__miter_base(__first), std::__miter_base(__last),
-        __result));
+      return std::__copy_move_backward_a<__is_move_iterator<_BI1>::__value>
+      (std::__miter_base(__first), std::__miter_base(__last), __result);
     }
-# 656 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 830 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _BI1, typename _BI2>
+   
     inline _BI2
     move_backward(_BI1 __first, _BI1 __last, _BI2 __result)
     {
@@ -7969,9 +8543,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       ;
 
-      return std::__copy_move_backward_a2<true>(std::__miter_base(__first),
-      std::__miter_base(__last),
-      __result);
+      return std::__copy_move_backward_a<true>(std::__miter_base(__first),
+            std::__miter_base(__last),
+            __result);
     }
 
 
@@ -7980,9 +8554,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<typename _ForwardIterator, typename _Tp>
+   
     inline typename
     __gnu_cxx::__enable_if<!__is_scalar<_Tp>::__value, void>::__type
-    __fill_a(_ForwardIterator __first, _ForwardIterator __last,
+    __fill_a1(_ForwardIterator __first, _ForwardIterator __last,
        const _Tp& __value)
     {
       for (; __first != __last; ++__first)
@@ -7990,10 +8565,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
   template<typename _ForwardIterator, typename _Tp>
+   
     inline typename
     __gnu_cxx::__enable_if<__is_scalar<_Tp>::__value, void>::__type
-    __fill_a(_ForwardIterator __first, _ForwardIterator __last,
-      const _Tp& __value)
+    __fill_a1(_ForwardIterator __first, _ForwardIterator __last,
+       const _Tp& __value)
     {
       const _Tp __tmp = __value;
       for (; __first != __last; ++__first)
@@ -8002,16 +8578,45 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<typename _Tp>
+   
     inline typename
     __gnu_cxx::__enable_if<__is_byte<_Tp>::__value, void>::__type
-    __fill_a(_Tp* __first, _Tp* __last, const _Tp& __c)
+    __fill_a1(_Tp* __first, _Tp* __last, const _Tp& __c)
     {
       const _Tp __tmp = __c;
+# 892 "/usr/include/c++/10/bits/stl_algobase.h" 3
       if (const size_t __len = __last - __first)
  __builtin_memset(__first, static_cast<unsigned char>(__tmp), __len);
     }
-# 722 "/usr/include/c++/7/bits/stl_algobase.h" 3
+
+  template<typename _Ite, typename _Cont, typename _Tp>
+   
+    inline void
+    __fill_a1(::__gnu_cxx::__normal_iterator<_Ite, _Cont> __first,
+       ::__gnu_cxx::__normal_iterator<_Ite, _Cont> __last,
+       const _Tp& __value)
+    { std::__fill_a1(__first.base(), __last.base(), __value); }
+
+  template<typename _Tp, typename _VTp>
+    void
+    __fill_a1(const std::_Deque_iterator<_Tp, _Tp&, _Tp*>&,
+       const std::_Deque_iterator<_Tp, _Tp&, _Tp*>&,
+       const _VTp&);
+
+  template<typename _FIte, typename _Tp>
+   
+    inline void
+    __fill_a(_FIte __first, _FIte __last, const _Tp& __value)
+    { std::__fill_a1(__first, __last, __value); }
+
+  template<typename _Ite, typename _Seq, typename _Cat, typename _Tp>
+    void
+    __fill_a(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
+      const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>&,
+      const _Tp&);
+# 934 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
+   
     inline void
     fill(_ForwardIterator __first, _ForwardIterator __last, const _Tp& __value)
     {
@@ -8020,60 +8625,133 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       ;
 
-      std::__fill_a(std::__niter_base(__first), std::__niter_base(__last),
-      __value);
+      std::__fill_a(__first, __last, __value);
     }
 
+
+  inline constexpr int
+  __size_to_integer(int __n) { return __n; }
+  inline constexpr unsigned
+  __size_to_integer(unsigned __n) { return __n; }
+  inline constexpr long
+  __size_to_integer(long __n) { return __n; }
+  inline constexpr unsigned long
+  __size_to_integer(unsigned long __n) { return __n; }
+  inline constexpr long long
+  __size_to_integer(long long __n) { return __n; }
+  inline constexpr unsigned long long
+  __size_to_integer(unsigned long long __n) { return __n; }
+
+
+  inline constexpr __int128
+  __size_to_integer(__int128 __n) { return __n; }
+  inline constexpr unsigned __int128
+  __size_to_integer(unsigned __int128 __n) { return __n; }
+# 986 "/usr/include/c++/10/bits/stl_algobase.h" 3
+  inline constexpr long long
+  __size_to_integer(float __n) { return (long long)__n; }
+  inline constexpr long long
+  __size_to_integer(double __n) { return (long long)__n; }
+  inline constexpr long long
+  __size_to_integer(long double __n) { return (long long)__n; }
+
+  inline constexpr long long
+  __size_to_integer(__float128 __n) { return (long long)__n; }
+
+
   template<typename _OutputIterator, typename _Size, typename _Tp>
+   
     inline typename
     __gnu_cxx::__enable_if<!__is_scalar<_Tp>::__value, _OutputIterator>::__type
-    __fill_n_a(_OutputIterator __first, _Size __n, const _Tp& __value)
+    __fill_n_a1(_OutputIterator __first, _Size __n, const _Tp& __value)
     {
-      for (__decltype(__n + 0) __niter = __n;
-    __niter > 0; --__niter, ++__first)
+      for (; __n > 0; --__n, (void) ++__first)
  *__first = __value;
       return __first;
     }
 
   template<typename _OutputIterator, typename _Size, typename _Tp>
+   
     inline typename
     __gnu_cxx::__enable_if<__is_scalar<_Tp>::__value, _OutputIterator>::__type
-    __fill_n_a(_OutputIterator __first, _Size __n, const _Tp& __value)
+    __fill_n_a1(_OutputIterator __first, _Size __n, const _Tp& __value)
     {
       const _Tp __tmp = __value;
-      for (__decltype(__n + 0) __niter = __n;
-    __niter > 0; --__niter, ++__first)
+      for (; __n > 0; --__n, (void) ++__first)
  *__first = __tmp;
       return __first;
     }
 
-  template<typename _Size, typename _Tp>
-    inline typename
-    __gnu_cxx::__enable_if<__is_byte<_Tp>::__value, _Tp*>::__type
-    __fill_n_a(_Tp* __first, _Size __n, const _Tp& __c)
+  template<typename _Ite, typename _Seq, typename _Cat, typename _Size,
+    typename _Tp>
+    ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>
+    __fill_n_a(const ::__gnu_debug::_Safe_iterator<_Ite, _Seq, _Cat>& __first,
+        _Size __n, const _Tp& __value,
+        std::input_iterator_tag);
+
+  template<typename _OutputIterator, typename _Size, typename _Tp>
+   
+    inline _OutputIterator
+    __fill_n_a(_OutputIterator __first, _Size __n, const _Tp& __value,
+        std::output_iterator_tag)
     {
-      std::__fill_a(__first, __first + __n, __c);
+
+      static_assert(is_integral<_Size>{}, "fill_n must pass integral size");
+
+      return __fill_n_a1(__first, __n, __value);
+    }
+
+  template<typename _OutputIterator, typename _Size, typename _Tp>
+   
+    inline _OutputIterator
+    __fill_n_a(_OutputIterator __first, _Size __n, const _Tp& __value,
+        std::input_iterator_tag)
+    {
+
+      static_assert(is_integral<_Size>{}, "fill_n must pass integral size");
+
+      return __fill_n_a1(__first, __n, __value);
+    }
+
+  template<typename _OutputIterator, typename _Size, typename _Tp>
+   
+    inline _OutputIterator
+    __fill_n_a(_OutputIterator __first, _Size __n, const _Tp& __value,
+        std::random_access_iterator_tag)
+    {
+
+      static_assert(is_integral<_Size>{}, "fill_n must pass integral size");
+
+      if (__n <= 0)
+ return __first;
+
+      ;
+
+      std::__fill_a(__first, __first + __n, __value);
       return __first + __n;
     }
-# 782 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1086 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _OI, typename _Size, typename _Tp>
+   
     inline _OI
     fill_n(_OI __first, _Size __n, const _Tp& __value)
     {
 
      
 
-      return _OI(std::__fill_n_a(std::__niter_base(__first), __n, __value));
+      return std::__fill_n_a(__first, std::__size_to_integer(__n), __value,
+          std::__iterator_category(__first));
     }
 
   template<bool _BoolType>
     struct __equal
     {
       template<typename _II1, typename _II2>
-        static bool
-        equal(_II1 __first1, _II1 __last1, _II2 __first2)
-        {
-   for (; __first1 != __last1; ++__first1, (void)++__first2)
+
+ static bool
+ equal(_II1 __first1, _II1 __last1, _II2 __first2)
+ {
+   for (; __first1 != __last1; ++__first1, (void) ++__first2)
      if (!(*__first1 == *__first2))
        return false;
    return true;
@@ -8084,52 +8762,101 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __equal<true>
     {
       template<typename _Tp>
-        static bool
-        equal(const _Tp* __first1, const _Tp* __last1, const _Tp* __first2)
-        {
+
+ static bool
+ equal(const _Tp* __first1, const _Tp* __last1, const _Tp* __first2)
+ {
    if (const size_t __len = (__last1 - __first1))
-     return !__builtin_memcmp(__first1, __first2, sizeof(_Tp) * __len);
+     return !std::__memcmp(__first1, __first2, __len);
    return true;
  }
     };
 
+  template<typename _Tp, typename _Ref, typename _Ptr, typename _II>
+    typename __gnu_cxx::__enable_if<
+      __is_random_access_iter<_II>::__value, bool>::__type
+    __equal_aux1(std::_Deque_iterator<_Tp, _Ref, _Ptr>,
+   std::_Deque_iterator<_Tp, _Ref, _Ptr>,
+   _II);
+
+  template<typename _Tp1, typename _Ref1, typename _Ptr1,
+    typename _Tp2, typename _Ref2, typename _Ptr2>
+    bool
+    __equal_aux1(std::_Deque_iterator<_Tp1, _Ref1, _Ptr1>,
+   std::_Deque_iterator<_Tp1, _Ref1, _Ptr1>,
+   std::_Deque_iterator<_Tp2, _Ref2, _Ptr2>);
+
+  template<typename _II, typename _Tp, typename _Ref, typename _Ptr>
+    typename __gnu_cxx::__enable_if<
+      __is_random_access_iter<_II>::__value, bool>::__type
+    __equal_aux1(_II, _II,
+  std::_Deque_iterator<_Tp, _Ref, _Ptr>);
+
   template<typename _II1, typename _II2>
+   
+    inline bool
+    __equal_aux1(_II1 __first1, _II1 __last1, _II2 __first2)
+    {
+      typedef typename iterator_traits<_II1>::value_type _ValueType1;
+      const bool __simple = ((__is_integer<_ValueType1>::__value
+         || __is_pointer<_ValueType1>::__value)
+        && __memcmpable<_II1, _II2>::__value);
+      return std::__equal<__simple>::equal(__first1, __last1, __first2);
+    }
+
+  template<typename _II1, typename _II2>
+   
     inline bool
     __equal_aux(_II1 __first1, _II1 __last1, _II2 __first2)
     {
-      typedef typename iterator_traits<_II1>::value_type _ValueType1;
-      typedef typename iterator_traits<_II2>::value_type _ValueType2;
-      const bool __simple = ((__is_integer<_ValueType1>::__value
-         || __is_pointer<_ValueType1>::__value)
-                      && __is_pointer<_II1>::__value
-                      && __is_pointer<_II2>::__value
-        && __are_same<_ValueType1, _ValueType2>::__value);
-
-      return std::__equal<__simple>::equal(__first1, __last1, __first2);
+      return std::__equal_aux1(std::__niter_base(__first1),
+          std::__niter_base(__last1),
+          std::__niter_base(__first2));
     }
+
+  template<typename _II1, typename _Seq1, typename _Cat1, typename _II2>
+    bool
+    __equal_aux(const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
+  const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
+  _II2);
+
+  template<typename _II1, typename _II2, typename _Seq2, typename _Cat2>
+    bool
+    __equal_aux(_II1, _II1,
+  const ::__gnu_debug::_Safe_iterator<_II2, _Seq2, _Cat2>&);
+
+  template<typename _II1, typename _Seq1, typename _Cat1,
+    typename _II2, typename _Seq2, typename _Cat2>
+    bool
+    __equal_aux(const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
+  const ::__gnu_debug::_Safe_iterator<_II1, _Seq1, _Cat1>&,
+  const ::__gnu_debug::_Safe_iterator<_II2, _Seq2, _Cat2>&);
 
   template<typename, typename>
     struct __lc_rai
     {
       template<typename _II1, typename _II2>
-        static _II1
-        __newlast1(_II1, _II1 __last1, _II2, _II2)
-        { return __last1; }
+
+ static _II1
+ __newlast1(_II1, _II1 __last1, _II2, _II2)
+ { return __last1; }
 
       template<typename _II>
-        static bool
-        __cnd2(_II __first, _II __last)
-        { return __first != __last; }
+
+ static bool
+ __cnd2(_II __first, _II __last)
+ { return __first != __last; }
     };
 
   template<>
     struct __lc_rai<random_access_iterator_tag, random_access_iterator_tag>
     {
       template<typename _RAI1, typename _RAI2>
-        static _RAI1
-        __newlast1(_RAI1 __first1, _RAI1 __last1,
+
+ static _RAI1
+ __newlast1(_RAI1 __first1, _RAI1 __last1,
      _RAI2 __first2, _RAI2 __last2)
-        {
+ {
    const typename iterator_traits<_RAI1>::difference_type
      __diff1 = __last1 - __first1;
    const typename iterator_traits<_RAI2>::difference_type
@@ -8138,12 +8865,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
 
       template<typename _RAI>
-        static bool
-        __cnd2(_RAI, _RAI)
-        { return true; }
+ static bool
+ __cnd2(_RAI, _RAI)
+ { return true; }
     };
 
   template<typename _II1, typename _II2, typename _Compare>
+   
     bool
     __lexicographical_compare_impl(_II1 __first1, _II1 __last1,
        _II2 __first2, _II2 __last2,
@@ -8169,38 +8897,37 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct __lexicographical_compare
     {
       template<typename _II1, typename _II2>
-        static bool __lc(_II1, _II1, _II2, _II2);
-    };
 
-  template<bool _BoolType>
-    template<typename _II1, typename _II2>
-      bool
-      __lexicographical_compare<_BoolType>::
-      __lc(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2)
-      {
- return std::__lexicographical_compare_impl(__first1, __last1,
-         __first2, __last2,
-     __gnu_cxx::__ops::__iter_less_iter());
-      }
+ static bool
+ __lc(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2)
+ {
+   using __gnu_cxx::__ops::__iter_less_iter;
+   return std::__lexicographical_compare_impl(__first1, __last1,
+           __first2, __last2,
+           __iter_less_iter());
+ }
+    };
 
   template<>
     struct __lexicographical_compare<true>
     {
       template<typename _Tp, typename _Up>
-        static bool
-        __lc(const _Tp* __first1, const _Tp* __last1,
+
+ static bool
+ __lc(const _Tp* __first1, const _Tp* __last1,
       const _Up* __first2, const _Up* __last2)
  {
    const size_t __len1 = __last1 - __first1;
    const size_t __len2 = __last2 - __first2;
    if (const size_t __len = std::min(__len1, __len2))
-     if (int __result = __builtin_memcmp(__first1, __first2, __len))
+     if (int __result = std::__memcmp(__first1, __first2, __len))
        return __result < 0;
    return __len1 < __len2;
  }
     };
 
   template<typename _II1, typename _II2>
+   
     inline bool
     __lexicographical_compare_aux(_II1 __first1, _II1 __last1,
       _II2 __first2, _II2 __last2)
@@ -8208,17 +8935,24 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef typename iterator_traits<_II1>::value_type _ValueType1;
       typedef typename iterator_traits<_II2>::value_type _ValueType2;
       const bool __simple =
- (__is_byte<_ValueType1>::__value && __is_byte<_ValueType2>::__value
-  && !__gnu_cxx::__numeric_traits<_ValueType1>::__is_signed
-  && !__gnu_cxx::__numeric_traits<_ValueType2>::__is_signed
+ (__is_memcmp_ordered_with<_ValueType1, _ValueType2>::__value
   && __is_pointer<_II1>::__value
-  && __is_pointer<_II2>::__value);
+  && __is_pointer<_II2>::__value
+
+
+
+
+
+
+
+  );
 
       return std::__lexicographical_compare<__simple>::__lc(__first1, __last1,
            __first2, __last2);
     }
 
   template<typename _ForwardIterator, typename _Tp, typename _Compare>
+   
     _ForwardIterator
     __lower_bound(_ForwardIterator __first, _ForwardIterator __last,
     const _Tp& __val, _Compare __comp)
@@ -8244,8 +8978,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
       return __first;
     }
-# 982 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1345 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _ForwardIterator, typename _Tp>
+   
     inline _ForwardIterator
     lower_bound(_ForwardIterator __first, _ForwardIterator __last,
   const _Tp& __val)
@@ -8264,33 +8999,32 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   inline constexpr int
   __lg(int __n)
-  { return sizeof(int) * 8 - 1 - __builtin_clz(__n); }
+  { return (int)sizeof(int) * 8 - 1 - __builtin_clz(__n); }
 
   inline constexpr unsigned
   __lg(unsigned __n)
-  { return sizeof(int) * 8 - 1 - __builtin_clz(__n); }
+  { return (int)sizeof(int) * 8 - 1 - __builtin_clz(__n); }
 
   inline constexpr long
   __lg(long __n)
-  { return sizeof(long) * 8 - 1 - __builtin_clzl(__n); }
+  { return (int)sizeof(long) * 8 - 1 - __builtin_clzl(__n); }
 
   inline constexpr unsigned long
   __lg(unsigned long __n)
-  { return sizeof(long) * 8 - 1 - __builtin_clzl(__n); }
+  { return (int)sizeof(long) * 8 - 1 - __builtin_clzl(__n); }
 
   inline constexpr long long
   __lg(long long __n)
-  { return sizeof(long long) * 8 - 1 - __builtin_clzll(__n); }
+  { return (int)sizeof(long long) * 8 - 1 - __builtin_clzll(__n); }
 
   inline constexpr unsigned long long
   __lg(unsigned long long __n)
-  { return sizeof(long long) * 8 - 1 - __builtin_clzll(__n); }
+  { return (int)sizeof(long long) * 8 - 1 - __builtin_clzll(__n); }
 
 
-
-
-# 1039 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1401 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
+   
     inline bool
     equal(_II1 __first1, _II1 __last1, _II2 __first2)
     {
@@ -8302,12 +9036,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       ;
 
-      return std::__equal_aux(std::__niter_base(__first1),
-         std::__niter_base(__last1),
-         std::__niter_base(__first2));
+      return std::__equal_aux(__first1, __last1, __first2);
     }
-# 1071 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1432 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
+   
     inline bool
     equal(_IIter1 __first1, _IIter1 __last1,
    _IIter2 __first2, _BinaryPredicate __binary_pred)
@@ -8322,20 +9055,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
    return false;
       return true;
     }
-# 1104 "/usr/include/c++/7/bits/stl_algobase.h" 3
+
+
+
   template<typename _II1, typename _II2>
+   
     inline bool
-    equal(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2)
+    __equal4(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2)
     {
-
-     
-     
-     
-
-
-      ;
-      ;
-
       using _RATag = random_access_iterator_tag;
       using _Cat1 = typename iterator_traits<_II1>::iterator_category;
       using _Cat2 = typename iterator_traits<_II2>::iterator_category;
@@ -8355,21 +9082,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
    return false;
       return __first1 == __last1 && __first2 == __last2;
     }
-# 1153 "/usr/include/c++/7/bits/stl_algobase.h" 3
-  template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
+
+
+  template<typename _II1, typename _II2, typename _BinaryPredicate>
+   
     inline bool
-    equal(_IIter1 __first1, _IIter1 __last1,
-   _IIter2 __first2, _IIter2 __last2, _BinaryPredicate __binary_pred)
+    __equal4(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2,
+      _BinaryPredicate __binary_pred)
     {
-
-     
-     
-      ;
-      ;
-
       using _RATag = random_access_iterator_tag;
-      using _Cat1 = typename iterator_traits<_IIter1>::iterator_category;
-      using _Cat2 = typename iterator_traits<_IIter2>::iterator_category;
+      using _Cat1 = typename iterator_traits<_II1>::iterator_category;
+      using _Cat2 = typename iterator_traits<_II2>::iterator_category;
       using _RAIters = __and_<is_same<_Cat1, _RATag>, is_same<_Cat2, _RATag>>;
       if (_RAIters())
  {
@@ -8387,8 +9110,42 @@ namespace std __attribute__ ((__visibility__ ("default")))
    return false;
       return __first1 == __last1 && __first2 == __last2;
     }
-# 1201 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1522 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2>
+   
+    inline bool
+    equal(_II1 __first1, _II1 __last1, _II2 __first2, _II2 __last2)
+    {
+
+     
+     
+     
+
+
+      ;
+      ;
+
+      return std::__equal4(__first1, __last1, __first2, __last2);
+    }
+# 1555 "/usr/include/c++/10/bits/stl_algobase.h" 3
+  template<typename _IIter1, typename _IIter2, typename _BinaryPredicate>
+   
+    inline bool
+    equal(_IIter1 __first1, _IIter1 __last1,
+   _IIter2 __first2, _IIter2 __last2, _BinaryPredicate __binary_pred)
+    {
+
+     
+     
+      ;
+      ;
+
+      return std::__equal4(__first1, __last1, __first2, __last2,
+          __binary_pred);
+    }
+# 1587 "/usr/include/c++/10/bits/stl_algobase.h" 3
+  template<typename _II1, typename _II2>
+   
     inline bool
     lexicographical_compare(_II1 __first1, _II1 __last1,
        _II2 __first2, _II2 __last2)
@@ -8410,8 +9167,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       std::__niter_base(__first2),
       std::__niter_base(__last2));
     }
-# 1237 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1624 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _II1, typename _II2, typename _Compare>
+   
     inline bool
     lexicographical_compare(_II1 __first1, _II1 __last1,
        _II2 __first2, _II2 __last2, _Compare __comp)
@@ -8426,22 +9184,24 @@ namespace std __attribute__ ((__visibility__ ("default")))
  (__first1, __last1, __first2, __last2,
   __gnu_cxx::__ops::__iter_comp_iter(__comp));
     }
-
+# 1737 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
+   
     pair<_InputIterator1, _InputIterator2>
     __mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
         _InputIterator2 __first2, _BinaryPredicate __binary_pred)
     {
       while (__first1 != __last1 && __binary_pred(__first1, __first2))
-        {
+ {
    ++__first1;
    ++__first2;
-        }
+ }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 1280 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1765 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2)
@@ -8457,9 +9217,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return std::__mismatch(__first1, __last1, __first2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 1313 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1799 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2, _BinaryPredicate __binary_pred)
@@ -8477,6 +9238,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
+   
     pair<_InputIterator1, _InputIterator2>
     __mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
         _InputIterator2 __first2, _InputIterator2 __last2,
@@ -8484,14 +9246,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
     {
       while (__first1 != __last1 && __first2 != __last2
       && __binary_pred(__first1, __first2))
-        {
+ {
    ++__first1;
    ++__first2;
-        }
+ }
       return pair<_InputIterator1, _InputIterator2>(__first1, __first2);
     }
-# 1360 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1848 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2>
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2, _InputIterator2 __last2)
@@ -8508,9 +9271,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return std::__mismatch(__first1, __last1, __first2, __last2,
         __gnu_cxx::__ops::__iter_equal_to_iter());
     }
-# 1395 "/usr/include/c++/7/bits/stl_algobase.h" 3
+# 1884 "/usr/include/c++/10/bits/stl_algobase.h" 3
   template<typename _InputIterator1, typename _InputIterator2,
     typename _BinaryPredicate>
+   
     inline pair<_InputIterator1, _InputIterator2>
     mismatch(_InputIterator1 __first1, _InputIterator1 __last1,
       _InputIterator2 __first2, _InputIterator2 __last2,
@@ -8528,23 +9292,164 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+
+
+  template<typename _InputIterator, typename _Predicate>
+   
+    inline _InputIterator
+    __find_if(_InputIterator __first, _InputIterator __last,
+       _Predicate __pred, input_iterator_tag)
+    {
+      while (__first != __last && !__pred(__first))
+ ++__first;
+      return __first;
+    }
+
+
+  template<typename _RandomAccessIterator, typename _Predicate>
+   
+    _RandomAccessIterator
+    __find_if(_RandomAccessIterator __first, _RandomAccessIterator __last,
+       _Predicate __pred, random_access_iterator_tag)
+    {
+      typename iterator_traits<_RandomAccessIterator>::difference_type
+ __trip_count = (__last - __first) >> 2;
+
+      for (; __trip_count > 0; --__trip_count)
+ {
+   if (__pred(__first))
+     return __first;
+   ++__first;
+
+   if (__pred(__first))
+     return __first;
+   ++__first;
+
+   if (__pred(__first))
+     return __first;
+   ++__first;
+
+   if (__pred(__first))
+     return __first;
+   ++__first;
+ }
+
+      switch (__last - __first)
+ {
+ case 3:
+   if (__pred(__first))
+     return __first;
+   ++__first;
+
+ case 2:
+   if (__pred(__first))
+     return __first;
+   ++__first;
+
+ case 1:
+   if (__pred(__first))
+     return __first;
+   ++__first;
+
+ case 0:
+ default:
+   return __last;
+ }
+    }
+
+  template<typename _Iterator, typename _Predicate>
+   
+    inline _Iterator
+    __find_if(_Iterator __first, _Iterator __last, _Predicate __pred)
+    {
+      return __find_if(__first, __last, __pred,
+         std::__iterator_category(__first));
+    }
+
+  template<typename _InputIterator, typename _Predicate>
+   
+    typename iterator_traits<_InputIterator>::difference_type
+    __count_if(_InputIterator __first, _InputIterator __last, _Predicate __pred)
+    {
+      typename iterator_traits<_InputIterator>::difference_type __n = 0;
+      for (; __first != __last; ++__first)
+ if (__pred(__first))
+   ++__n;
+      return __n;
+    }
+
+
+  template<typename _ForwardIterator1, typename _ForwardIterator2,
+    typename _BinaryPredicate>
+   
+    bool
+    __is_permutation(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+       _ForwardIterator2 __first2, _BinaryPredicate __pred)
+    {
+
+
+      for (; __first1 != __last1; ++__first1, (void)++__first2)
+ if (!__pred(__first1, __first2))
+   break;
+
+      if (__first1 == __last1)
+ return true;
+
+
+
+      _ForwardIterator2 __last2 = __first2;
+      std::advance(__last2, std::distance(__first1, __last1));
+      for (_ForwardIterator1 __scan = __first1; __scan != __last1; ++__scan)
+ {
+   if (__scan != std::__find_if(__first1, __scan,
+     __gnu_cxx::__ops::__iter_comp_iter(__pred, __scan)))
+     continue;
+
+   auto __matches
+     = std::__count_if(__first2, __last2,
+   __gnu_cxx::__ops::__iter_comp_iter(__pred, __scan));
+   if (0 == __matches ||
+       std::__count_if(__scan, __last1,
+   __gnu_cxx::__ops::__iter_comp_iter(__pred, __scan))
+       != __matches)
+     return false;
+ }
+      return true;
+    }
+# 2041 "/usr/include/c++/10/bits/stl_algobase.h" 3
+  template<typename _ForwardIterator1, typename _ForwardIterator2>
+   
+    inline bool
+    is_permutation(_ForwardIterator1 __first1, _ForwardIterator1 __last1,
+     _ForwardIterator2 __first2)
+    {
+
+     
+     
+     
+
+
+      ;
+
+      return std::__is_permutation(__first1, __last1, __first2,
+       __gnu_cxx::__ops::__iter_equal_to_iter());
+    }
+
+
+
 }
-# 40 "/usr/include/c++/7/bits/char_traits.h" 2 3
+# 40 "/usr/include/c++/10/bits/char_traits.h" 2 3
 
-# 1 "/usr/include/c++/7/cwchar" 1 3
-# 39 "/usr/include/c++/7/cwchar" 3
+# 1 "/usr/include/c++/10/cwchar" 1 3
+# 39 "/usr/include/c++/10/cwchar" 3
        
-# 40 "/usr/include/c++/7/cwchar" 3
-# 42 "/usr/include/c++/7/bits/char_traits.h" 2 3
-
-
-
-
-
+# 40 "/usr/include/c++/10/cwchar" 3
+# 42 "/usr/include/c++/10/bits/char_traits.h" 2 3
+# 50 "/usr/include/c++/10/bits/char_traits.h" 3
 namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
-# 61 "/usr/include/c++/7/bits/char_traits.h" 3
+# 64 "/usr/include/c++/10/bits/char_traits.h" 3
   template<typename _CharT>
     struct _Char_types
     {
@@ -8553,7 +9458,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       typedef std::streamoff off_type;
       typedef std::mbstate_t state_type;
     };
-# 86 "/usr/include/c++/7/bits/char_traits.h" 3
+# 89 "/usr/include/c++/10/bits/char_traits.h" 3
   template<typename _CharT>
     struct char_traits
     {
@@ -8562,6 +9467,9 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
       typedef typename _Char_types<_CharT>::pos_type pos_type;
       typedef typename _Char_types<_CharT>::off_type off_type;
       typedef typename _Char_types<_CharT>::state_type state_type;
+
+
+
 
       static constexpr void
       assign(char_type& __c1, const char_type& __c2)
@@ -8650,15 +9558,20 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     }
 
   template<typename _CharT>
+   
     typename char_traits<_CharT>::char_type*
     char_traits<_CharT>::
     move(char_type* __s1, const char_type* __s2, std::size_t __n)
     {
+      if (__n == 0)
+ return __s1;
+# 205 "/usr/include/c++/10/bits/char_traits.h" 3
       return static_cast<_CharT*>(__builtin_memmove(__s1, __s2,
           __n * sizeof(char_type)));
     }
 
   template<typename _CharT>
+   
     typename char_traits<_CharT>::char_type*
     char_traits<_CharT>::
     copy(char_type* __s1, const char_type* __s2, std::size_t __n)
@@ -8669,6 +9582,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     }
 
   template<typename _CharT>
+   
     typename char_traits<_CharT>::char_type*
     char_traits<_CharT>::
     assign(char_type* __s, std::size_t __n, char_type __a)
@@ -8684,7 +9598,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 268 "/usr/include/c++/7/bits/char_traits.h" 3
+# 309 "/usr/include/c++/10/bits/char_traits.h" 3
   template<class _CharT>
     struct char_traits : public __gnu_cxx::char_traits<_CharT>
     { };
@@ -8699,6 +9613,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef streampos pos_type;
       typedef streamoff off_type;
       typedef mbstate_t state_type;
+
+
+
 
       static void
       assign(char_type& __c1, const char_type& __c2) noexcept
@@ -8719,14 +9636,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       static int
       compare(const char_type* __s1, const char_type* __s2, size_t __n)
       {
-
-
-
-
-
-
  if (__n == 0)
    return 0;
+# 361 "/usr/include/c++/10/bits/char_traits.h" 3
  return __builtin_memcmp(__s1, __s2, __n);
       }
 
@@ -8743,14 +9655,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       static const char_type*
       find(const char_type* __s, size_t __n, const char_type& __a)
       {
-
-
-
-
-
-
  if (__n == 0)
    return 0;
+
+
+
+
+
+
  return static_cast<const char_type*>(__builtin_memchr(__s, __a, __n));
       }
 
@@ -8759,6 +9671,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return static_cast<char_type*>(__builtin_memmove(__s1, __s2, __n));
       }
 
@@ -8767,6 +9683,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return static_cast<char_type*>(__builtin_memcpy(__s1, __s2, __n));
       }
 
@@ -8775,6 +9695,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s;
+
+
+
+
  return static_cast<char_type*>(__builtin_memset(__s, __a, __n));
       }
 
@@ -8813,6 +9737,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef wstreampos pos_type;
       typedef mbstate_t state_type;
 
+
+
+
       static void
       assign(char_type& __c1, const char_type& __c2) noexcept
       { __c1 = __c2; }
@@ -8828,16 +9755,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
       static int
       compare(const char_type* __s1, const char_type* __s2, size_t __n)
       {
-
-
-
-
-
-
  if (__n == 0)
    return 0;
- else
-   return wmemcmp(__s1, __s2, __n);
+
+
+
+
+
+
+ return wmemcmp(__s1, __s2, __n);
       }
 
       static size_t
@@ -8847,23 +9773,21 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-
-   return wcslen(__s);
+ return wcslen(__s);
       }
 
       static const char_type*
       find(const char_type* __s, size_t __n, const char_type& __a)
       {
-
-
-
-
-
-
  if (__n == 0)
    return 0;
- else
-   return wmemchr(__s, __a, __n);
+
+
+
+
+
+
+ return wmemchr(__s, __a, __n);
       }
 
       static char_type*
@@ -8871,6 +9795,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return wmemmove(__s1, __s2, __n);
       }
 
@@ -8879,6 +9807,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return wmemcpy(__s1, __s2, __n);
       }
 
@@ -8887,6 +9819,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s;
+
+
+
+
  return wmemset(__s, __a, __n);
       }
 
@@ -8910,21 +9846,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
       not_eof(const int_type& __c) noexcept
       { return eq_int_type(__c, eof()) ? 0 : __c; }
   };
-
-
+# 694 "/usr/include/c++/10/bits/char_traits.h" 3
 
 }
 
 
 
-
-# 1 "/usr/include/c++/7/cstdint" 1 3
-# 32 "/usr/include/c++/7/cstdint" 3
+# 1 "/usr/include/c++/10/cstdint" 1 3
+# 32 "/usr/include/c++/10/cstdint" 3
        
-# 33 "/usr/include/c++/7/cstdint" 3
-# 41 "/usr/include/c++/7/cstdint" 3
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h" 1 3 4
-# 9 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h" 3 4
+# 33 "/usr/include/c++/10/cstdint" 3
+# 41 "/usr/include/c++/10/cstdint" 3
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h" 1 3 4
+# 9 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h" 3 4
 # 1 "/usr/include/stdint.h" 1 3 4
 # 26 "/usr/include/stdint.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -8933,6 +9867,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 # 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
 # 28 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/timesize.h" 1 3 4
+# 29 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
 
 
 typedef unsigned char __u_char;
@@ -8956,6 +9892,16 @@ typedef unsigned long int __uint64_t;
 
 
 
+typedef __int8_t __int_least8_t;
+typedef __uint8_t __uint_least8_t;
+typedef __int16_t __int_least16_t;
+typedef __uint16_t __uint_least16_t;
+typedef __int32_t __int_least32_t;
+typedef __uint32_t __uint_least32_t;
+typedef __int64_t __int_least64_t;
+typedef __uint64_t __uint_least64_t;
+
+
 
 typedef long int __quad_t;
 typedef unsigned long int __u_quad_t;
@@ -8968,9 +9914,11 @@ typedef unsigned long int __u_quad_t;
 
 typedef long int __intmax_t;
 typedef unsigned long int __uintmax_t;
-# 130 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
+# 141 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/typesizes.h" 1 3 4
-# 131 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 142 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/time64.h" 1 3 4
+# 143 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
 
 
 typedef unsigned long int __dev_t;
@@ -9072,50 +10020,47 @@ typedef __uint64_t uint64_t;
 
 
 
-typedef signed char int_least8_t;
-typedef short int int_least16_t;
-typedef int int_least32_t;
-
-typedef long int int_least64_t;
-
+typedef __int_least8_t int_least8_t;
+typedef __int_least16_t int_least16_t;
+typedef __int_least32_t int_least32_t;
+typedef __int_least64_t int_least64_t;
 
 
+typedef __uint_least8_t uint_least8_t;
+typedef __uint_least16_t uint_least16_t;
+typedef __uint_least32_t uint_least32_t;
+typedef __uint_least64_t uint_least64_t;
 
 
 
-typedef unsigned char uint_least8_t;
-typedef unsigned short int uint_least16_t;
-typedef unsigned int uint_least32_t;
 
-typedef unsigned long int uint_least64_t;
-# 68 "/usr/include/stdint.h" 3 4
+
 typedef signed char int_fast8_t;
 
 typedef long int int_fast16_t;
 typedef long int int_fast32_t;
 typedef long int int_fast64_t;
-# 81 "/usr/include/stdint.h" 3 4
+# 71 "/usr/include/stdint.h" 3 4
 typedef unsigned char uint_fast8_t;
 
 typedef unsigned long int uint_fast16_t;
 typedef unsigned long int uint_fast32_t;
 typedef unsigned long int uint_fast64_t;
-# 97 "/usr/include/stdint.h" 3 4
+# 87 "/usr/include/stdint.h" 3 4
 typedef long int intptr_t;
 
 
 typedef unsigned long int uintptr_t;
-# 111 "/usr/include/stdint.h" 3 4
+# 101 "/usr/include/stdint.h" 3 4
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
-# 10 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h" 2 3 4
-# 42 "/usr/include/c++/7/cstdint" 2 3
-
-
+# 10 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h" 2 3 4
+# 42 "/usr/include/c++/10/cstdint" 2 3
 
 
 namespace std
 {
+
   using ::int8_t;
   using ::int16_t;
   using ::int32_t;
@@ -9151,8 +10096,13 @@ namespace std
 
   using ::uintmax_t;
   using ::uintptr_t;
+
+
+
+
+
 }
-# 502 "/usr/include/c++/7/bits/char_traits.h" 2 3
+# 700 "/usr/include/c++/10/bits/char_traits.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -9162,10 +10112,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct char_traits<char16_t>
     {
       typedef char16_t char_type;
+
       typedef uint_least16_t int_type;
+
+
+
+
+
       typedef streamoff off_type;
       typedef u16streampos pos_type;
       typedef mbstate_t state_type;
+
+
+
 
       static void
       assign(char_type& __c1, const char_type& __c2) noexcept
@@ -9213,6 +10172,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return (static_cast<char_type*>
   (__builtin_memmove(__s1, __s2, __n * sizeof(char_type))));
       }
@@ -9222,6 +10185,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return (static_cast<char_type*>
   (__builtin_memcpy(__s1, __s2, __n * sizeof(char_type))));
       }
@@ -9240,7 +10207,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       static constexpr int_type
       to_int_type(const char_type& __c) noexcept
-      { return int_type(__c); }
+      { return __c == eof() ? int_type(0xfffd) : int_type(__c); }
 
       static constexpr bool
       eq_int_type(const int_type& __c1, const int_type& __c2) noexcept
@@ -9259,10 +10226,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct char_traits<char32_t>
     {
       typedef char32_t char_type;
+
       typedef uint_least32_t int_type;
+
+
+
+
+
       typedef streamoff off_type;
       typedef u32streampos pos_type;
       typedef mbstate_t state_type;
+
+
+
 
       static void
       assign(char_type& __c1, const char_type& __c2) noexcept
@@ -9310,6 +10286,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return (static_cast<char_type*>
   (__builtin_memmove(__s1, __s2, __n * sizeof(char_type))));
       }
@@ -9319,6 +10299,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  if (__n == 0)
    return __s1;
+
+
+
+
  return (static_cast<char_type*>
   (__builtin_memcpy(__s1, __s2, __n * sizeof(char_type))));
       }
@@ -9351,30 +10335,30 @@ namespace std __attribute__ ((__visibility__ ("default")))
       not_eof(const int_type& __c) noexcept
       { return eq_int_type(__c, eof()) ? 0 : __c; }
     };
-
+# 952 "/usr/include/c++/10/bits/char_traits.h" 3
 
 }
-# 41 "/usr/include/c++/7/ios" 2 3
-# 1 "/usr/include/c++/7/bits/localefwd.h" 1 3
-# 37 "/usr/include/c++/7/bits/localefwd.h" 3
+# 41 "/usr/include/c++/10/ios" 2 3
+# 1 "/usr/include/c++/10/bits/localefwd.h" 1 3
+# 37 "/usr/include/c++/10/bits/localefwd.h" 3
        
-# 38 "/usr/include/c++/7/bits/localefwd.h" 3
+# 38 "/usr/include/c++/10/bits/localefwd.h" 3
 
 
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h" 1 3
-# 39 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h" 1 3
+# 39 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h" 3
        
-# 40 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h" 3
+# 40 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h" 3
 
-# 1 "/usr/include/c++/7/clocale" 1 3
-# 39 "/usr/include/c++/7/clocale" 3
+# 1 "/usr/include/c++/10/clocale" 1 3
+# 39 "/usr/include/c++/10/clocale" 3
        
-# 40 "/usr/include/c++/7/clocale" 3
+# 40 "/usr/include/c++/10/clocale" 3
 
 
 # 1 "/usr/include/locale.h" 1 3 4
 # 28 "/usr/include/locale.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
 # 29 "/usr/include/locale.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/locale.h" 1 3 4
 # 30 "/usr/include/locale.h" 2 3 4
@@ -9473,15 +10457,15 @@ extern locale_t uselocale (locale_t __dataset) throw ();
 
 
 }
-# 43 "/usr/include/c++/7/clocale" 2 3
-# 51 "/usr/include/c++/7/clocale" 3
+# 43 "/usr/include/c++/10/clocale" 2 3
+# 51 "/usr/include/c++/10/clocale" 3
 namespace std
 {
   using ::lconv;
   using ::setlocale;
   using ::localeconv;
 }
-# 42 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h" 2 3
+# 42 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h" 2 3
 
 
 
@@ -9516,7 +10500,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   {
 
     __c_locale __old = __gnu_cxx::__uselocale(__cloc);
-# 88 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h" 3
+# 88 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h" 3
     __builtin_va_list __args;
     __builtin_va_start(__args, __fmt);
 
@@ -9542,68 +10526,22 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 41 "/usr/include/c++/7/bits/localefwd.h" 2 3
+# 41 "/usr/include/c++/10/bits/localefwd.h" 2 3
 
-# 1 "/usr/include/c++/7/cctype" 1 3
-# 39 "/usr/include/c++/7/cctype" 3
+# 1 "/usr/include/c++/10/cctype" 1 3
+# 39 "/usr/include/c++/10/cctype" 3
        
-# 40 "/usr/include/c++/7/cctype" 3
+# 40 "/usr/include/c++/10/cctype" 3
 
 
 # 1 "/usr/include/ctype.h" 1 3 4
 # 28 "/usr/include/ctype.h" 3 4
 extern "C" {
 # 39 "/usr/include/ctype.h" 3 4
-# 1 "/usr/include/endian.h" 1 3 4
-# 36 "/usr/include/endian.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/endian.h" 1 3 4
-# 37 "/usr/include/endian.h" 2 3 4
-# 60 "/usr/include/endian.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 29 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 2 3 4
-
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap-16.h" 1 3 4
-# 36 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 2 3 4
-# 44 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-static __inline unsigned int
-__bswap_32 (unsigned int __bsx)
-{
-  return __builtin_bswap32 (__bsx);
-}
-# 108 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-static __inline __uint64_t
-__bswap_64 (__uint64_t __bsx)
-{
-  return __builtin_bswap64 (__bsx);
-}
-# 61 "/usr/include/endian.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 1 3 4
-# 32 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 3 4
-static __inline __uint16_t
-__uint16_identity (__uint16_t __x)
-{
-  return __x;
-}
-
-static __inline __uint32_t
-__uint32_identity (__uint32_t __x)
-{
-  return __x;
-}
-
-static __inline __uint64_t
-__uint64_identity (__uint64_t __x)
-{
-  return __x;
-}
-# 62 "/usr/include/endian.h" 2 3 4
+# 35 "/usr/include/x86_64-linux-gnu/bits/endian.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/endianness.h" 1 3 4
+# 36 "/usr/include/x86_64-linux-gnu/bits/endian.h" 2 3 4
 # 40 "/usr/include/ctype.h" 2 3 4
 
 
@@ -9703,8 +10641,8 @@ extern int __toupper_l (int __c, locale_t __l) throw ();
 extern int toupper_l (int __c, locale_t __l) throw ();
 # 327 "/usr/include/ctype.h" 3 4
 }
-# 43 "/usr/include/c++/7/cctype" 2 3
-# 62 "/usr/include/c++/7/cctype" 3
+# 43 "/usr/include/c++/10/cctype" 2 3
+# 62 "/usr/include/c++/10/cctype" 3
 namespace std
 {
   using ::isalnum;
@@ -9732,12 +10670,12 @@ namespace std
 {
   using ::isblank;
 }
-# 43 "/usr/include/c++/7/bits/localefwd.h" 2 3
+# 43 "/usr/include/c++/10/bits/localefwd.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 55 "/usr/include/c++/7/bits/localefwd.h" 3
+# 55 "/usr/include/c++/10/bits/localefwd.h" 3
   class locale;
 
   template<typename _Facet>
@@ -9826,6 +10764,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<> class codecvt<wchar_t, char, mbstate_t>;
 
+
+  template<> class codecvt<char16_t, char, mbstate_t>;
+  template<> class codecvt<char32_t, char, mbstate_t>;
+
+
+
+
+
   template<typename _InternT, typename _ExternT, typename _StateT>
     class codecvt_byname;
 
@@ -9888,29 +10834,29 @@ namespace __cxx11 {
 
 
 }
-# 42 "/usr/include/c++/7/ios" 2 3
-# 1 "/usr/include/c++/7/bits/ios_base.h" 1 3
-# 37 "/usr/include/c++/7/bits/ios_base.h" 3
+# 42 "/usr/include/c++/10/ios" 2 3
+# 1 "/usr/include/c++/10/bits/ios_base.h" 1 3
+# 37 "/usr/include/c++/10/bits/ios_base.h" 3
        
-# 38 "/usr/include/c++/7/bits/ios_base.h" 3
+# 38 "/usr/include/c++/10/bits/ios_base.h" 3
 
-# 1 "/usr/include/c++/7/ext/atomicity.h" 1 3
-# 32 "/usr/include/c++/7/ext/atomicity.h" 3
+# 1 "/usr/include/c++/10/ext/atomicity.h" 1 3
+# 32 "/usr/include/c++/10/ext/atomicity.h" 3
        
-# 33 "/usr/include/c++/7/ext/atomicity.h" 3
+# 33 "/usr/include/c++/10/ext/atomicity.h" 3
 
 
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h" 1 3
-# 30 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h" 1 3
+# 30 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h" 3
 #pragma GCC visibility push(default)
-# 148 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h" 3
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 1 3
-# 35 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
+# 148 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 1 3
+# 35 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
 # 1 "/usr/include/pthread.h" 1 3 4
-# 23 "/usr/include/pthread.h" 3 4
+# 22 "/usr/include/pthread.h" 3 4
 # 1 "/usr/include/sched.h" 1 3 4
 # 29 "/usr/include/sched.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
 # 30 "/usr/include/sched.h" 2 3 4
 
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/time_t.h" 1 3 4
@@ -9923,11 +10869,15 @@ namespace __cxx11 {
 typedef __time_t time_t;
 # 32 "/usr/include/sched.h" 2 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 1 3 4
-# 9 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
 struct timespec
 {
   __time_t tv_sec;
+
+
+
   __syscall_slong_t tv_nsec;
+# 26 "/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h" 3 4
 };
 # 33 "/usr/include/sched.h" 2 3 4
 
@@ -9941,11 +10891,14 @@ typedef __pid_t pid_t;
 
 
 # 1 "/usr/include/x86_64-linux-gnu/bits/sched.h" 1 3 4
-# 75 "/usr/include/x86_64-linux-gnu/bits/sched.h" 3 4
+# 76 "/usr/include/x86_64-linux-gnu/bits/sched.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h" 3 4
 struct sched_param
 {
   int sched_priority;
 };
+# 77 "/usr/include/x86_64-linux-gnu/bits/sched.h" 2 3 4
 
 extern "C" {
 
@@ -9959,6 +10912,9 @@ extern int unshare (int __flags) throw ();
 
 
 extern int sched_getcpu (void) throw ();
+
+
+extern int getcpu (unsigned int *, unsigned int *) throw ();
 
 
 extern int setns (int __fd, int __nstype) throw ();
@@ -10032,10 +10988,10 @@ extern int sched_getaffinity (__pid_t __pid, size_t __cpusetsize,
 
 
 }
-# 24 "/usr/include/pthread.h" 2 3 4
+# 23 "/usr/include/pthread.h" 2 3 4
 # 1 "/usr/include/time.h" 1 3 4
 # 29 "/usr/include/time.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
 # 30 "/usr/include/time.h" 2 3 4
 
 
@@ -10288,13 +11244,7 @@ extern void tzset (void) throw ();
 
 extern int daylight;
 extern long int timezone;
-
-
-
-
-
-extern int stime (const time_t *__when) throw ();
-# 196 "/usr/include/time.h" 3 4
+# 190 "/usr/include/time.h" 3 4
 extern time_t timegm (struct tm *__tp) throw ();
 
 
@@ -10302,7 +11252,7 @@ extern time_t timelocal (struct tm *__tp) throw ();
 
 
 extern int dysize (int __year) throw () __attribute__ ((__const__));
-# 211 "/usr/include/time.h" 3 4
+# 205 "/usr/include/time.h" 3 4
 extern int nanosleep (const struct timespec *__requested_time,
         struct timespec *__remaining);
 
@@ -10357,27 +11307,66 @@ extern int timer_getoverrun (timer_t __timerid) throw ();
 
 extern int timespec_get (struct timespec *__ts, int __base)
      throw () __attribute__ ((__nonnull__ (1)));
-# 280 "/usr/include/time.h" 3 4
+# 274 "/usr/include/time.h" 3 4
 extern int getdate_err;
-# 289 "/usr/include/time.h" 3 4
+# 283 "/usr/include/time.h" 3 4
 extern struct tm *getdate (const char *__string);
-# 303 "/usr/include/time.h" 3 4
+# 297 "/usr/include/time.h" 3 4
 extern int getdate_r (const char *__restrict __string,
         struct tm *__restrict __resbufp);
 
 
 }
-# 25 "/usr/include/pthread.h" 2 3 4
+# 24 "/usr/include/pthread.h" 2 3 4
+
 
 # 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 1 3 4
 # 23 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 1 3 4
-# 77 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 44 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 1 3 4
 # 21 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
 # 22 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 2 3 4
-# 65 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 3 4
+# 45 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+
+
+
+
+typedef struct __pthread_internal_list
+{
+  struct __pthread_internal_list *__prev;
+  struct __pthread_internal_list *__next;
+} __pthread_list_t;
+
+typedef struct __pthread_internal_slist
+{
+  struct __pthread_internal_slist *__next;
+} __pthread_slist_t;
+# 74 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
+struct __pthread_mutex_s
+{
+  int __lock;
+  unsigned int __count;
+  int __owner;
+
+  unsigned int __nusers;
+
+
+
+  int __kind;
+
+  short __spins;
+  short __elision;
+  __pthread_list_t __list;
+# 53 "/usr/include/x86_64-linux-gnu/bits/struct_mutex.h" 3 4
+};
+# 75 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
+# 87 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 1 3 4
+# 23 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
 struct __pthread_rwlock_arch_t
 {
   unsigned int __readers;
@@ -10401,38 +11390,9 @@ struct __pthread_rwlock_arch_t
 
 
   unsigned int __flags;
-# 99 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h" 3 4
+# 55 "/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h" 3 4
 };
-# 78 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
-
-
-
-
-typedef struct __pthread_internal_list
-{
-  struct __pthread_internal_list *__prev;
-  struct __pthread_internal_list *__next;
-} __pthread_list_t;
-# 118 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
-struct __pthread_mutex_s
-{
-  int __lock ;
-  unsigned int __count;
-  int __owner;
-
-  unsigned int __nusers;
-# 148 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
-  int __kind;
- 
-
-
-
-
-  short __spins; short __elision;
-  __pthread_list_t __list;
-# 165 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 3 4
- 
-};
+# 88 "/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h" 2 3 4
 
 
 
@@ -10626,7 +11586,7 @@ enum
   PTHREAD_PRIO_INHERIT,
   PTHREAD_PRIO_PROTECT
 };
-# 115 "/usr/include/pthread.h" 3 4
+# 100 "/usr/include/pthread.h" 3 4
 enum
 {
   PTHREAD_RWLOCK_PREFER_READER_NP,
@@ -10634,7 +11594,7 @@ enum
   PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP,
   PTHREAD_RWLOCK_DEFAULT_NP = PTHREAD_RWLOCK_PREFER_READER_NP
 };
-# 156 "/usr/include/pthread.h" 3 4
+# 120 "/usr/include/pthread.h" 3 4
 enum
 {
   PTHREAD_INHERIT_SCHED,
@@ -10662,7 +11622,7 @@ enum
   PTHREAD_PROCESS_SHARED
 
 };
-# 191 "/usr/include/pthread.h" 3 4
+# 155 "/usr/include/pthread.h" 3 4
 struct _pthread_cleanup_buffer
 {
   void (*__routine) (void *);
@@ -10686,7 +11646,7 @@ enum
   PTHREAD_CANCEL_ASYNCHRONOUS
 
 };
-# 229 "/usr/include/pthread.h" 3 4
+# 193 "/usr/include/pthread.h" 3 4
 extern "C" {
 
 
@@ -10723,6 +11683,10 @@ extern int pthread_tryjoin_np (pthread_t __th, void **__thread_return) throw ();
 
 
 extern int pthread_timedjoin_np (pthread_t __th, void **__thread_return,
+     const struct timespec *__abstime);
+# 238 "/usr/include/pthread.h" 3 4
+extern int pthread_clockjoin_np (pthread_t __th, void **__thread_return,
+                                 clockid_t __clockid,
      const struct timespec *__abstime);
 
 
@@ -10941,10 +11905,10 @@ extern int pthread_setaffinity_np (pthread_t __th, size_t __cpusetsize,
 extern int pthread_getaffinity_np (pthread_t __th, size_t __cpusetsize,
        cpu_set_t *__cpuset)
      throw () __attribute__ ((__nonnull__ (3)));
-# 495 "/usr/include/pthread.h" 3 4
+# 470 "/usr/include/pthread.h" 3 4
 extern int pthread_once (pthread_once_t *__once_control,
     void (*__init_routine) (void)) __attribute__ ((__nonnull__ (1, 2)));
-# 507 "/usr/include/pthread.h" 3 4
+# 482 "/usr/include/pthread.h" 3 4
 extern int pthread_setcancelstate (int __state, int *__oldstate);
 
 
@@ -10971,7 +11935,7 @@ typedef struct
   } __cancel_jmp_buf[1];
   void *__pad[4];
 } __pthread_unwind_buf_t __attribute__ ((__aligned__));
-# 541 "/usr/include/pthread.h" 3 4
+# 516 "/usr/include/pthread.h" 3 4
 struct __pthread_cleanup_frame
 {
   void (*__cancel_routine) (void *);
@@ -10999,7 +11963,7 @@ class __pthread_cleanup_class
         &__cancel_type); }
   void __restore () const { pthread_setcanceltype (__cancel_type, 0); }
 };
-# 743 "/usr/include/pthread.h" 3 4
+# 718 "/usr/include/pthread.h" 3 4
 struct __jmp_buf_tag;
 extern int __sigsetjmp (struct __jmp_buf_tag *__env, int __savemask) throw ();
 
@@ -11031,6 +11995,13 @@ extern int pthread_mutex_timedlock (pthread_mutex_t *__restrict __mutex,
 
 
 
+extern int pthread_mutex_clocklock (pthread_mutex_t *__restrict __mutex,
+        clockid_t __clockid,
+        const struct timespec *__restrict
+        __abstime) throw () __attribute__ ((__nonnull__ (1, 3)));
+
+
+
 extern int pthread_mutex_unlock (pthread_mutex_t *__mutex)
      throw () __attribute__ ((__nonnull__ (1)));
 
@@ -11056,7 +12027,7 @@ extern int pthread_mutex_consistent (pthread_mutex_t *__mutex)
 
 extern int pthread_mutex_consistent_np (pthread_mutex_t *__mutex)
      throw () __attribute__ ((__nonnull__ (1)));
-# 807 "/usr/include/pthread.h" 3 4
+# 789 "/usr/include/pthread.h" 3 4
 extern int pthread_mutexattr_init (pthread_mutexattr_t *__attr)
      throw () __attribute__ ((__nonnull__ (1)));
 
@@ -11130,7 +12101,7 @@ extern int pthread_mutexattr_setrobust (pthread_mutexattr_t *__attr,
 extern int pthread_mutexattr_setrobust_np (pthread_mutexattr_t *__attr,
         int __robustness)
      throw () __attribute__ ((__nonnull__ (1)));
-# 889 "/usr/include/pthread.h" 3 4
+# 871 "/usr/include/pthread.h" 3 4
 extern int pthread_rwlock_init (pthread_rwlock_t *__restrict __rwlock,
     const pthread_rwlockattr_t *__restrict
     __attr) throw () __attribute__ ((__nonnull__ (1)));
@@ -11155,6 +12126,13 @@ extern int pthread_rwlock_timedrdlock (pthread_rwlock_t *__restrict __rwlock,
 
 
 
+extern int pthread_rwlock_clockrdlock (pthread_rwlock_t *__restrict __rwlock,
+           clockid_t __clockid,
+           const struct timespec *__restrict
+           __abstime) throw () __attribute__ ((__nonnull__ (1, 3)));
+
+
+
 extern int pthread_rwlock_wrlock (pthread_rwlock_t *__rwlock)
      throw () __attribute__ ((__nonnull__ (1)));
 
@@ -11167,6 +12145,13 @@ extern int pthread_rwlock_trywrlock (pthread_rwlock_t *__rwlock)
 extern int pthread_rwlock_timedwrlock (pthread_rwlock_t *__restrict __rwlock,
            const struct timespec *__restrict
            __abstime) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern int pthread_rwlock_clockwrlock (pthread_rwlock_t *__restrict __rwlock,
+           clockid_t __clockid,
+           const struct timespec *__restrict
+           __abstime) throw () __attribute__ ((__nonnull__ (1, 3)));
 
 
 
@@ -11235,11 +12220,18 @@ extern int pthread_cond_broadcast (pthread_cond_t *__cond)
 extern int pthread_cond_wait (pthread_cond_t *__restrict __cond,
          pthread_mutex_t *__restrict __mutex)
      __attribute__ ((__nonnull__ (1, 2)));
-# 1001 "/usr/include/pthread.h" 3 4
+# 997 "/usr/include/pthread.h" 3 4
 extern int pthread_cond_timedwait (pthread_cond_t *__restrict __cond,
        pthread_mutex_t *__restrict __mutex,
        const struct timespec *__restrict __abstime)
      __attribute__ ((__nonnull__ (1, 2, 3)));
+# 1010 "/usr/include/pthread.h" 3 4
+extern int pthread_cond_clockwait (pthread_cond_t *__restrict __cond,
+       pthread_mutex_t *__restrict __mutex,
+       __clockid_t __clock_id,
+       const struct timespec *__restrict __abstime)
+     __attribute__ ((__nonnull__ (1, 2, 4)));
+
 
 
 
@@ -11272,7 +12264,7 @@ extern int pthread_condattr_getclock (const pthread_condattr_t *
 extern int pthread_condattr_setclock (pthread_condattr_t *__attr,
           __clockid_t __clock_id)
      throw () __attribute__ ((__nonnull__ (1)));
-# 1045 "/usr/include/pthread.h" 3 4
+# 1056 "/usr/include/pthread.h" 3 4
 extern int pthread_spin_init (pthread_spinlock_t *__lock, int __pshared)
      throw () __attribute__ ((__nonnull__ (1)));
 
@@ -11329,7 +12321,7 @@ extern int pthread_barrierattr_getpshared (const pthread_barrierattr_t *
 extern int pthread_barrierattr_setpshared (pthread_barrierattr_t *__attr,
         int __pshared)
      throw () __attribute__ ((__nonnull__ (1)));
-# 1112 "/usr/include/pthread.h" 3 4
+# 1123 "/usr/include/pthread.h" 3 4
 extern int pthread_key_create (pthread_key_t *__key,
           void (*__destr_function) (void *))
      throw () __attribute__ ((__nonnull__ (1)));
@@ -11350,14 +12342,14 @@ extern int pthread_setspecific (pthread_key_t __key,
 extern int pthread_getcpuclockid (pthread_t __thread_id,
       __clockid_t *__clock_id)
      throw () __attribute__ ((__nonnull__ (2)));
-# 1146 "/usr/include/pthread.h" 3 4
+# 1157 "/usr/include/pthread.h" 3 4
 extern int pthread_atfork (void (*__prepare) (void),
       void (*__parent) (void),
       void (*__child) (void)) throw ();
-# 1160 "/usr/include/pthread.h" 3 4
+# 1171 "/usr/include/pthread.h" 3 4
 }
-# 36 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 2 3
-# 47 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
+# 36 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 2 3
+# 47 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
 typedef pthread_t __gthread_t;
 typedef pthread_key_t __gthread_key_t;
 typedef pthread_once_t __gthread_once_t;
@@ -11365,45 +12357,45 @@ typedef pthread_mutex_t __gthread_mutex_t;
 typedef pthread_mutex_t __gthread_recursive_mutex_t;
 typedef pthread_cond_t __gthread_cond_t;
 typedef struct timespec __gthread_time_t;
-# 101 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
-static __typeof(pthread_once) __gthrw_pthread_once __attribute__ ((__weakref__("pthread_once")));
-static __typeof(pthread_getspecific) __gthrw_pthread_getspecific __attribute__ ((__weakref__("pthread_getspecific")));
-static __typeof(pthread_setspecific) __gthrw_pthread_setspecific __attribute__ ((__weakref__("pthread_setspecific")));
+# 102 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
+static __typeof(pthread_once) __gthrw_pthread_once __attribute__ ((__weakref__("pthread_once"), __copy__ (pthread_once)));
+static __typeof(pthread_getspecific) __gthrw_pthread_getspecific __attribute__ ((__weakref__("pthread_getspecific"), __copy__ (pthread_getspecific)));
+static __typeof(pthread_setspecific) __gthrw_pthread_setspecific __attribute__ ((__weakref__("pthread_setspecific"), __copy__ (pthread_setspecific)));
 
-static __typeof(pthread_create) __gthrw_pthread_create __attribute__ ((__weakref__("pthread_create")));
-static __typeof(pthread_join) __gthrw_pthread_join __attribute__ ((__weakref__("pthread_join")));
-static __typeof(pthread_equal) __gthrw_pthread_equal __attribute__ ((__weakref__("pthread_equal")));
-static __typeof(pthread_self) __gthrw_pthread_self __attribute__ ((__weakref__("pthread_self")));
-static __typeof(pthread_detach) __gthrw_pthread_detach __attribute__ ((__weakref__("pthread_detach")));
+static __typeof(pthread_create) __gthrw_pthread_create __attribute__ ((__weakref__("pthread_create"), __copy__ (pthread_create)));
+static __typeof(pthread_join) __gthrw_pthread_join __attribute__ ((__weakref__("pthread_join"), __copy__ (pthread_join)));
+static __typeof(pthread_equal) __gthrw_pthread_equal __attribute__ ((__weakref__("pthread_equal"), __copy__ (pthread_equal)));
+static __typeof(pthread_self) __gthrw_pthread_self __attribute__ ((__weakref__("pthread_self"), __copy__ (pthread_self)));
+static __typeof(pthread_detach) __gthrw_pthread_detach __attribute__ ((__weakref__("pthread_detach"), __copy__ (pthread_detach)));
 
-static __typeof(pthread_cancel) __gthrw_pthread_cancel __attribute__ ((__weakref__("pthread_cancel")));
+static __typeof(pthread_cancel) __gthrw_pthread_cancel __attribute__ ((__weakref__("pthread_cancel"), __copy__ (pthread_cancel)));
 
-static __typeof(sched_yield) __gthrw_sched_yield __attribute__ ((__weakref__("sched_yield")));
+static __typeof(sched_yield) __gthrw_sched_yield __attribute__ ((__weakref__("sched_yield"), __copy__ (sched_yield)));
 
-static __typeof(pthread_mutex_lock) __gthrw_pthread_mutex_lock __attribute__ ((__weakref__("pthread_mutex_lock")));
-static __typeof(pthread_mutex_trylock) __gthrw_pthread_mutex_trylock __attribute__ ((__weakref__("pthread_mutex_trylock")));
+static __typeof(pthread_mutex_lock) __gthrw_pthread_mutex_lock __attribute__ ((__weakref__("pthread_mutex_lock"), __copy__ (pthread_mutex_lock)));
+static __typeof(pthread_mutex_trylock) __gthrw_pthread_mutex_trylock __attribute__ ((__weakref__("pthread_mutex_trylock"), __copy__ (pthread_mutex_trylock)));
 
-static __typeof(pthread_mutex_timedlock) __gthrw_pthread_mutex_timedlock __attribute__ ((__weakref__("pthread_mutex_timedlock")));
+static __typeof(pthread_mutex_timedlock) __gthrw_pthread_mutex_timedlock __attribute__ ((__weakref__("pthread_mutex_timedlock"), __copy__ (pthread_mutex_timedlock)));
 
-static __typeof(pthread_mutex_unlock) __gthrw_pthread_mutex_unlock __attribute__ ((__weakref__("pthread_mutex_unlock")));
-static __typeof(pthread_mutex_init) __gthrw_pthread_mutex_init __attribute__ ((__weakref__("pthread_mutex_init")));
-static __typeof(pthread_mutex_destroy) __gthrw_pthread_mutex_destroy __attribute__ ((__weakref__("pthread_mutex_destroy")));
+static __typeof(pthread_mutex_unlock) __gthrw_pthread_mutex_unlock __attribute__ ((__weakref__("pthread_mutex_unlock"), __copy__ (pthread_mutex_unlock)));
+static __typeof(pthread_mutex_init) __gthrw_pthread_mutex_init __attribute__ ((__weakref__("pthread_mutex_init"), __copy__ (pthread_mutex_init)));
+static __typeof(pthread_mutex_destroy) __gthrw_pthread_mutex_destroy __attribute__ ((__weakref__("pthread_mutex_destroy"), __copy__ (pthread_mutex_destroy)));
 
-static __typeof(pthread_cond_init) __gthrw_pthread_cond_init __attribute__ ((__weakref__("pthread_cond_init")));
-static __typeof(pthread_cond_broadcast) __gthrw_pthread_cond_broadcast __attribute__ ((__weakref__("pthread_cond_broadcast")));
-static __typeof(pthread_cond_signal) __gthrw_pthread_cond_signal __attribute__ ((__weakref__("pthread_cond_signal")));
-static __typeof(pthread_cond_wait) __gthrw_pthread_cond_wait __attribute__ ((__weakref__("pthread_cond_wait")));
-static __typeof(pthread_cond_timedwait) __gthrw_pthread_cond_timedwait __attribute__ ((__weakref__("pthread_cond_timedwait")));
-static __typeof(pthread_cond_destroy) __gthrw_pthread_cond_destroy __attribute__ ((__weakref__("pthread_cond_destroy")));
+static __typeof(pthread_cond_init) __gthrw_pthread_cond_init __attribute__ ((__weakref__("pthread_cond_init"), __copy__ (pthread_cond_init)));
+static __typeof(pthread_cond_broadcast) __gthrw_pthread_cond_broadcast __attribute__ ((__weakref__("pthread_cond_broadcast"), __copy__ (pthread_cond_broadcast)));
+static __typeof(pthread_cond_signal) __gthrw_pthread_cond_signal __attribute__ ((__weakref__("pthread_cond_signal"), __copy__ (pthread_cond_signal)));
+static __typeof(pthread_cond_wait) __gthrw_pthread_cond_wait __attribute__ ((__weakref__("pthread_cond_wait"), __copy__ (pthread_cond_wait)));
+static __typeof(pthread_cond_timedwait) __gthrw_pthread_cond_timedwait __attribute__ ((__weakref__("pthread_cond_timedwait"), __copy__ (pthread_cond_timedwait)));
+static __typeof(pthread_cond_destroy) __gthrw_pthread_cond_destroy __attribute__ ((__weakref__("pthread_cond_destroy"), __copy__ (pthread_cond_destroy)));
 
-static __typeof(pthread_key_create) __gthrw_pthread_key_create __attribute__ ((__weakref__("pthread_key_create")));
-static __typeof(pthread_key_delete) __gthrw_pthread_key_delete __attribute__ ((__weakref__("pthread_key_delete")));
-static __typeof(pthread_mutexattr_init) __gthrw_pthread_mutexattr_init __attribute__ ((__weakref__("pthread_mutexattr_init")));
-static __typeof(pthread_mutexattr_settype) __gthrw_pthread_mutexattr_settype __attribute__ ((__weakref__("pthread_mutexattr_settype")));
-static __typeof(pthread_mutexattr_destroy) __gthrw_pthread_mutexattr_destroy __attribute__ ((__weakref__("pthread_mutexattr_destroy")));
-# 236 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
-static __typeof(pthread_key_create) __gthrw___pthread_key_create __attribute__ ((__weakref__("__pthread_key_create")));
-# 246 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
+static __typeof(pthread_key_create) __gthrw_pthread_key_create __attribute__ ((__weakref__("pthread_key_create"), __copy__ (pthread_key_create)));
+static __typeof(pthread_key_delete) __gthrw_pthread_key_delete __attribute__ ((__weakref__("pthread_key_delete"), __copy__ (pthread_key_delete)));
+static __typeof(pthread_mutexattr_init) __gthrw_pthread_mutexattr_init __attribute__ ((__weakref__("pthread_mutexattr_init"), __copy__ (pthread_mutexattr_init)));
+static __typeof(pthread_mutexattr_settype) __gthrw_pthread_mutexattr_settype __attribute__ ((__weakref__("pthread_mutexattr_settype"), __copy__ (pthread_mutexattr_settype)));
+static __typeof(pthread_mutexattr_destroy) __gthrw_pthread_mutexattr_destroy __attribute__ ((__weakref__("pthread_mutexattr_destroy"), __copy__ (pthread_mutexattr_destroy)));
+# 237 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
+static __typeof(pthread_key_create) __gthrw___pthread_key_create __attribute__ ((__weakref__("__pthread_key_create"), __copy__ (pthread_key_create)));
+# 247 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
 static inline int
 __gthread_active_p (void)
 {
@@ -11411,7 +12403,7 @@ __gthread_active_p (void)
     = __extension__ (void *) &__gthrw___pthread_key_create;
   return __gthread_active_ptr != 0;
 }
-# 658 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
+# 659 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
 static inline int
 __gthread_create (__gthread_t *__threadid, void *(*__func) (void*),
     void *__args)
@@ -11536,7 +12528,7 @@ __gthread_mutex_unlock (__gthread_mutex_t *__mutex)
   else
     return 0;
 }
-# 807 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
+# 808 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
 static inline int
 __gthread_recursive_mutex_lock (__gthread_recursive_mutex_t *__mutex)
 {
@@ -11569,7 +12561,7 @@ __gthread_recursive_mutex_destroy (__gthread_recursive_mutex_t *__mutex)
 {
   return __gthread_mutex_destroy (__mutex);
 }
-# 849 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h" 3
+# 850 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h" 3
 static inline int
 __gthread_cond_broadcast (__gthread_cond_t *__cond)
 {
@@ -11607,15 +12599,15 @@ __gthread_cond_destroy (__gthread_cond_t* __cond)
 {
   return __gthrw_pthread_cond_destroy (__cond);
 }
-# 149 "/usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h" 2 3
+# 149 "/usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h" 2 3
 
 
 #pragma GCC visibility pop
-# 36 "/usr/include/c++/7/ext/atomicity.h" 2 3
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h" 1 3
-# 32 "/usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h" 3
+# 36 "/usr/include/c++/10/ext/atomicity.h" 2 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h" 1 3
+# 32 "/usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h" 3
 typedef int _Atomic_word;
-# 37 "/usr/include/c++/7/ext/atomicity.h" 2 3
+# 37 "/usr/include/c++/10/ext/atomicity.h" 2 3
 
 namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
@@ -11626,15 +12618,18 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 
-  static inline _Atomic_word
+  inline _Atomic_word
+  __attribute__((__always_inline__))
   __exchange_and_add(volatile _Atomic_word* __mem, int __val)
   { return __atomic_fetch_add(__mem, __val, 4); }
 
-  static inline void
+  inline void
+  __attribute__((__always_inline__))
   __atomic_add(volatile _Atomic_word* __mem, int __val)
   { __atomic_fetch_add(__mem, __val, 4); }
-# 64 "/usr/include/c++/7/ext/atomicity.h" 3
-  static inline _Atomic_word
+# 64 "/usr/include/c++/10/ext/atomicity.h" 3
+  inline _Atomic_word
+  __attribute__((__always_inline__))
   __exchange_and_add_single(_Atomic_word* __mem, int __val)
   {
     _Atomic_word __result = *__mem;
@@ -11642,80 +12637,76 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
     return __result;
   }
 
-  static inline void
+  inline void
+  __attribute__((__always_inline__))
   __atomic_add_single(_Atomic_word* __mem, int __val)
   { *__mem += __val; }
 
-  static inline _Atomic_word
-  __attribute__ ((__unused__))
+  inline _Atomic_word
+  __attribute__ ((__always_inline__))
   __exchange_and_add_dispatch(_Atomic_word* __mem, int __val)
   {
 
     if (__gthread_active_p())
       return __exchange_and_add(__mem, __val);
-    else
-      return __exchange_and_add_single(__mem, __val);
 
-
-
+    return __exchange_and_add_single(__mem, __val);
   }
 
-  static inline void
-  __attribute__ ((__unused__))
+  inline void
+  __attribute__ ((__always_inline__))
   __atomic_add_dispatch(_Atomic_word* __mem, int __val)
   {
 
     if (__gthread_active_p())
-      __atomic_add(__mem, __val);
-    else
-      __atomic_add_single(__mem, __val);
+      {
+ __atomic_add(__mem, __val);
+ return;
+      }
 
-
-
+    __atomic_add_single(__mem, __val);
   }
 
 
 }
-# 40 "/usr/include/c++/7/bits/ios_base.h" 2 3
+# 40 "/usr/include/c++/10/bits/ios_base.h" 2 3
 
-# 1 "/usr/include/c++/7/bits/locale_classes.h" 1 3
-# 37 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 1 "/usr/include/c++/10/bits/locale_classes.h" 1 3
+# 37 "/usr/include/c++/10/bits/locale_classes.h" 3
        
-# 38 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 38 "/usr/include/c++/10/bits/locale_classes.h" 3
 
 
-# 1 "/usr/include/c++/7/string" 1 3
-# 36 "/usr/include/c++/7/string" 3
+# 1 "/usr/include/c++/10/string" 1 3
+# 36 "/usr/include/c++/10/string" 3
        
-# 37 "/usr/include/c++/7/string" 3
+# 37 "/usr/include/c++/10/string" 3
 
 
 
 
-# 1 "/usr/include/c++/7/bits/allocator.h" 1 3
-# 46 "/usr/include/c++/7/bits/allocator.h" 3
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h" 1 3
-# 33 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h" 3
-# 1 "/usr/include/c++/7/ext/new_allocator.h" 1 3
-# 40 "/usr/include/c++/7/ext/new_allocator.h" 3
+# 1 "/usr/include/c++/10/bits/allocator.h" 1 3
+# 46 "/usr/include/c++/10/bits/allocator.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h" 1 3
+# 33 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h" 3
+# 1 "/usr/include/c++/10/ext/new_allocator.h" 1 3
+# 40 "/usr/include/c++/10/ext/new_allocator.h" 3
 namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
-
-  using std::size_t;
-  using std::ptrdiff_t;
-# 57 "/usr/include/c++/7/ext/new_allocator.h" 3
+# 54 "/usr/include/c++/10/ext/new_allocator.h" 3
   template<typename _Tp>
     class new_allocator
     {
     public:
-      typedef size_t size_type;
-      typedef ptrdiff_t difference_type;
+      typedef _Tp value_type;
+      typedef std::size_t size_type;
+      typedef std::ptrdiff_t difference_type;
+
       typedef _Tp* pointer;
       typedef const _Tp* const_pointer;
       typedef _Tp& reference;
       typedef const _Tp& const_reference;
-      typedef _Tp value_type;
 
       template<typename _Tp1>
  struct rebind
@@ -11724,15 +12715,20 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 
+
       typedef std::true_type propagate_on_container_move_assignment;
 
 
+     
       new_allocator() noexcept { }
 
+     
       new_allocator(const new_allocator&) noexcept { }
 
       template<typename _Tp1>
+
  new_allocator(const new_allocator<_Tp1>&) noexcept { }
+
 
       ~new_allocator() noexcept { }
 
@@ -11746,68 +12742,91 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 
-      pointer
+
+      _Tp*
       allocate(size_type __n, const void* = static_cast<const void*>(0))
       {
- if (__n > this->max_size())
+ if (__n > this->_M_max_size())
    std::__throw_bad_alloc();
-# 111 "/usr/include/c++/7/ext/new_allocator.h" 3
+# 115 "/usr/include/c++/10/ext/new_allocator.h" 3
  return static_cast<_Tp*>(::operator new(__n * sizeof(_Tp)));
       }
 
 
       void
-      deallocate(pointer __p, size_type)
+      deallocate(_Tp* __p, size_type __t)
       {
+# 133 "/usr/include/c++/10/ext/new_allocator.h" 3
+ ::operator delete(__p
 
+     , __t * sizeof(_Tp)
 
-
-
-
-
-
- ::operator delete(__p);
+    );
       }
+
 
       size_type
       max_size() const noexcept
-      { return size_t(-1) / sizeof(_Tp); }
+      { return _M_max_size(); }
 
 
       template<typename _Up, typename... _Args>
  void
  construct(_Up* __p, _Args&&... __args)
+ noexcept(std::is_nothrow_constructible<_Up, _Args...>::value)
  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
 
       template<typename _Up>
  void
- destroy(_Up* __p) { __p->~_Up(); }
-# 151 "/usr/include/c++/7/ext/new_allocator.h" 3
+ destroy(_Up* __p)
+ noexcept(std::is_nothrow_destructible<_Up>::value)
+ { __p->~_Up(); }
+# 169 "/usr/include/c++/10/ext/new_allocator.h" 3
+      template<typename _Up>
+ friend bool
+ operator==(const new_allocator&, const new_allocator<_Up>&)
+ noexcept
+ { return true; }
+
+
+      template<typename _Up>
+ friend bool
+ operator!=(const new_allocator&, const new_allocator<_Up>&)
+ noexcept
+ { return false; }
+
+
+    private:
+      constexpr size_type
+      _M_max_size() const noexcept
+      {
+
+ return std::size_t(0x7fffffffffffffffL) / sizeof(_Tp);
+
+
+
+      }
     };
-
-  template<typename _Tp>
-    inline bool
-    operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
-    { return true; }
-
-  template<typename _Tp>
-    inline bool
-    operator!=(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
-    { return false; }
 
 
 }
-# 34 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h" 2 3
+# 34 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h" 2 3
 
 
 namespace std
 {
-# 47 "/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h" 3
+# 47 "/usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h" 3
   template<typename _Tp>
     using __allocator_base = __gnu_cxx::new_allocator<_Tp>;
 }
-# 47 "/usr/include/c++/7/bits/allocator.h" 2 3
-# 57 "/usr/include/c++/7/bits/allocator.h" 3
+# 47 "/usr/include/c++/10/bits/allocator.h" 2 3
+
+
+
+
+
+
+
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -11822,19 +12841,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
     class allocator<void>
     {
     public:
+      typedef void value_type;
       typedef size_t size_type;
       typedef ptrdiff_t difference_type;
+
       typedef void* pointer;
       typedef const void* const_pointer;
-      typedef void value_type;
 
       template<typename _Tp1>
  struct rebind
  { typedef allocator<_Tp1> other; };
-
-
-
-
+# 89 "/usr/include/c++/10/bits/allocator.h" 3
       typedef true_type propagate_on_container_move_assignment;
 
       typedef true_type is_always_equal;
@@ -11842,29 +12859,34 @@ namespace std __attribute__ ((__visibility__ ("default")))
       template<typename _Up, typename... _Args>
  void
  construct(_Up* __p, _Args&&... __args)
+ noexcept(std::is_nothrow_constructible<_Up, _Args...>::value)
  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
 
       template<typename _Up>
  void
- destroy(_Up* __p) { __p->~_Up(); }
+ destroy(_Up* __p)
+ noexcept(std::is_nothrow_destructible<_Up>::value)
+ { __p->~_Up(); }
 
     };
-# 107 "/usr/include/c++/7/bits/allocator.h" 3
+# 115 "/usr/include/c++/10/bits/allocator.h" 3
   template<typename _Tp>
-    class allocator: public __allocator_base<_Tp>
+    class allocator : public __allocator_base<_Tp>
     {
-   public:
+    public:
+      typedef _Tp value_type;
       typedef size_t size_type;
       typedef ptrdiff_t difference_type;
+
       typedef _Tp* pointer;
       typedef const _Tp* const_pointer;
       typedef _Tp& reference;
       typedef const _Tp& const_reference;
-      typedef _Tp value_type;
 
       template<typename _Tp1>
  struct rebind
  { typedef allocator<_Tp1> other; };
+
 
 
 
@@ -11874,15 +12896,38 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef true_type is_always_equal;
 
 
-      allocator() throw() { }
 
-      allocator(const allocator& __a) throw()
+
+     
+      allocator() noexcept { }
+
+     
+      allocator(const allocator& __a) noexcept
       : __allocator_base<_Tp>(__a) { }
 
-      template<typename _Tp1>
- allocator(const allocator<_Tp1>&) throw() { }
 
-      ~allocator() throw() { }
+
+      allocator& operator=(const allocator&) = default;
+
+
+      template<typename _Tp1>
+
+ allocator(const allocator<_Tp1>&) noexcept { }
+
+
+
+
+      ~allocator() noexcept { }
+# 191 "/usr/include/c++/10/bits/allocator.h" 3
+      friend bool
+      operator==(const allocator&, const allocator&) noexcept
+      { return true; }
+
+
+      friend bool
+      operator!=(const allocator&, const allocator&) noexcept
+      { return false; }
+
 
 
     };
@@ -11893,11 +12938,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
     noexcept
     { return true; }
 
-  template<typename _Tp>
-    inline bool
-    operator==(const allocator<_Tp>&, const allocator<_Tp>&)
-    noexcept
-    { return true; }
 
   template<typename _T1, typename _T2>
     inline bool
@@ -11905,11 +12945,32 @@ namespace std __attribute__ ((__visibility__ ("default")))
     noexcept
     { return false; }
 
+
+
+
   template<typename _Tp>
-    inline bool
-    operator!=(const allocator<_Tp>&, const allocator<_Tp>&)
-    noexcept
-    { return false; }
+    class allocator<const _Tp>
+    {
+    public:
+      typedef _Tp value_type;
+      template<typename _Up> allocator(const allocator<_Up>&) { }
+    };
+
+  template<typename _Tp>
+    class allocator<volatile _Tp>
+    {
+    public:
+      typedef _Tp value_type;
+      template<typename _Up> allocator(const allocator<_Up>&) { }
+    };
+
+  template<typename _Tp>
+    class allocator<const volatile _Tp>
+    {
+    public:
+      typedef _Tp value_type;
+      template<typename _Up> allocator(const allocator<_Up>&) { }
+    };
 
 
 
@@ -11989,19 +13050,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 42 "/usr/include/c++/7/string" 2 3
+# 42 "/usr/include/c++/10/string" 2 3
 
 
-# 1 "/usr/include/c++/7/bits/ostream_insert.h" 1 3
-# 33 "/usr/include/c++/7/bits/ostream_insert.h" 3
+# 1 "/usr/include/c++/10/bits/ostream_insert.h" 1 3
+# 33 "/usr/include/c++/10/bits/ostream_insert.h" 3
        
-# 34 "/usr/include/c++/7/bits/ostream_insert.h" 3
+# 34 "/usr/include/c++/10/bits/ostream_insert.h" 3
 
 
-# 1 "/usr/include/c++/7/bits/cxxabi_forced.h" 1 3
-# 34 "/usr/include/c++/7/bits/cxxabi_forced.h" 3
+# 1 "/usr/include/c++/10/bits/cxxabi_forced.h" 1 3
+# 34 "/usr/include/c++/10/bits/cxxabi_forced.h" 3
        
-# 35 "/usr/include/c++/7/bits/cxxabi_forced.h" 3
+# 35 "/usr/include/c++/10/bits/cxxabi_forced.h" 3
 
 #pragma GCC visibility push(default)
 
@@ -12026,7 +13087,7 @@ namespace __cxxabiv1
 
 
 #pragma GCC visibility pop
-# 37 "/usr/include/c++/7/bits/ostream_insert.h" 2 3
+# 37 "/usr/include/c++/10/bits/ostream_insert.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -12118,16 +13179,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 45 "/usr/include/c++/7/string" 2 3
+# 45 "/usr/include/c++/10/string" 2 3
 
 
 
-# 1 "/usr/include/c++/7/bits/stl_function.h" 1 3
-# 63 "/usr/include/c++/7/bits/stl_function.h" 3
+# 1 "/usr/include/c++/10/bits/stl_function.h" 1 3
+# 63 "/usr/include/c++/10/bits/stl_function.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 104 "/usr/include/c++/7/bits/stl_function.h" 3
+# 104 "/usr/include/c++/10/bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     struct unary_function
     {
@@ -12153,7 +13214,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef _Result result_type;
     };
-# 144 "/usr/include/c++/7/bits/stl_function.h" 3
+# 144 "/usr/include/c++/10/bits/stl_function.h" 3
   struct __is_transparent;
 
   template<typename _Tp = void>
@@ -12327,7 +13388,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef __is_transparent is_transparent;
     };
-# 330 "/usr/include/c++/7/bits/stl_function.h" 3
+# 330 "/usr/include/c++/10/bits/stl_function.h" 3
   template<typename _Tp = void>
     struct equal_to;
 
@@ -12408,13 +13469,88 @@ namespace std __attribute__ ((__visibility__ ("default")))
     };
 
 
+  template<typename _Tp>
+    struct greater<_Tp*> : public binary_function<_Tp*, _Tp*, bool>
+    {
+      constexpr bool
+      operator()(_Tp* __x, _Tp* __y) const noexcept
+      {
+
+
+ if (__builtin_is_constant_evaluated())
+
+
+
+   return __x > __y;
+
+ return (long unsigned int)__x > (long unsigned int)__y;
+      }
+    };
+
+
+  template<typename _Tp>
+    struct less<_Tp*> : public binary_function<_Tp*, _Tp*, bool>
+    {
+      constexpr bool
+      operator()(_Tp* __x, _Tp* __y) const noexcept
+      {
+
+
+ if (__builtin_is_constant_evaluated())
+
+
+
+   return __x < __y;
+
+ return (long unsigned int)__x < (long unsigned int)__y;
+      }
+    };
+
+
+  template<typename _Tp>
+    struct greater_equal<_Tp*> : public binary_function<_Tp*, _Tp*, bool>
+    {
+      constexpr bool
+      operator()(_Tp* __x, _Tp* __y) const noexcept
+      {
+
+
+ if (__builtin_is_constant_evaluated())
+
+
+
+   return __x >= __y;
+
+ return (long unsigned int)__x >= (long unsigned int)__y;
+      }
+    };
+
+
+  template<typename _Tp>
+    struct less_equal<_Tp*> : public binary_function<_Tp*, _Tp*, bool>
+    {
+      constexpr bool
+      operator()(_Tp* __x, _Tp* __y) const noexcept
+      {
+
+
+ if (__builtin_is_constant_evaluated())
+
+
+
+   return __x <= __y;
+
+ return (long unsigned int)__x <= (long unsigned int)__y;
+      }
+    };
+
+
 
   template<>
     struct equal_to<void>
     {
       template <typename _Tp, typename _Up>
- constexpr
- auto
+ constexpr auto
  operator()(_Tp&& __t, _Up&& __u) const
  noexcept(noexcept(std::forward<_Tp>(__t) == std::forward<_Up>(__u)))
  -> decltype(std::forward<_Tp>(__t) == std::forward<_Up>(__u))
@@ -12428,8 +13564,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct not_equal_to<void>
     {
       template <typename _Tp, typename _Up>
- constexpr
- auto
+ constexpr auto
  operator()(_Tp&& __t, _Up&& __u) const
  noexcept(noexcept(std::forward<_Tp>(__t) != std::forward<_Up>(__u)))
  -> decltype(std::forward<_Tp>(__t) != std::forward<_Up>(__u))
@@ -12443,14 +13578,61 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct greater<void>
     {
       template <typename _Tp, typename _Up>
- constexpr
- auto
+ constexpr auto
  operator()(_Tp&& __t, _Up&& __u) const
  noexcept(noexcept(std::forward<_Tp>(__t) > std::forward<_Up>(__u)))
  -> decltype(std::forward<_Tp>(__t) > std::forward<_Up>(__u))
- { return std::forward<_Tp>(__t) > std::forward<_Up>(__u); }
+ {
+   return _S_cmp(std::forward<_Tp>(__t), std::forward<_Up>(__u),
+   __ptr_cmp<_Tp, _Up>{});
+ }
+
+      template<typename _Tp, typename _Up>
+ constexpr bool
+ operator()(_Tp* __t, _Up* __u) const noexcept
+ { return greater<common_type_t<_Tp*, _Up*>>{}(__t, __u); }
 
       typedef __is_transparent is_transparent;
+
+    private:
+      template <typename _Tp, typename _Up>
+ static constexpr decltype(auto)
+ _S_cmp(_Tp&& __t, _Up&& __u, false_type)
+ { return std::forward<_Tp>(__t) > std::forward<_Up>(__u); }
+
+      template <typename _Tp, typename _Up>
+ static constexpr bool
+ _S_cmp(_Tp&& __t, _Up&& __u, true_type) noexcept
+ {
+   return greater<const volatile void*>{}(
+       static_cast<const volatile void*>(std::forward<_Tp>(__t)),
+       static_cast<const volatile void*>(std::forward<_Up>(__u)));
+ }
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded2 : true_type { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded2<_Tp, _Up, __void_t<
+   decltype(std::declval<_Tp>().operator>(std::declval<_Up>()))>>
+ : false_type { };
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded : __not_overloaded2<_Tp, _Up> { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded<_Tp, _Up, __void_t<
+   decltype(operator>(std::declval<_Tp>(), std::declval<_Up>()))>>
+ : false_type { };
+
+      template<typename _Tp, typename _Up>
+ using __ptr_cmp = __and_<__not_overloaded<_Tp, _Up>,
+       is_convertible<_Tp, const volatile void*>,
+       is_convertible<_Up, const volatile void*>>;
     };
 
 
@@ -12458,14 +13640,61 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct less<void>
     {
       template <typename _Tp, typename _Up>
- constexpr
- auto
+ constexpr auto
  operator()(_Tp&& __t, _Up&& __u) const
  noexcept(noexcept(std::forward<_Tp>(__t) < std::forward<_Up>(__u)))
  -> decltype(std::forward<_Tp>(__t) < std::forward<_Up>(__u))
- { return std::forward<_Tp>(__t) < std::forward<_Up>(__u); }
+ {
+   return _S_cmp(std::forward<_Tp>(__t), std::forward<_Up>(__u),
+   __ptr_cmp<_Tp, _Up>{});
+ }
+
+      template<typename _Tp, typename _Up>
+ constexpr bool
+ operator()(_Tp* __t, _Up* __u) const noexcept
+ { return less<common_type_t<_Tp*, _Up*>>{}(__t, __u); }
 
       typedef __is_transparent is_transparent;
+
+    private:
+      template <typename _Tp, typename _Up>
+ static constexpr decltype(auto)
+ _S_cmp(_Tp&& __t, _Up&& __u, false_type)
+ { return std::forward<_Tp>(__t) < std::forward<_Up>(__u); }
+
+      template <typename _Tp, typename _Up>
+ static constexpr bool
+ _S_cmp(_Tp&& __t, _Up&& __u, true_type) noexcept
+ {
+   return less<const volatile void*>{}(
+       static_cast<const volatile void*>(std::forward<_Tp>(__t)),
+       static_cast<const volatile void*>(std::forward<_Up>(__u)));
+ }
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded2 : true_type { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded2<_Tp, _Up, __void_t<
+   decltype(std::declval<_Tp>().operator<(std::declval<_Up>()))>>
+ : false_type { };
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded : __not_overloaded2<_Tp, _Up> { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded<_Tp, _Up, __void_t<
+   decltype(operator<(std::declval<_Tp>(), std::declval<_Up>()))>>
+ : false_type { };
+
+      template<typename _Tp, typename _Up>
+ using __ptr_cmp = __and_<__not_overloaded<_Tp, _Up>,
+       is_convertible<_Tp, const volatile void*>,
+       is_convertible<_Up, const volatile void*>>;
     };
 
 
@@ -12473,14 +13702,61 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct greater_equal<void>
     {
       template <typename _Tp, typename _Up>
- constexpr
- auto
+ constexpr auto
  operator()(_Tp&& __t, _Up&& __u) const
  noexcept(noexcept(std::forward<_Tp>(__t) >= std::forward<_Up>(__u)))
  -> decltype(std::forward<_Tp>(__t) >= std::forward<_Up>(__u))
- { return std::forward<_Tp>(__t) >= std::forward<_Up>(__u); }
+ {
+   return _S_cmp(std::forward<_Tp>(__t), std::forward<_Up>(__u),
+   __ptr_cmp<_Tp, _Up>{});
+ }
+
+      template<typename _Tp, typename _Up>
+ constexpr bool
+ operator()(_Tp* __t, _Up* __u) const noexcept
+ { return greater_equal<common_type_t<_Tp*, _Up*>>{}(__t, __u); }
 
       typedef __is_transparent is_transparent;
+
+    private:
+      template <typename _Tp, typename _Up>
+ static constexpr decltype(auto)
+ _S_cmp(_Tp&& __t, _Up&& __u, false_type)
+ { return std::forward<_Tp>(__t) >= std::forward<_Up>(__u); }
+
+      template <typename _Tp, typename _Up>
+ static constexpr bool
+ _S_cmp(_Tp&& __t, _Up&& __u, true_type) noexcept
+ {
+   return greater_equal<const volatile void*>{}(
+       static_cast<const volatile void*>(std::forward<_Tp>(__t)),
+       static_cast<const volatile void*>(std::forward<_Up>(__u)));
+ }
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded2 : true_type { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded2<_Tp, _Up, __void_t<
+   decltype(std::declval<_Tp>().operator>=(std::declval<_Up>()))>>
+ : false_type { };
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded : __not_overloaded2<_Tp, _Up> { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded<_Tp, _Up, __void_t<
+   decltype(operator>=(std::declval<_Tp>(), std::declval<_Up>()))>>
+ : false_type { };
+
+      template<typename _Tp, typename _Up>
+ using __ptr_cmp = __and_<__not_overloaded<_Tp, _Up>,
+       is_convertible<_Tp, const volatile void*>,
+       is_convertible<_Up, const volatile void*>>;
     };
 
 
@@ -12488,16 +13764,63 @@ namespace std __attribute__ ((__visibility__ ("default")))
     struct less_equal<void>
     {
       template <typename _Tp, typename _Up>
- constexpr
- auto
+ constexpr auto
  operator()(_Tp&& __t, _Up&& __u) const
  noexcept(noexcept(std::forward<_Tp>(__t) <= std::forward<_Up>(__u)))
  -> decltype(std::forward<_Tp>(__t) <= std::forward<_Up>(__u))
- { return std::forward<_Tp>(__t) <= std::forward<_Up>(__u); }
+ {
+   return _S_cmp(std::forward<_Tp>(__t), std::forward<_Up>(__u),
+   __ptr_cmp<_Tp, _Up>{});
+ }
+
+      template<typename _Tp, typename _Up>
+ constexpr bool
+ operator()(_Tp* __t, _Up* __u) const noexcept
+ { return less_equal<common_type_t<_Tp*, _Up*>>{}(__t, __u); }
 
       typedef __is_transparent is_transparent;
+
+    private:
+      template <typename _Tp, typename _Up>
+ static constexpr decltype(auto)
+ _S_cmp(_Tp&& __t, _Up&& __u, false_type)
+ { return std::forward<_Tp>(__t) <= std::forward<_Up>(__u); }
+
+      template <typename _Tp, typename _Up>
+ static constexpr bool
+ _S_cmp(_Tp&& __t, _Up&& __u, true_type) noexcept
+ {
+   return less_equal<const volatile void*>{}(
+       static_cast<const volatile void*>(std::forward<_Tp>(__t)),
+       static_cast<const volatile void*>(std::forward<_Up>(__u)));
+ }
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded2 : true_type { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded2<_Tp, _Up, __void_t<
+   decltype(std::declval<_Tp>().operator<=(std::declval<_Up>()))>>
+ : false_type { };
+
+
+      template<typename _Tp, typename _Up, typename = void>
+ struct __not_overloaded : __not_overloaded2<_Tp, _Up> { };
+
+
+      template<typename _Tp, typename _Up>
+ struct __not_overloaded<_Tp, _Up, __void_t<
+   decltype(operator<=(std::declval<_Tp>(), std::declval<_Up>()))>>
+ : false_type { };
+
+      template<typename _Tp, typename _Up>
+ using __ptr_cmp = __and_<__not_overloaded<_Tp, _Up>,
+       is_convertible<_Tp, const volatile void*>,
+       is_convertible<_Up, const volatile void*>>;
     };
-# 512 "/usr/include/c++/7/bits/stl_function.h" 3
+# 774 "/usr/include/c++/10/bits/stl_function.h" 3
   template<typename _Tp = void>
     struct logical_and;
 
@@ -12694,7 +14017,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       typedef __is_transparent is_transparent;
     };
-# 740 "/usr/include/c++/7/bits/stl_function.h" 3
+# 1002 "/usr/include/c++/10/bits/stl_function.h" 3
   template<typename _Predicate>
     class unary_negate
     : public unary_function<typename _Predicate::argument_type, bool>
@@ -12747,7 +14070,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline binary_negate<_Predicate>
     not2(const _Predicate& __pred)
     { return binary_negate<_Predicate>(__pred); }
-# 817 "/usr/include/c++/7/bits/stl_function.h" 3
+# 1079 "/usr/include/c++/10/bits/stl_function.h" 3
   template<typename _Arg, typename _Result>
     class pointer_to_unary_function : public unary_function<_Arg, _Result>
     {
@@ -12801,7 +14124,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     struct _Identity
-    : public unary_function<_Tp,_Tp>
+    : public unary_function<_Tp, _Tp>
     {
       _Tp&
       operator()(_Tp& __x) const
@@ -12811,6 +14134,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator()(const _Tp& __x) const
       { return __x; }
     };
+
+
+  template<typename _Tp> struct _Identity<const _Tp> : _Identity<_Tp> { };
 
   template<typename _Pair>
     struct _Select1st
@@ -12849,7 +14175,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator()(const _Pair& __x) const
       { return __x.second; }
     };
-# 937 "/usr/include/c++/7/bits/stl_function.h" 3
+# 1202 "/usr/include/c++/10/bits/stl_function.h" 3
   template<typename _Ret, typename _Tp>
     class mem_fun_t : public unary_function<_Tp*, _Ret>
     {
@@ -13040,15 +14366,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/usr/include/c++/7/backward/binders.h" 1 3
-# 60 "/usr/include/c++/7/backward/binders.h" 3
+# 1 "/usr/include/c++/10/backward/binders.h" 1 3
+# 60 "/usr/include/c++/10/backward/binders.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 107 "/usr/include/c++/7/backward/binders.h" 3
+# 107 "/usr/include/c++/10/backward/binders.h" 3
   template<typename _Operation>
     class binder1st
     : public unary_function<typename _Operation::second_argument_type,
@@ -13123,20 +14449,23 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 #pragma GCC diagnostic pop
-# 1128 "/usr/include/c++/7/bits/stl_function.h" 2 3
-# 49 "/usr/include/c++/7/string" 2 3
+# 1393 "/usr/include/c++/10/bits/stl_function.h" 2 3
+# 49 "/usr/include/c++/10/string" 2 3
 
 
-# 1 "/usr/include/c++/7/bits/range_access.h" 1 3
-# 33 "/usr/include/c++/7/bits/range_access.h" 3
+
+
+
+# 1 "/usr/include/c++/10/bits/range_access.h" 1 3
+# 33 "/usr/include/c++/10/bits/range_access.h" 3
        
-# 34 "/usr/include/c++/7/bits/range_access.h" 3
+# 34 "/usr/include/c++/10/bits/range_access.h" 3
 
 
-# 1 "/usr/include/c++/7/initializer_list" 1 3
-# 33 "/usr/include/c++/7/initializer_list" 3
+# 1 "/usr/include/c++/10/initializer_list" 1 3
+# 33 "/usr/include/c++/10/initializer_list" 3
        
-# 34 "/usr/include/c++/7/initializer_list" 3
+# 34 "/usr/include/c++/10/initializer_list" 3
 
 
 
@@ -13190,10 +14519,12 @@ namespace std
 
 
 
+
   template<class _Tp>
     constexpr const _Tp*
     begin(initializer_list<_Tp> __ils) noexcept
     { return __ils.begin(); }
+
 
 
 
@@ -13207,7 +14538,20 @@ namespace std
 }
 
 #pragma GCC visibility pop
-# 37 "/usr/include/c++/7/bits/range_access.h" 2 3
+# 37 "/usr/include/c++/10/bits/range_access.h" 2 3
+# 1 "/usr/include/c++/10/bits/iterator_concepts.h" 1 3
+# 33 "/usr/include/c++/10/bits/iterator_concepts.h" 3
+       
+# 34 "/usr/include/c++/10/bits/iterator_concepts.h" 3
+
+# 1 "/usr/include/c++/10/concepts" 1 3
+# 36 "/usr/include/c++/10/bits/iterator_concepts.h" 2 3
+
+# 1 "/usr/include/c++/10/bits/range_cmp.h" 1 3
+# 38 "/usr/include/c++/10/bits/iterator_concepts.h" 2 3
+# 38 "/usr/include/c++/10/bits/range_access.h" 2 3
+
+
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -13258,7 +14602,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp, size_t _Nm>
     inline constexpr _Tp*
-    begin(_Tp (&__arr)[_Nm])
+    begin(_Tp (&__arr)[_Nm]) noexcept
     { return __arr; }
 
 
@@ -13268,7 +14612,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp, size_t _Nm>
     inline constexpr _Tp*
-    end(_Tp (&__arr)[_Nm])
+    end(_Tp (&__arr)[_Nm]) noexcept
     { return __arr + _Nm; }
 
 
@@ -13349,7 +14693,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp, size_t _Nm>
     inline reverse_iterator<_Tp*>
-    rbegin(_Tp (&__arr)[_Nm])
+    rbegin(_Tp (&__arr)[_Nm]) noexcept
     { return reverse_iterator<_Tp*>(__arr + _Nm); }
 
 
@@ -13359,7 +14703,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp, size_t _Nm>
     inline reverse_iterator<_Tp*>
-    rend(_Tp (&__arr)[_Nm])
+    rend(_Tp (&__arr)[_Nm]) noexcept
     { return reverse_iterator<_Tp*>(__arr); }
 
 
@@ -13369,7 +14713,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     inline reverse_iterator<const _Tp*>
-    rbegin(initializer_list<_Tp> __il)
+    rbegin(initializer_list<_Tp> __il) noexcept
     { return reverse_iterator<const _Tp*>(__il.end()); }
 
 
@@ -13379,7 +14723,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _Tp>
     inline reverse_iterator<const _Tp*>
-    rend(initializer_list<_Tp> __il)
+    rend(initializer_list<_Tp> __il) noexcept
     { return reverse_iterator<const _Tp*>(__il.begin()); }
 
 
@@ -13401,27 +14745,165 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline auto
     crend(const _Container& __cont) -> decltype(std::rend(__cont))
     { return std::rend(__cont); }
-# 323 "/usr/include/c++/7/bits/range_access.h" 3
+# 1153 "/usr/include/c++/10/bits/range_access.h" 3
 
 }
-# 52 "/usr/include/c++/7/string" 2 3
-# 1 "/usr/include/c++/7/bits/basic_string.h" 1 3
-# 37 "/usr/include/c++/7/bits/basic_string.h" 3
+# 55 "/usr/include/c++/10/string" 2 3
+# 1 "/usr/include/c++/10/bits/basic_string.h" 1 3
+# 37 "/usr/include/c++/10/bits/basic_string.h" 3
        
-# 38 "/usr/include/c++/7/bits/basic_string.h" 3
+# 38 "/usr/include/c++/10/bits/basic_string.h" 3
 
 
-# 1 "/usr/include/c++/7/ext/alloc_traits.h" 1 3
-# 32 "/usr/include/c++/7/ext/alloc_traits.h" 3
+# 1 "/usr/include/c++/10/ext/alloc_traits.h" 1 3
+# 32 "/usr/include/c++/10/ext/alloc_traits.h" 3
        
-# 33 "/usr/include/c++/7/ext/alloc_traits.h" 3
+# 33 "/usr/include/c++/10/ext/alloc_traits.h" 3
 
-
-
-# 1 "/usr/include/c++/7/bits/alloc_traits.h" 1 3
-# 41 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 1 "/usr/include/c++/10/bits/alloc_traits.h" 1 3
+# 33 "/usr/include/c++/10/bits/alloc_traits.h" 3
+# 1 "/usr/include/c++/10/bits/stl_construct.h" 1 3
+# 73 "/usr/include/c++/10/bits/stl_construct.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
+
+# 106 "/usr/include/c++/10/bits/stl_construct.h" 3
+  template<typename _Tp, typename... _Args>
+    inline void
+    _Construct(_Tp* __p, _Args&&... __args)
+    { ::new(static_cast<void*>(__p)) _Tp(std::forward<_Args>(__args)...); }
+# 121 "/usr/include/c++/10/bits/stl_construct.h" 3
+  template<typename _T1>
+    inline void
+    _Construct_novalue(_T1* __p)
+    { ::new(static_cast<void*>(__p)) _T1; }
+
+  template<typename _ForwardIterator>
+    void
+    _Destroy(_ForwardIterator __first, _ForwardIterator __last);
+
+
+
+
+  template<typename _Tp>
+    constexpr inline void
+    _Destroy(_Tp* __pointer)
+    {
+
+
+
+      __pointer->~_Tp();
+
+    }
+
+  template<bool>
+    struct _Destroy_aux
+    {
+      template<typename _ForwardIterator>
+ static void
+ __destroy(_ForwardIterator __first, _ForwardIterator __last)
+ {
+   for (; __first != __last; ++__first)
+     std::_Destroy(std::__addressof(*__first));
+ }
+    };
+
+  template<>
+    struct _Destroy_aux<true>
+    {
+      template<typename _ForwardIterator>
+        static void
+        __destroy(_ForwardIterator, _ForwardIterator) { }
+    };
+
+
+
+
+
+
+  template<typename _ForwardIterator>
+    inline void
+    _Destroy(_ForwardIterator __first, _ForwardIterator __last)
+    {
+      typedef typename iterator_traits<_ForwardIterator>::value_type
+                       _Value_type;
+
+
+      static_assert(is_destructible<_Value_type>::value,
+      "value type is destructible");
+
+
+
+
+
+      std::_Destroy_aux<__has_trivial_destructor(_Value_type)>::
+ __destroy(__first, __last);
+    }
+
+  template<bool>
+    struct _Destroy_n_aux
+    {
+      template<typename _ForwardIterator, typename _Size>
+ static _ForwardIterator
+ __destroy_n(_ForwardIterator __first, _Size __count)
+ {
+   for (; __count > 0; (void)++__first, --__count)
+     std::_Destroy(std::__addressof(*__first));
+   return __first;
+ }
+    };
+
+  template<>
+    struct _Destroy_n_aux<true>
+    {
+      template<typename _ForwardIterator, typename _Size>
+        static _ForwardIterator
+        __destroy_n(_ForwardIterator __first, _Size __count)
+ {
+   std::advance(__first, __count);
+   return __first;
+ }
+    };
+
+
+
+
+
+
+  template<typename _ForwardIterator, typename _Size>
+    inline _ForwardIterator
+    _Destroy_n(_ForwardIterator __first, _Size __count)
+    {
+      typedef typename iterator_traits<_ForwardIterator>::value_type
+                       _Value_type;
+
+
+      static_assert(is_destructible<_Value_type>::value,
+      "value type is destructible");
+
+
+
+
+
+      return std::_Destroy_n_aux<__has_trivial_destructor(_Value_type)>::
+ __destroy_n(__first, __count);
+    }
+# 253 "/usr/include/c++/10/bits/stl_construct.h" 3
+
+}
+# 34 "/usr/include/c++/10/bits/alloc_traits.h" 2 3
+
+
+
+
+
+
+
+namespace std __attribute__ ((__visibility__ ("default")))
+{
+
+
+
 
 
   struct __allocator_traits_base
@@ -13591,13 +15073,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     private:
       template<typename _Alloc2>
- static auto
+ static constexpr auto
  _S_allocate(_Alloc2& __a, size_type __n, const_void_pointer __hint, int)
  -> decltype(__a.allocate(__n, __hint))
  { return __a.allocate(__n, __hint); }
 
       template<typename _Alloc2>
- static pointer
+ static constexpr pointer
  _S_allocate(_Alloc2& __a, size_type __n, const_void_pointer, ...)
  { return __a.allocate(__n); }
 
@@ -13620,36 +15102,46 @@ namespace std __attribute__ ((__visibility__ ("default")))
    = typename __construct_helper<_Tp, _Args...>::type;
 
       template<typename _Tp, typename... _Args>
- static _Require<__has_construct<_Tp, _Args...>>
+ static constexpr _Require<__has_construct<_Tp, _Args...>>
  _S_construct(_Alloc& __a, _Tp* __p, _Args&&... __args)
+ noexcept(noexcept(__a.construct(__p, std::forward<_Args>(__args)...)))
  { __a.construct(__p, std::forward<_Args>(__args)...); }
 
       template<typename _Tp, typename... _Args>
- static
+ static constexpr
  _Require<__and_<__not_<__has_construct<_Tp, _Args...>>,
           is_constructible<_Tp, _Args...>>>
  _S_construct(_Alloc&, _Tp* __p, _Args&&... __args)
- { ::new((void*)__p) _Tp(std::forward<_Args>(__args)...); }
+ noexcept(std::is_nothrow_constructible<_Tp, _Args...>::value)
+ {
+
+   ::new((void*)__p) _Tp(std::forward<_Args>(__args)...);
+
+
+
+ }
 
       template<typename _Alloc2, typename _Tp>
- static auto
+ static constexpr auto
  _S_destroy(_Alloc2& __a, _Tp* __p, int)
+ noexcept(noexcept(__a.destroy(__p)))
  -> decltype(__a.destroy(__p))
  { __a.destroy(__p); }
 
       template<typename _Alloc2, typename _Tp>
- static void
+ static constexpr void
  _S_destroy(_Alloc2&, _Tp* __p, ...)
- { __p->~_Tp(); }
+ noexcept(std::is_nothrow_destructible<_Tp>::value)
+ { std::_Destroy(__p); }
 
       template<typename _Alloc2>
- static auto
+ static constexpr auto
  _S_max_size(_Alloc2& __a, int)
  -> decltype(__a.max_size())
  { return __a.max_size(); }
 
       template<typename _Alloc2>
- static size_type
+ static constexpr size_type
  _S_max_size(_Alloc2&, ...)
  {
 
@@ -13659,46 +15151,56 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
 
       template<typename _Alloc2>
- static auto
+ static constexpr auto
  _S_select(_Alloc2& __a, int)
  -> decltype(__a.select_on_container_copy_construction())
  { return __a.select_on_container_copy_construction(); }
 
       template<typename _Alloc2>
- static _Alloc2
+ static constexpr _Alloc2
  _S_select(_Alloc2& __a, ...)
  { return __a; }
 
     public:
-# 299 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 312 "/usr/include/c++/10/bits/alloc_traits.h" 3
       static pointer
       allocate(_Alloc& __a, size_type __n)
       { return __a.allocate(__n); }
-# 314 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 327 "/usr/include/c++/10/bits/alloc_traits.h" 3
       static pointer
       allocate(_Alloc& __a, size_type __n, const_void_pointer __hint)
       { return _S_allocate(__a, __n, __hint, 0); }
-# 326 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 339 "/usr/include/c++/10/bits/alloc_traits.h" 3
       static void
       deallocate(_Alloc& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 341 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 354 "/usr/include/c++/10/bits/alloc_traits.h" 3
       template<typename _Tp, typename... _Args>
- static auto construct(_Alloc& __a, _Tp* __p, _Args&&... __args)
+ static auto
+ construct(_Alloc& __a, _Tp* __p, _Args&&... __args)
+ noexcept(noexcept(_S_construct(__a, __p,
+           std::forward<_Args>(__args)...)))
  -> decltype(_S_construct(__a, __p, std::forward<_Args>(__args)...))
  { _S_construct(__a, __p, std::forward<_Args>(__args)...); }
-# 354 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 370 "/usr/include/c++/10/bits/alloc_traits.h" 3
       template<typename _Tp>
- static void destroy(_Alloc& __a, _Tp* __p)
+ static void
+ destroy(_Alloc& __a, _Tp* __p)
+ noexcept(noexcept(_S_destroy(__a, __p, 0)))
  { _S_destroy(__a, __p, 0); }
-# 366 "/usr/include/c++/7/bits/alloc_traits.h" 3
-      static size_type max_size(const _Alloc& __a) noexcept
+# 384 "/usr/include/c++/10/bits/alloc_traits.h" 3
+      static size_type
+      max_size(const _Alloc& __a) noexcept
       { return _S_max_size(__a, 0); }
-# 377 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 396 "/usr/include/c++/10/bits/alloc_traits.h" 3
       static _Alloc
       select_on_container_copy_construction(const _Alloc& __rhs)
       { return _S_select(__rhs, 0); }
     };
+
+
+
+
 
 
   template<typename _Tp>
@@ -13706,6 +15208,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     {
 
       using allocator_type = allocator<_Tp>;
+
 
       using value_type = _Tp;
 
@@ -13744,28 +15247,49 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       template<typename _Up>
  using rebind_traits = allocator_traits<allocator<_Up>>;
-# 434 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 458 "/usr/include/c++/10/bits/alloc_traits.h" 3
       static pointer
       allocate(allocator_type& __a, size_type __n)
       { return __a.allocate(__n); }
-# 448 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 472 "/usr/include/c++/10/bits/alloc_traits.h" 3
       static pointer
       allocate(allocator_type& __a, size_type __n, const_void_pointer __hint)
-      { return __a.allocate(__n, __hint); }
-# 460 "/usr/include/c++/7/bits/alloc_traits.h" 3
+      {
+
+ return __a.allocate(__n, __hint);
+
+
+
+      }
+# 490 "/usr/include/c++/10/bits/alloc_traits.h" 3
       static void
       deallocate(allocator_type& __a, pointer __p, size_type __n)
       { __a.deallocate(__p, __n); }
-# 472 "/usr/include/c++/7/bits/alloc_traits.h" 3
+# 505 "/usr/include/c++/10/bits/alloc_traits.h" 3
       template<typename _Up, typename... _Args>
  static void
- construct(allocator_type& __a, _Up* __p, _Args&&... __args)
- { __a.construct(__p, std::forward<_Args>(__args)...); }
-# 484 "/usr/include/c++/7/bits/alloc_traits.h" 3
+ construct(allocator_type& __a __attribute__((__unused__)), _Up* __p,
+    _Args&&... __args)
+ noexcept(std::is_nothrow_constructible<_Up, _Args...>::value)
+ {
+
+   __a.construct(__p, std::forward<_Args>(__args)...);
+
+
+
+ }
+# 525 "/usr/include/c++/10/bits/alloc_traits.h" 3
       template<typename _Up>
  static void
- destroy(allocator_type& __a, _Up* __p)
- { __a.destroy(__p); }
+ destroy(allocator_type& __a __attribute__((__unused__)), _Up* __p)
+ noexcept(is_nothrow_destructible<_Up>::value)
+ {
+
+   __a.destroy(__p);
+
+
+
+ }
 
 
 
@@ -13773,8 +15297,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       static size_type
-      max_size(const allocator_type& __a) noexcept
-      { return __a.max_size(); }
+      max_size(const allocator_type& __a __attribute__((__unused__))) noexcept
+      {
+
+ return __a.max_size();
+
+
+
+      }
 
 
 
@@ -13797,20 +15327,29 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __do_alloc_on_copy(_Alloc&, const _Alloc&, false_type)
     { }
 
+
   template<typename _Alloc>
-    inline void __alloc_on_copy(_Alloc& __one, const _Alloc& __two)
+    constexpr inline void
+    __alloc_on_copy(_Alloc& __one, const _Alloc& __two)
     {
       typedef allocator_traits<_Alloc> __traits;
       typedef typename __traits::propagate_on_container_copy_assignment __pocca;
+
+
+
+
       __do_alloc_on_copy(__one, __two, __pocca());
+
     }
 
   template<typename _Alloc>
-    inline _Alloc __alloc_on_copy(const _Alloc& __a)
+    constexpr _Alloc
+    __alloc_on_copy(const _Alloc& __a)
     {
       typedef allocator_traits<_Alloc> __traits;
       return __traits::select_on_container_copy_construction(__a);
     }
+
 
   template<typename _Alloc>
     inline void __do_alloc_on_move(_Alloc& __one, _Alloc& __two, true_type)
@@ -13820,13 +15359,21 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline void __do_alloc_on_move(_Alloc&, _Alloc&, false_type)
     { }
 
+
   template<typename _Alloc>
-    inline void __alloc_on_move(_Alloc& __one, _Alloc& __two)
+    constexpr inline void
+    __alloc_on_move(_Alloc& __one, _Alloc& __two)
     {
       typedef allocator_traits<_Alloc> __traits;
       typedef typename __traits::propagate_on_container_move_assignment __pocma;
+
+
+
+
       __do_alloc_on_move(__one, __two, __pocma());
+
     }
+
 
   template<typename _Alloc>
     inline void __do_alloc_on_swap(_Alloc& __one, _Alloc& __two, true_type)
@@ -13839,38 +15386,46 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline void __do_alloc_on_swap(_Alloc&, _Alloc&, false_type)
     { }
 
+
   template<typename _Alloc>
-    inline void __alloc_on_swap(_Alloc& __one, _Alloc& __two)
+    constexpr inline void
+    __alloc_on_swap(_Alloc& __one, _Alloc& __two)
     {
       typedef allocator_traits<_Alloc> __traits;
       typedef typename __traits::propagate_on_container_swap __pocs;
+
+
+
+
+
+
+
       __do_alloc_on_swap(__one, __two, __pocs());
+
     }
 
-  template<typename _Alloc>
-    class __is_copy_insertable_impl
-    {
-      typedef allocator_traits<_Alloc> _Traits;
+  template<typename _Alloc, typename _Tp,
+    typename _ValueT = __remove_cvref_t<typename _Alloc::value_type>,
+    typename = void>
+    struct __is_alloc_insertable_impl
+    : false_type
+    { };
 
-      template<typename _Up, typename
-        = decltype(_Traits::construct(std::declval<_Alloc&>(),
-          std::declval<_Up*>(),
-          std::declval<const _Up&>()))>
- static true_type
- _M_select(int);
+  template<typename _Alloc, typename _Tp, typename _ValueT>
+    struct __is_alloc_insertable_impl<_Alloc, _Tp, _ValueT,
+      __void_t<decltype(allocator_traits<_Alloc>::construct(
+     std::declval<_Alloc&>(), std::declval<_ValueT*>(),
+     std::declval<_Tp>()))>>
+    : true_type
+    { };
 
-      template<typename _Up>
- static false_type
- _M_select(...);
 
-    public:
-      typedef decltype(_M_select<typename _Alloc::value_type>(0)) type;
-    };
 
 
   template<typename _Alloc>
     struct __is_copy_insertable
-    : __is_copy_insertable_impl<_Alloc>::type
+    : __is_alloc_insertable_impl<_Alloc,
+     typename _Alloc::value_type const&>::type
     { };
 
 
@@ -13880,8 +15435,62 @@ namespace std __attribute__ ((__visibility__ ("default")))
     { };
 
 
+
+
+  template<typename _Alloc>
+    struct __is_move_insertable
+    : __is_alloc_insertable_impl<_Alloc, typename _Alloc::value_type>::type
+    { };
+
+
+  template<typename _Tp>
+    struct __is_move_insertable<allocator<_Tp>>
+    : is_move_constructible<_Tp>
+    { };
+
+
+  template<typename _Alloc, typename = void>
+    struct __is_allocator : false_type { };
+
+  template<typename _Alloc>
+    struct __is_allocator<_Alloc,
+      __void_t<typename _Alloc::value_type,
+        decltype(std::declval<_Alloc&>().allocate(size_t{}))>>
+    : true_type { };
+
+  template<typename _Alloc>
+    using _RequireAllocator
+      = typename enable_if<__is_allocator<_Alloc>::value, _Alloc>::type;
+
+  template<typename _Alloc>
+    using _RequireNotAllocator
+      = typename enable_if<!__is_allocator<_Alloc>::value, _Alloc>::type;
+# 719 "/usr/include/c++/10/bits/alloc_traits.h" 3
+  template<typename _ForwardIterator, typename _Allocator>
+    void
+    _Destroy(_ForwardIterator __first, _ForwardIterator __last,
+      _Allocator& __alloc)
+    {
+      for (; __first != __last; ++__first)
+
+
+
+ allocator_traits<_Allocator>::destroy(__alloc,
+           std::__addressof(*__first));
+
+    }
+
+  template<typename _ForwardIterator, typename _Tp>
+    inline void
+    _Destroy(_ForwardIterator __first, _ForwardIterator __last,
+      allocator<_Tp>&)
+    {
+      _Destroy(__first, __last);
+    }
+
+
 }
-# 37 "/usr/include/c++/7/ext/alloc_traits.h" 2 3
+# 35 "/usr/include/c++/10/ext/alloc_traits.h" 2 3
 
 
 
@@ -13894,7 +15503,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 
-template<typename _Alloc>
+template<typename _Alloc, typename = typename _Alloc::value_type>
   struct __alloc_traits
 
   : std::allocator_traits<_Alloc>
@@ -13926,23 +15535,28 @@ template<typename _Alloc>
   public:
 
     template<typename _Ptr, typename... _Args>
-      static typename std::enable_if<__is_custom_pointer<_Ptr>::value>::type
+      static constexpr
+      std::__enable_if_t<__is_custom_pointer<_Ptr>::value>
       construct(_Alloc& __a, _Ptr __p, _Args&&... __args)
+      noexcept(noexcept(_Base_type::construct(__a, std::__to_address(__p),
+           std::forward<_Args>(__args)...)))
       {
- _Base_type::construct(__a, std::addressof(*__p),
+ _Base_type::construct(__a, std::__to_address(__p),
          std::forward<_Args>(__args)...);
       }
 
 
     template<typename _Ptr>
-      static typename std::enable_if<__is_custom_pointer<_Ptr>::value>::type
+      static constexpr
+      std::__enable_if_t<__is_custom_pointer<_Ptr>::value>
       destroy(_Alloc& __a, _Ptr __p)
-      { _Base_type::destroy(__a, std::addressof(*__p)); }
+      noexcept(noexcept(_Base_type::destroy(__a, std::__to_address(__p))))
+      { _Base_type::destroy(__a, std::__to_address(__p)); }
 
-    static _Alloc _S_select_on_copy(const _Alloc& __a)
+    static constexpr _Alloc _S_select_on_copy(const _Alloc& __a)
     { return _Base_type::select_on_container_copy_construction(__a); }
 
-    static void _S_on_swap(_Alloc& __a, _Alloc& __b)
+    static constexpr void _S_on_swap(_Alloc& __a, _Alloc& __b)
     { std::__alloc_on_swap(__a, __b); }
 
     static constexpr bool _S_propagate_on_copy_assign()
@@ -13963,20 +15577,20 @@ template<typename _Alloc>
     template<typename _Tp>
       struct rebind
       { typedef typename _Base_type::template rebind_alloc<_Tp> other; };
-# 158 "/usr/include/c++/7/ext/alloc_traits.h" 3
+# 166 "/usr/include/c++/10/ext/alloc_traits.h" 3
   };
 
 
 }
-# 41 "/usr/include/c++/7/bits/basic_string.h" 2 3
-# 52 "/usr/include/c++/7/bits/basic_string.h" 3
+# 41 "/usr/include/c++/10/bits/basic_string.h" 2 3
+# 52 "/usr/include/c++/10/bits/basic_string.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
 
 
 namespace __cxx11 {
-# 76 "/usr/include/c++/7/bits/basic_string.h" 3
+# 76 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     class basic_string
     {
@@ -14004,13 +15618,16 @@ namespace __cxx11 {
 
       static const size_type npos = static_cast<size_type>(-1);
 
-    private:
+    protected:
 
 
 
 
       typedef const_iterator __const_iterator;
-# 139 "/usr/include/c++/7/bits/basic_string.h" 3
+
+
+    private:
+# 150 "/usr/include/c++/10/bits/basic_string.h" 3
       struct _Alloc_hider : allocator_type
       {
 
@@ -14155,7 +15772,7 @@ namespace __cxx11 {
       { return _M_dataplus; }
 
     private:
-# 298 "/usr/include/c++/7/bits/basic_string.h" 3
+# 309 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       _M_check(size_type __pos, const char* __s) const
       {
@@ -14299,7 +15916,7 @@ namespace __cxx11 {
       : _M_dataplus(_M_local_data(),
       _Alloc_traits::_S_select_on_copy(__str._M_get_allocator()))
       { _M_construct(__str._M_data(), __str._M_data() + __str.length()); }
-# 450 "/usr/include/c++/7/bits/basic_string.h" 3
+# 461 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string(const basic_string& __str, size_type __pos,
      const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
@@ -14323,7 +15940,7 @@ namespace __cxx11 {
    + __str._M_check(__pos, "basic_string::basic_string");
  _M_construct(__start, __start + __str._M_limit(__pos, __n));
       }
-# 481 "/usr/include/c++/7/bits/basic_string.h" 3
+# 492 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string(const basic_string& __str, size_type __pos,
      size_type __n, const _Alloc& __a)
       : _M_dataplus(_M_local_data(), __a)
@@ -14332,31 +15949,20 @@ namespace __cxx11 {
    = __str._M_data() + __str._M_check(__pos, "string::string");
  _M_construct(__start, __start + __str._M_limit(__pos, __n));
       }
-# 499 "/usr/include/c++/7/bits/basic_string.h" 3
+# 510 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string(const _CharT* __s, size_type __n,
      const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__s, __s + __n); }
-
-
-
-
-
-
+# 525 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__s, __s ? __s + traits_type::length(__s) : __s+npos); }
-
-
-
-
-
-
-
+# 540 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())
       : _M_dataplus(_M_local_data(), __a)
       { _M_construct(__n, __c); }
-# 531 "/usr/include/c++/7/bits/basic_string.h" 3
+# 552 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string(basic_string&& __str) noexcept
       : _M_dataplus(_M_local_data(), std::move(__str._M_get_allocator()))
       {
@@ -14415,7 +16021,7 @@ namespace __cxx11 {
  else
    _M_construct(__str.begin(), __str.end());
       }
-# 599 "/usr/include/c++/7/bits/basic_string.h" 3
+# 620 "/usr/include/c++/10/bits/basic_string.h" 3
       template<typename _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -14425,7 +16031,7 @@ namespace __cxx11 {
        const _Alloc& __a = _Alloc())
  : _M_dataplus(_M_local_data(), __a)
  { _M_construct(__beg, __end); }
-# 646 "/usr/include/c++/7/bits/basic_string.h" 3
+# 657 "/usr/include/c++/10/bits/basic_string.h" 3
       ~basic_string()
       { _M_dispose(); }
 
@@ -14436,35 +16042,6 @@ namespace __cxx11 {
       basic_string&
       operator=(const basic_string& __str)
       {
-
- if (_Alloc_traits::_S_propagate_on_copy_assign())
-   {
-     if (!_Alloc_traits::_S_always_equal() && !_M_is_local()
-  && _M_get_allocator() != __str._M_get_allocator())
-       {
-
-
-  if (__str.size() <= _S_local_capacity)
-    {
-      _M_destroy(_M_allocated_capacity);
-      _M_data(_M_local_data());
-      _M_set_length(0);
-    }
-  else
-    {
-      const auto __len = __str.size();
-      auto __alloc = __str._M_get_allocator();
-
-      auto __ptr = _Alloc_traits::allocate(__alloc, __len + 1);
-      _M_destroy(_M_allocated_capacity);
-      _M_data(__ptr);
-      _M_capacity(__len);
-      _M_set_length(__len);
-    }
-       }
-     std::__alloc_on_copy(_M_get_allocator(), __str._M_get_allocator());
-   }
-
  return this->assign(__str);
       }
 
@@ -14475,14 +16052,14 @@ namespace __cxx11 {
       basic_string&
       operator=(const _CharT* __s)
       { return this->assign(__s); }
-# 703 "/usr/include/c++/7/bits/basic_string.h" 3
+# 685 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       operator=(_CharT __c)
       {
  this->assign(1, __c);
  return *this;
       }
-# 721 "/usr/include/c++/7/bits/basic_string.h" 3
+# 702 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       operator=(basic_string&& __str)
       noexcept(_Alloc_traits::_S_nothrow_move())
@@ -14552,7 +16129,7 @@ namespace __cxx11 {
  this->assign(__l.begin(), __l.size());
  return *this;
       }
-# 815 "/usr/include/c++/7/bits/basic_string.h" 3
+# 796 "/usr/include/c++/10/bits/basic_string.h" 3
       iterator
       begin() noexcept
       { return iterator(_M_data()); }
@@ -14671,10 +16248,10 @@ namespace __cxx11 {
       size_type
       max_size() const noexcept
       { return (_Alloc_traits::max_size(_M_get_allocator()) - 1) / 2; }
-# 944 "/usr/include/c++/7/bits/basic_string.h" 3
+# 925 "/usr/include/c++/10/bits/basic_string.h" 3
       void
       resize(size_type __n, _CharT __c);
-# 957 "/usr/include/c++/7/bits/basic_string.h" 3
+# 938 "/usr/include/c++/10/bits/basic_string.h" 3
       void
       resize(size_type __n)
       { this->resize(__n, _CharT()); }
@@ -14706,7 +16283,7 @@ namespace __cxx11 {
  return _M_is_local() ? size_type(_S_local_capacity)
                       : _M_allocated_capacity;
       }
-# 1006 "/usr/include/c++/7/bits/basic_string.h" 3
+# 987 "/usr/include/c++/10/bits/basic_string.h" 3
       void
       reserve(size_type __res_arg = 0);
 
@@ -14724,14 +16301,14 @@ namespace __cxx11 {
       bool
       empty() const noexcept
       { return this->size() == 0; }
-# 1035 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1016 "/usr/include/c++/10/bits/basic_string.h" 3
       const_reference
       operator[] (size_type __pos) const noexcept
       {
  ;
  return _M_data()[__pos];
       }
-# 1052 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1033 "/usr/include/c++/10/bits/basic_string.h" 3
       reference
       operator[](size_type __pos)
       {
@@ -14742,7 +16319,7 @@ namespace __cxx11 {
  ;
  return _M_data()[__pos];
       }
-# 1073 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1054 "/usr/include/c++/10/bits/basic_string.h" 3
       const_reference
       at(size_type __n) const
       {
@@ -14753,7 +16330,7 @@ namespace __cxx11 {
        __n, this->size());
  return _M_data()[__n];
       }
-# 1094 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1075 "/usr/include/c++/10/bits/basic_string.h" 3
       reference
       at(size_type __n)
       {
@@ -14809,7 +16386,7 @@ namespace __cxx11 {
  ;
  return operator[](this->size() - 1);
       }
-# 1157 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1138 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       operator+=(const basic_string& __str)
       { return this->append(__str); }
@@ -14844,11 +16421,11 @@ namespace __cxx11 {
       basic_string&
       operator+=(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1210 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1191 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       append(const basic_string& __str)
       { return _M_append(__str._M_data(), __str.size()); }
-# 1227 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1208 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       append(const basic_string& __str, size_type __pos, size_type __n = npos)
       { return _M_append(__str._M_data()
@@ -14882,7 +16459,7 @@ namespace __cxx11 {
  _M_check_length(size_type(0), __n, "basic_string::append");
  return _M_append(__s, __n);
       }
-# 1269 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1250 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       append(size_type __n, _CharT __c)
       { return _M_replace_aux(this->size(), size_type(0), __n, __c); }
@@ -14896,7 +16473,7 @@ namespace __cxx11 {
       basic_string&
       append(initializer_list<_CharT> __l)
       { return this->append(__l.begin(), __l.size()); }
-# 1293 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1274 "/usr/include/c++/10/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -14905,7 +16482,7 @@ namespace __cxx11 {
         basic_string&
         append(_InputIterator __first, _InputIterator __last)
         { return this->replace(end(), end(), __first, __last); }
-# 1338 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1319 "/usr/include/c++/10/bits/basic_string.h" 3
       void
       push_back(_CharT __c)
       {
@@ -14924,10 +16501,39 @@ namespace __cxx11 {
       basic_string&
       assign(const basic_string& __str)
       {
+
+ if (_Alloc_traits::_S_propagate_on_copy_assign())
+   {
+     if (!_Alloc_traits::_S_always_equal() && !_M_is_local()
+  && _M_get_allocator() != __str._M_get_allocator())
+       {
+
+
+  if (__str.size() <= _S_local_capacity)
+    {
+      _M_destroy(_M_allocated_capacity);
+      _M_data(_M_local_data());
+      _M_set_length(0);
+    }
+  else
+    {
+      const auto __len = __str.size();
+      auto __alloc = __str._M_get_allocator();
+
+      auto __ptr = _Alloc_traits::allocate(__alloc, __len + 1);
+      _M_destroy(_M_allocated_capacity);
+      _M_data(__ptr);
+      _M_capacity(__len);
+      _M_set_length(__len);
+    }
+       }
+     std::__alloc_on_copy(_M_get_allocator(), __str._M_get_allocator());
+   }
+
  this->_M_assign(__str);
  return *this;
       }
-# 1369 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1379 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       assign(basic_string&& __str)
       noexcept(_Alloc_traits::_S_nothrow_move())
@@ -14936,20 +16542,20 @@ namespace __cxx11 {
 
  return *this = std::move(__str);
       }
-# 1392 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1402 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       assign(const basic_string& __str, size_type __pos, size_type __n = npos)
       { return _M_replace(size_type(0), this->size(), __str._M_data()
      + __str._M_check(__pos, "basic_string::assign"),
      __str._M_limit(__pos, __n)); }
-# 1408 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1418 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       assign(const _CharT* __s, size_type __n)
       {
  ;
  return _M_replace(size_type(0), this->size(), __s, __n);
       }
-# 1424 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1434 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       assign(const _CharT* __s)
       {
@@ -14957,11 +16563,11 @@ namespace __cxx11 {
  return _M_replace(size_type(0), this->size(), __s,
      traits_type::length(__s));
       }
-# 1441 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1451 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       assign(size_type __n, _CharT __c)
       { return _M_replace_aux(size_type(0), this->size(), __n, __c); }
-# 1454 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1464 "/usr/include/c++/10/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
 
@@ -14980,7 +16586,7 @@ namespace __cxx11 {
       basic_string&
       assign(initializer_list<_CharT> __l)
       { return this->assign(__l.begin(), __l.size()); }
-# 1522 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1533 "/usr/include/c++/10/bits/basic_string.h" 3
       iterator
       insert(const_iterator __p, size_type __n, _CharT __c)
       {
@@ -14989,7 +16595,7 @@ namespace __cxx11 {
  this->replace(__p, __p, __n, __c);
  return iterator(this->_M_data() + __pos);
       }
-# 1564 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1575 "/usr/include/c++/10/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
  iterator
@@ -15000,30 +16606,27 @@ namespace __cxx11 {
    this->replace(__p, __p, __beg, __end);
    return iterator(this->_M_data() + __pos);
  }
-# 1600 "/usr/include/c++/7/bits/basic_string.h" 3
-      void
-      insert(iterator __p, initializer_list<_CharT> __l)
-      {
- ;
- this->insert(__p - begin(), __l.begin(), __l.size());
-      }
-# 1620 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1611 "/usr/include/c++/10/bits/basic_string.h" 3
+      iterator
+      insert(const_iterator __p, initializer_list<_CharT> __l)
+      { return this->insert(__p, __l.begin(), __l.end()); }
+# 1638 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos1, const basic_string& __str)
       { return this->replace(__pos1, size_type(0),
         __str._M_data(), __str.size()); }
-# 1643 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1661 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos1, const basic_string& __str,
       size_type __pos2, size_type __n = npos)
       { return this->replace(__pos1, size_type(0), __str._M_data()
         + __str._M_check(__pos2, "basic_string::insert"),
         __str._M_limit(__pos2, __n)); }
-# 1666 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1684 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos, const _CharT* __s, size_type __n)
       { return this->replace(__pos, size_type(0), __s, __n); }
-# 1685 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1703 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos, const _CharT* __s)
       {
@@ -15031,12 +16634,12 @@ namespace __cxx11 {
  return this->replace(__pos, size_type(0), __s,
         traits_type::length(__s));
       }
-# 1709 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1727 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       insert(size_type __pos, size_type __n, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::insert"),
          size_type(0), __n, __c); }
-# 1727 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1745 "/usr/include/c++/10/bits/basic_string.h" 3
       iterator
       insert(__const_iterator __p, _CharT __c)
       {
@@ -15045,7 +16648,7 @@ namespace __cxx11 {
  _M_replace_aux(__pos, size_type(0), size_type(1), __c);
  return iterator(_M_data() + __pos);
       }
-# 1787 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1805 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       erase(size_type __pos = 0, size_type __n = npos)
       {
@@ -15056,7 +16659,7 @@ namespace __cxx11 {
    this->_M_erase(__pos, _M_limit(__pos, __n));
  return *this;
       }
-# 1806 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1824 "/usr/include/c++/10/bits/basic_string.h" 3
       iterator
       erase(__const_iterator __position)
       {
@@ -15066,7 +16669,7 @@ namespace __cxx11 {
  this->_M_erase(__pos, size_type(1));
  return iterator(_M_data() + __pos);
       }
-# 1825 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1843 "/usr/include/c++/10/bits/basic_string.h" 3
       iterator
       erase(__const_iterator __first, __const_iterator __last)
       {
@@ -15092,18 +16695,18 @@ namespace __cxx11 {
  ;
  _M_erase(size() - 1, 1);
       }
-# 1869 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1887 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n, const basic_string& __str)
       { return this->replace(__pos, __n, __str._M_data(), __str.size()); }
-# 1891 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1909 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos1, size_type __n1, const basic_string& __str,
        size_type __pos2, size_type __n2 = npos)
       { return this->replace(__pos1, __n1, __str._M_data()
         + __str._M_check(__pos2, "basic_string::replace"),
         __str._M_limit(__pos2, __n2)); }
-# 1916 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1934 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s,
        size_type __n2)
@@ -15112,24 +16715,24 @@ namespace __cxx11 {
  return _M_replace(_M_check(__pos, "basic_string::replace"),
      _M_limit(__pos, __n1), __s, __n2);
       }
-# 1941 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1959 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n1, const _CharT* __s)
       {
  ;
  return this->replace(__pos, __n1, __s, traits_type::length(__s));
       }
-# 1965 "/usr/include/c++/7/bits/basic_string.h" 3
+# 1983 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(size_type __pos, size_type __n1, size_type __n2, _CharT __c)
       { return _M_replace_aux(_M_check(__pos, "basic_string::replace"),
          _M_limit(__pos, __n1), __n2, __c); }
-# 1983 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2001 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        const basic_string& __str)
       { return this->replace(__i1, __i2, __str._M_data(), __str.size()); }
-# 2003 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2021 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        const _CharT* __s, size_type __n)
@@ -15138,14 +16741,14 @@ namespace __cxx11 {
                       ;
  return this->replace(__i1 - begin(), __i2 - __i1, __s, __n);
       }
-# 2025 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2043 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, const _CharT* __s)
       {
  ;
  return this->replace(__i1, __i2, __s, traits_type::length(__s));
       }
-# 2046 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2064 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2, size_type __n,
        _CharT __c)
@@ -15154,7 +16757,7 @@ namespace __cxx11 {
                       ;
  return _M_replace_aux(__i1 - begin(), __i2 - __i1, __n, __c);
       }
-# 2071 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2089 "/usr/include/c++/10/bits/basic_string.h" 3
       template<class _InputIterator,
         typename = std::_RequireInputIter<_InputIterator>>
         basic_string&
@@ -15167,7 +16770,7 @@ namespace __cxx11 {
    return this->_M_replace_dispatch(__i1, __i2, __k1, __k2,
         std::__false_type());
  }
-# 2103 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2121 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string&
       replace(__const_iterator __i1, __const_iterator __i2,
        _CharT* __k1, _CharT* __k2)
@@ -15211,11 +16814,11 @@ namespace __cxx11 {
  return this->replace(__i1 - begin(), __i2 - __i1,
         __k1.base(), __k2 - __k1);
       }
-# 2162 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2180 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string& replace(const_iterator __i1, const_iterator __i2,
        initializer_list<_CharT> __l)
       { return this->replace(__i1, __i2, __l.begin(), __l.size()); }
-# 2221 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2240 "/usr/include/c++/10/bits/basic_string.h" 3
     private:
       template<class _Integer>
  basic_string&
@@ -15241,72 +16844,72 @@ namespace __cxx11 {
       _M_append(const _CharT* __s, size_type __n);
 
     public:
-# 2259 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2278 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       copy(_CharT* __s, size_type __n, size_type __pos = 0) const;
-# 2269 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2288 "/usr/include/c++/10/bits/basic_string.h" 3
       void
       swap(basic_string& __s) noexcept;
-# 2279 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2298 "/usr/include/c++/10/bits/basic_string.h" 3
       const _CharT*
       c_str() const noexcept
       { return _M_data(); }
-# 2291 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2310 "/usr/include/c++/10/bits/basic_string.h" 3
       const _CharT*
       data() const noexcept
       { return _M_data(); }
-# 2310 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2329 "/usr/include/c++/10/bits/basic_string.h" 3
       allocator_type
       get_allocator() const noexcept
       { return _M_get_allocator(); }
-# 2326 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2345 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2340 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2359 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find(__str.data(), __pos, __str.size()); }
-# 2372 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2391 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find(const _CharT* __s, size_type __pos = 0) const noexcept
       {
  ;
  return this->find(__s, __pos, traits_type::length(__s));
       }
-# 2389 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2408 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find(_CharT __c, size_type __pos = 0) const noexcept;
-# 2402 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2421 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       rfind(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->rfind(__str.data(), __pos, __str.size()); }
-# 2436 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2455 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       rfind(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2450 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2469 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       rfind(const _CharT* __s, size_type __pos = npos) const
       {
  ;
  return this->rfind(__s, __pos, traits_type::length(__s));
       }
-# 2467 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2486 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       rfind(_CharT __c, size_type __pos = npos) const noexcept;
-# 2481 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2500 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_of(__str.data(), __pos, __str.size()); }
-# 2516 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2535 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2530 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2549 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_of(const _CharT* __s, size_type __pos = 0) const
       noexcept
@@ -15314,20 +16917,20 @@ namespace __cxx11 {
  ;
  return this->find_first_of(__s, __pos, traits_type::length(__s));
       }
-# 2550 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2569 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_of(_CharT __c, size_type __pos = 0) const noexcept
       { return this->find(__c, __pos); }
-# 2565 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2584 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_of(__str.data(), __pos, __str.size()); }
-# 2600 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2619 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_of(const _CharT* __s, size_type __pos, size_type __n) const
       noexcept;
-# 2614 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2633 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_of(const _CharT* __s, size_type __pos = npos) const
       noexcept
@@ -15335,20 +16938,20 @@ namespace __cxx11 {
  ;
  return this->find_last_of(__s, __pos, traits_type::length(__s));
       }
-# 2634 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2653 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_of(_CharT __c, size_type __pos = npos) const noexcept
       { return this->rfind(__c, __pos); }
-# 2648 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2667 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_not_of(const basic_string& __str, size_type __pos = 0) const
       noexcept
       { return this->find_first_not_of(__str.data(), __pos, __str.size()); }
-# 2683 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2702 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos,
    size_type __n) const noexcept;
-# 2697 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2716 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_not_of(const _CharT* __s, size_type __pos = 0) const
       noexcept
@@ -15356,20 +16959,20 @@ namespace __cxx11 {
  ;
  return this->find_first_not_of(__s, __pos, traits_type::length(__s));
       }
-# 2715 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2734 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_first_not_of(_CharT __c, size_type __pos = 0) const
       noexcept;
-# 2730 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2749 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_not_of(const basic_string& __str, size_type __pos = npos) const
       noexcept
       { return this->find_last_not_of(__str.data(), __pos, __str.size()); }
-# 2765 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2784 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos,
          size_type __n) const noexcept;
-# 2779 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2798 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_not_of(const _CharT* __s, size_type __pos = npos) const
       noexcept
@@ -15377,16 +16980,16 @@ namespace __cxx11 {
  ;
  return this->find_last_not_of(__s, __pos, traits_type::length(__s));
       }
-# 2797 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2816 "/usr/include/c++/10/bits/basic_string.h" 3
       size_type
       find_last_not_of(_CharT __c, size_type __pos = npos) const
       noexcept;
-# 2813 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2832 "/usr/include/c++/10/bits/basic_string.h" 3
       basic_string
       substr(size_type __pos = 0, size_type __n = npos) const
       { return basic_string(*this,
        _M_check(__pos, "basic_string::substr"), __n); }
-# 2832 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2851 "/usr/include/c++/10/bits/basic_string.h" 3
       int
       compare(const basic_string& __str) const
       {
@@ -15399,29 +17002,28 @@ namespace __cxx11 {
    __r = _S_compare(__size, __osize);
  return __r;
       }
-# 2925 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2944 "/usr/include/c++/10/bits/basic_string.h" 3
       int
       compare(size_type __pos, size_type __n, const basic_string& __str) const;
-# 2951 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2970 "/usr/include/c++/10/bits/basic_string.h" 3
       int
       compare(size_type __pos1, size_type __n1, const basic_string& __str,
        size_type __pos2, size_type __n2 = npos) const;
-# 2969 "/usr/include/c++/7/bits/basic_string.h" 3
+# 2988 "/usr/include/c++/10/bits/basic_string.h" 3
       int
       compare(const _CharT* __s) const noexcept;
-# 2993 "/usr/include/c++/7/bits/basic_string.h" 3
+# 3012 "/usr/include/c++/10/bits/basic_string.h" 3
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s) const;
-# 3020 "/usr/include/c++/7/bits/basic_string.h" 3
+# 3039 "/usr/include/c++/10/bits/basic_string.h" 3
       int
       compare(size_type __pos, size_type __n1, const _CharT* __s,
        size_type __n2) const;
-
-
+# 3070 "/usr/include/c++/10/bits/basic_string.h" 3
       template<typename, typename, typename> friend class basic_stringbuf;
     };
 }
-# 5886 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6030 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_string<_CharT, _Traits, _Alloc>
     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -15504,11 +17106,21 @@ namespace __cxx11 {
     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
        basic_string<_CharT, _Traits, _Alloc>&& __rhs)
     {
-      const auto __size = __lhs.size() + __rhs.size();
-      const bool __cond = (__size > __lhs.capacity()
-      && __size <= __rhs.capacity());
-      return __cond ? std::move(__rhs.insert(0, __lhs))
-             : std::move(__lhs.append(__rhs));
+
+      using _Alloc_traits = allocator_traits<_Alloc>;
+      bool __use_rhs = false;
+      if (typename _Alloc_traits::is_always_equal{})
+ __use_rhs = true;
+      else if (__lhs.get_allocator() == __rhs.get_allocator())
+ __use_rhs = true;
+      if (__use_rhs)
+
+ {
+   const auto __size = __lhs.size() + __rhs.size();
+   if (__size > __lhs.capacity() && __size <= __rhs.capacity())
+     return std::move(__rhs.insert(0, __lhs));
+ }
+      return std::move(__lhs.append(__rhs));
     }
 
   template<typename _CharT, typename _Traits, typename _Alloc>
@@ -15534,7 +17146,7 @@ namespace __cxx11 {
     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
        _CharT __rhs)
     { return std::move(__lhs.append(1, __rhs)); }
-# 6007 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6161 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -15559,22 +17171,16 @@ namespace __cxx11 {
 
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
-    operator==(const _CharT* __lhs,
-        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
-    { return __rhs.compare(__lhs) == 0; }
-
-
-
-
-
-
-
-  template<typename _CharT, typename _Traits, typename _Alloc>
-    inline bool
     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
         const _CharT* __rhs)
     { return __lhs.compare(__rhs) == 0; }
-# 6054 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6224 "/usr/include/c++/10/bits/basic_string.h" 3
+  template<typename _CharT, typename _Traits, typename _Alloc>
+    inline bool
+    operator==(const _CharT* __lhs,
+        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+    { return __rhs.compare(__lhs) == 0; }
+# 6237 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -15605,7 +17211,7 @@ namespace __cxx11 {
     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
         const _CharT* __rhs)
     { return !(__lhs == __rhs); }
-# 6092 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6275 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -15636,7 +17242,7 @@ namespace __cxx11 {
     operator<(const _CharT* __lhs,
        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) > 0; }
-# 6130 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6313 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator>(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -15667,7 +17273,7 @@ namespace __cxx11 {
     operator>(const _CharT* __lhs,
        const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) < 0; }
-# 6168 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6351 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator<=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -15698,7 +17304,7 @@ namespace __cxx11 {
     operator<=(const _CharT* __lhs,
         const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) >= 0; }
-# 6206 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6389 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline bool
     operator>=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
@@ -15729,14 +17335,14 @@ namespace __cxx11 {
     operator>=(const _CharT* __lhs,
       const basic_string<_CharT, _Traits, _Alloc>& __rhs)
     { return __rhs.compare(__lhs) <= 0; }
-# 6244 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6428 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline void
     swap(basic_string<_CharT, _Traits, _Alloc>& __lhs,
   basic_string<_CharT, _Traits, _Alloc>& __rhs)
     noexcept(noexcept(__lhs.swap(__rhs)))
     { __lhs.swap(__rhs); }
-# 6264 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6448 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __is,
@@ -15745,7 +17351,7 @@ namespace __cxx11 {
   template<>
     basic_istream<char>&
     operator>>(basic_istream<char>& __is, basic_string<char>& __str);
-# 6282 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6466 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os,
@@ -15755,12 +17361,12 @@ namespace __cxx11 {
 
       return __ostream_insert(__os, __str.data(), __str.size());
     }
-# 6305 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6489 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
      basic_string<_CharT, _Traits, _Alloc>& __str, _CharT __delim);
-# 6322 "/usr/include/c++/7/bits/basic_string.h" 3
+# 6506 "/usr/include/c++/10/bits/basic_string.h" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     inline basic_istream<_CharT, _Traits>&
     getline(basic_istream<_CharT, _Traits>& __is,
@@ -15800,16 +17406,16 @@ namespace __cxx11 {
 
 
 
-# 1 "/usr/include/c++/7/ext/string_conversions.h" 1 3
-# 32 "/usr/include/c++/7/ext/string_conversions.h" 3
+# 1 "/usr/include/c++/10/ext/string_conversions.h" 1 3
+# 32 "/usr/include/c++/10/ext/string_conversions.h" 3
        
-# 33 "/usr/include/c++/7/ext/string_conversions.h" 3
-# 41 "/usr/include/c++/7/ext/string_conversions.h" 3
-# 1 "/usr/include/c++/7/cstdlib" 1 3
-# 39 "/usr/include/c++/7/cstdlib" 3
+# 33 "/usr/include/c++/10/ext/string_conversions.h" 3
+# 41 "/usr/include/c++/10/ext/string_conversions.h" 3
+# 1 "/usr/include/c++/10/cstdlib" 1 3
+# 39 "/usr/include/c++/10/cstdlib" 3
        
-# 40 "/usr/include/c++/7/cstdlib" 3
-# 75 "/usr/include/c++/7/cstdlib" 3
+# 40 "/usr/include/c++/10/cstdlib" 3
+# 75 "/usr/include/c++/10/cstdlib" 3
 # 1 "/usr/include/stdlib.h" 1 3 4
 # 25 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -15819,7 +17425,7 @@ namespace __cxx11 {
 
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
 # 32 "/usr/include/stdlib.h" 2 3 4
 
 extern "C" {
@@ -16094,9 +17700,8 @@ typedef __u_quad_t u_quad_t;
 typedef __fsid_t fsid_t;
 
 
-
-
 typedef __loff_t loff_t;
+
 
 
 
@@ -16146,7 +17751,7 @@ typedef __off_t off_t;
 
 
 typedef __off64_t off64_t;
-# 104 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 103 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
 typedef __id_t id_t;
 
 
@@ -16166,7 +17771,7 @@ typedef __caddr_t caddr_t;
 
 
 typedef __key_t key_t;
-# 135 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 134 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
 typedef __useconds_t useconds_t;
 
 
@@ -16177,22 +17782,91 @@ typedef __suseconds_t suseconds_t;
 
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
-# 146 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
+# 145 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
 
 
 
 typedef unsigned long int ulong;
 typedef unsigned short int ushort;
 typedef unsigned int uint;
-# 178 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-typedef unsigned int u_int8_t __attribute__ ((__mode__ (__QI__)));
-typedef unsigned int u_int16_t __attribute__ ((__mode__ (__HI__)));
-typedef unsigned int u_int32_t __attribute__ ((__mode__ (__SI__)));
-typedef unsigned int u_int64_t __attribute__ ((__mode__ (__DI__)));
+
+
+
+
+
+
+
+typedef __uint8_t u_int8_t;
+typedef __uint16_t u_int16_t;
+typedef __uint32_t u_int32_t;
+typedef __uint64_t u_int64_t;
+
 
 typedef int register_t __attribute__ ((__mode__ (__word__)));
-# 197 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 176 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 1 "/usr/include/endian.h" 1 3 4
+# 35 "/usr/include/endian.h" 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1 3 4
+# 33 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
+static __inline __uint16_t
+__bswap_16 (__uint16_t __bsx)
+{
+
+  return __builtin_bswap16 (__bsx);
+
+
+
+}
+
+
+
+
+
+
+static __inline __uint32_t
+__bswap_32 (__uint32_t __bsx)
+{
+
+  return __builtin_bswap32 (__bsx);
+
+
+
+}
+# 69 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
+__extension__ static __inline __uint64_t
+__bswap_64 (__uint64_t __bsx)
+{
+
+  return __builtin_bswap64 (__bsx);
+
+
+
+}
+# 36 "/usr/include/endian.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 1 3 4
+# 32 "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" 3 4
+static __inline __uint16_t
+__uint16_identity (__uint16_t __x)
+{
+  return __x;
+}
+
+static __inline __uint32_t
+__uint32_identity (__uint32_t __x)
+{
+  return __x;
+}
+
+static __inline __uint64_t
+__uint64_identity (__uint64_t __x)
+{
+  return __x;
+}
+# 37 "/usr/include/endian.h" 2 3 4
+# 177 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
+
+
 # 1 "/usr/include/x86_64-linux-gnu/sys/select.h" 1 3 4
 # 30 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/select.h" 1 3 4
@@ -16257,28 +17931,7 @@ extern int pselect (int __nfds, fd_set *__restrict __readfds,
       const __sigset_t *__restrict __sigmask);
 # 126 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
 }
-# 198 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 1 3 4
-# 41 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/sysmacros.h" 1 3 4
-# 42 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 2 3 4
-# 71 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 3 4
-extern "C" {
-
-extern unsigned int gnu_dev_major (__dev_t __dev) throw () __attribute__ ((__const__));
-extern unsigned int gnu_dev_minor (__dev_t __dev) throw () __attribute__ ((__const__));
-extern __dev_t gnu_dev_makedev (unsigned int __major, unsigned int __minor) throw () __attribute__ ((__const__));
-# 85 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 3 4
-}
-# 206 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
+# 180 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
 
 
 
@@ -16300,11 +17953,11 @@ typedef __fsblkcnt_t fsblkcnt_t;
 
 
 typedef __fsfilcnt_t fsfilcnt_t;
-# 246 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 219 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
 typedef __blkcnt64_t blkcnt64_t;
 typedef __fsblkcnt64_t fsblkcnt64_t;
 typedef __fsfilcnt64_t fsfilcnt64_t;
-# 257 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
+# 230 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
 }
 # 395 "/usr/include/stdlib.h" 2 3 4
 
@@ -16451,10 +18104,11 @@ extern int lcong48_r (unsigned short int __param[7],
 
 
 
-extern void *malloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+extern void *malloc (size_t __size) throw () __attribute__ ((__malloc__))
+     __attribute__ ((__alloc_size__ (1))) ;
 
 extern void *calloc (size_t __nmemb, size_t __size)
-     throw () __attribute__ ((__malloc__)) ;
+     throw () __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (1, 2))) ;
 
 
 
@@ -16462,7 +18116,7 @@ extern void *calloc (size_t __nmemb, size_t __size)
 
 
 extern void *realloc (void *__ptr, size_t __size)
-     throw () __attribute__ ((__warn_unused_result__));
+     throw () __attribute__ ((__warn_unused_result__)) __attribute__ ((__alloc_size__ (2)));
 
 
 
@@ -16471,7 +18125,8 @@ extern void *realloc (void *__ptr, size_t __size)
 
 
 extern void *reallocarray (void *__ptr, size_t __nmemb, size_t __size)
-     throw () __attribute__ ((__warn_unused_result__));
+     throw () __attribute__ ((__warn_unused_result__))
+     __attribute__ ((__alloc_size__ (2, 3)));
 
 
 
@@ -16480,7 +18135,7 @@ extern void free (void *__ptr) throw ();
 
 # 1 "/usr/include/alloca.h" 1 3 4
 # 24 "/usr/include/alloca.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
 # 25 "/usr/include/alloca.h" 2 3 4
 
 extern "C" {
@@ -16496,13 +18151,14 @@ extern void *alloca (size_t __size) throw ();
 
 
 }
-# 567 "/usr/include/stdlib.h" 2 3 4
+# 569 "/usr/include/stdlib.h" 2 3 4
 
 
 
 
 
-extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__)) ;
+extern void *valloc (size_t __size) throw () __attribute__ ((__malloc__))
+     __attribute__ ((__alloc_size__ (1))) ;
 
 
 
@@ -16529,7 +18185,7 @@ extern int atexit (void (*__func) (void)) throw () __attribute__ ((__nonnull__ (
 
 extern "C++" int at_quick_exit (void (*__func) (void))
      throw () __asm ("at_quick_exit") __attribute__ ((__nonnull__ (1)));
-# 607 "/usr/include/stdlib.h" 3 4
+# 610 "/usr/include/stdlib.h" 3 4
 extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
      throw () __attribute__ ((__nonnull__ (1)));
 
@@ -16585,30 +18241,30 @@ extern int unsetenv (const char *__name) throw () __attribute__ ((__nonnull__ (1
 
 
 extern int clearenv (void) throw ();
-# 672 "/usr/include/stdlib.h" 3 4
+# 675 "/usr/include/stdlib.h" 3 4
 extern char *mktemp (char *__template) throw () __attribute__ ((__nonnull__ (1)));
-# 685 "/usr/include/stdlib.h" 3 4
+# 688 "/usr/include/stdlib.h" 3 4
 extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
-# 695 "/usr/include/stdlib.h" 3 4
+# 698 "/usr/include/stdlib.h" 3 4
 extern int mkstemp64 (char *__template) __attribute__ ((__nonnull__ (1))) ;
-# 707 "/usr/include/stdlib.h" 3 4
+# 710 "/usr/include/stdlib.h" 3 4
 extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
-# 717 "/usr/include/stdlib.h" 3 4
+# 720 "/usr/include/stdlib.h" 3 4
 extern int mkstemps64 (char *__template, int __suffixlen)
      __attribute__ ((__nonnull__ (1))) ;
-# 728 "/usr/include/stdlib.h" 3 4
+# 731 "/usr/include/stdlib.h" 3 4
 extern char *mkdtemp (char *__template) throw () __attribute__ ((__nonnull__ (1))) ;
-# 739 "/usr/include/stdlib.h" 3 4
+# 742 "/usr/include/stdlib.h" 3 4
 extern int mkostemp (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
-# 749 "/usr/include/stdlib.h" 3 4
+# 752 "/usr/include/stdlib.h" 3 4
 extern int mkostemp64 (char *__template, int __flags) __attribute__ ((__nonnull__ (1))) ;
-# 759 "/usr/include/stdlib.h" 3 4
+# 762 "/usr/include/stdlib.h" 3 4
 extern int mkostemps (char *__template, int __suffixlen, int __flags)
      __attribute__ ((__nonnull__ (1))) ;
-# 771 "/usr/include/stdlib.h" 3 4
+# 774 "/usr/include/stdlib.h" 3 4
 extern int mkostemps64 (char *__template, int __suffixlen, int __flags)
      __attribute__ ((__nonnull__ (1))) ;
-# 781 "/usr/include/stdlib.h" 3 4
+# 784 "/usr/include/stdlib.h" 3 4
 extern int system (const char *__command) ;
 
 
@@ -16617,7 +18273,7 @@ extern int system (const char *__command) ;
 
 extern char *canonicalize_file_name (const char *__name)
      throw () __attribute__ ((__nonnull__ (1))) ;
-# 797 "/usr/include/stdlib.h" 3 4
+# 800 "/usr/include/stdlib.h" 3 4
 extern char *realpath (const char *__restrict __name,
          char *__restrict __resolved) throw () ;
 
@@ -16679,7 +18335,7 @@ extern ldiv_t ldiv (long int __numer, long int __denom)
 __extension__ extern lldiv_t lldiv (long long int __numer,
         long long int __denom)
      throw () __attribute__ ((__const__)) ;
-# 869 "/usr/include/stdlib.h" 3 4
+# 872 "/usr/include/stdlib.h" 3 4
 extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
      int *__restrict __sign) throw () __attribute__ ((__nonnull__ (3, 4))) ;
 
@@ -16755,17 +18411,11 @@ extern size_t wcstombs (char *__restrict __s,
 
 
 extern int rpmatch (const char *__response) throw () __attribute__ ((__nonnull__ (1))) ;
-# 954 "/usr/include/stdlib.h" 3 4
+# 957 "/usr/include/stdlib.h" 3 4
 extern int getsubopt (char **__restrict __optionp,
         char *const *__restrict __tokens,
         char **__restrict __valuep)
      throw () __attribute__ ((__nonnull__ (1, 2, 3))) ;
-
-
-
-
-
-extern void setkey (const char *__key) throw () __attribute__ ((__nonnull__ (1)));
 
 
 
@@ -16810,18 +18460,18 @@ extern int getpt (void);
 
 extern int getloadavg (double __loadavg[], int __nelem)
      throw () __attribute__ ((__nonnull__ (1)));
-# 1016 "/usr/include/stdlib.h" 3 4
+# 1013 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/stdlib-float.h" 1 3 4
-# 1017 "/usr/include/stdlib.h" 2 3 4
-# 1026 "/usr/include/stdlib.h" 3 4
+# 1014 "/usr/include/stdlib.h" 2 3 4
+# 1023 "/usr/include/stdlib.h" 3 4
 }
-# 76 "/usr/include/c++/7/cstdlib" 2 3
+# 76 "/usr/include/c++/10/cstdlib" 2 3
 
-# 1 "/usr/include/c++/7/bits/std_abs.h" 1 3
-# 33 "/usr/include/c++/7/bits/std_abs.h" 3
+# 1 "/usr/include/c++/10/bits/std_abs.h" 1 3
+# 33 "/usr/include/c++/10/bits/std_abs.h" 3
        
-# 34 "/usr/include/c++/7/bits/std_abs.h" 3
-# 46 "/usr/include/c++/7/bits/std_abs.h" 3
+# 34 "/usr/include/c++/10/bits/std_abs.h" 3
+# 46 "/usr/include/c++/10/bits/std_abs.h" 3
 extern "C++"
 {
 namespace std __attribute__ ((__visibility__ ("default")))
@@ -16838,13 +18488,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   inline long long
   abs(long long __x) { return __builtin_llabs (__x); }
-
-
-
-
-
-
-
+# 70 "/usr/include/c++/10/bits/std_abs.h" 3
   inline constexpr double
   abs(double __x)
   { return __builtin_fabs(__x); }
@@ -16861,7 +18505,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   inline constexpr __int128
   abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
-# 100 "/usr/include/c++/7/bits/std_abs.h" 3
+# 101 "/usr/include/c++/10/bits/std_abs.h" 3
   inline constexpr
   __float128
   abs(__float128 __x)
@@ -16871,8 +18515,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 }
-# 78 "/usr/include/c++/7/cstdlib" 2 3
-# 121 "/usr/include/c++/7/cstdlib" 3
+# 78 "/usr/include/c++/10/cstdlib" 2 3
+# 121 "/usr/include/c++/10/cstdlib" 3
 extern "C++"
 {
 namespace std __attribute__ ((__visibility__ ("default")))
@@ -16935,7 +18579,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 195 "/usr/include/c++/7/cstdlib" 3
+# 195 "/usr/include/c++/10/cstdlib" 3
 namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
 
@@ -16958,7 +18602,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
   { lldiv_t __q; __q.quot = __n / __d; __q.rem = __n % __d; return __q; }
 
   using ::lldiv;
-# 227 "/usr/include/c++/7/cstdlib" 3
+# 227 "/usr/include/c++/10/cstdlib" 3
   using ::atoll;
   using ::strtoll;
   using ::strtoull;
@@ -16990,16 +18634,16 @@ namespace std
 
 
 }
-# 42 "/usr/include/c++/7/ext/string_conversions.h" 2 3
-# 1 "/usr/include/c++/7/cwchar" 1 3
-# 39 "/usr/include/c++/7/cwchar" 3
+# 42 "/usr/include/c++/10/ext/string_conversions.h" 2 3
+# 1 "/usr/include/c++/10/cwchar" 1 3
+# 39 "/usr/include/c++/10/cwchar" 3
        
-# 40 "/usr/include/c++/7/cwchar" 3
-# 43 "/usr/include/c++/7/ext/string_conversions.h" 2 3
-# 1 "/usr/include/c++/7/cstdio" 1 3
-# 39 "/usr/include/c++/7/cstdio" 3
+# 40 "/usr/include/c++/10/cwchar" 3
+# 43 "/usr/include/c++/10/ext/string_conversions.h" 2 3
+# 1 "/usr/include/c++/10/cstdio" 1 3
+# 39 "/usr/include/c++/10/cstdio" 3
        
-# 40 "/usr/include/c++/7/cstdio" 3
+# 40 "/usr/include/c++/10/cstdio" 3
 
 
 # 1 "/usr/include/stdio.h" 1 3 4
@@ -17011,43 +18655,38 @@ extern "C" {
 
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stddef.h" 1 3 4
 # 34 "/usr/include/stdio.h" 2 3 4
 
 
+# 1 "/usr/lib/gcc/x86_64-linux-gnu/10/include/stdarg.h" 1 3 4
+# 37 "/usr/include/stdio.h" 2 3 4
 
 
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/libio.h" 1 3 4
-# 35 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/_G_config.h" 1 3 4
-# 19 "/usr/include/x86_64-linux-gnu/bits/_G_config.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
-# 20 "/usr/include/x86_64-linux-gnu/bits/_G_config.h" 2 3 4
-
-
-
-
-
-
-typedef struct
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h" 3 4
+typedef struct _G_fpos_t
 {
   __off_t __pos;
   __mbstate_t __state;
-} _G_fpos_t;
-typedef struct
+} __fpos_t;
+# 40 "/usr/include/stdio.h" 2 3 4
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 1 3 4
+# 10 "/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h" 3 4
+typedef struct _G_fpos64_t
 {
   __off64_t __pos;
   __mbstate_t __state;
-} _G_fpos64_t;
-# 36 "/usr/include/x86_64-linux-gnu/bits/libio.h" 2 3 4
-# 53 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h" 1 3 4
-# 54 "/usr/include/x86_64-linux-gnu/bits/libio.h" 2 3 4
-# 149 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-struct _IO_jump_t; struct _IO_FILE;
+} __fpos64_t;
+# 41 "/usr/include/stdio.h" 2 3 4
+
+
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 1 3 4
+# 35 "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" 3 4
+struct _IO_FILE;
+struct _IO_marker;
+struct _IO_codecvt;
+struct _IO_wide_data;
 
 
 
@@ -17058,39 +18697,20 @@ typedef void _IO_lock_t;
 
 
 
-struct _IO_marker {
-  struct _IO_marker *_next;
-  struct _IO_FILE *_sbuf;
-
-
-
-  int _pos;
-# 177 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-};
-
-
-enum __codecvt_result
+struct _IO_FILE
 {
-  __codecvt_ok,
-  __codecvt_partial,
-  __codecvt_error,
-  __codecvt_noconv
-};
-# 245 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-struct _IO_FILE {
   int _flags;
 
 
+  char *_IO_read_ptr;
+  char *_IO_read_end;
+  char *_IO_read_base;
+  char *_IO_write_base;
+  char *_IO_write_ptr;
+  char *_IO_write_end;
+  char *_IO_buf_base;
+  char *_IO_buf_end;
 
-
-  char* _IO_read_ptr;
-  char* _IO_read_end;
-  char* _IO_read_base;
-  char* _IO_write_base;
-  char* _IO_write_ptr;
-  char* _IO_write_end;
-  char* _IO_buf_base;
-  char* _IO_buf_end;
 
   char *_IO_save_base;
   char *_IO_backup_base;
@@ -17101,63 +18721,40 @@ struct _IO_FILE {
   struct _IO_FILE *_chain;
 
   int _fileno;
-
-
-
   int _flags2;
-
   __off_t _old_offset;
-
 
 
   unsigned short _cur_column;
   signed char _vtable_offset;
   char _shortbuf[1];
 
-
-
   _IO_lock_t *_lock;
-# 293 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
+
+
+
+
+
+
+
   __off64_t _offset;
 
-
-
-
-
-
-
-  void *__pad1;
-  void *__pad2;
-  void *__pad3;
-  void *__pad4;
-
+  struct _IO_codecvt *_codecvt;
+  struct _IO_wide_data *_wide_data;
+  struct _IO_FILE *_freeres_list;
+  void *_freeres_buf;
   size_t __pad5;
   int _mode;
 
   char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
-
 };
+# 44 "/usr/include/stdio.h" 2 3 4
 
 
-
-
-
-struct _IO_FILE_plus;
-
-extern struct _IO_FILE_plus _IO_2_1_stdin_;
-extern struct _IO_FILE_plus _IO_2_1_stdout_;
-extern struct _IO_FILE_plus _IO_2_1_stderr_;
-# 337 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
-
-
-
-
-
-
-
-typedef __ssize_t __io_write_fn (void *__cookie, const char *__buf,
-     size_t __n);
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 1 3 4
+# 27 "/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h" 3 4
+typedef __ssize_t cookie_read_function_t (void *__cookie, char *__buf,
+                                          size_t __nbytes);
 
 
 
@@ -17165,95 +18762,55 @@ typedef __ssize_t __io_write_fn (void *__cookie, const char *__buf,
 
 
 
-typedef int __io_seek_fn (void *__cookie, __off64_t *__pos, int __w);
-
-
-typedef int __io_close_fn (void *__cookie);
-
+typedef __ssize_t cookie_write_function_t (void *__cookie, const char *__buf,
+                                           size_t __nbytes);
 
 
 
-typedef __io_read_fn cookie_read_function_t;
-typedef __io_write_fn cookie_write_function_t;
-typedef __io_seek_fn cookie_seek_function_t;
-typedef __io_close_fn cookie_close_function_t;
 
 
-typedef struct
+
+
+typedef int cookie_seek_function_t (void *__cookie, __off64_t *__pos, int __w);
+
+
+typedef int cookie_close_function_t (void *__cookie);
+
+
+
+
+
+
+typedef struct _IO_cookie_io_functions_t
 {
-  __io_read_fn *read;
-  __io_write_fn *write;
-  __io_seek_fn *seek;
-  __io_close_fn *close;
-} _IO_cookie_io_functions_t;
-typedef _IO_cookie_io_functions_t cookie_io_functions_t;
+  cookie_read_function_t *read;
+  cookie_write_function_t *write;
+  cookie_seek_function_t *seek;
+  cookie_close_function_t *close;
+} cookie_io_functions_t;
+# 47 "/usr/include/stdio.h" 2 3 4
 
-struct _IO_cookie_file;
-
-
-extern void _IO_cookie_init (struct _IO_cookie_file *__cfile, int __read_write,
-        void *__cookie, _IO_cookie_io_functions_t __fns);
-
-
-
-
-extern "C" {
-
-
-extern int __underflow (_IO_FILE *);
-extern int __uflow (_IO_FILE *);
-extern int __overflow (_IO_FILE *, int);
-# 433 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-extern int _IO_getc (_IO_FILE *__fp);
-extern int _IO_putc (int __c, _IO_FILE *__fp);
-extern int _IO_feof (_IO_FILE *__fp) throw ();
-extern int _IO_ferror (_IO_FILE *__fp) throw ();
-
-extern int _IO_peekc_locked (_IO_FILE *__fp);
-
-
-
-
-
-extern void _IO_flockfile (_IO_FILE *) throw ();
-extern void _IO_funlockfile (_IO_FILE *) throw ();
-extern int _IO_ftrylockfile (_IO_FILE *) throw ();
-# 462 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-extern int _IO_vfscanf (_IO_FILE * __restrict, const char * __restrict,
-   __gnuc_va_list, int *__restrict);
-extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
-    __gnuc_va_list);
-extern __ssize_t _IO_padn (_IO_FILE *, int, __ssize_t);
-extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
-
-extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);
-extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);
-
-extern void _IO_free_backup_area (_IO_FILE *) throw ();
-# 524 "/usr/include/x86_64-linux-gnu/bits/libio.h" 3 4
-}
-# 42 "/usr/include/stdio.h" 2 3 4
 
 
 
 
 typedef __gnuc_va_list va_list;
-# 78 "/usr/include/stdio.h" 3 4
-typedef _G_fpos_t fpos_t;
+# 84 "/usr/include/stdio.h" 3 4
+typedef __fpos_t fpos_t;
 
 
 
 
-typedef _G_fpos64_t fpos64_t;
-# 131 "/usr/include/stdio.h" 3 4
+typedef __fpos64_t fpos64_t;
+# 133 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" 1 3 4
-# 132 "/usr/include/stdio.h" 2 3 4
+# 134 "/usr/include/stdio.h" 2 3 4
 
 
 
-extern struct _IO_FILE *stdin;
-extern struct _IO_FILE *stdout;
-extern struct _IO_FILE *stderr;
+extern FILE *stdin;
+extern FILE *stdout;
+extern FILE *stderr;
 
 
 
@@ -17268,6 +18825,9 @@ extern int rename (const char *__old, const char *__new) throw ();
 
 extern int renameat (int __oldfd, const char *__old, int __newfd,
        const char *__new) throw ();
+# 164 "/usr/include/stdio.h" 3 4
+extern int renameat2 (int __oldfd, const char *__old, int __newfd,
+        const char *__new, unsigned int __flags) throw ();
 
 
 
@@ -17276,7 +18836,7 @@ extern int renameat (int __oldfd, const char *__old, int __newfd,
 
 
 extern FILE *tmpfile (void) ;
-# 169 "/usr/include/stdio.h" 3 4
+# 183 "/usr/include/stdio.h" 3 4
 extern FILE *tmpfile64 (void) ;
 
 
@@ -17287,7 +18847,7 @@ extern char *tmpnam (char *__s) throw () ;
 
 
 extern char *tmpnam_r (char *__s) throw () ;
-# 190 "/usr/include/stdio.h" 3 4
+# 204 "/usr/include/stdio.h" 3 4
 extern char *tempnam (const char *__dir, const char *__pfx)
      throw () __attribute__ ((__malloc__)) ;
 
@@ -17303,11 +18863,11 @@ extern int fclose (FILE *__stream);
 
 
 extern int fflush (FILE *__stream);
-# 213 "/usr/include/stdio.h" 3 4
+# 227 "/usr/include/stdio.h" 3 4
 extern int fflush_unlocked (FILE *__stream);
-# 223 "/usr/include/stdio.h" 3 4
+# 237 "/usr/include/stdio.h" 3 4
 extern int fcloseall (void);
-# 232 "/usr/include/stdio.h" 3 4
+# 246 "/usr/include/stdio.h" 3 4
 extern FILE *fopen (const char *__restrict __filename,
       const char *__restrict __modes) ;
 
@@ -17317,7 +18877,7 @@ extern FILE *fopen (const char *__restrict __filename,
 extern FILE *freopen (const char *__restrict __filename,
         const char *__restrict __modes,
         FILE *__restrict __stream) ;
-# 256 "/usr/include/stdio.h" 3 4
+# 270 "/usr/include/stdio.h" 3 4
 extern FILE *fopen64 (const char *__restrict __filename,
         const char *__restrict __modes) ;
 extern FILE *freopen64 (const char *__restrict __filename,
@@ -17335,7 +18895,7 @@ extern FILE *fdopen (int __fd, const char *__modes) throw () ;
 
 extern FILE *fopencookie (void *__restrict __magic_cookie,
      const char *__restrict __modes,
-     _IO_cookie_io_functions_t __io_funcs) throw () ;
+     cookie_io_functions_t __io_funcs) throw () ;
 
 
 
@@ -17449,7 +19009,21 @@ extern int scanf (const char *__restrict __format, ...) ;
 
 extern int sscanf (const char *__restrict __s,
      const char *__restrict __format, ...) throw ();
-# 420 "/usr/include/stdio.h" 3 4
+
+
+
+
+
+
+extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf")
+
+                               ;
+extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_scanf")
+                              ;
+extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) throw () __asm__ ("" "__isoc99_sscanf")
+
+                      ;
+# 432 "/usr/include/stdio.h" 3 4
 extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
       __gnuc_va_list __arg)
      __attribute__ ((__format__ (__scanf__, 2, 0))) ;
@@ -17465,7 +19039,24 @@ extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
 extern int vsscanf (const char *__restrict __s,
       const char *__restrict __format, __gnuc_va_list __arg)
      throw () __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 477 "/usr/include/stdio.h" 3 4
+
+
+
+
+extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfscanf")
+
+
+
+     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vscanf")
+
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) throw () __asm__ ("" "__isoc99_vsscanf")
+
+
+
+     __attribute__ ((__format__ (__scanf__, 2, 0)));
+# 485 "/usr/include/stdio.h" 3 4
 extern int fgetc (FILE *__stream);
 extern int getc (FILE *__stream);
 
@@ -17474,12 +19065,17 @@ extern int getc (FILE *__stream);
 
 
 extern int getchar (void);
-# 495 "/usr/include/stdio.h" 3 4
+
+
+
+
+
+
 extern int getc_unlocked (FILE *__stream);
 extern int getchar_unlocked (void);
-# 506 "/usr/include/stdio.h" 3 4
+# 510 "/usr/include/stdio.h" 3 4
 extern int fgetc_unlocked (FILE *__stream);
-# 517 "/usr/include/stdio.h" 3 4
+# 521 "/usr/include/stdio.h" 3 4
 extern int fputc (int __c, FILE *__stream);
 extern int putc (int __c, FILE *__stream);
 
@@ -17523,11 +19119,11 @@ extern char *fgets_unlocked (char *__restrict __s, int __n,
         FILE *__restrict __stream) ;
 # 603 "/usr/include/stdio.h" 3 4
 extern __ssize_t __getdelim (char **__restrict __lineptr,
-          size_t *__restrict __n, int __delimiter,
-          FILE *__restrict __stream) ;
+                             size_t *__restrict __n, int __delimiter,
+                             FILE *__restrict __stream) ;
 extern __ssize_t getdelim (char **__restrict __lineptr,
-        size_t *__restrict __n, int __delimiter,
-        FILE *__restrict __stream) ;
+                           size_t *__restrict __n, int __delimiter,
+                           FILE *__restrict __stream) ;
 
 
 
@@ -17536,8 +19132,8 @@ extern __ssize_t getdelim (char **__restrict __lineptr,
 
 
 extern __ssize_t getline (char **__restrict __lineptr,
-       size_t *__restrict __n,
-       FILE *__restrict __stream) ;
+                          size_t *__restrict __n,
+                          FILE *__restrict __stream) ;
 
 
 
@@ -17713,10 +19309,13 @@ extern int ftrylockfile (FILE *__stream) throw () ;
 
 
 extern void funlockfile (FILE *__stream) throw ();
-# 868 "/usr/include/stdio.h" 3 4
+# 858 "/usr/include/stdio.h" 3 4
+extern int __uflow (FILE *);
+extern int __overflow (FILE *, int);
+# 873 "/usr/include/stdio.h" 3 4
 }
-# 43 "/usr/include/c++/7/cstdio" 2 3
-# 96 "/usr/include/c++/7/cstdio" 3
+# 43 "/usr/include/c++/10/cstdio" 2 3
+# 96 "/usr/include/c++/10/cstdio" 3
 namespace std
 {
   using ::FILE;
@@ -17769,10 +19368,10 @@ namespace std
   using ::vprintf;
   using ::vsprintf;
 }
-# 157 "/usr/include/c++/7/cstdio" 3
+# 157 "/usr/include/c++/10/cstdio" 3
 namespace __gnu_cxx
 {
-# 175 "/usr/include/c++/7/cstdio" 3
+# 175 "/usr/include/c++/10/cstdio" 3
   using ::snprintf;
   using ::vfscanf;
   using ::vscanf;
@@ -17789,11 +19388,11 @@ namespace std
   using ::__gnu_cxx::vsnprintf;
   using ::__gnu_cxx::vsscanf;
 }
-# 44 "/usr/include/c++/7/ext/string_conversions.h" 2 3
-# 1 "/usr/include/c++/7/cerrno" 1 3
-# 39 "/usr/include/c++/7/cerrno" 3
+# 44 "/usr/include/c++/10/ext/string_conversions.h" 2 3
+# 1 "/usr/include/c++/10/cerrno" 1 3
+# 39 "/usr/include/c++/10/cerrno" 3
        
-# 40 "/usr/include/c++/7/cerrno" 3
+# 40 "/usr/include/c++/10/cerrno" 3
 
 
 # 1 "/usr/include/errno.h" 1 3 4
@@ -17809,8 +19408,8 @@ namespace std
 
 # 1 "/usr/include/asm-generic/errno-base.h" 1 3 4
 # 6 "/usr/include/asm-generic/errno.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/asm/errno.h" 2 3 4
-# 1 "/usr/include/linux/errno.h" 2 3 4
+# 2 "/usr/include/x86_64-linux-gnu/asm/errno.h" 2 3 4
+# 2 "/usr/include/linux/errno.h" 2 3 4
 # 27 "/usr/include/x86_64-linux-gnu/bits/errno.h" 2 3 4
 # 29 "/usr/include/errno.h" 2 3 4
 
@@ -17832,18 +19431,16 @@ extern int *__errno_location (void) throw () __attribute__ ((__const__));
 extern char *program_invocation_name;
 extern char *program_invocation_short_name;
 
-
-
-
-
+# 1 "/usr/include/x86_64-linux-gnu/bits/types/error_t.h" 1 3 4
+# 22 "/usr/include/x86_64-linux-gnu/bits/types/error_t.h" 3 4
 typedef int error_t;
-
+# 49 "/usr/include/errno.h" 2 3 4
 
 
 
 }
-# 43 "/usr/include/c++/7/cerrno" 2 3
-# 45 "/usr/include/c++/7/ext/string_conversions.h" 2 3
+# 43 "/usr/include/c++/10/cerrno" 2 3
+# 45 "/usr/include/c++/10/ext/string_conversions.h" 2 3
 
 namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 {
@@ -17919,7 +19516,83 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 6362 "/usr/include/c++/7/bits/basic_string.h" 2 3
+# 6546 "/usr/include/c++/10/bits/basic_string.h" 2 3
+# 1 "/usr/include/c++/10/bits/charconv.h" 1 3
+# 33 "/usr/include/c++/10/bits/charconv.h" 3
+       
+# 34 "/usr/include/c++/10/bits/charconv.h" 3
+
+
+
+
+
+namespace std __attribute__ ((__visibility__ ("default")))
+{
+
+namespace __detail
+{
+
+  template<typename _Tp>
+    constexpr unsigned
+    __to_chars_len(_Tp __value, int __base = 10) noexcept
+    {
+      static_assert(is_integral<_Tp>::value, "implementation bug");
+      static_assert(is_unsigned<_Tp>::value, "implementation bug");
+
+      unsigned __n = 1;
+      const unsigned __b2 = __base * __base;
+      const unsigned __b3 = __b2 * __base;
+      const unsigned long __b4 = __b3 * __base;
+      for (;;)
+ {
+   if (__value < (unsigned)__base) return __n;
+   if (__value < __b2) return __n + 1;
+   if (__value < __b3) return __n + 2;
+   if (__value < __b4) return __n + 3;
+   __value /= __b4;
+   __n += 4;
+ }
+    }
+
+
+
+
+  template<typename _Tp>
+    void
+    __to_chars_10_impl(char* __first, unsigned __len, _Tp __val) noexcept
+    {
+      static_assert(is_integral<_Tp>::value, "implementation bug");
+      static_assert(is_unsigned<_Tp>::value, "implementation bug");
+
+      static constexpr char __digits[201] =
+ "0001020304050607080910111213141516171819"
+ "2021222324252627282930313233343536373839"
+ "4041424344454647484950515253545556575859"
+ "6061626364656667686970717273747576777879"
+ "8081828384858687888990919293949596979899";
+      unsigned __pos = __len - 1;
+      while (__val >= 100)
+ {
+   auto const __num = (__val % 100) * 2;
+   __val /= 100;
+   __first[__pos] = __digits[__num + 1];
+   __first[__pos - 1] = __digits[__num];
+   __pos -= 2;
+ }
+      if (__val >= 10)
+ {
+   auto const __num = __val * 2;
+   __first[1] = __digits[__num + 1];
+   __first[0] = __digits[__num];
+ }
+      else
+ __first[0] = '0' + __val;
+    }
+
+}
+
+}
+# 6547 "/usr/include/c++/10/bits/basic_string.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -17969,41 +19642,66 @@ namespace __cxx11 {
 
 
 
-
-
   inline string
   to_string(int __val)
-  { return __gnu_cxx::__to_xstring<string>(&std::vsnprintf, 4 * sizeof(int),
-        "%d", __val); }
+  {
+    const bool __neg = __val < 0;
+    const unsigned __uval = __neg ? (unsigned)~__val + 1u : __val;
+    const auto __len = __detail::__to_chars_len(__uval);
+    string __str(__neg + __len, '-');
+    __detail::__to_chars_10_impl(&__str[__neg], __len, __uval);
+    return __str;
+  }
 
   inline string
   to_string(unsigned __val)
-  { return __gnu_cxx::__to_xstring<string>(&std::vsnprintf,
-        4 * sizeof(unsigned),
-        "%u", __val); }
+  {
+    string __str(__detail::__to_chars_len(__val), '\0');
+    __detail::__to_chars_10_impl(&__str[0], __str.size(), __val);
+    return __str;
+  }
 
   inline string
   to_string(long __val)
-  { return __gnu_cxx::__to_xstring<string>(&std::vsnprintf, 4 * sizeof(long),
-        "%ld", __val); }
+  {
+    const bool __neg = __val < 0;
+    const unsigned long __uval = __neg ? (unsigned long)~__val + 1ul : __val;
+    const auto __len = __detail::__to_chars_len(__uval);
+    string __str(__neg + __len, '-');
+    __detail::__to_chars_10_impl(&__str[__neg], __len, __uval);
+    return __str;
+  }
 
   inline string
   to_string(unsigned long __val)
-  { return __gnu_cxx::__to_xstring<string>(&std::vsnprintf,
-        4 * sizeof(unsigned long),
-        "%lu", __val); }
+  {
+    string __str(__detail::__to_chars_len(__val), '\0');
+    __detail::__to_chars_10_impl(&__str[0], __str.size(), __val);
+    return __str;
+  }
 
   inline string
   to_string(long long __val)
-  { return __gnu_cxx::__to_xstring<string>(&std::vsnprintf,
-        4 * sizeof(long long),
-        "%lld", __val); }
+  {
+    const bool __neg = __val < 0;
+    const unsigned long long __uval
+      = __neg ? (unsigned long long)~__val + 1ull : __val;
+    const auto __len = __detail::__to_chars_len(__uval);
+    string __str(__neg + __len, '-');
+    __detail::__to_chars_10_impl(&__str[__neg], __len, __uval);
+    return __str;
+  }
 
   inline string
   to_string(unsigned long long __val)
-  { return __gnu_cxx::__to_xstring<string>(&std::vsnprintf,
-        4 * sizeof(unsigned long long),
-        "%llu", __val); }
+  {
+    string __str(__detail::__to_chars_len(__val), '\0');
+    __detail::__to_chars_10_impl(&__str[0], __str.size(), __val);
+    return __str;
+  }
+
+
+
 
   inline string
   to_string(float __val)
@@ -18145,22 +19843,22 @@ namespace __cxx11 {
 
 
 
-# 1 "/usr/include/c++/7/bits/functional_hash.h" 1 3
-# 33 "/usr/include/c++/7/bits/functional_hash.h" 3
+# 1 "/usr/include/c++/10/bits/functional_hash.h" 1 3
+# 33 "/usr/include/c++/10/bits/functional_hash.h" 3
        
-# 34 "/usr/include/c++/7/bits/functional_hash.h" 3
+# 34 "/usr/include/c++/10/bits/functional_hash.h" 3
 
 
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 49 "/usr/include/c++/7/bits/functional_hash.h" 3
+# 49 "/usr/include/c++/10/bits/functional_hash.h" 3
   template<typename _Result, typename _Arg>
     struct __hash_base
     {
-      typedef _Result result_type;
-      typedef _Arg argument_type;
+      typedef _Result result_type ;
+      typedef _Arg argument_type ;
     };
 
 
@@ -18219,7 +19917,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator()(_Tp* __p) const noexcept
       { return reinterpret_cast<size_t>(__p); }
     };
-# 124 "/usr/include/c++/7/bits/functional_hash.h" 3
+# 124 "/usr/include/c++/10/bits/functional_hash.h" 3
   template<> struct hash<bool> : public __hash_base<size_t, bool> { size_t operator()(bool __val) const noexcept { return static_cast<size_t>(__val); } };
 
 
@@ -18233,6 +19931,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<> struct hash<wchar_t> : public __hash_base<size_t, wchar_t> { size_t operator()(wchar_t __val) const noexcept { return static_cast<size_t>(__val); } };
+
+
+
+
+
 
 
   template<> struct hash<char16_t> : public __hash_base<size_t, char16_t> { size_t operator()(char16_t __val) const noexcept { return static_cast<size_t>(__val); } };
@@ -18267,7 +19970,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<> struct hash<__int128> : public __hash_base<size_t, __int128> { size_t operator()(__int128 __val) const noexcept { return static_cast<size_t>(__val); } };
   template<> struct hash<__int128 unsigned> : public __hash_base<size_t, __int128 unsigned> { size_t operator()(__int128 unsigned __val) const noexcept { return static_cast<size_t>(__val); } };
-# 187 "/usr/include/c++/7/bits/functional_hash.h" 3
+# 192 "/usr/include/c++/10/bits/functional_hash.h" 3
   struct _Hash_impl
   {
     static size_t
@@ -18337,13 +20040,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __attribute__ ((__pure__)) size_t
       operator()(long double __val) const noexcept;
     };
-
-
-
-
-
-
-
+# 278 "/usr/include/c++/10/bits/functional_hash.h" 3
   template<typename _Hash>
     struct __is_fast_hash : public std::true_type
     { };
@@ -18354,7 +20051,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 6588 "/usr/include/c++/7/bits/basic_string.h" 2 3
+# 6798 "/usr/include/c++/10/bits/basic_string.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -18392,11 +20089,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __is_fast_hash<hash<wstring>> : std::false_type
     { };
-
-
-
-
-
+# 6856 "/usr/include/c++/10/bits/basic_string.h" 3
   template<>
     struct hash<u16string>
     : public __hash_base<size_t, u16string>
@@ -18430,15 +20123,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-
-
-
   inline namespace literals
   {
   inline namespace string_literals
   {
-
-
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wliteral-suffix"
     __attribute ((__abi_tag__ ("cxx11")))
     inline basic_string<char>
     operator""s(const char* __str, size_t __len)
@@ -18449,9 +20139,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline basic_string<wchar_t>
     operator""s(const wchar_t* __str, size_t __len)
     { return basic_string<wchar_t>{__str, __len}; }
-
-
-
+# 6914 "/usr/include/c++/10/bits/basic_string.h" 3
     __attribute ((__abi_tag__ ("cxx11")))
     inline basic_string<char16_t>
     operator""s(const char16_t* __str, size_t __len)
@@ -18462,19 +20150,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
     operator""s(const char32_t* __str, size_t __len)
     { return basic_string<char32_t>{__str, __len}; }
 
-
-
+#pragma GCC diagnostic pop
   }
   }
-
-
+# 6946 "/usr/include/c++/10/bits/basic_string.h" 3
 
 }
-# 53 "/usr/include/c++/7/string" 2 3
-# 1 "/usr/include/c++/7/bits/basic_string.tcc" 1 3
-# 42 "/usr/include/c++/7/bits/basic_string.tcc" 3
+# 56 "/usr/include/c++/10/string" 2 3
+# 1 "/usr/include/c++/10/bits/basic_string.tcc" 1 3
+# 42 "/usr/include/c++/10/bits/basic_string.tcc" 3
        
-# 43 "/usr/include/c++/7/bits/basic_string.tcc" 3
+# 43 "/usr/include/c++/10/bits/basic_string.tcc" 3
 
 
 
@@ -18816,7 +20502,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
      _InputIterator __k1, _InputIterator __k2,
      std::__false_type)
       {
- const basic_string __s(__k1, __k2);
+
+
+ const basic_string __s(__k1, __k2, this->get_allocator());
  const size_type __n1 = __i2 - __i1;
  return _M_replace(__i1 - begin(), __n1, __s._M_data(),
      __s.size());
@@ -18917,7 +20605,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       return __n;
     }
-# 1155 "/usr/include/c++/7/bits/basic_string.tcc" 3
+# 1150 "/usr/include/c++/10/bits/basic_string.tcc" 3
   template<typename _CharT, typename _Traits, typename _Alloc>
     basic_string<_CharT, _Traits, _Alloc>
     operator+(const _CharT* __lhs,
@@ -18926,8 +20614,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
       ;
       typedef basic_string<_CharT, _Traits, _Alloc> __string_type;
       typedef typename __string_type::size_type __size_type;
+      typedef typename __gnu_cxx::__alloc_traits<_Alloc>::template
+ rebind<_CharT>::other _Char_alloc_type;
+      typedef __gnu_cxx::__alloc_traits<_Char_alloc_type> _Alloc_traits;
       const __size_type __len = _Traits::length(__lhs);
-      __string_type __str;
+      __string_type __str(_Alloc_traits::_S_select_on_copy(
+          __rhs.get_allocator()));
       __str.reserve(__len + __rhs.size());
       __str.append(__lhs, __len);
       __str.append(__rhs);
@@ -18940,7 +20632,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     {
       typedef basic_string<_CharT, _Traits, _Alloc> __string_type;
       typedef typename __string_type::size_type __size_type;
-      __string_type __str;
+      typedef typename __gnu_cxx::__alloc_traits<_Alloc>::template
+ rebind<_CharT>::other _Char_alloc_type;
+      typedef __gnu_cxx::__alloc_traits<_Char_alloc_type> _Alloc_traits;
+      __string_type __str(_Alloc_traits::_S_select_on_copy(
+          __rhs.get_allocator()));
       const __size_type __len = __rhs.size();
       __str.reserve(__len + 1);
       __str.append(__size_type(1), __lhs);
@@ -19360,7 +21056,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __in.setstate(__err);
       return __in;
     }
-# 1607 "/usr/include/c++/7/bits/basic_string.tcc" 3
+# 1610 "/usr/include/c++/10/bits/basic_string.tcc" 3
   extern template class basic_string<char>;
 
 
@@ -19407,14 +21103,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 54 "/usr/include/c++/7/string" 2 3
-# 41 "/usr/include/c++/7/bits/locale_classes.h" 2 3
+# 57 "/usr/include/c++/10/string" 2 3
+# 41 "/usr/include/c++/10/bits/locale_classes.h" 2 3
 
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 62 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 62 "/usr/include/c++/10/bits/locale_classes.h" 3
   class locale
   {
   public:
@@ -19440,7 +21136,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     template<typename _Cache>
       friend struct __use_cache;
-# 98 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 98 "/usr/include/c++/10/bits/locale_classes.h" 3
     static const category none = 0;
     static const category ctype = 1L << 0;
     static const category numeric = 1L << 1;
@@ -19450,33 +21146,33 @@ namespace std __attribute__ ((__visibility__ ("default")))
     static const category messages = 1L << 5;
     static const category all = (ctype | numeric | collate |
         time | monetary | messages);
-# 117 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 117 "/usr/include/c++/10/bits/locale_classes.h" 3
     locale() throw();
-# 126 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 126 "/usr/include/c++/10/bits/locale_classes.h" 3
     locale(const locale& __other) throw();
-# 136 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 136 "/usr/include/c++/10/bits/locale_classes.h" 3
     explicit
     locale(const char* __s);
-# 151 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 151 "/usr/include/c++/10/bits/locale_classes.h" 3
     locale(const locale& __base, const char* __s, category __cat);
-# 162 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 162 "/usr/include/c++/10/bits/locale_classes.h" 3
     explicit
     locale(const std::string& __s) : locale(__s.c_str()) { }
-# 177 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 177 "/usr/include/c++/10/bits/locale_classes.h" 3
     locale(const locale& __base, const std::string& __s, category __cat)
     : locale(__base, __s.c_str(), __cat) { }
-# 192 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 192 "/usr/include/c++/10/bits/locale_classes.h" 3
     locale(const locale& __base, const locale& __add, category __cat);
-# 205 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 205 "/usr/include/c++/10/bits/locale_classes.h" 3
     template<typename _Facet>
       locale(const locale& __other, _Facet* __f);
 
 
     ~locale() throw();
-# 219 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 219 "/usr/include/c++/10/bits/locale_classes.h" 3
     const locale&
     operator=(const locale& __other) throw();
-# 234 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 234 "/usr/include/c++/10/bits/locale_classes.h" 3
     template<typename _Facet>
       locale
       combine(const locale& __other) const;
@@ -19489,25 +21185,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __attribute ((__abi_tag__ ("cxx11")))
     string
     name() const;
-# 254 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 254 "/usr/include/c++/10/bits/locale_classes.h" 3
     bool
     operator==(const locale& __other) const throw();
-
-
-
-
-
-
-
+# 264 "/usr/include/c++/10/bits/locale_classes.h" 3
     bool
     operator!=(const locale& __other) const throw()
     { return !(this->operator==(__other)); }
-# 282 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 284 "/usr/include/c++/10/bits/locale_classes.h" 3
     template<typename _Char, typename _Traits, typename _Alloc>
       bool
       operator()(const basic_string<_Char, _Traits, _Alloc>& __s1,
    const basic_string<_Char, _Traits, _Alloc>& __s2) const;
-# 298 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 300 "/usr/include/c++/10/bits/locale_classes.h" 3
     static locale
     global(const locale& __loc);
 
@@ -19532,7 +21222,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const char* const* const _S_categories;
-# 333 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 335 "/usr/include/c++/10/bits/locale_classes.h" 3
     enum { _S_categories_size = 6 + 6 };
 
 
@@ -19558,7 +21248,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     static const id* const _S_twinned_facets[];
 
   };
-# 371 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 373 "/usr/include/c++/10/bits/locale_classes.h" 3
   class locale::facet
   {
   private:
@@ -19581,7 +21271,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     _S_initialize_once();
 
   protected:
-# 402 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 404 "/usr/include/c++/10/bits/locale_classes.h" 3
     explicit
     facet(size_t __refs = 0) throw() : _M_refcount(__refs ? 1 : 0)
     { }
@@ -19610,7 +21300,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     __attribute__ ((__const__)) static const char*
     _S_get_c_name() throw();
-# 438 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 440 "/usr/include/c++/10/bits/locale_classes.h" 3
     facet(const facet&) = delete;
 
     facet&
@@ -19643,7 +21333,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   protected:
     class __shim;
   };
-# 483 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 485 "/usr/include/c++/10/bits/locale_classes.h" 3
   class locale::id
   {
   private:
@@ -19788,7 +21478,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     void _M_init_extra(facet**);
     void _M_init_extra(void*, void*, const char*, const char*);
   };
-# 641 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 643 "/usr/include/c++/10/bits/locale_classes.h" 3
   template<typename _CharT>
     class __cxx11:: collate : public locale::facet
     {
@@ -19808,26 +21498,26 @@ namespace std __attribute__ ((__visibility__ ("default")))
     public:
 
       static locale::id id;
-# 668 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 670 "/usr/include/c++/10/bits/locale_classes.h" 3
       explicit
       collate(size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_get_c_locale())
       { }
-# 682 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 684 "/usr/include/c++/10/bits/locale_classes.h" 3
       explicit
       collate(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_c_locale_collate(_S_clone_c_locale(__cloc))
       { }
-# 699 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 701 "/usr/include/c++/10/bits/locale_classes.h" 3
       int
       compare(const _CharT* __lo1, const _CharT* __hi1,
        const _CharT* __lo2, const _CharT* __hi2) const
       { return this->do_compare(__lo1, __hi1, __lo2, __hi2); }
-# 718 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 720 "/usr/include/c++/10/bits/locale_classes.h" 3
       string_type
       transform(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_transform(__lo, __hi); }
-# 732 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 734 "/usr/include/c++/10/bits/locale_classes.h" 3
       long
       hash(const _CharT* __lo, const _CharT* __hi) const
       { return this->do_hash(__lo, __hi); }
@@ -19844,14 +21534,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       virtual
       ~collate()
       { _S_destroy_c_locale(_M_c_locale_collate); }
-# 761 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 763 "/usr/include/c++/10/bits/locale_classes.h" 3
       virtual int
       do_compare(const _CharT* __lo1, const _CharT* __hi1,
    const _CharT* __lo2, const _CharT* __hi2) const;
-# 775 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 777 "/usr/include/c++/10/bits/locale_classes.h" 3
       virtual string_type
       do_transform(const _CharT* __lo, const _CharT* __hi) const;
-# 788 "/usr/include/c++/7/bits/locale_classes.h" 3
+# 790 "/usr/include/c++/10/bits/locale_classes.h" 3
       virtual long
       do_hash(const _CharT* __lo, const _CharT* __hi) const;
     };
@@ -19915,10 +21605,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 
-# 1 "/usr/include/c++/7/bits/locale_classes.tcc" 1 3
-# 37 "/usr/include/c++/7/bits/locale_classes.tcc" 3
+# 1 "/usr/include/c++/10/bits/locale_classes.tcc" 1 3
+# 37 "/usr/include/c++/10/bits/locale_classes.tcc" 3
        
-# 38 "/usr/include/c++/7/bits/locale_classes.tcc" 3
+# 38 "/usr/include/c++/10/bits/locale_classes.tcc" 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -19970,7 +21660,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return (__collate.compare(__s1.data(), __s1.data() + __s1.length(),
     __s2.data(), __s2.data() + __s2.length()) < 0);
     }
-# 102 "/usr/include/c++/7/bits/locale_classes.tcc" 3
+# 102 "/usr/include/c++/10/bits/locale_classes.tcc" 3
   template<typename _Facet>
     bool
     has_facet(const locale& __loc) throw()
@@ -19984,7 +21674,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     }
-# 130 "/usr/include/c++/7/bits/locale_classes.tcc" 3
+# 130 "/usr/include/c++/10/bits/locale_classes.tcc" 3
   template<typename _Facet>
     const _Facet&
     use_facet(const locale& __loc)
@@ -20152,29 +21842,29 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 852 "/usr/include/c++/7/bits/locale_classes.h" 2 3
-# 42 "/usr/include/c++/7/bits/ios_base.h" 2 3
+# 854 "/usr/include/c++/10/bits/locale_classes.h" 2 3
+# 42 "/usr/include/c++/10/bits/ios_base.h" 2 3
 
 
 
 
-# 1 "/usr/include/c++/7/system_error" 1 3
-# 32 "/usr/include/c++/7/system_error" 3
+# 1 "/usr/include/c++/10/system_error" 1 3
+# 32 "/usr/include/c++/10/system_error" 3
        
-# 33 "/usr/include/c++/7/system_error" 3
+# 33 "/usr/include/c++/10/system_error" 3
 
 
 
 
 
 
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h" 1 3
-# 34 "/usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h" 3
-# 1 "/usr/include/c++/7/cerrno" 1 3
-# 39 "/usr/include/c++/7/cerrno" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h" 1 3
+# 34 "/usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h" 3
+# 1 "/usr/include/c++/10/cerrno" 1 3
+# 39 "/usr/include/c++/10/cerrno" 3
        
-# 40 "/usr/include/c++/7/cerrno" 3
-# 35 "/usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h" 2 3
+# 40 "/usr/include/c++/10/cerrno" 3
+# 35 "/usr/include/x86_64-linux-gnu/c++/10/bits/error_constants.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -20317,12 +22007,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 40 "/usr/include/c++/7/system_error" 2 3
+# 40 "/usr/include/c++/10/system_error" 2 3
 
-# 1 "/usr/include/c++/7/stdexcept" 1 3
-# 36 "/usr/include/c++/7/stdexcept" 3
+# 1 "/usr/include/c++/10/stdexcept" 1 3
+# 36 "/usr/include/c++/10/stdexcept" 3
        
-# 37 "/usr/include/c++/7/stdexcept" 3
+# 37 "/usr/include/c++/10/stdexcept" 3
 
 
 
@@ -20354,7 +22044,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   };
 
   typedef basic_string<char> __sso_string;
-# 113 "/usr/include/c++/7/stdexcept" 3
+# 113 "/usr/include/c++/10/stdexcept" 3
   class logic_error : public exception
   {
     __cow_string _M_msg;
@@ -20368,10 +22058,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit
     logic_error(const char*) ;
 
+    logic_error(logic_error&&) noexcept;
+    logic_error& operator=(logic_error&&) noexcept;
+
 
 
     logic_error(const logic_error&) noexcept;
     logic_error& operator=(const logic_error&) noexcept;
+
+
+
 
 
     virtual ~logic_error() noexcept;
@@ -20395,6 +22091,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit domain_error(const string& __arg) ;
 
     explicit domain_error(const char*) ;
+    domain_error(const domain_error&) = default;
+    domain_error& operator=(const domain_error&) = default;
+    domain_error(domain_error&&) = default;
+    domain_error& operator=(domain_error&&) = default;
 
     virtual ~domain_error() noexcept;
   };
@@ -20406,6 +22106,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit invalid_argument(const string& __arg) ;
 
     explicit invalid_argument(const char*) ;
+    invalid_argument(const invalid_argument&) = default;
+    invalid_argument& operator=(const invalid_argument&) = default;
+    invalid_argument(invalid_argument&&) = default;
+    invalid_argument& operator=(invalid_argument&&) = default;
 
     virtual ~invalid_argument() noexcept;
   };
@@ -20418,6 +22122,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit length_error(const string& __arg) ;
 
     explicit length_error(const char*) ;
+    length_error(const length_error&) = default;
+    length_error& operator=(const length_error&) = default;
+    length_error(length_error&&) = default;
+    length_error& operator=(length_error&&) = default;
 
     virtual ~length_error() noexcept;
   };
@@ -20430,6 +22138,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit out_of_range(const string& __arg) ;
 
     explicit out_of_range(const char*) ;
+    out_of_range(const out_of_range&) = default;
+    out_of_range& operator=(const out_of_range&) = default;
+    out_of_range(out_of_range&&) = default;
+    out_of_range& operator=(out_of_range&&) = default;
 
     virtual ~out_of_range() noexcept;
   };
@@ -20452,10 +22164,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit
     runtime_error(const char*) ;
 
+    runtime_error(runtime_error&&) noexcept;
+    runtime_error& operator=(runtime_error&&) noexcept;
+
 
 
     runtime_error(const runtime_error&) noexcept;
     runtime_error& operator=(const runtime_error&) noexcept;
+
+
+
 
 
     virtual ~runtime_error() noexcept;
@@ -20478,6 +22196,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit range_error(const string& __arg) ;
 
     explicit range_error(const char*) ;
+    range_error(const range_error&) = default;
+    range_error& operator=(const range_error&) = default;
+    range_error(range_error&&) = default;
+    range_error& operator=(range_error&&) = default;
 
     virtual ~range_error() noexcept;
   };
@@ -20489,6 +22211,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit overflow_error(const string& __arg) ;
 
     explicit overflow_error(const char*) ;
+    overflow_error(const overflow_error&) = default;
+    overflow_error& operator=(const overflow_error&) = default;
+    overflow_error(overflow_error&&) = default;
+    overflow_error& operator=(overflow_error&&) = default;
 
     virtual ~overflow_error() noexcept;
   };
@@ -20500,6 +22226,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit underflow_error(const string& __arg) ;
 
     explicit underflow_error(const char*) ;
+    underflow_error(const underflow_error&) = default;
+    underflow_error& operator=(const underflow_error&) = default;
+    underflow_error(underflow_error&&) = default;
+    underflow_error& operator=(underflow_error&&) = default;
 
     virtual ~underflow_error() noexcept;
   };
@@ -20508,10 +22238,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 42 "/usr/include/c++/7/system_error" 2 3
+# 42 "/usr/include/c++/10/system_error" 2 3
+
+
+
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
+
+
+
+
 
 
   class error_code;
@@ -20529,10 +22266,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct is_error_condition_enum<errc>
     : public true_type { };
-# 71 "/usr/include/c++/7/system_error" 3
+# 78 "/usr/include/c++/10/system_error" 3
   inline namespace _V2 {
-
-
+# 89 "/usr/include/c++/10/system_error" 3
   class error_category
   {
   public:
@@ -20560,7 +22296,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     __attribute ((__abi_tag__ ("cxx11")))
     virtual string
     message(int) const = 0;
-# 110 "/usr/include/c++/7/system_error" 3
+# 125 "/usr/include/c++/10/system_error" 3
   public:
     virtual error_condition
     default_error_condition(int __i) const noexcept;
@@ -20572,31 +22308,36 @@ namespace std __attribute__ ((__visibility__ ("default")))
     equivalent(const error_code& __code, int __i) const noexcept;
 
     bool
-    operator<(const error_category& __other) const noexcept
-    { return less<const error_category*>()(this, &__other); }
-
-    bool
     operator==(const error_category& __other) const noexcept
     { return this == &__other; }
+
+
+
+
+
 
     bool
     operator!=(const error_category& __other) const noexcept
     { return this != &__other; }
+
+    bool
+    operator<(const error_category& __other) const noexcept
+    { return less<const error_category*>()(this, &__other); }
+
   };
 
 
-  __attribute__ ((__const__)) const error_category& system_category() noexcept;
+
+
   __attribute__ ((__const__)) const error_category& generic_category() noexcept;
+
+
+  __attribute__ ((__const__)) const error_category& system_category() noexcept;
 
   }
 
   error_code make_error_code(errc) noexcept;
-
-  template<typename _Tp>
-    struct hash;
-
-
-
+# 180 "/usr/include/c++/10/system_error" 3
   struct error_code
   {
     error_code() noexcept
@@ -20647,17 +22388,18 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   private:
-    friend class hash<error_code>;
-
     int _M_value;
     const error_category* _M_cat;
   };
 
 
+
+
+
   inline error_code
   make_error_code(errc __e) noexcept
   { return error_code(static_cast<int>(__e), generic_category()); }
-
+# 251 "/usr/include/c++/10/system_error" 3
   inline bool
   operator<(const error_code& __lhs, const error_code& __rhs) noexcept
   {
@@ -20666,15 +22408,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
   && __lhs.value() < __rhs.value()));
   }
 
+
   template<typename _CharT, typename _Traits>
     basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
     { return (__os << __e.category().name() << ':' << __e.value()); }
 
+
+
   error_condition make_error_condition(errc) noexcept;
-
-
-
+# 278 "/usr/include/c++/10/system_error" 3
   struct error_condition
   {
     error_condition() noexcept
@@ -20728,10 +22471,39 @@ namespace std __attribute__ ((__visibility__ ("default")))
   };
 
 
+
+
+
   inline error_condition
   make_error_condition(errc __e) noexcept
   { return error_condition(static_cast<int>(__e), generic_category()); }
 
+
+
+
+  inline bool
+  operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+  { return (__lhs.category() == __rhs.category()
+     && __lhs.value() == __rhs.value()); }
+
+
+
+  inline bool
+  operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+  {
+    return (__lhs.category().equivalent(__lhs.value(), __rhs)
+     || __rhs.category().equivalent(__lhs, __rhs.value()));
+  }
+
+
+  inline bool
+  operator==(const error_condition& __lhs,
+      const error_condition& __rhs) noexcept
+  {
+    return (__lhs.category() == __rhs.category()
+     && __lhs.value() == __rhs.value());
+  }
+# 378 "/usr/include/c++/10/system_error" 3
   inline bool
   operator<(const error_condition& __lhs,
      const error_condition& __rhs) noexcept
@@ -20742,17 +22514,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
   }
 
 
-  inline bool
-  operator==(const error_code& __lhs, const error_code& __rhs) noexcept
-  { return (__lhs.category() == __rhs.category()
-     && __lhs.value() == __rhs.value()); }
-
-  inline bool
-  operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
-  {
-    return (__lhs.category().equivalent(__lhs.value(), __rhs)
-     || __rhs.category().equivalent(__lhs, __rhs.value()));
-  }
 
   inline bool
   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
@@ -20761,37 +22522,29 @@ namespace std __attribute__ ((__visibility__ ("default")))
      || __lhs.category().equivalent(__rhs, __lhs.value()));
   }
 
-  inline bool
-  operator==(const error_condition& __lhs,
-      const error_condition& __rhs) noexcept
-  {
-    return (__lhs.category() == __rhs.category()
-     && __lhs.value() == __rhs.value());
-  }
 
   inline bool
   operator!=(const error_code& __lhs, const error_code& __rhs) noexcept
   { return !(__lhs == __rhs); }
 
+
+
   inline bool
   operator!=(const error_code& __lhs, const error_condition& __rhs) noexcept
   { return !(__lhs == __rhs); }
+
+
 
   inline bool
   operator!=(const error_condition& __lhs, const error_code& __rhs) noexcept
   { return !(__lhs == __rhs); }
 
+
   inline bool
   operator!=(const error_condition& __lhs,
       const error_condition& __rhs) noexcept
   { return !(__lhs == __rhs); }
-
-
-
-
-
-
-
+# 428 "/usr/include/c++/10/system_error" 3
   class system_error : public std::runtime_error
   {
   private:
@@ -20818,6 +22571,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     : runtime_error(__what + ": " + error_code(__v, __ecat).message()),
       _M_code(__v, __ecat) { }
 
+
+    system_error (const system_error &) = default;
+    system_error &operator= (const system_error &) = default;
+
+
     virtual ~system_error() noexcept;
 
     const error_code&
@@ -20836,6 +22594,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+
   template<>
     struct hash<error_code>
     : public __hash_base<size_t, error_code>
@@ -20843,14 +22602,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       size_t
       operator()(const error_code& __e) const noexcept
       {
- const size_t __tmp = std::_Hash_impl::hash(__e._M_value);
- return std::_Hash_impl::__hash_combine(__e._M_cat, __tmp);
+ const size_t __tmp = std::_Hash_impl::hash(__e.value());
+ return std::_Hash_impl::__hash_combine(&__e.category(), __tmp);
       }
     };
-# 414 "/usr/include/c++/7/system_error" 3
+# 508 "/usr/include/c++/10/system_error" 3
 
 }
-# 47 "/usr/include/c++/7/bits/ios_base.h" 2 3
+# 47 "/usr/include/c++/10/bits/ios_base.h" 2 3
 
 
 namespace std __attribute__ ((__visibility__ ("default")))
@@ -21020,12 +22779,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
   inline error_condition
   make_error_condition(io_errc __e) noexcept
   { return error_condition(static_cast<int>(__e), iostream_category()); }
-# 228 "/usr/include/c++/7/bits/ios_base.h" 3
+# 228 "/usr/include/c++/10/bits/ios_base.h" 3
   class ios_base
   {
-# 246 "/usr/include/c++/7/bits/ios_base.h" 3
+# 246 "/usr/include/c++/10/bits/ios_base.h" 3
   public:
-# 255 "/usr/include/c++/7/bits/ios_base.h" 3
+# 255 "/usr/include/c++/10/bits/ios_base.h" 3
     class __attribute ((__abi_tag__ ("cxx11"))) failure : public system_error
     {
     public:
@@ -21046,7 +22805,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       virtual const char*
       what() const throw();
     };
-# 323 "/usr/include/c++/7/bits/ios_base.h" 3
+# 341 "/usr/include/c++/10/bits/ios_base.h" 3
     typedef _Ios_Fmtflags fmtflags;
 
 
@@ -21109,7 +22868,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const fmtflags floatfield = _S_floatfield;
-# 398 "/usr/include/c++/7/bits/ios_base.h" 3
+# 416 "/usr/include/c++/10/bits/ios_base.h" 3
     typedef _Ios_Iostate iostate;
 
 
@@ -21126,7 +22885,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const iostate goodbit = _S_goodbit;
-# 429 "/usr/include/c++/7/bits/ios_base.h" 3
+# 447 "/usr/include/c++/10/bits/ios_base.h" 3
     typedef _Ios_Openmode openmode;
 
 
@@ -21148,7 +22907,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
     static const openmode trunc = _S_trunc;
-# 461 "/usr/include/c++/7/bits/ios_base.h" 3
+# 479 "/usr/include/c++/10/bits/ios_base.h" 3
     typedef _Ios_Seekdir seekdir;
 
 
@@ -21161,22 +22920,28 @@ namespace std __attribute__ ((__visibility__ ("default")))
     static const seekdir end = _S_end;
 
 
-    typedef int io_state;
-    typedef int open_mode;
-    typedef int seek_dir;
 
-    typedef std::streampos streampos;
-    typedef std::streamoff streamoff;
-# 487 "/usr/include/c++/7/bits/ios_base.h" 3
+    typedef int io_state
+      __attribute__ ((__deprecated__ ("use '" "std::iostate" "' instead")));
+    typedef int open_mode
+      __attribute__ ((__deprecated__ ("use '" "std::openmode" "' instead")));
+    typedef int seek_dir
+      __attribute__ ((__deprecated__ ("use '" "std::seekdir" "' instead")));
+
+    typedef std::streampos streampos
+      __attribute__ ((__deprecated__ ("use '" "std::streampos" "' instead")));
+    typedef std::streamoff streamoff
+      __attribute__ ((__deprecated__ ("use '" "std::streamoff" "' instead")));
+# 512 "/usr/include/c++/10/bits/ios_base.h" 3
     enum event
     {
       erase_event,
       imbue_event,
       copyfmt_event
     };
-# 504 "/usr/include/c++/7/bits/ios_base.h" 3
+# 529 "/usr/include/c++/10/bits/ios_base.h" 3
     typedef void (*event_callback) (event __e, ios_base& __b, int __i);
-# 516 "/usr/include/c++/7/bits/ios_base.h" 3
+# 541 "/usr/include/c++/10/bits/ios_base.h" 3
     void
     register_callback(event_callback __fn, int __index);
 
@@ -21269,6 +23034,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       Init();
       ~Init();
 
+
+      Init(const Init&) = default;
+      Init& operator=(const Init&) = default;
+
+
     private:
       static _Atomic_word _S_refcount;
       static bool _S_synced_with_stdio;
@@ -21282,7 +23052,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     fmtflags
     flags() const
     { return _M_flags; }
-# 629 "/usr/include/c++/7/bits/ios_base.h" 3
+# 659 "/usr/include/c++/10/bits/ios_base.h" 3
     fmtflags
     flags(fmtflags __fmtfl)
     {
@@ -21290,7 +23060,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _M_flags = __fmtfl;
       return __old;
     }
-# 645 "/usr/include/c++/7/bits/ios_base.h" 3
+# 675 "/usr/include/c++/10/bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl)
     {
@@ -21298,7 +23068,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _M_flags |= __fmtfl;
       return __old;
     }
-# 662 "/usr/include/c++/7/bits/ios_base.h" 3
+# 692 "/usr/include/c++/10/bits/ios_base.h" 3
     fmtflags
     setf(fmtflags __fmtfl, fmtflags __mask)
     {
@@ -21317,7 +23087,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     void
     unsetf(fmtflags __mask)
     { _M_flags &= ~__mask; }
-# 688 "/usr/include/c++/7/bits/ios_base.h" 3
+# 718 "/usr/include/c++/10/bits/ios_base.h" 3
     streamsize
     precision() const
     { return _M_precision; }
@@ -21357,45 +23127,45 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _M_width = __wide;
       return __old;
     }
-# 739 "/usr/include/c++/7/bits/ios_base.h" 3
+# 769 "/usr/include/c++/10/bits/ios_base.h" 3
     static bool
     sync_with_stdio(bool __sync = true);
-# 751 "/usr/include/c++/7/bits/ios_base.h" 3
+# 781 "/usr/include/c++/10/bits/ios_base.h" 3
     locale
     imbue(const locale& __loc) throw();
-# 762 "/usr/include/c++/7/bits/ios_base.h" 3
+# 792 "/usr/include/c++/10/bits/ios_base.h" 3
     locale
     getloc() const
     { return _M_ios_locale; }
-# 773 "/usr/include/c++/7/bits/ios_base.h" 3
+# 803 "/usr/include/c++/10/bits/ios_base.h" 3
     const locale&
     _M_getloc() const
     { return _M_ios_locale; }
-# 792 "/usr/include/c++/7/bits/ios_base.h" 3
+# 822 "/usr/include/c++/10/bits/ios_base.h" 3
     static int
     xalloc() throw();
-# 808 "/usr/include/c++/7/bits/ios_base.h" 3
+# 838 "/usr/include/c++/10/bits/ios_base.h" 3
     long&
     iword(int __ix)
     {
-      _Words& __word = (__ix < _M_word_size)
+      _Words& __word = ((unsigned)__ix < (unsigned)_M_word_size)
    ? _M_word[__ix] : _M_grow_words(__ix, true);
       return __word._M_iword;
     }
-# 829 "/usr/include/c++/7/bits/ios_base.h" 3
+# 859 "/usr/include/c++/10/bits/ios_base.h" 3
     void*&
     pword(int __ix)
     {
-      _Words& __word = (__ix < _M_word_size)
+      _Words& __word = ((unsigned)__ix < (unsigned)_M_word_size)
    ? _M_word[__ix] : _M_grow_words(__ix, false);
       return __word._M_pword;
     }
-# 846 "/usr/include/c++/7/bits/ios_base.h" 3
+# 876 "/usr/include/c++/10/bits/ios_base.h" 3
     virtual ~ios_base();
 
   protected:
     ios_base() throw ();
-# 860 "/usr/include/c++/7/bits/ios_base.h" 3
+# 890 "/usr/include/c++/10/bits/ios_base.h" 3
   public:
     ios_base(const ios_base&) = delete;
 
@@ -21614,21 +23384,23 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 43 "/usr/include/c++/7/ios" 2 3
-# 1 "/usr/include/c++/7/streambuf" 1 3
-# 36 "/usr/include/c++/7/streambuf" 3
+# 43 "/usr/include/c++/10/ios" 2 3
+# 1 "/usr/include/c++/10/streambuf" 1 3
+# 36 "/usr/include/c++/10/streambuf" 3
        
-# 37 "/usr/include/c++/7/streambuf" 3
-# 45 "/usr/include/c++/7/streambuf" 3
+# 37 "/usr/include/c++/10/streambuf" 3
+# 45 "/usr/include/c++/10/streambuf" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
+
+
 
 
   template<typename _CharT, typename _Traits>
     streamsize
     __copy_streambufs_eof(basic_streambuf<_CharT, _Traits>*,
      basic_streambuf<_CharT, _Traits>*, bool&);
-# 119 "/usr/include/c++/7/streambuf" 3
+# 121 "/usr/include/c++/10/streambuf" 3
   template<typename _CharT, typename _Traits>
     class basic_streambuf
     {
@@ -21672,6 +23444,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
         find(istreambuf_iterator<_CharT2>, istreambuf_iterator<_CharT2>,
       const _CharT2&);
 
+      template<typename _CharT2, typename _Distance>
+        friend typename __gnu_cxx::__enable_if<__is_char<_CharT2>::__value,
+            void>::__type
+        advance(istreambuf_iterator<_CharT2>&, _Distance);
+
       template<typename _CharT2, typename _Traits2>
         friend basic_istream<_CharT2, _Traits2>&
         operator>>(basic_istream<_CharT2, _Traits2>&, _CharT2*);
@@ -21709,7 +23486,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       virtual
       ~basic_streambuf()
       { }
-# 208 "/usr/include/c++/7/streambuf" 3
+# 215 "/usr/include/c++/10/streambuf" 3
       locale
       pubimbue(const locale& __loc)
       {
@@ -21718,20 +23495,20 @@ namespace std __attribute__ ((__visibility__ ("default")))
  _M_buf_locale = __loc;
  return __tmp;
       }
-# 225 "/usr/include/c++/7/streambuf" 3
+# 232 "/usr/include/c++/10/streambuf" 3
       locale
       getloc() const
       { return _M_buf_locale; }
-# 238 "/usr/include/c++/7/streambuf" 3
+# 245 "/usr/include/c++/10/streambuf" 3
       basic_streambuf*
       pubsetbuf(char_type* __s, streamsize __n)
       { return this->setbuf(__s, __n); }
-# 250 "/usr/include/c++/7/streambuf" 3
+# 257 "/usr/include/c++/10/streambuf" 3
       pos_type
       pubseekoff(off_type __off, ios_base::seekdir __way,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
       { return this->seekoff(__off, __way, __mode); }
-# 262 "/usr/include/c++/7/streambuf" 3
+# 269 "/usr/include/c++/10/streambuf" 3
       pos_type
       pubseekpos(pos_type __sp,
    ios_base::openmode __mode = ios_base::in | ios_base::out)
@@ -21742,14 +23519,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       int
       pubsync() { return this->sync(); }
-# 283 "/usr/include/c++/7/streambuf" 3
+# 290 "/usr/include/c++/10/streambuf" 3
       streamsize
       in_avail()
       {
  const streamsize __ret = this->egptr() - this->gptr();
  return __ret ? __ret : this->showmanyc();
       }
-# 297 "/usr/include/c++/7/streambuf" 3
+# 304 "/usr/include/c++/10/streambuf" 3
       int_type
       snextc()
       {
@@ -21759,7 +23536,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->sgetc();
  return __ret;
       }
-# 315 "/usr/include/c++/7/streambuf" 3
+# 322 "/usr/include/c++/10/streambuf" 3
       int_type
       sbumpc()
       {
@@ -21773,7 +23550,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->uflow();
  return __ret;
       }
-# 337 "/usr/include/c++/7/streambuf" 3
+# 344 "/usr/include/c++/10/streambuf" 3
       int_type
       sgetc()
       {
@@ -21784,11 +23561,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->underflow();
  return __ret;
       }
-# 356 "/usr/include/c++/7/streambuf" 3
+# 363 "/usr/include/c++/10/streambuf" 3
       streamsize
       sgetn(char_type* __s, streamsize __n)
       { return this->xsgetn(__s, __n); }
-# 371 "/usr/include/c++/7/streambuf" 3
+# 378 "/usr/include/c++/10/streambuf" 3
       int_type
       sputbackc(char_type __c)
       {
@@ -21804,7 +23581,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    }
  return __ret;
       }
-# 396 "/usr/include/c++/7/streambuf" 3
+# 403 "/usr/include/c++/10/streambuf" 3
       int_type
       sungetc()
       {
@@ -21818,7 +23595,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->pbackfail();
  return __ret;
       }
-# 423 "/usr/include/c++/7/streambuf" 3
+# 430 "/usr/include/c++/10/streambuf" 3
       int_type
       sputc(char_type __c)
       {
@@ -21833,19 +23610,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret = this->overflow(traits_type::to_int_type(__c));
  return __ret;
       }
-# 449 "/usr/include/c++/7/streambuf" 3
+# 456 "/usr/include/c++/10/streambuf" 3
       streamsize
       sputn(const char_type* __s, streamsize __n)
       { return this->xsputn(__s, __n); }
 
     protected:
-# 463 "/usr/include/c++/7/streambuf" 3
+# 470 "/usr/include/c++/10/streambuf" 3
       basic_streambuf()
       : _M_in_beg(0), _M_in_cur(0), _M_in_end(0),
       _M_out_beg(0), _M_out_cur(0), _M_out_end(0),
       _M_buf_locale(locale())
       { }
-# 481 "/usr/include/c++/7/streambuf" 3
+# 488 "/usr/include/c++/10/streambuf" 3
       char_type*
       eback() const { return _M_in_beg; }
 
@@ -21854,10 +23631,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       char_type*
       egptr() const { return _M_in_end; }
-# 497 "/usr/include/c++/7/streambuf" 3
+# 504 "/usr/include/c++/10/streambuf" 3
       void
       gbump(int __n) { _M_in_cur += __n; }
-# 508 "/usr/include/c++/7/streambuf" 3
+# 515 "/usr/include/c++/10/streambuf" 3
       void
       setg(char_type* __gbeg, char_type* __gnext, char_type* __gend)
       {
@@ -21865,7 +23642,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  _M_in_cur = __gnext;
  _M_in_end = __gend;
       }
-# 528 "/usr/include/c++/7/streambuf" 3
+# 535 "/usr/include/c++/10/streambuf" 3
       char_type*
       pbase() const { return _M_out_beg; }
 
@@ -21874,48 +23651,48 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       char_type*
       epptr() const { return _M_out_end; }
-# 544 "/usr/include/c++/7/streambuf" 3
+# 551 "/usr/include/c++/10/streambuf" 3
       void
       pbump(int __n) { _M_out_cur += __n; }
-# 554 "/usr/include/c++/7/streambuf" 3
+# 561 "/usr/include/c++/10/streambuf" 3
       void
       setp(char_type* __pbeg, char_type* __pend)
       {
  _M_out_beg = _M_out_cur = __pbeg;
  _M_out_end = __pend;
       }
-# 575 "/usr/include/c++/7/streambuf" 3
+# 582 "/usr/include/c++/10/streambuf" 3
       virtual void
-      imbue(const locale& __loc)
+      imbue(const locale& __loc __attribute__ ((__unused__)))
       { }
-# 590 "/usr/include/c++/7/streambuf" 3
+# 597 "/usr/include/c++/10/streambuf" 3
       virtual basic_streambuf<char_type,_Traits>*
       setbuf(char_type*, streamsize)
       { return this; }
-# 601 "/usr/include/c++/7/streambuf" 3
+# 608 "/usr/include/c++/10/streambuf" 3
       virtual pos_type
       seekoff(off_type, ios_base::seekdir,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 613 "/usr/include/c++/7/streambuf" 3
+# 620 "/usr/include/c++/10/streambuf" 3
       virtual pos_type
       seekpos(pos_type,
        ios_base::openmode = ios_base::in | ios_base::out)
       { return pos_type(off_type(-1)); }
-# 626 "/usr/include/c++/7/streambuf" 3
+# 633 "/usr/include/c++/10/streambuf" 3
       virtual int
       sync() { return 0; }
-# 648 "/usr/include/c++/7/streambuf" 3
+# 655 "/usr/include/c++/10/streambuf" 3
       virtual streamsize
       showmanyc() { return 0; }
-# 664 "/usr/include/c++/7/streambuf" 3
+# 671 "/usr/include/c++/10/streambuf" 3
       virtual streamsize
       xsgetn(char_type* __s, streamsize __n);
-# 686 "/usr/include/c++/7/streambuf" 3
+# 693 "/usr/include/c++/10/streambuf" 3
       virtual int_type
       underflow()
       { return traits_type::eof(); }
-# 699 "/usr/include/c++/7/streambuf" 3
+# 706 "/usr/include/c++/10/streambuf" 3
       virtual int_type
       uflow()
       {
@@ -21929,22 +23706,23 @@ namespace std __attribute__ ((__visibility__ ("default")))
    }
  return __ret;
       }
-# 723 "/usr/include/c++/7/streambuf" 3
+# 730 "/usr/include/c++/10/streambuf" 3
       virtual int_type
-      pbackfail(int_type __c = traits_type::eof())
+      pbackfail(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
-# 741 "/usr/include/c++/7/streambuf" 3
+# 748 "/usr/include/c++/10/streambuf" 3
       virtual streamsize
       xsputn(const char_type* __s, streamsize __n);
-# 767 "/usr/include/c++/7/streambuf" 3
+# 774 "/usr/include/c++/10/streambuf" 3
       virtual int_type
-      overflow(int_type __c = traits_type::eof())
+      overflow(int_type __c __attribute__ ((__unused__)) = traits_type::eof())
       { return traits_type::eof(); }
 
 
 
     public:
-# 782 "/usr/include/c++/7/streambuf" 3
+# 789 "/usr/include/c++/10/streambuf" 3
+      __attribute__ ((__deprecated__ ("use '" "std::basic_streambuf::sbumpc" "' instead")))
       void
       stossc()
       {
@@ -22011,12 +23789,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+
+
 }
 
-# 1 "/usr/include/c++/7/bits/streambuf.tcc" 1 3
-# 37 "/usr/include/c++/7/bits/streambuf.tcc" 3
+# 1 "/usr/include/c++/10/bits/streambuf.tcc" 1 3
+# 37 "/usr/include/c++/10/bits/streambuf.tcc" 3
        
-# 38 "/usr/include/c++/7/bits/streambuf.tcc" 3
+# 38 "/usr/include/c++/10/bits/streambuf.tcc" 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -22153,25 +23933,25 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 851 "/usr/include/c++/7/streambuf" 2 3
-# 44 "/usr/include/c++/7/ios" 2 3
-# 1 "/usr/include/c++/7/bits/basic_ios.h" 1 3
-# 33 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 861 "/usr/include/c++/10/streambuf" 2 3
+# 44 "/usr/include/c++/10/ios" 2 3
+# 1 "/usr/include/c++/10/bits/basic_ios.h" 1 3
+# 33 "/usr/include/c++/10/bits/basic_ios.h" 3
        
-# 34 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 34 "/usr/include/c++/10/bits/basic_ios.h" 3
 
 
 
-# 1 "/usr/include/c++/7/bits/locale_facets.h" 1 3
-# 37 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1 "/usr/include/c++/10/bits/locale_facets.h" 1 3
+# 37 "/usr/include/c++/10/bits/locale_facets.h" 3
        
-# 38 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 38 "/usr/include/c++/10/bits/locale_facets.h" 3
 
-# 1 "/usr/include/c++/7/cwctype" 1 3
-# 39 "/usr/include/c++/7/cwctype" 3
+# 1 "/usr/include/c++/10/cwctype" 1 3
+# 39 "/usr/include/c++/10/cwctype" 3
        
-# 40 "/usr/include/c++/7/cwctype" 3
-# 50 "/usr/include/c++/7/cwctype" 3
+# 40 "/usr/include/c++/10/cwctype" 3
+# 50 "/usr/include/c++/10/cwctype" 3
 # 1 "/usr/include/wctype.h" 1 3 4
 # 38 "/usr/include/wctype.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h" 1 3 4
@@ -22396,8 +24176,8 @@ extern wint_t towctrans_l (wint_t __wc, wctrans_t __desc,
 
 
 }
-# 51 "/usr/include/c++/7/cwctype" 2 3
-# 80 "/usr/include/c++/7/cwctype" 3
+# 51 "/usr/include/c++/10/cwctype" 2 3
+# 80 "/usr/include/c++/10/cwctype" 3
 namespace std
 {
   using ::wctrans_t;
@@ -22425,14 +24205,14 @@ namespace std
   using ::wctrans;
   using ::wctype;
 }
-# 40 "/usr/include/c++/7/bits/locale_facets.h" 2 3
-# 1 "/usr/include/c++/7/cctype" 1 3
-# 39 "/usr/include/c++/7/cctype" 3
+# 40 "/usr/include/c++/10/bits/locale_facets.h" 2 3
+# 1 "/usr/include/c++/10/cctype" 1 3
+# 39 "/usr/include/c++/10/cctype" 3
        
-# 40 "/usr/include/c++/7/cctype" 3
-# 41 "/usr/include/c++/7/bits/locale_facets.h" 2 3
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h" 1 3
-# 36 "/usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h" 3
+# 40 "/usr/include/c++/10/cctype" 3
+# 41 "/usr/include/c++/10/bits/locale_facets.h" 2 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h" 1 3
+# 36 "/usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -22464,17 +24244,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 42 "/usr/include/c++/7/bits/locale_facets.h" 2 3
+# 42 "/usr/include/c++/10/bits/locale_facets.h" 2 3
 
 
 
 
 
 
-# 1 "/usr/include/c++/7/bits/streambuf_iterator.h" 1 3
-# 33 "/usr/include/c++/7/bits/streambuf_iterator.h" 3
+# 1 "/usr/include/c++/10/bits/streambuf_iterator.h" 1 3
+# 33 "/usr/include/c++/10/bits/streambuf_iterator.h" 3
        
-# 34 "/usr/include/c++/7/bits/streambuf_iterator.h" 3
+# 34 "/usr/include/c++/10/bits/streambuf_iterator.h" 3
 
 
 
@@ -22482,22 +24262,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 49 "/usr/include/c++/7/bits/streambuf_iterator.h" 3
+# 49 "/usr/include/c++/10/bits/streambuf_iterator.h" 3
   template<typename _CharT, typename _Traits>
     class istreambuf_iterator
     : public iterator<input_iterator_tag, _CharT, typename _Traits::off_type,
-                      _CharT*,
-
-
-        _CharT>
-
-
-
+        _CharT*, _CharT>
     {
     public:
-
-
-
+# 66 "/usr/include/c++/10/bits/streambuf_iterator.h" 3
       typedef _CharT char_type;
       typedef _Traits traits_type;
       typedef typename _Traits::int_type int_type;
@@ -22507,7 +24279,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       template<typename _CharT2>
  friend typename __gnu_cxx::__enable_if<__is_char<_CharT2>::__value,
-                      ostreambuf_iterator<_CharT2> >::__type
+        ostreambuf_iterator<_CharT2> >::__type
  copy(istreambuf_iterator<_CharT2>, istreambuf_iterator<_CharT2>,
       ostreambuf_iterator<_CharT2>);
 
@@ -22517,11 +24289,22 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __copy_move_a2(istreambuf_iterator<_CharT2>,
          istreambuf_iterator<_CharT2>, _CharT2*);
 
+
+      template<typename _CharT2, typename _Size>
+ friend __enable_if_t<__is_char<_CharT2>::__value, _CharT2*>
+ __copy_n_a(istreambuf_iterator<_CharT2>, _Size, _CharT2*);
+
+
       template<typename _CharT2>
  friend typename __gnu_cxx::__enable_if<__is_char<_CharT2>::__value,
-               istreambuf_iterator<_CharT2> >::__type
+        istreambuf_iterator<_CharT2> >::__type
  find(istreambuf_iterator<_CharT2>, istreambuf_iterator<_CharT2>,
       const _CharT2&);
+
+      template<typename _CharT2, typename _Distance>
+ friend typename __gnu_cxx::__enable_if<__is_char<_CharT2>::__value,
+            void>::__type
+ advance(istreambuf_iterator<_CharT2>&, _Distance);
 
     private:
 
@@ -22532,12 +24315,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       mutable streambuf_type* _M_sbuf;
-      mutable int_type _M_c;
+      int_type _M_c;
 
     public:
 
       constexpr istreambuf_iterator() noexcept
       : _M_sbuf(0), _M_c(traits_type::eof()) { }
+
+
+
+
+
 
 
       istreambuf_iterator(const istreambuf_iterator&) noexcept = default;
@@ -22554,19 +24342,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
       : _M_sbuf(__s), _M_c(traits_type::eof()) { }
 
 
+      istreambuf_iterator&
+      operator=(const istreambuf_iterator&) noexcept = default;
+
+
+
 
 
       char_type
       operator*() const
       {
-
-
-
-
-
-
-
- return traits_type::to_char_type(_M_get());
+ int_type __c = _M_get();
+# 157 "/usr/include/c++/10/bits/streambuf_iterator.h" 3
+ return traits_type::to_char_type(__c);
       }
 
 
@@ -22575,12 +24363,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
 
 
+
                         ;
- if (_M_sbuf)
-   {
-     _M_sbuf->sbumpc();
-     _M_c = traits_type::eof();
-   }
+
+ _M_sbuf->sbumpc();
+ _M_c = traits_type::eof();
  return *this;
       }
 
@@ -22590,14 +24377,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
 
 
+
                         ;
 
  istreambuf_iterator __old = *this;
- if (_M_sbuf)
-   {
-     __old._M_c = _M_sbuf->sbumpc();
-     _M_c = traits_type::eof();
-   }
+ __old._M_c = _M_sbuf->sbumpc();
+ _M_c = traits_type::eof();
  return __old;
       }
 
@@ -22613,27 +24398,28 @@ namespace std __attribute__ ((__visibility__ ("default")))
       int_type
       _M_get() const
       {
- const int_type __eof = traits_type::eof();
- int_type __ret = __eof;
- if (_M_sbuf)
-   {
-     if (!traits_type::eq_int_type(_M_c, __eof))
-       __ret = _M_c;
-     else if (!traits_type::eq_int_type((__ret = _M_sbuf->sgetc()),
-            __eof))
-       _M_c = __ret;
-     else
-       _M_sbuf = 0;
-   }
+ int_type __ret = _M_c;
+ if (_M_sbuf && _S_is_eof(__ret) && _S_is_eof(__ret = _M_sbuf->sgetc()))
+   _M_sbuf = 0;
  return __ret;
       }
 
       bool
       _M_at_eof() const
+      { return _S_is_eof(_M_get()); }
+
+      static bool
+      _S_is_eof(int_type __c)
       {
  const int_type __eof = traits_type::eof();
- return traits_type::eq_int_type(_M_get(), __eof);
+ return traits_type::eq_int_type(__c, __eof);
       }
+
+
+
+
+
+
     };
 
   template<typename _CharT, typename _Traits>
@@ -22657,6 +24443,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
+
+
+
       typedef _CharT char_type;
       typedef _Traits traits_type;
       typedef basic_streambuf<_CharT, _Traits> streambuf_type;
@@ -22665,7 +24454,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       template<typename _CharT2>
  friend typename __gnu_cxx::__enable_if<__is_char<_CharT2>::__value,
-                      ostreambuf_iterator<_CharT2> >::__type
+        ostreambuf_iterator<_CharT2> >::__type
  copy(istreambuf_iterator<_CharT2>, istreambuf_iterator<_CharT2>,
       ostreambuf_iterator<_CharT2>);
 
@@ -22674,7 +24463,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       bool _M_failed;
 
     public:
-
+# 274 "/usr/include/c++/10/bits/streambuf_iterator.h" 3
       ostreambuf_iterator(ostream_type& __s) noexcept
       : _M_sbuf(__s.rdbuf()), _M_failed(!_M_sbuf) { }
 
@@ -22726,7 +24515,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _CharT>
     typename __gnu_cxx::__enable_if<__is_char<_CharT>::__value,
-                           ostreambuf_iterator<_CharT> >::__type
+        ostreambuf_iterator<_CharT> >::__type
     copy(istreambuf_iterator<_CharT> __first,
   istreambuf_iterator<_CharT> __last,
   ostreambuf_iterator<_CharT> __result)
@@ -22743,7 +24532,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<bool _IsMove, typename _CharT>
     typename __gnu_cxx::__enable_if<__is_char<_CharT>::__value,
-            ostreambuf_iterator<_CharT> >::__type
+        ostreambuf_iterator<_CharT> >::__type
     __copy_move_a2(_CharT* __first, _CharT* __last,
      ostreambuf_iterator<_CharT> __result)
     {
@@ -22767,7 +24556,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<bool _IsMove, typename _CharT>
     typename __gnu_cxx::__enable_if<__is_char<_CharT>::__value,
-            _CharT*>::__type
+        _CharT*>::__type
     __copy_move_a2(istreambuf_iterator<_CharT> __first,
      istreambuf_iterator<_CharT> __last, _CharT* __result)
     {
@@ -22800,6 +24589,26 @@ namespace std __attribute__ ((__visibility__ ("default")))
       return __result;
     }
 
+
+  template<typename _CharT, typename _Size>
+    __enable_if_t<__is_char<_CharT>::__value, _CharT*>
+    __copy_n_a(istreambuf_iterator<_CharT> __it, _Size __n, _CharT* __result)
+    {
+      if (__n == 0)
+ return __result;
+
+     
+
+                            ;
+      _CharT* __beg = __result;
+      __result += __it._M_sbuf->sgetn(__beg, __n);
+     
+
+                            ;
+      return __result;
+    }
+
+
   template<typename _CharT>
     typename __gnu_cxx::__enable_if<__is_char<_CharT>::__value,
           istreambuf_iterator<_CharT> >::__type
@@ -22810,13 +24619,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef typename __is_iterator_type::traits_type traits_type;
       typedef typename __is_iterator_type::streambuf_type streambuf_type;
       typedef typename traits_type::int_type int_type;
+      const int_type __eof = traits_type::eof();
 
       if (__first._M_sbuf && !__last._M_sbuf)
  {
    const int_type __ival = traits_type::to_int_type(__val);
    streambuf_type* __sb = __first._M_sbuf;
    int_type __c = __sb->sgetc();
-   while (!traits_type::eq_int_type(__c, traits_type::eof())
+   while (!traits_type::eq_int_type(__c, __eof)
    && !traits_type::eq_int_type(__c, __ival))
      {
        streamsize __n = __sb->egptr() - __sb->gptr();
@@ -22833,24 +24643,65 @@ namespace std __attribute__ ((__visibility__ ("default")))
   __c = __sb->snextc();
      }
 
-   if (!traits_type::eq_int_type(__c, traits_type::eof()))
-     __first._M_c = __c;
-   else
-     __first._M_sbuf = 0;
+   __first._M_c = __eof;
  }
+
       return __first;
+    }
+
+  template<typename _CharT, typename _Distance>
+    typename __gnu_cxx::__enable_if<__is_char<_CharT>::__value,
+        void>::__type
+    advance(istreambuf_iterator<_CharT>& __i, _Distance __n)
+    {
+      if (__n == 0)
+ return;
+
+      ;
+     
+
+                           ;
+
+      typedef istreambuf_iterator<_CharT> __is_iterator_type;
+      typedef typename __is_iterator_type::traits_type traits_type;
+      typedef typename __is_iterator_type::streambuf_type streambuf_type;
+      typedef typename traits_type::int_type int_type;
+      const int_type __eof = traits_type::eof();
+
+      streambuf_type* __sb = __i._M_sbuf;
+      while (__n > 0)
+ {
+   streamsize __size = __sb->egptr() - __sb->gptr();
+   if (__size > __n)
+     {
+       __sb->__safe_gbump(__n);
+       break;
+     }
+
+   __sb->__safe_gbump(__size);
+   __n -= __size;
+   if (traits_type::eq_int_type(__sb->underflow(), __eof))
+     {
+      
+
+                      ;
+       break;
+     }
+ }
+
+      __i._M_c = __eof;
     }
 
 
 
 
 }
-# 49 "/usr/include/c++/7/bits/locale_facets.h" 2 3
+# 49 "/usr/include/c++/10/bits/locale_facets.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 71 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 71 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<typename _Tp>
     void
     __convert_to_v(const char*, _Tp&, ios_base::iostate&,
@@ -22915,7 +24766,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  *__s = __ws[__j];
       return __s;
     }
-# 149 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 149 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<typename _CharT>
     class __ctype_abstract_base : public locale::facet, public ctype_base
     {
@@ -22923,51 +24774,51 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       typedef _CharT char_type;
-# 168 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 168 "/usr/include/c++/10/bits/locale_facets.h" 3
       bool
       is(mask __m, char_type __c) const
       { return this->do_is(__m, __c); }
-# 185 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 185 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       is(const char_type *__lo, const char_type *__hi, mask *__vec) const
       { return this->do_is(__lo, __hi, __vec); }
-# 201 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 201 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       scan_is(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_is(__m, __lo, __hi); }
-# 217 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 217 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       scan_not(mask __m, const char_type* __lo, const char_type* __hi) const
       { return this->do_scan_not(__m, __lo, __hi); }
-# 231 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 231 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 246 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 246 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 260 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 260 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 275 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 275 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 292 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 292 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       { return this->do_widen(__c); }
-# 311 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 311 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       { return this->do_widen(__lo, __hi, __to); }
-# 330 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 330 "/usr/include/c++/10/bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return this->do_narrow(__c, __dfault); }
-# 352 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 352 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
        char __dfault, char* __to) const
@@ -22979,48 +24830,48 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~__ctype_abstract_base() { }
-# 377 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 377 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const = 0;
-# 396 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 396 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi,
      mask* __vec) const = 0;
-# 415 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 415 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo,
    const char_type* __hi) const = 0;
-# 434 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 434 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const = 0;
-# 452 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 452 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const = 0;
-# 469 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 469 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const = 0;
-# 485 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 485 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const = 0;
-# 502 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 502 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const = 0;
-# 521 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 521 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const = 0;
-# 542 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 542 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const = 0;
-# 563 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 563 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const = 0;
-# 588 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 588 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const = 0;
     };
-# 611 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 611 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<typename _CharT>
     class ctype : public __ctype_abstract_base<_CharT>
     {
@@ -23080,7 +24931,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
   template<typename _CharT>
     locale::id ctype<_CharT>::id;
-# 680 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 680 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<>
     class ctype<char> : public locale::facet, public ctype_base
     {
@@ -23107,42 +24958,42 @@ namespace std __attribute__ ((__visibility__ ("default")))
       static locale::id id;
 
       static const size_t table_size = 1 + static_cast<unsigned char>(-1);
-# 717 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 717 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       ctype(const mask* __table = 0, bool __del = false, size_t __refs = 0);
-# 730 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 730 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, const mask* __table = 0, bool __del = false,
      size_t __refs = 0);
-# 743 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 743 "/usr/include/c++/10/bits/locale_facets.h" 3
       inline bool
       is(mask __m, char __c) const;
-# 758 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 758 "/usr/include/c++/10/bits/locale_facets.h" 3
       inline const char*
       is(const char* __lo, const char* __hi, mask* __vec) const;
-# 772 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 772 "/usr/include/c++/10/bits/locale_facets.h" 3
       inline const char*
       scan_is(mask __m, const char* __lo, const char* __hi) const;
-# 786 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 786 "/usr/include/c++/10/bits/locale_facets.h" 3
       inline const char*
       scan_not(mask __m, const char* __lo, const char* __hi) const;
-# 801 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 801 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       toupper(char_type __c) const
       { return this->do_toupper(__c); }
-# 818 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 818 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       toupper(char_type *__lo, const char_type* __hi) const
       { return this->do_toupper(__lo, __hi); }
-# 834 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 834 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       tolower(char_type __c) const
       { return this->do_tolower(__c); }
-# 851 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 851 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       tolower(char_type* __lo, const char_type* __hi) const
       { return this->do_tolower(__lo, __hi); }
-# 871 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 871 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       widen(char __c) const
       {
@@ -23151,20 +25002,21 @@ namespace std __attribute__ ((__visibility__ ("default")))
  this->_M_widen_init();
  return this->do_widen(__c);
       }
-# 898 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 898 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char*
       widen(const char* __lo, const char* __hi, char_type* __to) const
       {
  if (_M_widen_ok == 1)
    {
-     __builtin_memcpy(__to, __lo, __hi - __lo);
+     if (__builtin_expect(__hi != __lo, true))
+       __builtin_memcpy(__to, __lo, __hi - __lo);
      return __hi;
    }
  if (!_M_widen_ok)
    _M_widen_init();
  return this->do_widen(__lo, __hi, __to);
       }
-# 929 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 930 "/usr/include/c++/10/bits/locale_facets.h" 3
       char
       narrow(char_type __c, char __dfault) const
       {
@@ -23175,14 +25027,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
    _M_narrow[static_cast<unsigned char>(__c)] = __t;
  return __t;
       }
-# 962 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 963 "/usr/include/c++/10/bits/locale_facets.h" 3
       const char_type*
       narrow(const char_type* __lo, const char_type* __hi,
       char __dfault, char* __to) const
       {
  if (__builtin_expect(_M_narrow_ok == 1, true))
    {
-     __builtin_memcpy(__to, __lo, __hi - __lo);
+     if (__builtin_expect(__hi != __lo, true))
+       __builtin_memcpy(__to, __lo, __hi - __lo);
      return __hi;
    }
  if (!_M_narrow_ok)
@@ -23211,39 +25064,41 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~ctype();
-# 1011 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1013 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1028 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1030 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1044 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1046 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1061 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1063 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1081 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1083 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const
       { return __c; }
-# 1104 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1106 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const
       {
- __builtin_memcpy(__to, __lo, __hi - __lo);
+ if (__builtin_expect(__hi != __lo, true))
+   __builtin_memcpy(__to, __lo, __hi - __lo);
  return __hi;
       }
-# 1130 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1133 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault __attribute__((__unused__))) const
       { return __c; }
-# 1156 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1159 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault __attribute__((__unused__)), char* __to) const
       {
- __builtin_memcpy(__to, __lo, __hi - __lo);
+ if (__builtin_expect(__hi != __lo, true))
+   __builtin_memcpy(__to, __lo, __hi - __lo);
  return __hi;
       }
 
@@ -23251,7 +25106,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void _M_narrow_init() const;
       void _M_widen_init() const;
     };
-# 1181 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1185 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<>
     class ctype<wchar_t> : public __ctype_abstract_base<wchar_t>
     {
@@ -23277,10 +25132,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       static locale::id id;
-# 1214 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1218 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       ctype(size_t __refs = 0);
-# 1225 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1229 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       ctype(__c_locale __cloc, size_t __refs = 0);
 
@@ -23291,41 +25146,41 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~ctype();
-# 1249 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1253 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual bool
       do_is(mask __m, char_type __c) const;
-# 1268 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1272 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_is(const char_type* __lo, const char_type* __hi, mask* __vec) const;
-# 1286 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1290 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_is(mask __m, const char_type* __lo, const char_type* __hi) const;
-# 1304 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1308 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_scan_not(mask __m, const char_type* __lo,
     const char_type* __hi) const;
-# 1321 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1325 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_toupper(char_type __c) const;
-# 1338 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1342 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_toupper(char_type* __lo, const char_type* __hi) const;
-# 1354 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1358 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_tolower(char_type __c) const;
-# 1371 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1375 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_tolower(char_type* __lo, const char_type* __hi) const;
-# 1391 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1395 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_widen(char __c) const;
-# 1413 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1417 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char*
       do_widen(const char* __lo, const char* __hi, char_type* __to) const;
-# 1436 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1440 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char
       do_narrow(char_type __c, char __dfault) const;
-# 1462 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1466 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual const char_type*
       do_narrow(const char_type* __lo, const char_type* __hi,
   char __dfault, char* __to) const;
@@ -23354,7 +25209,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
     protected:
       virtual
-      ~ctype_byname() { };
+      ~ctype_byname() { }
     };
 
 
@@ -23398,8 +25253,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 
 
-# 1 "/usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h" 1 3
-# 37 "/usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h" 3
+# 1 "/usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h" 1 3
+# 37 "/usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h" 3
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
@@ -23440,7 +25295,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 1535 "/usr/include/c++/7/bits/locale_facets.h" 2 3
+# 1539 "/usr/include/c++/10/bits/locale_facets.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -23556,7 +25411,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 namespace __cxx11 {
-# 1665 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1669 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<typename _CharT>
     class numpunct : public locale::facet
     {
@@ -23585,33 +25440,33 @@ namespace __cxx11 {
       numpunct(size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(); }
-# 1703 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1707 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       numpunct(__cache_type* __cache, size_t __refs = 0)
       : facet(__refs), _M_data(__cache)
       { _M_initialize_numpunct(); }
-# 1717 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1721 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       numpunct(__c_locale __cloc, size_t __refs = 0)
       : facet(__refs), _M_data(0)
       { _M_initialize_numpunct(__cloc); }
-# 1731 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1735 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       decimal_point() const
       { return this->do_decimal_point(); }
-# 1744 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1748 "/usr/include/c++/10/bits/locale_facets.h" 3
       char_type
       thousands_sep() const
       { return this->do_thousands_sep(); }
-# 1775 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1779 "/usr/include/c++/10/bits/locale_facets.h" 3
       string
       grouping() const
       { return this->do_grouping(); }
-# 1788 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1792 "/usr/include/c++/10/bits/locale_facets.h" 3
       string_type
       truename() const
       { return this->do_truename(); }
-# 1801 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1805 "/usr/include/c++/10/bits/locale_facets.h" 3
       string_type
       falsename() const
       { return this->do_falsename(); }
@@ -23620,23 +25475,23 @@ namespace __cxx11 {
 
       virtual
       ~numpunct();
-# 1818 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1822 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_decimal_point() const
       { return _M_data->_M_decimal_point; }
-# 1830 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1834 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual char_type
       do_thousands_sep() const
       { return _M_data->_M_thousands_sep; }
-# 1843 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1847 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual string
       do_grouping() const
       { return _M_data->_M_grouping; }
-# 1856 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1860 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual string_type
       do_truename() const
       { return _M_data->_M_truename; }
-# 1869 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1873 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual string_type
       do_falsename() const
       { return _M_data->_M_falsename; }
@@ -23701,7 +25556,7 @@ namespace __cxx11 {
 }
 
 
-# 1947 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1951 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<typename _CharT, typename _InIter>
     class num_get : public locale::facet
     {
@@ -23715,15 +25570,15 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 1968 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1972 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       num_get(size_t __refs = 0) : facet(__refs) { }
-# 1994 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 1998 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, bool& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2031 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2035 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long& __v) const
@@ -23754,7 +25609,7 @@ namespace __cxx11 {
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, unsigned long long& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2091 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2095 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, float& __v) const
@@ -23769,7 +25624,7 @@ namespace __cxx11 {
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, long double& __v) const
       { return this->do_get(__in, __end, __io, __err, __v); }
-# 2134 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2138 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       get(iter_type __in, iter_type __end, ios_base& __io,
    ios_base::iostate& __err, void*& __v) const
@@ -23827,7 +25682,7 @@ namespace __cxx11 {
      }
    return __ret;
  }
-# 2207 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2211 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, bool&) const;
 
@@ -23883,12 +25738,12 @@ namespace __cxx11 {
 
       virtual iter_type
       do_get(iter_type, iter_type, ios_base&, ios_base::iostate&, void*&) const;
-# 2270 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2274 "/usr/include/c++/10/bits/locale_facets.h" 3
     };
 
   template<typename _CharT, typename _InIter>
     locale::id num_get<_CharT, _InIter>::id;
-# 2288 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2292 "/usr/include/c++/10/bits/locale_facets.h" 3
   template<typename _CharT, typename _OutIter>
     class num_put : public locale::facet
     {
@@ -23902,14 +25757,14 @@ namespace __cxx11 {
 
 
       static locale::id id;
-# 2309 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2313 "/usr/include/c++/10/bits/locale_facets.h" 3
       explicit
       num_put(size_t __refs = 0) : facet(__refs) { }
-# 2327 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2331 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2369 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2373 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -23928,7 +25783,7 @@ namespace __cxx11 {
       put(iter_type __s, ios_base& __io, char_type __fill,
    unsigned long long __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2432 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2436 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
@@ -23937,7 +25792,7 @@ namespace __cxx11 {
       put(iter_type __s, ios_base& __io, char_type __fill,
    long double __v) const
       { return this->do_put(__s, __io, __fill, __v); }
-# 2457 "/usr/include/c++/7/bits/locale_facets.h" 3
+# 2461 "/usr/include/c++/10/bits/locale_facets.h" 3
       iter_type
       put(iter_type __s, ios_base& __io, char_type __fill,
    const void* __v) const
@@ -23970,8 +25825,8 @@ namespace __cxx11 {
 
 
       virtual
-      ~num_put() { };
-# 2505 "/usr/include/c++/7/bits/locale_facets.h" 3
+      ~num_put() { }
+# 2509 "/usr/include/c++/10/bits/locale_facets.h" 3
       virtual iter_type
       do_put(iter_type __s, ios_base& __io, char_type __fill, bool __v) const;
 
@@ -24118,10 +25973,10 @@ namespace __cxx11 {
 
 }
 
-# 1 "/usr/include/c++/7/bits/locale_facets.tcc" 1 3
-# 33 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 1 "/usr/include/c++/10/bits/locale_facets.tcc" 1 3
+# 33 "/usr/include/c++/10/bits/locale_facets.tcc" 3
        
-# 34 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 34 "/usr/include/c++/10/bits/locale_facets.tcc" 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -24218,7 +26073,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    throw;
  }
     }
-# 139 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 139 "/usr/include/c++/10/bits/locale_facets.tcc" 3
   __attribute__ ((__pure__)) bool
   __verify_grouping(const char* __grouping, size_t __grouping_size,
       const string& __grouping_tmp) throw ();
@@ -24546,15 +26401,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
          - __num_base::_S_izero : __base);
 
 
+ typedef __gnu_cxx::__numeric_traits<_ValueT> __num_traits;
  string __found_grouping;
  if (__lc->_M_use_grouping)
    __found_grouping.reserve(32);
  bool __testfail = false;
  bool __testoverflow = false;
  const __unsigned_type __max =
-   (__negative && __gnu_cxx::__numeric_traits<_ValueT>::__is_signed)
-   ? -__gnu_cxx::__numeric_traits<_ValueT>::__min
-   : __gnu_cxx::__numeric_traits<_ValueT>::__max;
+   (__negative && __num_traits::__is_signed)
+   ? -static_cast<__unsigned_type>(__num_traits::__min)
+   : __num_traits::__max;
  const __unsigned_type __smax = __max / __base;
  __unsigned_type __result = 0;
  int __digit = 0;
@@ -24655,11 +26511,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
    }
  else if (__testoverflow)
    {
-     if (__negative
-  && __gnu_cxx::__numeric_traits<_ValueT>::__is_signed)
-       __v = __gnu_cxx::__numeric_traits<_ValueT>::__min;
+     if (__negative && __num_traits::__is_signed)
+       __v = __num_traits::__min;
      else
-       __v = __gnu_cxx::__numeric_traits<_ValueT>::__max;
+       __v = __num_traits::__max;
      __err = ios_base::failbit;
    }
  else
@@ -24797,7 +26652,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __err |= ios_base::eofbit;
       return __beg;
     }
-# 735 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 735 "/usr/include/c++/10/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _InIter>
     _InIter
     num_get<_CharT, _InIter>::
@@ -25023,7 +26878,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  }
       __len = __newlen;
     }
-# 971 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 971 "/usr/include/c++/10/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     template<typename _ValueT>
       _OutIter
@@ -25076,7 +26931,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        __len = std::__convert_from_v(_S_get_c_locale(), __cs, __cs_size,
          __fbuf, __v);
    }
-# 1044 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 1044 "/usr/include/c++/10/bits/locale_facets.tcc" 3
  const ctype<_CharT>& __ctype = use_facet<ctype<_CharT> >(__loc);
 
  _CharT* __ws = static_cast<_CharT*>(__builtin_alloca(sizeof(_CharT)
@@ -25193,7 +27048,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     num_put<_CharT, _OutIter>::
     do_put(iter_type __s, ios_base& __io, char_type __fill, double __v) const
     { return _M_insert_float(__s, __io, __fill, char(), __v); }
-# 1169 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 1169 "/usr/include/c++/10/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _OutIter>
     _OutIter
     num_put<_CharT, _OutIter>::
@@ -25223,7 +27078,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 
-# 1206 "/usr/include/c++/7/bits/locale_facets.tcc" 3
+# 1206 "/usr/include/c++/10/bits/locale_facets.tcc" 3
   template<typename _CharT, typename _Traits>
     void
     __pad<_CharT, _Traits>::_S_pad(ios_base& __io, _CharT __fill,
@@ -25394,8 +27249,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2652 "/usr/include/c++/7/bits/locale_facets.h" 2 3
-# 38 "/usr/include/c++/7/bits/basic_ios.h" 2 3
+# 2656 "/usr/include/c++/10/bits/locale_facets.h" 2 3
+# 38 "/usr/include/c++/10/bits/basic_ios.h" 2 3
 
 
 
@@ -25411,7 +27266,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __throw_bad_cast();
       return *__f;
     }
-# 66 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 66 "/usr/include/c++/10/bits/basic_ios.h" 3
   template<typename _CharT, typename _Traits>
     class basic_ios : public ios_base
     {
@@ -25455,7 +27310,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const __num_get_type* _M_num_get;
 
     public:
-# 117 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 117 "/usr/include/c++/10/bits/basic_ios.h" 3
       explicit operator bool() const
       { return !this->fail(); }
 
@@ -25466,11 +27321,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       bool
       operator!() const
       { return this->fail(); }
-# 136 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 136 "/usr/include/c++/10/bits/basic_ios.h" 3
       iostate
       rdstate() const
       { return _M_streambuf_state; }
-# 147 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 147 "/usr/include/c++/10/bits/basic_ios.h" 3
       void
       clear(iostate __state = goodbit);
 
@@ -25516,7 +27371,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       bool
       eof() const
       { return (this->rdstate() & eofbit) != 0; }
-# 200 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 200 "/usr/include/c++/10/bits/basic_ios.h" 3
       bool
       fail() const
       { return (this->rdstate() & (badbit | failbit)) != 0; }
@@ -25530,11 +27385,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
       bool
       bad() const
       { return (this->rdstate() & badbit) != 0; }
-# 221 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 221 "/usr/include/c++/10/bits/basic_ios.h" 3
       iostate
       exceptions() const
       { return _M_exception; }
-# 256 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 256 "/usr/include/c++/10/bits/basic_ios.h" 3
       void
       exceptions(iostate __except)
       {
@@ -25562,11 +27417,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       virtual
       ~basic_ios() { }
-# 294 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 294 "/usr/include/c++/10/bits/basic_ios.h" 3
       basic_ostream<_CharT, _Traits>*
       tie() const
       { return _M_tie; }
-# 306 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 306 "/usr/include/c++/10/bits/basic_ios.h" 3
       basic_ostream<_CharT, _Traits>*
       tie(basic_ostream<_CharT, _Traits>* __tiestr)
       {
@@ -25584,10 +27439,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
       basic_streambuf<_CharT, _Traits>*
       rdbuf() const
       { return _M_streambuf; }
-# 346 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 346 "/usr/include/c++/10/bits/basic_ios.h" 3
       basic_streambuf<_CharT, _Traits>*
       rdbuf(basic_streambuf<_CharT, _Traits>* __sb);
-# 360 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 360 "/usr/include/c++/10/bits/basic_ios.h" 3
       basic_ios&
       copyfmt(const basic_ios& __rhs);
 
@@ -25607,7 +27462,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    }
  return _M_fill;
       }
-# 389 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 389 "/usr/include/c++/10/bits/basic_ios.h" 3
       char_type
       fill(char_type __ch)
       {
@@ -25615,14 +27470,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
  _M_fill = __ch;
  return __old;
       }
-# 409 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 409 "/usr/include/c++/10/bits/basic_ios.h" 3
       locale
       imbue(const locale& __loc);
-# 429 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 429 "/usr/include/c++/10/bits/basic_ios.h" 3
       char
       narrow(char_type __c, char __dfault) const
       { return __check_facet(_M_ctype).narrow(__c, __dfault); }
-# 448 "/usr/include/c++/7/bits/basic_ios.h" 3
+# 448 "/usr/include/c++/10/bits/basic_ios.h" 3
       char_type
       widen(char __c) const
       { return __check_facet(_M_ctype).widen(__c); }
@@ -25691,10 +27546,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 
-# 1 "/usr/include/c++/7/bits/basic_ios.tcc" 1 3
-# 33 "/usr/include/c++/7/bits/basic_ios.tcc" 3
+# 1 "/usr/include/c++/10/bits/basic_ios.tcc" 1 3
+# 33 "/usr/include/c++/10/bits/basic_ios.tcc" 3
        
-# 34 "/usr/include/c++/7/bits/basic_ios.tcc" 3
+# 34 "/usr/include/c++/10/bits/basic_ios.tcc" 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
@@ -25794,7 +27649,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
       _M_cache_locale(_M_ios_locale);
-# 146 "/usr/include/c++/7/bits/basic_ios.tcc" 3
+# 146 "/usr/include/c++/10/bits/basic_ios.tcc" 3
       _M_fill = _CharT();
       _M_fill_init = false;
 
@@ -25836,15 +27691,15 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 517 "/usr/include/c++/7/bits/basic_ios.h" 2 3
-# 45 "/usr/include/c++/7/ios" 2 3
-# 39 "/usr/include/c++/7/ostream" 2 3
+# 517 "/usr/include/c++/10/bits/basic_ios.h" 2 3
+# 45 "/usr/include/c++/10/ios" 2 3
+# 39 "/usr/include/c++/10/ostream" 2 3
 
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 57 "/usr/include/c++/7/ostream" 3
+# 57 "/usr/include/c++/10/ostream" 3
   template<typename _CharT, typename _Traits>
     class basic_ostream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -25863,7 +27718,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef num_put<_CharT, ostreambuf_iterator<_CharT, _Traits> >
              __num_put_type;
       typedef ctype<_CharT> __ctype_type;
-# 83 "/usr/include/c++/7/ostream" 3
+# 83 "/usr/include/c++/10/ostream" 3
       explicit
       basic_ostream(__streambuf_type* __sb)
       { this->init(__sb); }
@@ -25879,7 +27734,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       class sentry;
       friend class sentry;
-# 107 "/usr/include/c++/7/ostream" 3
+# 107 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       operator<<(__ostream_type& (*__pf)(__ostream_type&))
       {
@@ -25908,7 +27763,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __pf(*this);
  return *this;
       }
-# 165 "/usr/include/c++/7/ostream" 3
+# 165 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       operator<<(long __n)
       { return _M_insert(__n); }
@@ -25951,7 +27806,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __ostream_type&
       operator<<(unsigned long long __n)
       { return _M_insert(__n); }
-# 219 "/usr/include/c++/7/ostream" 3
+# 219 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       operator<<(double __f)
       { return _M_insert(__f); }
@@ -25967,14 +27822,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __ostream_type&
       operator<<(long double __f)
       { return _M_insert(__f); }
-# 244 "/usr/include/c++/7/ostream" 3
+# 244 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       operator<<(const void* __p)
       { return _M_insert(__p); }
-# 269 "/usr/include/c++/7/ostream" 3
+# 275 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       operator<<(__streambuf_type* __sb);
-# 302 "/usr/include/c++/7/ostream" 3
+# 308 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       put(char_type __c);
 
@@ -25990,19 +27845,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
  if (__put != __n)
    this->setstate(ios_base::badbit);
       }
-# 334 "/usr/include/c++/7/ostream" 3
+# 340 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       write(const char_type* __s, streamsize __n);
-# 347 "/usr/include/c++/7/ostream" 3
+# 353 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       flush();
-# 357 "/usr/include/c++/7/ostream" 3
+# 363 "/usr/include/c++/10/ostream" 3
       pos_type
       tellp();
-# 368 "/usr/include/c++/7/ostream" 3
+# 374 "/usr/include/c++/10/ostream" 3
       __ostream_type&
       seekp(pos_type);
-# 380 "/usr/include/c++/7/ostream" 3
+# 386 "/usr/include/c++/10/ostream" 3
        __ostream_type&
       seekp(off_type, ios_base::seekdir);
 
@@ -26040,7 +27895,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __ostream_type&
  _M_insert(_ValueT __v);
     };
-# 425 "/usr/include/c++/7/ostream" 3
+# 431 "/usr/include/c++/10/ostream" 3
   template <typename _CharT, typename _Traits>
     class basic_ostream<_CharT, _Traits>::sentry
     {
@@ -26049,10 +27904,19 @@ namespace std __attribute__ ((__visibility__ ("default")))
       basic_ostream<_CharT, _Traits>& _M_os;
 
     public:
-# 444 "/usr/include/c++/7/ostream" 3
+# 450 "/usr/include/c++/10/ostream" 3
       explicit
       sentry(basic_ostream<_CharT, _Traits>& __os);
-# 454 "/usr/include/c++/7/ostream" 3
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+
+
+
+
+
+
       ~sentry()
       {
 
@@ -26063,13 +27927,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
        _M_os.setstate(ios_base::badbit);
    }
       }
-# 473 "/usr/include/c++/7/ostream" 3
+#pragma GCC diagnostic pop
+# 482 "/usr/include/c++/10/ostream" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 495 "/usr/include/c++/7/ostream" 3
+# 504 "/usr/include/c++/10/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
@@ -26081,22 +27946,22 @@ namespace std __attribute__ ((__visibility__ ("default")))
     { return (__out << __out.widen(__c)); }
 
 
-  template <class _Traits>
+  template<typename _Traits>
     inline basic_ostream<char, _Traits>&
     operator<<(basic_ostream<char, _Traits>& __out, char __c)
     { return __ostream_insert(__out, &__c, 1); }
 
 
-  template<class _Traits>
+  template<typename _Traits>
     inline basic_ostream<char, _Traits>&
     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
     { return (__out << static_cast<char>(__c)); }
 
-  template<class _Traits>
+  template<typename _Traits>
     inline basic_ostream<char, _Traits>&
     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
     { return (__out << static_cast<char>(__c)); }
-# 537 "/usr/include/c++/7/ostream" 3
+# 587 "/usr/include/c++/10/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
@@ -26114,7 +27979,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s);
 
 
-  template<class _Traits>
+  template<typename _Traits>
     inline basic_ostream<char, _Traits>&
     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
     {
@@ -26127,21 +27992,21 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 
-  template<class _Traits>
+  template<typename _Traits>
     inline basic_ostream<char, _Traits>&
     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
     { return (__out << reinterpret_cast<const char*>(__s)); }
 
-  template<class _Traits>
+  template<typename _Traits>
     inline basic_ostream<char, _Traits> &
     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
     { return (__out << reinterpret_cast<const char*>(__s)); }
-# 588 "/usr/include/c++/7/ostream" 3
+# 679 "/usr/include/c++/10/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     endl(basic_ostream<_CharT, _Traits>& __os)
     { return flush(__os.put(__os.widen('\n'))); }
-# 600 "/usr/include/c++/7/ostream" 3
+# 691 "/usr/include/c++/10/ostream" 3
   template<typename _CharT, typename _Traits>
     inline basic_ostream<_CharT, _Traits>&
     ends(basic_ostream<_CharT, _Traits>& __os)
@@ -26205,7 +28070,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     using __rvalue_ostream_type =
       typename __is_convertible_to_basic_ostream<
  _Ostream>::__ostream_type;
-# 674 "/usr/include/c++/7/ostream" 3
+# 765 "/usr/include/c++/10/ostream" 3
   template<typename _Ostream, typename _Tp>
     inline
     typename enable_if<__and_<__not_<is_lvalue_reference<_Ostream>>,
@@ -26225,10 +28090,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 
-# 1 "/usr/include/c++/7/bits/ostream.tcc" 1 3
-# 37 "/usr/include/c++/7/bits/ostream.tcc" 3
+# 1 "/usr/include/c++/10/bits/ostream.tcc" 1 3
+# 37 "/usr/include/c++/10/bits/ostream.tcc" 3
        
-# 38 "/usr/include/c++/7/bits/ostream.tcc" 3
+# 38 "/usr/include/c++/10/bits/ostream.tcc" 3
 
 
 
@@ -26597,12 +28462,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 694 "/usr/include/c++/7/ostream" 2 3
-# 40 "/usr/include/c++/7/iostream" 2 3
-# 1 "/usr/include/c++/7/istream" 1 3
-# 36 "/usr/include/c++/7/istream" 3
+# 785 "/usr/include/c++/10/ostream" 2 3
+# 40 "/usr/include/c++/10/iostream" 2 3
+# 1 "/usr/include/c++/10/istream" 1 3
+# 36 "/usr/include/c++/10/istream" 3
        
-# 37 "/usr/include/c++/7/istream" 3
+# 37 "/usr/include/c++/10/istream" 3
 
 
 
@@ -26610,7 +28475,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 57 "/usr/include/c++/7/istream" 3
+# 57 "/usr/include/c++/10/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream : virtual public basic_ios<_CharT, _Traits>
     {
@@ -26663,7 +28528,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       class sentry;
       friend class sentry;
-# 119 "/usr/include/c++/7/istream" 3
+# 119 "/usr/include/c++/10/istream" 3
       __istream_type&
       operator>>(__istream_type& (*__pf)(__istream_type&))
       { return __pf(*this); }
@@ -26681,7 +28546,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __pf(*this);
  return *this;
       }
-# 167 "/usr/include/c++/7/istream" 3
+# 167 "/usr/include/c++/10/istream" 3
       __istream_type&
       operator>>(bool& __n)
       { return _M_extract(__n); }
@@ -26716,7 +28581,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __istream_type&
       operator>>(unsigned long long& __n)
       { return _M_extract(__n); }
-# 213 "/usr/include/c++/7/istream" 3
+# 213 "/usr/include/c++/10/istream" 3
       __istream_type&
       operator>>(float& __f)
       { return _M_extract(__f); }
@@ -26728,45 +28593,45 @@ namespace std __attribute__ ((__visibility__ ("default")))
       __istream_type&
       operator>>(long double& __f)
       { return _M_extract(__f); }
-# 234 "/usr/include/c++/7/istream" 3
+# 234 "/usr/include/c++/10/istream" 3
       __istream_type&
       operator>>(void*& __p)
       { return _M_extract(__p); }
-# 258 "/usr/include/c++/7/istream" 3
+# 258 "/usr/include/c++/10/istream" 3
       __istream_type&
       operator>>(__streambuf_type* __sb);
-# 268 "/usr/include/c++/7/istream" 3
+# 268 "/usr/include/c++/10/istream" 3
       streamsize
       gcount() const
       { return _M_gcount; }
-# 301 "/usr/include/c++/7/istream" 3
+# 301 "/usr/include/c++/10/istream" 3
       int_type
       get();
-# 315 "/usr/include/c++/7/istream" 3
+# 315 "/usr/include/c++/10/istream" 3
       __istream_type&
       get(char_type& __c);
-# 342 "/usr/include/c++/7/istream" 3
+# 342 "/usr/include/c++/10/istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n, char_type __delim);
-# 353 "/usr/include/c++/7/istream" 3
+# 353 "/usr/include/c++/10/istream" 3
       __istream_type&
       get(char_type* __s, streamsize __n)
       { return this->get(__s, __n, this->widen('\n')); }
-# 376 "/usr/include/c++/7/istream" 3
+# 376 "/usr/include/c++/10/istream" 3
       __istream_type&
       get(__streambuf_type& __sb, char_type __delim);
-# 386 "/usr/include/c++/7/istream" 3
+# 386 "/usr/include/c++/10/istream" 3
       __istream_type&
       get(__streambuf_type& __sb)
       { return this->get(__sb, this->widen('\n')); }
-# 415 "/usr/include/c++/7/istream" 3
+# 415 "/usr/include/c++/10/istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n, char_type __delim);
-# 426 "/usr/include/c++/7/istream" 3
+# 426 "/usr/include/c++/10/istream" 3
       __istream_type&
       getline(char_type* __s, streamsize __n)
       { return this->getline(__s, __n, this->widen('\n')); }
-# 450 "/usr/include/c++/7/istream" 3
+# 450 "/usr/include/c++/10/istream" 3
       __istream_type&
       ignore(streamsize __n, int_type __delim);
 
@@ -26775,31 +28640,31 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       __istream_type&
       ignore();
-# 467 "/usr/include/c++/7/istream" 3
+# 467 "/usr/include/c++/10/istream" 3
       int_type
       peek();
-# 485 "/usr/include/c++/7/istream" 3
+# 485 "/usr/include/c++/10/istream" 3
       __istream_type&
       read(char_type* __s, streamsize __n);
-# 504 "/usr/include/c++/7/istream" 3
+# 504 "/usr/include/c++/10/istream" 3
       streamsize
       readsome(char_type* __s, streamsize __n);
-# 521 "/usr/include/c++/7/istream" 3
+# 521 "/usr/include/c++/10/istream" 3
       __istream_type&
       putback(char_type __c);
-# 537 "/usr/include/c++/7/istream" 3
+# 537 "/usr/include/c++/10/istream" 3
       __istream_type&
       unget();
-# 555 "/usr/include/c++/7/istream" 3
+# 555 "/usr/include/c++/10/istream" 3
       int
       sync();
-# 570 "/usr/include/c++/7/istream" 3
+# 570 "/usr/include/c++/10/istream" 3
       pos_type
       tellg();
-# 585 "/usr/include/c++/7/istream" 3
+# 585 "/usr/include/c++/10/istream" 3
       __istream_type&
       seekg(pos_type);
-# 601 "/usr/include/c++/7/istream" 3
+# 601 "/usr/include/c++/10/istream" 3
       __istream_type&
       seekg(off_type, ios_base::seekdir);
 
@@ -26874,7 +28739,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     basic_istream<wchar_t>&
     basic_istream<wchar_t>::
     ignore(streamsize __n, int_type __delim);
-# 685 "/usr/include/c++/7/istream" 3
+# 685 "/usr/include/c++/10/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_istream<_CharT, _Traits>::sentry
     {
@@ -26888,16 +28753,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typedef basic_istream<_CharT, _Traits> __istream_type;
       typedef typename __istream_type::__ctype_type __ctype_type;
       typedef typename _Traits::int_type __int_type;
-# 721 "/usr/include/c++/7/istream" 3
+# 721 "/usr/include/c++/10/istream" 3
       explicit
       sentry(basic_istream<_CharT, _Traits>& __is, bool __noskipws = false);
-# 732 "/usr/include/c++/7/istream" 3
+# 732 "/usr/include/c++/10/istream" 3
       explicit
 
       operator bool() const
       { return _M_ok; }
     };
-# 750 "/usr/include/c++/7/istream" 3
+# 750 "/usr/include/c++/10/istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c);
@@ -26911,7 +28776,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline basic_istream<char, _Traits>&
     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
     { return (__in >> reinterpret_cast<char&>(__c)); }
-# 792 "/usr/include/c++/7/istream" 3
+# 792 "/usr/include/c++/10/istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s);
@@ -26930,7 +28795,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline basic_istream<char, _Traits>&
     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
     { return (__in >> reinterpret_cast<char*>(__s)); }
-# 823 "/usr/include/c++/7/istream" 3
+# 823 "/usr/include/c++/10/istream" 3
   template<typename _CharT, typename _Traits>
     class basic_iostream
     : public basic_istream<_CharT, _Traits>,
@@ -26993,7 +28858,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       { __istream_type::swap(__rhs); }
 
     };
-# 906 "/usr/include/c++/7/istream" 3
+# 906 "/usr/include/c++/10/istream" 3
   template<typename _CharT, typename _Traits>
     basic_istream<_CharT, _Traits>&
     ws(basic_istream<_CharT, _Traits>& __is);
@@ -27046,7 +28911,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     using __rvalue_istream_type =
       typename __is_convertible_to_basic_istream<
  _Istream>::__istream_type;
-# 972 "/usr/include/c++/7/istream" 3
+# 972 "/usr/include/c++/10/istream" 3
   template<typename _Istream, typename _Tp>
     inline
     typename enable_if<__and_<__not_<is_lvalue_reference<_Istream>>,
@@ -27066,10 +28931,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 
-# 1 "/usr/include/c++/7/bits/istream.tcc" 1 3
-# 37 "/usr/include/c++/7/bits/istream.tcc" 3
+# 1 "/usr/include/c++/10/bits/istream.tcc" 1 3
+# 37 "/usr/include/c++/10/bits/istream.tcc" 3
        
-# 38 "/usr/include/c++/7/bits/istream.tcc" 3
+# 38 "/usr/include/c++/10/bits/istream.tcc" 3
 
 
 
@@ -27545,7 +29410,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
               const int_type __eof = traits_type::eof();
               __streambuf_type* __sb = this->rdbuf();
               int_type __c = __sb->sgetc();
-# 521 "/usr/include/c++/7/bits/istream.tcc" 3
+# 521 "/usr/include/c++/10/bits/istream.tcc" 3
        bool __large_ignore = false;
        while (true)
   {
@@ -28124,13 +29989,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 992 "/usr/include/c++/7/istream" 2 3
-# 41 "/usr/include/c++/7/iostream" 2 3
+# 992 "/usr/include/c++/10/istream" 2 3
+# 41 "/usr/include/c++/10/iostream" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
 {
 
-# 60 "/usr/include/c++/7/iostream" 3
+# 60 "/usr/include/c++/10/iostream" 3
   extern istream cin;
   extern ostream cout;
   extern ostream cerr;
@@ -28154,5 +30019,5 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 # 3 "main.cpp"
 int main() {
- std::cout << "Hello World";
+    std::cout << "Hello World";
 }
