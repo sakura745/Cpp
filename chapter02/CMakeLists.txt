@@ -10,15 +10,17 @@ add_executable(type1 type1.cpp)
 add_executable(type2 type2.cpp)
 add_executable(variable variable.cpp)
 add_executable(typeConversion typeConversion.cpp)
-add_executable(ptrRef ptrRef.cpp)
+add_executable(pointer pointer.cpp)
+add_executable(reference reference.cpp)
+add_executable(constConstexpr constConstexpr.cpp)
 
-add_executable(PtrRef3 PtrRef3.cpp)
-add_executable(PtrRef4 PtrRef4.cpp)
-add_executable(PtrRef5 PtrRef5.cpp)
-add_executable(const const.cpp)
+
 add_executable(typeAlias typeAlias.cpp)
 add_executable(autoDeduction autoDeduction.cpp)
 add_executable(scope scope.cpp)
+
+
+
 
 
 
