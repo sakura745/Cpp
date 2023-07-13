@@ -13,8 +13,6 @@ add_executable(typeConversion typeConversion.cpp)
 add_executable(pointer pointer.cpp)
 add_executable(reference reference.cpp)
 add_executable(constConstexpr constConstexpr.cpp)
-
-
 add_executable(typeAlias typeAlias.cpp)
 add_executable(autoDeduction autoDeduction.cpp)
 add_executable(scope scope.cpp)

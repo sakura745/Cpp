@@ -1,7 +1,6 @@
 #include <iostream>
 #include <type_traits>
 void fun(const int& param) {
-
 }
 int main() {
     int x = 3;
@@ -36,7 +35,6 @@ int main() {
     int* const/*顶层，指针指向的内存地址*/ p2 = &x;// const p2's type is int*. 指向 常量指针。
     //p2 = &y;//illegal
     *p2 = y;//legal
-
 
 
     //常量引用，防止被非本意地修改和节省空间。

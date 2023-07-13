@@ -2,7 +2,6 @@
 namespace MyNS{
     int x = 4;
     void fun() {
-
     }
     using MyInt = int;
     //using MyInt = float;
