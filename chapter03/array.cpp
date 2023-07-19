@@ -3,6 +3,8 @@
 #include <typeinfo>
 int main() {
     int a;
+    int a1[1];
+    std::cout << std::is_same_v<decltype(a), decltype(a1)> << std::endl;//尺寸相同，类型不同，行为不同，操作不同。
     int b[10];//b type is int[10]
     std::cout << std::is_same_v<decltype(b), int[10]> << '\n';
 /*

@@ -16,17 +16,12 @@ C++内建数组，性能强，但易用性差。`vector`标准库建立数组，
 
 
 ### 复杂声明
+`arrayPointer.cpp`
+
 - 指针数组
-
-  `int* a[3]`,类比于int数组`int a[3]`
-
-  `int* a[3] = {&x1, &x2, &x3};`
-
 - 数组的指针
-
     `int (*a)[3];`是数组的**指针**，需要指向一个地址。
     `int b[3];int (*a)[3] = &b;` `(*a)`是一个整体
-
 - 数组的引用
 
   引用就是别名，数组的引用就是数组的别名。`int a[3];int (&b)[3] = a;`,`(&b)`是一个整体
@@ -36,6 +31,8 @@ C++内建数组，性能强，但易用性差。`vector`标准库建立数组，
   `int& a[3] = {x1, x2, x3};`因为数组中的x1都是对象，而引用是对象的别名，而非对象。因此没有引用的数组。
 
 ### 数组中元素的访问
+`arrayData.cpp`
+
 - 数组对象是左值`int a[3] = {1, 2, 3};a[1]->lvalue`
 - 转化为相应的指针 `a[1]->*(a+1)`
 - `x[y]->*(x+y)`
@@ -43,33 +40,46 @@ C++内建数组，性能强，但易用性差。`vector`标准库建立数组，
 原理：数组变成指针，解引用
 
 ### 数组到指针的隐式转换
+`arrayData.cpp`
+
 隐式转换会丢失信息：比如`int a[3]`数组长度为3个元素。使用时，可以有`a[4]`，因为`a[4]`隐式转换为指针`*(a+4)`，丢掉了数组长度信息。
 
 可以通过`auto&`来避免隐式转换。
 
 `decltype(a),sizeof(a)`对`a`来说，没有隐式转换。
 
-不要使用指针来**声明**有长度信息的数组，可以来声明`unknown bounded array`:`extern int array[]`
+不要使用指针来**声明**有长度信息的数组。同时，不要用`extern`来声明数组。因为对于`extern`的作用是声明一个全局变量，该变量可以
+定义在其他文件中。对于编译器来说，数组在声明时，需要知道其所占用内存空间大小，而对于使用`extern`关键字来说，无法确定分配给该数组
+多少内存空间。但可以使用`unknown bounded array`来配合`extern`声明数组:`extern int array[]`
 
 ### 特殊指针
-标准库有特定的指针 `std::(c)end()` `std::(c)begin()`
+`arrayOtherOperation.cpp`
+标准库有特定的指针 `std::(c)end()` `std::(c)begin()`，属于泛型算法，泛型算法都是运行期执行
 
-求元素个数`sizeof` `std::size`
+求元素个数`sizeof` `std::size` `std::(c)end - std::(c)begin`
 
 遍历
 
 ### 特殊数组:C字符串数组
+`cString.cpp`
+
 有关于C字符串数组的函数都是找到`\0`才会停止：null-terminated string
 
 ### 多维数组
+`multi-dimensionArray.cpp`
+
 本质是数组的数组。从里往外看。
 
 多维数组的指针转化是丢掉最高维度的信息。`int a[3][4];int(*ptr)[4];`
 
+初始化数组可以省略掉最高维的信息，但是不建议这么做。
+
 别名的使用--注意维度
 
 ## 2.vector
-`#include <vector>` 注重易用性。
+`vector.cpp`
+
+`#include <vector>`  相比于`array`来说，更注重易用性。
 
 数组不能拷贝，`vector`可以
 
@@ -82,6 +92,7 @@ C++内建数组，性能强，但易用性差。`vector`标准库建立数组，
 
 `./->`
 ## 3.string:c++字符串
+`string.cpp`
 `#include <string>` 侧重易用性。
 
-初始化等详见cpp reference
+初始化等详见cppreference
