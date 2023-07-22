@@ -16,12 +16,16 @@ int main() {
     std::cout << std::is_same_v<decltype(y2), const int&> << std::endl;
 
     const int z = 4;//z type is const int
-    const auto z2 = z;// z作为右值，类型退化为int，z2有const，compiler为了达到完美的匹配，z2类型为const int
-    //TODO 为什么会作为右值
-    std::cout << std::is_same_v<decltype(z2), const int> << std::endl;
     auto z4 = z;//z作为右值，类型退化为int，z4类型为int
     std::cout << std::is_same_v<decltype(z4), int> << std::endl;
-    auto& z6 = z;//z作为右值，有&，不会类型退化为int，z6类型为const int&
+    //auto 推导在此过程中会忽略顶层 const 限定符，但保留底层 const 限定符（用于指向常量的指针或引用）。
+    //因此，当 auto 推导类型时，z 被看作是右值（rvalue）。右值是指表达式的值，而不是存储它的内存位置。
+
+    const auto z2 = z;//z作为右值，类型退化为int，z2有const，compiler为了达到完美的匹配，z2类型为const int
+    std::cout << std::is_same_v<decltype(z2), const int> << std::endl;
+
+    auto& z6 = z;//首先，z6是&类型，因此一定会推导出&。其次，当编译器看到auto&，z就不会退化
+   	//z6类型为const int&
     std::cout << std::is_same_v<decltype(z6), const int&> << std::endl;
 
     const int& z7 = 4;
