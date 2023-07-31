@@ -7,14 +7,14 @@ int main() {
     -x;
     x + y;
     3 + 5 * 7;
-    7 * + 3;//先+3（一元），再 7 *.因为一元+的优先级高于乘法*
+    7 * + 3;//先+3（一元），再 7 *，因为一元 + 的优先级高于乘法 *
     int a[3] = {1, 2, 3};
     int* ptr = a;
     ptr = ptr + 1;
     ptr = ptr - 1;
 
     std::cend(a) - std::cbegin(a);
-    //std::cend(a) + std::cbegin(a);无意义
+    //std::cend(a) + std::cbegin(a);//无意义
 
     short c = 3;
     auto d = c;

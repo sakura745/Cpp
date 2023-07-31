@@ -61,18 +61,22 @@ C形式的类型转换[explicit_cast](https://en.cppreference.com/w/cpp/language
 ### 算数操作符 
 `arithmeticOperator.cpp`
 
-**一元**操作符 `+` `-`，配合auto使用，会产生integral promotion
+**一元**操作符 `+` `-`，配合`auto`使用，会产生integral promotion
 ### 逻辑与关系操作符
+`logicOperator.cpp`
+
 逻辑与、或具有短路特性。逻辑与的优先级高于逻辑或，但使用时建议加上`()`，提高代码可读性
 
 不要写出`if (val == true)`这种代码，改为`if (val)`
 ### 位操作符
+`bitsOperator.cpp`
+
 位操作符在计算过程中，可能会出现integral promotion。是因为对应与硬件来说，最常用的数据类型为int型。
 
-数值在计算机中都是用补码的形式表示的。
+**数值在计算机中都是用补码的形式表示的**。
 
 ### 赋值操作符
-赋值操作符是右结合，right to left，求值结果（表达式返回）为左操作数。
+赋值操作符是右结合，**from right to left**，求值结果（表达式返回）为左操作数。
 
 可以引入`{}`初始化列表，来防止收缩转换，把warning变为error
 ### 自增与自减操作符

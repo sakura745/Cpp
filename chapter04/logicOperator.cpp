@@ -18,18 +18,16 @@ int main() {
     //a && b; a false, a && b false，不用考虑b
     int* ptr = nullptr;
     if (ptr && (*ptr == 3)) {
-
     }
 
-    // a || b; a true, a||b true, 不考虑b
+    // a || b; a true, a || b true, 不考虑b
     // a || b && c -> a || (b && c)   建议加上括号
 
     int d = 4, e = 5, f = 6;
     std::cout << (f > e > d) << std::endl;//(f > e > d) ->  (true > d) -> (1 > 3) -> 0
     std::cout << ((f > e) && (e > d)) << std::endl;
 
-    if (d == true) {//d == true -> d == 1，只会将bool类型转换为int型，不会反过来转换。
-
+    if (d == true) {//(d == true) -> (d == 1)，只会将bool类型转换为int型，不会反过来转换。
     }
 
      //C20
