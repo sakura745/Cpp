@@ -73,13 +73,15 @@ C形式的类型转换[explicit_cast](https://en.cppreference.com/w/cpp/language
 
 位操作符在计算过程中，可能会出现integral promotion。是因为对应与硬件来说，最常用的数据类型为int型。
 
-**数值在计算机中都是用补码的形式表示的**。
+**使用补码表示有符号数字可以方便地统一处理正数和负数的计算，并且可以简化符号位的处理，使得计算机设计和运算更加简洁高效。**
 
 ### 赋值操作符
+`assignmentOperator.cpp`
 赋值操作符是右结合，**from right to left**，求值结果（表达式返回）为左操作数。
 
 可以引入`{}`初始化列表，来防止收缩转换，把warning变为error
 ### 自增与自减操作符
+`otherOperator.cpp`
 `++a`等价与`a += 1`
 
 分为后缀和前缀两种。建议使用前缀形式，因为后缀要有个tmp存储原始值，有额外空间。
@@ -87,6 +89,7 @@ C形式的类型转换[explicit_cast](https://en.cppreference.com/w/cpp/language
 `x = x + 1`前缀时，返回左值(等号左边的x)；后缀时，返回右值(等号右边的x)。
 
 ### 其他操作符
+`otherOperator.cpp`
 **成员访问**操作符 `.` `->`，访问结构体或者类中的成员函数。
 
 **条件**操作符 `a ? b : c` a为bool类型表达式，b和c为相同类型的表达式，如果b和c均为左值，则该操作符返回左值，否则返回右值。
