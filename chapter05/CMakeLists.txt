@@ -10,4 +10,4 @@ add_executable(branchStatement branchStatement.cpp)
 add_executable(loopStatement loopStatement.cpp)
 add_executable(breakContinue breakContinue.cpp)
 add_executable(DuffsDevice DuffsDevice.cpp)
-
+add_executable(veriDuffsDevice veriDuffsDevice.cc)

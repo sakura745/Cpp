@@ -35,7 +35,7 @@ int main() {
     int e = 2;
     false ? (++w) : (++e);
     std::cout << w << std::endl << e << std::endl;
-    //false ? 1 : "Hello"; type is not same
+    //false ? 1 : "Hello"; //illegal. type is not same
 
     int score = 0;
     int res = (score > 0) ? 1 : (score == 0) ? 0 : -1;//右结合：先算score == 0,再算score > 0,可读性较低，不建议这么写

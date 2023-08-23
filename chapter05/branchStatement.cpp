@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-   //before C standard 17
+   //before C17
    int x = -1;
    if (x > 2) {
        std::cout << "x > 2\n";
@@ -19,7 +19,7 @@ int main() {
    } else
        std::cout << "Bad!\n";
 
-   //from C standard 17 编译器选择分支，删除不满足条件的分支。优化
+   //from C17 编译器选择分支，删除不满足条件的分支。优化
    constexpr int grade2 = 80;
    if constexpr (grade2 < 60) {
        std::cout << "Fail\n";
@@ -44,14 +44,14 @@ int main() {
        // ...没有用到b
    }
 
-   //from C standard 17
+   //from C17
    if (int b = 3 * a; b > 100) {
 
    } else {
 
    }
 
-   //before c++ 17
+   //before c17
    int y;
    std::cin >> y;
    switch (y) {
@@ -59,7 +59,7 @@ int main() {
            std::cout << "Hello\n";
    }
 
-   //from c++ 17
+   //from c17
    int z;
    switch (std::cin >> z; z) {
        default:
