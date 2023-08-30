@@ -8,7 +8,7 @@ consteval int fun(int x) {
 int main() {
     constexpr int x = fun(3);
 
-//illegal
+    //illegal
 //    int y;
 //    std::cin >> y;
 //    return fun(y);

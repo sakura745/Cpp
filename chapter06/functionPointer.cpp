@@ -22,19 +22,11 @@ int Twice(K2* fun, int x) {
     return tmp * 2;
 }
 
-void Demo(int a[3]) {
+void Demo(int a[3]) {}
+void Demo2(K2 input) {}
 
-}
-void Demo2(K2 input) {
-
-}
-
-void fun4(int) {
-
-}
-void fun4(int, int) {
-
-}
+void fun4(int) {}
+void fun4(int, int) {}
 
 auto fun5(bool input) {
     if (input)
@@ -43,13 +35,12 @@ auto fun5(bool input) {
         return dec;
 }
 
-
 int main() {
     using K = int[3];
     K a;//数组别名
 //    int[3] a;//illegal
     K a1 = {1, 2, 3};//数组聚合初始化
-    K* b;//b首先是个指针(*b),指针类型为K,指向了包含三个int类型的数组，等价于int(*b)[3].数组的指针
+    K* b;//b首先是个指针(*b)，指针类型为K，指向了包含三个int类型的数组，等价于int(*b)[3]。数组的指针
 
     K2* fun = nullptr;
     K2* fun2 = &inc;

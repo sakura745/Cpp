@@ -21,7 +21,6 @@ namespace MyNS2 {
 }
 
 int main() {
-
     //qualified lookup
     ::fun();
     MyNS::fun();
@@ -33,5 +32,8 @@ int main() {
     MyNS::g();
 
     MyNS2::Str obj;
-    g(obj);//unqualified。没有使用::便可以调用g函数是因为结构体Str在定义的时候就将namespace信息赋给obj了————ADL
+    g(obj);//unqualified
+    // 没有使用::便可以调用g函数是因为结构体Str在定义的时候就将namespace信息赋给obj
+    //实参依赖查找(ADL)：在函数调用时，编译器不仅会查找函数名所在的命名空间，还会查找与函数参数相关联的命名空间
+    //意味着：当调用函数时，编译器会考虑函数参数的类型
 }

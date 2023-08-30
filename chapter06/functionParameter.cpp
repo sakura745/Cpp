@@ -58,7 +58,7 @@ void funa(int x = 0, int y = 0){//legal
 //}
 
 
-//void funb(int x, int y = 2, int z = 3);//funb的声明，y、z缺省实参的定义
+void funb(int x, int y = 2, int z = 3);//funb的声明，y、z缺省实参的定义
 
 //下两行代码是合法的，但注意要先定义最右边的z，再定义y
 //void funb(int x, int y, int z = 3);
@@ -129,7 +129,7 @@ int main() {
     funa(1);
 
     func();//没给实参时，编译器会将func()解释为func(x)，而不是func(3).输出为3
-    x = 5;//注意不是int x = 5;全局变量和局部变量的区别
+    x = 5;//修改全局变量。int x = 5;相当于修改局部变量。注意两者的区别
     func();//输出为5
 }
 

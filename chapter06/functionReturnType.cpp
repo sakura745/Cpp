@@ -1,6 +1,6 @@
 #include <iostream>
 
-int fun(int a, int b) {
+/*[[nodiscard]]*/int fun(int a, int b) {
     return a + b;//返回数值
 }
 void fun1(int a, int b) {
@@ -8,7 +8,7 @@ void fun1(int a, int b) {
 }
 
 //c11
-auto fun2(int a, int b) -> int{
+auto fun2(int a, int b) -> int {
     return a + b;
 }
 
@@ -16,9 +16,7 @@ auto fun2(int a, int b) -> int{
 auto fun3(int a, int b) {//类型基于return 语句推导
     return a + b;
 }
-
-//c14
-decltype(auto) fun4(int a, int b) {
+decltype(auto)/*更精确的控制返回类型，当有引用或者移动语义时，可以转换*/ fun4(int a, int b) {
     return a + b;
 }
 
@@ -52,17 +50,16 @@ Str fun5() {
     return Str{};
 }
 int main() {
-    //before c++ standard 17
+    //before c17
     Str res = fun5();
     res.x;
     res.y;
 
-    //C++ standard 17
+    //c17
     auto [v1, v2] = fun5();//语法糖
     v1;
     v2;
 
     /*int x = */fun(2, 3);//没有保存返回值，空耗了计算资源，不是很好。
-    //但fun函数添加nodiscard属性，就会有warning
-    //改成：[[nodiscard]] int fun(int a, int b) {
+    //但fun函数添加nodiscard属性"[[nodiscard]] int fun(int a, int b)"就会有warning，提供给开发人员
 }

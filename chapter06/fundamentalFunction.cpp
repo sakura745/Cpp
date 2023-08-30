@@ -14,6 +14,7 @@ int main() {
     std::cout << z << std::endl;
     z = Sub(2, 3);
     std::cout << z << std::endl;
+    return 0;
 }
 /*
  * 栈帧(Stack Frame)结构:
