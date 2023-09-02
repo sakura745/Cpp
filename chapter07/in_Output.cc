@@ -25,7 +25,6 @@ int main() {
     std::cout << y2 << std::endl;
     std::cout << "---------------" << std::endl;
 
-
     char x3 = '0';
     std::cout.setf(std::ios_base::showpos);
     std::cout.width(10);//整个输出占10个字符
@@ -41,7 +40,7 @@ int main() {
     std::cout << y2 << std::endl;
     std::cout << "---------------" << std::endl;
 
-    //操纵符修改  setw就是width，会重置 std::endl也是操纵符
+    //操纵符修改  setw就是width也会被重置，std::endl也是操纵符
     std::cout << std::showpos << std::setw(10) << std::setfill('.') << x4 << '\n'
               << std::setw(10) << y2 << '\n';
     std::cout << "---------------" << std::endl;
@@ -59,7 +58,7 @@ int main() {
     std::cout << b << std::endl;
     std::cout << "---------------" << std::endl;
 
-    //c语言的字符串，有越界风险，注字符串结束要有'\0'
+    //c语言的字符串，有越界风险，会导致报错崩溃。注字符串结束要有'\0'
     char c[5];
     std::cin >> c;
     std::cout << c << std::endl;
@@ -69,6 +68,4 @@ int main() {
     std::cin >> std::setw(5) >> d;//不会出现越界而导致系统崩溃
     std::cout << d << std::endl;
     std::cout << "---------------" << std::endl;
-
-
 }
