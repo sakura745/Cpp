@@ -6,12 +6,10 @@
 int main() {
 //    //cin绑定到cout上了
 //    std::cout << "What's your name\n";//缺省状态下会有缓冲区
-////    std::cerr << "What's your name\n";//缺省状态下是unitbuf
+//    std::cerr << "What's your name\n";//缺省状态下是unitbuf
 //    std::string name;
 //    std::cin >> name;
 //    std::cout << "---------------" << std::endl;
-
-
 
     std::ios::sync_with_stdio(false);
     std::cout << "a\n";

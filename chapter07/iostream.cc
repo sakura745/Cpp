@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
+    //cin cout是以终端来说的。
     int x = 100;//00000000 00000000 00000000 01100100 :int 4 bytes
     std::cout << x << std::endl;//计算机通过输出流cout把二进制的数“格式化”为“1 0 0”三个字符输出
 

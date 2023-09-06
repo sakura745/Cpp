@@ -2,8 +2,7 @@
 #include <sstream>
 #include <string>
 
-int main()
-{
+int main() {
     //tellp 返回当前可以写入的位置
     std::ostringstream s;
     std::cout << s.tellp() << '\n';
@@ -46,7 +45,5 @@ int main()
     os.seekp(0);
     os << 'H';
     std::cout << os.str() << '\n';
-
-
 
 }

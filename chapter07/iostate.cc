@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+
 int main() {
 
     //iostate -- char假设char是实例
@@ -10,7 +11,7 @@ int main() {
     //位掩码类型
     //iostate m_state : 0000 0011 类似读写执行权限，goodbit为 0000 0000
 
-//    //构造没有关联
+    //构造没有关联
 //    std::ofstream outFile;
 //    outFile << 10;//outFile会产生badbit错误--不可恢复的错误
 
@@ -35,7 +36,7 @@ int main() {
 //              << static_cast<bool>(std::cin) << std::endl;
 //    //对终端直接输入`Ctrl + d` 会显示01010  显示eof被设置
 //    //输入10 输出10001
-//    //前两个例子fail 和 eof都相同
+//    //输出的01010和10001中，fail 和 eof都相同
 
 
 //    char x;
@@ -57,10 +58,22 @@ int main() {
 //    //读char和int处理方法不一样，char就一个字节，int不一定多少个字节
 
 //    int x;
-//    if (std::cin >> x) {//是static_cast<bool>(std::cin)的值
-//
+//    if (std::cin >> x) {//if中的内容被隐式转化为bool类型，static_cast<bool>(std::cin)的值
 //    }
 
+    std::ifstream file("example.txt");
+    int x;
 
+    // 尝试读取文件中的数据
+    file >> x;
 
+    if (file.fail()) {
+        std::cout << "Failed to read data from the file." << std::endl;
+        // 复位流的状态
+        file.clear(); // 将流的状态复位为正常
+        // 或者使用 setstate() 设置特定状态
+        file.setstate(std::ios_base::goodbit); // 设置流的状态为正常
+    }
+    // 继续使用流进行操作
+    file >> x; // 现在可以继续使用流
 }

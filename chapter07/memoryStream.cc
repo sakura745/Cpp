@@ -10,7 +10,6 @@ int main() {
 //    std::cout << res << std::endl;
 //    std::cout << "---------------" << std::endl;
 
-
     std::ostringstream obj1;
     obj1 << 10;
     std::string res = obj1.str();
@@ -32,14 +31,14 @@ int main() {
 
     std::ostringstream buf3("test");
     buf3 << '1';
-
     std::string res3 = buf3.str();
     auto c_res3 = res3.c_str();//c_str()是c风格字符串
     std::cout << c_res3 << std::endl;
 
     //c++reference: std::basic_string<CharT,Traits,Allocator> str() const; 右值
     auto c_res32 = buf3.str().c_str();
-    std::cout << c_res32 << std::endl;//程序行为是未定义的，是因为buf3.str()是右值，执行完，将会被释放掉。c_res32指向了未定义的内存地址
+    std::cout << c_res32 << std::endl;//程序行为是未定义的，是因为buf3.str()是右值，执行完，将会被释放掉。c_res32指向了
+    // 未定义的内存地址，形成了悬空指针
 
     std::cout << buf3.str().c_str() << std::endl;//是可以的
     std::cout << "---------------" << std::endl;
