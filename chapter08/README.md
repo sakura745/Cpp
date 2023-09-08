@@ -12,8 +12,14 @@
 销毁对象也分两步：先在内存上析构对象，再释放内存。
 
 `new`的几种常见形式
+- 构造单一对象/对象数组
+- `nothrow new`
+- `placement new`
+- `new auto`
 
 `delete`的常见用法
+- 销毁单一对象/对象数组
+- `placement delete`
 
 ## 2.智能指针
 `new` 和 `delete` 有问题，引出智能指针。
@@ -27,7 +33,7 @@
 ### weak_ptr
 
 ## 3.相关问题
-
+`others.cc`
 ### `sizeof`不会返回动态分配的内存大小
 ### 使用分配器`allocator`来分配内存
 ### 使用`malloc`、`free`管理内存

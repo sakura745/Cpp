@@ -26,10 +26,10 @@ int main() {
     int *p2 = (int*)malloc(sizeof(int[4])); // same, naming the type directly
     int *p3 = (int*)malloc(4*sizeof *p3);   // same, without repeating the type name
 
-    if(p1) {
-        for(int n=0; n<4; ++n) // populate the array
-            p1[n] = n*n;
-        for(int n=0; n<4; ++n) // print it back out
+    if (p1) {
+        for (int n = 0; n < 4; ++n) // populate the array
+            p1[n] = n * n;
+        for (int n = 0; n < 4; ++n) // print it back out
             printf("p1[%d] == %d\n", n, p1[n]);
     }
 
