@@ -16,11 +16,13 @@ int main() {
         std::cout << *ptr << ' ';
     }
 
+    std::cout << std::endl;
     std::vector<int> a1{1, 2, 3};
     auto b1 = a1.cbegin();
     auto e1 = a1.cend();
     for (auto ptr = b1; ptr < e1; ++ptr) {
-        //*ptr = 3;//illegal.迭代器只读
+//        *ptr = 3;//illegal:迭代器只读
+        std::cout << *ptr << ' ';
     }
 
     const std::vector<int> a2{1, 2, 3};

@@ -5,13 +5,13 @@
 struct Str {
     int x;
 };
-size_t MyHash(const Str& val) {
+size_t myHash(const Str& val) {
     return val.x;
 }
-bool MyEqual(const Str& val1, const Str& val2) {
-    return val1.x == val2.x;
+bool myEqual(const Str& lhs, const Str& rhs) {
+    return lhs.x == rhs.x;
 }
-class MyHashFunction {
+class myHashFunction {
 public:
     size_t operator()(const Str& t) const{//返回hash值
         return t.x;
@@ -34,20 +34,20 @@ int main() {
     //std::cout << (s < s3) << std::endl;//illegal
 
     //自定义hash与判等函数
-    std::unordered_set<Str, decltype(&MyHash), decltype(&MyEqual)> ss(1, MyHash, MyEqual);
+    std::unordered_set<Str, decltype(&myHash), decltype(&myEqual)> ss(1, myHash, myEqual);
     ss.emplace(3);//// 应该是合法的，gcc从9升到10解决了
     ss.insert(Str{3});
 
-    std::unordered_set<Str, MyHashFunction> sss;
-    MyHashFunction mf;
+    std::unordered_set<Str, myHashFunction> sss;
+    myHashFunction mf;
     mf(Str{3});//返回hash值
 
-    MyHash(Str{3});//返回hash值
-    //decltype(&MyHash) 对应的类型是函数指针： size_t (*)(const Str& val)
+    myHash(Str{3});//返回hash值
+    //decltype(&myHash) 对应的类型是函数指针： size_t (*)(const Str& val)
     //不能用缺省值
-    using MyPtr = size_t (*)(const Str& val);
-    MyPtr ptr = MyPtr();
+    using myPtr = size_t (*)(const Str& val);
+    myPtr ptr = myPtr();//结构类似于 int* ptr = int();
     //(*ptr)(Str{3});//illegal 不能对空指针解引用
-    //所以在用decltype(&MyHash)构造hash函数时，不能使用缺省，需要传入MyHash函数指针
+    //所以在用decltype(&myHash)构造hash函数时，不能使用缺省，需要传入myHash函数指针
 
 }

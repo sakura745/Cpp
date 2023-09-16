@@ -3,7 +3,6 @@
 #include <vector>
 #include <queue>//引入queue priority_queue
 
-
 int main() {
     std::stack<int> p;
     std::stack<int, std::vector<int>/*容器从缺省deque变为vector*/> p1;
@@ -11,6 +10,5 @@ int main() {
     p1.push(2);
     p1.pop();
     p1.top();
-
 
 }

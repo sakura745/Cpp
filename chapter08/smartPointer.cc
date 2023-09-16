@@ -109,6 +109,7 @@ int main() {
     std::cout << xx.get() << std::endl;
 //    std::unique_ptr<int> yy = xx;//illegal
     std::unique_ptr<int> yy = std::move(xx);
+    std::unique_ptr<int> yy2 = std::make_unique<int>(12321);//make_unique也是unique_ptr的优化，但是没有make_weak
     std::cout << xx.get() << std::endl;
     std::cout << yy.get() << std::endl;
 

@@ -5,23 +5,23 @@
 void fun(int* ){
 
 }
-void print(std::array<int, 3>& a) {
-    for (auto i: a) {
+void print(const auto& a) {
+    for (auto i : a) {
         std::cout << i << ' ';
     }
     std::cout << std::endl;
 }
 int main() {
     std::array<int, 3> a;//缺省初始化，可能导致值是乱的
-    std::array<int, 3> b = a;//提供了复制操作
+    std::array<int, 3> b = a;//提供了内建数组没有的复制操作
     std::cout << std::is_same_v<std::array<int, 3>::value_type, int> << std::endl;
 
     std::array<int, 3> a1 = {1, 2, 3};//aggregate initialization
     std::cout << a1[100] << std::endl;//乱值
-//    std::cout << a1.at(100) << std::endl;//系统崩溃
+//    std::cout << a1.at(100) << std::endl;//报异常
     std::cout << a1.front() << std::endl;//第一个
     std::cout << a1.back() << std::endl;//最后一个
-    fun(a1.data()/*返回int* 指向数组第一个元素*/);
+    fun(a1.data()/*返回int* 指向数组第一个元素*/);//给需要指针类型的情况设置的
 
     std::cout << a1.empty() << std::endl;//0
     std::cout << a1.size() << std::endl;//3

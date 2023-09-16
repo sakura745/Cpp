@@ -1,4 +1,4 @@
-`cin/cout`是in/out终端，`ifstream/ofstream`是in/out文件，`istringstream/ostringstream`是in/out缓冲区
+`cin/cout`是out终端in，`ifstream/ofstream`是out文件in，`istringstream/ostringstream`是out缓冲区in
 ## 1.IOStream概述
 `iostream.cc`
 采用流`stream`式，而非记录。stream是序列的意思，每个元素是一个字节。输入输出为字节流。

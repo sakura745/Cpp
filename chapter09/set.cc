@@ -2,10 +2,8 @@
 #include <map>//引入map
 #include <set>//引入set
 
-struct Str{
-
-};
-struct Str1{
+struct Str {};
+struct Str1 {
     int x;
 };
 
@@ -40,7 +38,7 @@ int main() {
 
     std::set<Str1, decltype(&MyCmp)/*自定义比较器*/> s7({Str1{3}, Str1{5}}/*初始化列表*/, MyCmp/*函数指针*/);
     s7.insert(Str1{100});
-    s7.emplace(4);////4直接赋给Str1中的x，避免构造。 gcc从9升到10解决了
+    s7.emplace(4);///4直接赋给Str1中的x，避免构造。 gcc从9升到10解决了
 
     s7.erase(s7.begin());
 

@@ -17,30 +17,37 @@ void fun1(const std::map<int, bool>& m) {
 }
 int main() {
     std::map<int, bool> m{{3, true}, {2, true}, {1, true}};
-
+    std::cout << "Ptr traversal:" << std::endl;
     for (auto rbTreeIterator = m.begin(); rbTreeIterator != m.end(); ++rbTreeIterator) {
         auto p = *rbTreeIterator;//p类型是 std::pair<const int, bool>
         std::cout << p.first << ' ' << p.second << std::endl;
     }
-    std::cout << "------------------" << std::endl;
 
+    std::cout << std::endl << "Iter traversal:" << std::endl;
     for (auto& item: m) {
         std::cout << item.first << ' ' << item.second << std::endl;
     }
-    std::cout << "------------------" << std::endl;
 
     auto res = fun();
     auto [res1, res2] = fun();//绑定。res1 res2与item一样
     //可修改为
+    std::cout << std::endl << "Struct bind traversal:" << std::endl;
     for (auto& [k, v] : m) {//map通常使用的方式
         std::cout << k << ' ' << v << std::endl;
     }
     std::cout << "------------------" << std::endl;
 
-    m.insert(std::pair<const/*const可有可无：没有，系统隐式转换*/ int, bool>(5, true));
+    m.insert(std::pair<const int, bool>(5, true));
+    //在pair转换到map时，第一个元素的const限定符可有可无。如果没有，系统则会在转换过程中隐式转换
+//    m.insert(std::pair<int, bool>(1, true));//legal
+
     m.emplace(4, true);//不需要pair
 
-    m.erase(3);//给一个key就行或者是迭代器
+    //cpp也给出了类似于shared_ptr和make_shared, unique_ptr和make_unique的关系，pair和make_pair
+    std::pair<int, double> p1(1, 1.1);
+    auto p2 = std::make_pair(1, 1.1);
+
+    m.erase(3);//给一个key或者是迭代器即可
 
     auto ptr = m.find(2);//给一个key
     std::cout << ptr->first << ' ' << ptr->second << std::endl;
@@ -78,15 +85,15 @@ int main() {
     }
     std::cout << std::endl;
 
-    //区间需要两行代码，麻烦
+    //上述区间需要lower和upper两行代码，麻烦。可以改为使用equal_range
     auto c = s1.equal_range(1);//返回pair
-    auto [e, f] = s1.equal_range(1);//bind
-    for (auto p = c.first; p != c.second; ++p) {
-        std::cout << *p << ' ';
+    for (auto cit = c.first; cit != c.second; ++cit) {
+        std::cout << *cit << ' ';
     }
     std::cout << std::endl;
-    for (auto p = e; p != f; ++p) {
-        std::cout << *p << ' ';
+    auto [k2, v2] = s1.equal_range(1);//bind
+    for (auto cit2 = k2; cit2 != v2; ++cit2) {
+        std::cout << *cit2 << ' ';
     }
     std::cout << std::endl;
 

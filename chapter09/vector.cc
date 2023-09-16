@@ -2,13 +2,22 @@
 #include <vector>//引入vector
 #include <string>
 
-void print(std::vector<int>& a) {
-    for (auto i: a) {
+void print(const auto& a) {
+    for (auto i : a) {
         std::cout << i << ' ';
     }
     std::cout << std::endl;
 }
 int main() {
+    std::vector<int> myVector;
+
+    std::cout << "Initial capacity: " << myVector.capacity() << std::endl;
+
+    for (int i = 0; i < 10; ++i) {
+        myVector.push_back(i);
+        std::cout << "Size: " << myVector.size() << ", Capacity: " << myVector.capacity() << std::endl;
+    }
+    std::cout << "-------------------" << std::endl;
     std::vector<int> a{1};
     std::vector<int> b{1, -1, 2};
     std::cout << a.size() << ' ' << a.max_size() << std::endl;
@@ -35,9 +44,9 @@ int main() {
     print(c1);
     auto it = c1.begin();
     c1.insert(it, 200);
-
     print(c1);
 
-//    c1.emplace(it, 200);//区别与push_back 和 emplace_back区别一样。同时，it迭代器会失效
+    c1.emplace(it, 200);//区别与push_back 和 emplace_back区别一样。同时，it迭代器会失效
+    //可以避免不必要的开销
 
 }

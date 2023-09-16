@@ -21,13 +21,13 @@ int main() {
     }
     std::cout << std::endl;
 
-    for (auto i: std::views::filter(v, isEven)) {//和结果一样。两种表达方式
+    for (auto i: std::views::filter(v, isEven)) {//和上述结果一样。两种表达方式
         std::cout << i << ' ';
     }
     std::cout << std::endl;
 
     auto x = std::views::filter(isEven);
-    for (auto i: x(v)/*法一*/) {
+    for (auto i: x(v)/*法一*/) {//可读性不高，建议使用法二
         std::cout << i << ' ';
     }
     std::cout << std::endl;
@@ -58,7 +58,7 @@ int main() {
     }
     std::cout << std::endl << "-----------------" << std::endl;
 
-    //filter 和 transform等都对应了相应的函数在algorithm中
+    //filter 和 transform等在algorithm中找到对应的函数
     //为什么c20还要引入呢
     //ranges 表达起来更简单； ranges求值过程是缓式求值。
     //缓式求值是一种评估算法，其中表达式的求值是通过延迟完成的，直到需要它们的结果为止。

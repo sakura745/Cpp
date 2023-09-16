@@ -7,7 +7,7 @@
 
 std::ostream& operator<<(std::ostream& ostr, const std::list<int>& list)//运算符 << 重载，输出list元素
 {
-    for (auto &i : list)
+    for (auto& i : list)
         ostr << ' ' << i;
 
     return ostr;
@@ -24,7 +24,7 @@ int main() {
     std::cout << a.size() << std::endl;//list支持size
 
     b[2];//通过b第一个元素的指针，向后移动两个int大小内存。很容易的访问，随机访问成本较低
-    //a[2];//illegal。而对于list 随机访问成本较高
+//    a[2];//illegal。而对于list 随机访问成本较高
 
 
     //为什么提供splice接口，是因为插入对list很容易
@@ -44,7 +44,7 @@ int main() {
     }
     std::cout << std::endl;
     //std::cout << c.size() << std::endl;//illegal
-    //forward_list支持不size。是因为forward_list目标是成本较低的线性表实现。就特意不实现size
+    //forward_list支持不size。是因为forward_list目标是成本较低的 线性表 实现。就特意不实现size
     //pop_back push_back也不支持
 
     //xxx_after操作，是因为单向的缘故
