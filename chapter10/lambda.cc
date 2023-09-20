@@ -3,10 +3,10 @@
 struct Str {
     auto fun() {
         int val = 3;
-        auto lam = [val, this/*是一个指针，指向结构体构造的对象，在这里是x*/] () {
-            return val > x/*x既不是局部自动对象，也不是静态对象，想要捕获x要传入this*/;
+        auto lam = [val, this/* 是一个指针，指向结构体的对象（成员函数），在这里是x */] () {
+            return val > x/* x既不是局部自动对象，也不是静态对象，想要捕获x要传入this，x相当于this->x */;
         };
-        return lam;
+        return lam();
     }
     int x;
 };
@@ -14,8 +14,8 @@ struct Str {
 struct Str1 {
     auto fun() {
         int val = 3;
-        auto lam = [val, this/*c17将this改为*this，解引用就不是指向这个对象了，变成就是这个对象，变成值捕获，
-                               直接复制到函数体中 */] () {
+        auto lam = [val, this/* c17将this改为*this，解引用就不是指向这个对象了，变成就是这个对象，
+ *                                  变成值捕获，直接复制到函数体中 */] () {
             return val > x;
         };
         return lam;
@@ -55,32 +55,32 @@ int main() {
         ++a;
         return val > a;
     };
-    std::cout << a2(12) << std::endl << a/*还是10，不会传递到lambda表达式外部*/ << std::endl;
+    std::cout << a2(12) << " " << a/*还是10，不会传递到lambda表达式外部*/ << std::endl;
 
     auto a3 = [&a/*引用捕获*/] (int val) mutable/*可以去掉*/ {
         ++a;
         return val > a;
     };
-    std::cout << a3(12) << std::endl << a/*是11，引用*/ << std::endl;
+    std::cout << a3(12) << " " << a/*是c11，引用*/ << std::endl;
 
     int aa = 3;
     auto a4 = [&a, aa/*混合捕获*/] (int val) {
         ++a;
         return val > aa;
     };
-    std::cout << a4(4) << std::endl << a << std::endl;
+    std::cout << a4(4) << " " << a << std::endl;
 
-    auto a5 = [=/*对隐式的对象使用 值捕获*/, &aa/*显式捕获*/] (int val) {
+    auto a5 = [=/*对隐式的对象使用 值捕获*/, &aa/*显式引用捕获*/] (int val) {
         //... 很多局部自动对象
         return val > aa;
     };
-    auto a6 = [&/*对隐式的对象使用 引用捕获*/, aa/*显式捕获*/] (int val) {
+    auto a6 = [&/*对隐式的对象使用 引用捕获*/, aa/*显式值捕获*/] (int val) {
         //... 很多局部自动对象
         return val > aa;
     };
 
     Str s;
-    s.fun();//在这里表示 this对应s的地址
+    s.fun();//Str中使用this对成员函数的捕获，其中this对应s的地址
 
     int zz = 3;
     auto lam = [yy = zz/*c14。初始化捕获*/] (int val) {
@@ -95,6 +95,7 @@ int main() {
     std::cout << ss << std::endl;
     lam1();
 
+    //通常情况下
     int bbb = 3;
     int ccc = 5;
     auto lam2 = [bbb, ccc] (int val) {
@@ -102,9 +103,12 @@ int main() {
     };
 
     //在一定程度上提高了效率
-    auto lam3 = [aaa = bbb + ccc/*构造lambda表达式执行，存储为aaa，每次调用lambda表达式，直接调用aaa即可*/] (int val) {
+    auto lam3 = [aaa = bbb + ccc/*构造lambda表达式执行，存储为aaa，每次调用lambda表达式，
+                                 * 直接调用aaa即可*/] (int val) {
         return val > aaa;
     };
+
+    //用于建立一个新的同名变量，不会污染外部名字作用域
     auto lam4 = [bbb/*用来函数体计算的*/ = bbb/*给函数体bbb初始化的对象*/] (int val) {
         return val > bbb;
     };
@@ -113,6 +117,7 @@ int main() {
     //wrapper返回了lambda表达式，该表达式捕获了this指针，this指针指向的是wrapper中构造的局部自动对象s。
     //在调用wrapper之后，s已经被销毁了。就是说lamb中，包含了一个悬挂指针dangling pointer
     lamb();//行为是未定义的
-    //c17将this 改为 *this。好处是不会产生悬挂指针。坏处是变成了值捕获，变成复制的行为，要消耗更多资源
+    ///c17将this 改为 *this。好处是不会产生悬挂指针，行为是安全的。坏处是变成了值捕获，从指针的复制变成对解引用对象复制
+    ///要消耗更多资源
 
 }

@@ -12,6 +12,6 @@ add_executable(generic generic.cc)
 target_link_libraries(generic libtbb.so)
 
 add_executable(bind bind.cc)
-add_executable(lambda1 lambda1.cc)
+add_executable(lambda lambda.cc)
 add_executable(lambda2 lambda2.cc)
 add_executable(ranges ranges.cc)

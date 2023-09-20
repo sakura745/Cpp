@@ -22,9 +22,7 @@ auto fun() {
     return std::bind(MyProc, &x);
 }
 
-void MyProc1(std::shared_ptr<int> ptr) {
-
-}
+void MyProc1(std::shared_ptr<int> ptr) {}
 auto fun1() {
     std::shared_ptr<int> x(new int());
     return std::bind(MyProc1, x);
@@ -40,8 +38,11 @@ int main() {
     std::vector<int> y3;
     std::vector<int> y4;
     std::copy_if(x.begin(), x.end(), std::back_inserter(y1), MyPredict/*函数指针*/);
+
+    //bind_1st bind_2nd是c11之前给出的，现已舍弃
     std::copy_if(x.begin(), x.end(), std::back_inserter(y2),
                  std::bind2nd(std::greater<int>(), 3)/*bind2nd*/);
+                 ///上式表示 把 greater 和 3 绑定（bind）到一起
                  //bind2nd 是固定greater第二个参数为3
     std::copy_if(x.begin(), x.end(), std::back_inserter(y3),
                  std::bind1st(std::greater<int>(), 3)/*bind1st*/);
@@ -62,8 +63,10 @@ int main() {
 //    std::copy_if(x.begin(), x.end(), std::back_inserter(y3),std::bind1st(MyPredict2, 3));//功能有限
 
     //引入bind
-    using namespace std::placeholders;//bind中 _1 需要引入
+    using namespace std::placeholders;//用于在函数模板中指定占位符参数。bind中 _1 需要引入
     std::copy_if(x.begin(), x.end(), std::back_inserter(y4), std::bind(MyPredict2, _1, 3));
+    //_1中的1表示的是copy_if中d_first的第1个参数（当然，d_first只有一个参数），而不是表示bind中的第1个
+
     for (auto i: y4) {
         std::cout << i << ' ';
     }
@@ -73,6 +76,7 @@ int main() {
     a(50);
     //_1 表示 a 中的第一个参数。a(50)第一个参数是50。而不是表示MyPredict2 的第一个参数是 50
     std::cout << a(50) << std::endl;//50 > 3 。输出 true
+    //bind绑定的函数复制给的函数至少有多少个参数，取决于_n的n的个数。如a至少有一个参数
 
     auto b = std::bind(MyPredict2, 3, _1);
     b(50);
