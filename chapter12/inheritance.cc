@@ -1,30 +1,23 @@
 #include <iostream>
 
-namespace inheritance {//只是为了消除CLion中，对于不同cpp文件由于同名引起的函数错误关联的行为，无其他含义
-    struct Base {
-        void fun() {}
-    };
-    struct subBase : Base{
-
-    };
-    struct Derive : public/*public可写可不写，struct缺省是public*/ subBase {
-        void fun2() {}
-    };
-    struct DDerive : public subBase {
-
-    };
-
+namespace inheritance {
     struct Base2 {
         void fun() {}
     };
-
-    class Derive2 : public/*需要public的话，要写出public。class缺省是private */ Base2 {
-
-    };
-
+    class Derive2 : public/*需要public的话，要写出public。class缺省是private */ Base2 {};
 
     class DDDDerive;//类的声明
     //class DDDDerive : public Base;//illegal 不是类的声明
+
+
+    struct Base {
+        void fun() {}
+    };
+    struct subBase : Base {};
+    struct Derive : public/*public可写可不写，struct缺省是public*/ subBase {
+        void fun2() {}
+    };
+    struct DDerive : public subBase {};
 
 
     struct Base3 {
@@ -44,7 +37,7 @@ namespace inheritance {//只是为了消除CLion中，对于不同cpp文件由�
     class Derive3 : public Base3 {
     public:
         void fun2() {
-    //            fun();//illegal。也不能调用父类（基类）私有成员
+//            fun();//illegal。也不能调用父类（基类）私有成员
             ffun();//legal。 可以调用父类（基类）公有成员。继承引入是一个关系：Derive3是一个Base3，所以可以访问
             fffun();//legal。可以调用父类（基类）保护成员。可以在派生类调用
         }
@@ -90,7 +83,6 @@ int main() {
     b.ffun(); //legal.
 //    b.fffun();//illegal. fffun()是protected不能在Base3外部调用
 
-
     Derive3 d2;
     d2.ffun();//继承引入是一个关系：Derive3是一个Base3，所以可以访问
 //    d2.fffun();//fffun()是protected不能在Base3外部调用
@@ -102,4 +94,6 @@ int main() {
 
 
     //基类和派生类的访问权限通常设置一致
+
+
 }

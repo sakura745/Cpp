@@ -59,7 +59,6 @@ namespace virtualFunction2 {
         ~Base4() {
             std::cout << "~Base4()\n";
         }
-
     };
     class Derive4 final : public Base4 {
     public:
@@ -73,7 +72,6 @@ namespace virtualFunction2 {
         virtual ~Base5() {
             std::cout << "~Base5()\n";
         }
-
     };
     class Derive5 final : public Base5 {
     public:
@@ -109,14 +107,15 @@ using namespace virtualFunction2;
 int main() {
     Derive d;
     proc(d);//输出为 Derive: 3000。虚函数的缺省实参只会考虑静态类型，d的静态类型为Base。在编译期，proc函数的行为变成
-    //b.fun(3000)。所以输出为 Derive: 3000。
+    //b.fun(3000)。所以输出为 Derive（运行期）: 3000（编译期）。
 
     proc1(d);//输出为 Base: 3000。构造Derive之前，先构造Base，构造Base时，Base内所有的虚函数都只有Base内定义。构造
     //完Base后，再构造Derive，会把原来指向Base内虚函数的指针，指向为Derive内的虚函数。当proc1()传入Derive类型，会有一个
     //Derive到Base的隐式转换。当然就输出Base内的虚函数了。
-//    Base tmp = d;//legal : Derive到Base的隐式转换
+//    Base tmp = d;///legal : 存在Derive到Base的隐式转换
     //为什么proc()形参为Base&或Base*就可以呢？指针指向的内存，就是对象，类型就是Derive类型，当然就调用Derive内的虚函数了
     //引用的底层也是指针。
+    std::cout << "----------------------" << std::endl;
 
     Derive3 d3;//输出为Base3 Derive3。构造Derive3对象，执行到Derive3的构造函数之前，要先构造Base3。执行Base3的构造函数，
     //当Base3()这一行代码构造完，Base3已经通过缺省的方式初始化完毕，相应的编译器会构造vtable，vtable中所有的虚函数都指向

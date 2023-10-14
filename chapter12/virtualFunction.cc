@@ -30,9 +30,10 @@ namespace virtualFunction {
     };
     class mmyClassDerived2 : public mmyClassDerived {
     public:
-        virtual void derivedMethod2() {}
+//        virtual void derivedMethod2() {}
         int derivedMember2;
     };
+
 
     class Base2 {
     public:
@@ -85,9 +86,7 @@ namespace virtualFunction {
             std::cout << "Derive5::fun() is called.\n";
         }
     };
-    class Derive5_1 : public Base5 {
-
-    };
+    class Derive5_1 : public Base5 {};
 
     class Base6 {
     public:
@@ -99,8 +98,7 @@ namespace virtualFunction {
             std::cout << "Derive6::fun() is called.\n";
         }
     };
-    class Derive6_1 : public Derive6 {
-    };
+    class Derive6_1 : public Derive6 {};
 
     class Base7 {
     public:
@@ -176,7 +174,7 @@ int main () {
 
     //ptr转化成ptr2，pptr转化成pptr2：基类的指针转化为派生类指针，如果基类指针当初指的是派生类的地址，
     //则指针转化成功；否则转换后的指针指向nullptr
-    //ref转化成d2，rref转化成dd2：基类的引用转化为派生类转换，如果基类引用当初绑定在派生类上，
+    //ref转化成d2，rref转化成dd2：基类的引用转化为派生类，如果基类引用当初绑定在派生类上，
     //则引用转化成功；否则转换后的引用会抛出异常
     //dynamic_cast 是运行期转换，需要相对较多的时间和资源。慎用！
 
@@ -186,13 +184,12 @@ int main () {
     b2.fun();//输出为"Derive2::fun() is called."。如果把Base2中的virtual去掉，输出"Base2::fun() is called."
     //没有vtable。所有调用都是在编译期被绑定，只看静态类型。不能调用派生类的函数
 
-
     Derive2 d4;
     proc(d4);//输出：Derive2::fun() is called.
     Base2 b4;
     proc(b4);//输出：Base2::fun() is called.
     //相当于用一个函数proc()，实现了实参类型不同，表现了不同的行为。这个功能叫动态多态（运行器多态）：通过动态类型实现的
-
+    std::cout << "-----------------" << std::endl;
 
     Derive5 d5;
     Base5& b5 = d5;
@@ -201,12 +198,15 @@ int main () {
 //    Base5 b6;//illegal
     //可以声明指针、引用:上面这个 Base5& b5 = d5; 就是
 
-//    Derive5_1 d5_1;//illegal. 因为Derive5_1没有对基类中的纯虚函数重写override，Derive5_1也被视为抽象基类。不能声明抽象基类的对象
-    //如果Base5中有100个纯虚函数，Derive5_1想要声明对象，要对Base5中的所有纯虚函数进行override
+//    Derive5_1 d5_1;//illegal. 因为Derive5_1，派生于Base5，没有对基类中的纯虚函数重写override，Derive5_1也被视为抽象基类。
+    //不能声明抽象基类的对象
+    //如果Base5中有100个纯虚函数，Derive5_1想要声明对象，要对Base5中的所有纯虚函数进行一一重写(override)
 
-    //Base6是抽象基类，Derive6对纯虚函数有override，Derive6_1没有对纯虚函数的override。但仍可以声明对象
+    //Base6是抽象基类，Derive6派生于Base6，对纯虚函数有override，
+    //Derive6_1，派生于Derive6，没有对纯虚函数的override。但仍可以声明对象
     Derive6_1 d6;//说明对于Derive6_1来继承自上一层类Derive6，Derive6是具体的类（不是抽象基类），因此Derive6_1可以正常使用
     //只要是继承于具体的类就行。不用关心继承类Derive6的上一层继承类Base6是什么。
+    std::cout << "----------------" << std::endl;
 
     Derive7 d7;
     Base7& b7 = d7;
@@ -215,10 +215,8 @@ int main () {
     //如果想要纯虚函数也输出内容呢，可以在派生类override的函数体中给出Base7::fun();
     //可以在纯虚函数中定义输出一些辅助逻辑，再通过上述方法让辅助逻辑在派生类实现开头调用
 
-
     //Base8中声明了fun()为虚函数，在Derive8和Derive8_1中fun()不用virtual关键字，fun()仍然还是虚函数
     //因为在声明了虚函数，会生成对应的vtable，vtable中会有fun()的记录
-
 
     Derive9 d9;
     Base9& b9 = d9;

@@ -2,45 +2,41 @@
 #include <vector>
 #include <memory>
 
-namespace updateKnowledge {
-   class Base {
-   public:
+namespace supplymentary {
+    class Base {
+    public:
        int x;
-   private:
+    private:
        int y;
-   protected:
+    protected:
        int z;
-   };
+    };
     class Derive_public : public /* **是一个** 的行为*/ Base {//99%的程序都是public继承
     public:
-    //        int  x;//x 在 Derive_public 还是public权限
+//        int x;//x 在 Derive_public 还是public权限
     protected:
-    //        int z;//z 在 Derive_public 还是protected权限
+//        int z;//z 在 Derive_public 还是protected权限
     };
     class Derive_private : private /* **根据基类实现出** 的行为*/ Base {
     private:
-        //        int x;//x 在 Derive_public 是private权限
-        //        int z;//z 在 Derive_public 是private权限
+//        int x;//x 在 Derive_public 是private权限
+//        int z;//z 在 Derive_public 是private权限
     };
     class Derive_protected : protected /*没人用*/ Base {
     protected:
-    //        int x;//x 在 Derive_public 是protected权限
-    //        int z;//z 在 Derive_public 是protected权限
+//        int x;//x 在 derive_public 是protected权限
+//        int z;//z 在 derive_public 是protected权限
     };
 
     class Base2 {
     public:
         int x;
-        void fun(int) {
-
-        }
+        void fun(int) {}
     private:
         int y;
     protected:
         int z;
-        void fun() {
-
-        }
+        void fun() {}
     };
     class Derive2 : public Base2 {
     public:
@@ -48,15 +44,13 @@ namespace updateKnowledge {
         using Base2::fun/*给出的是名称，不是函数，没有()*/;
         //对于函数来说，如果函数fun()有重载函数，且权限不一样呢？ using修改的是所有重载函数的权限。
     private:
-    //        using Base2::x;//修改了x的权限。
-    //        Base2::y;//illegal 因为是基类的private，不能用在派生类中。在派生类中，无论改成什么权限都会报错
+//        using Base2::x;//修改了x的权限。
+//        Base2::y;//illegal 因为是基类的private，不能用在派生类中。在派生类中，无论改成什么权限都会报错
     };
 
     class Base3 {
     protected:
-        Base3(int val) /*构造函数不一定都是public的*/{
-
-        }
+        Base3(int val) /*构造函数不一定都是public的*/{}
     };
     class Derive3 : public Base3 {
     public:
@@ -106,7 +100,6 @@ namespace updateKnowledge {
         //using的优先级低于override
     };
 
-
     class Base6 {
     public:
         friend void fun(const Base6&);
@@ -120,7 +113,6 @@ namespace updateKnowledge {
     void fun(const Base6& val) {
         std::cout << val.x << std::endl;
     }
-
 
     class Base7 {
     protected:
@@ -216,17 +208,15 @@ namespace updateKnowledge {
     public:
     };
 
-    class Base12 {
-    };
-    class Derive12 : public Base12 {
-    };
+    class Base12 {};
+    class Derive12 : public Base12 {};
 
     class Base13 {
         void fun() {}
     };
-    class Derive13 : public Base13 {
-    };
+    class Derive13 : public Base13 {};
 
+    //为了节省空间，同时还满足在Derive14中，可以使用Base14的函数，因此将Derive14设置派生于Base14
     class Base14 {
         void fun() {}
     };
@@ -249,11 +239,9 @@ namespace updateKnowledge {
         int x;
         [[no_unique_address]] Base16 b1;
     };
-
-
 }
 
-using namespace updateKnowledge;
+using namespace supplymentary;
 
 int main() {
     //派生类的继承可以有public private protected。无论是哪种继承，派生类对基类成员的访问权限都不改变。
@@ -265,11 +253,15 @@ int main() {
     d.fun();
     d.fun(1);
 
-//    Derive3 d2(100);//‘updateKnowledge::Base3::Base3(int)’ is protected within this context. 还是protected权限
-    Derive3_1 d2_1;//单参构造变成缺省构造就可以了，为什么？因为Derive3_1在构造过程中，编译器发现没有构造函数，编译器
-    //合成缺省构造，因此会调用基类的缺省构造函数。在派生类构造完成之后，才会通过using语句在派生类中将基类构造变为
-    //public权限。就是说Derive3_1 d2_1;的合法性是通过派生类缺省构造函数调用基类缺省构造得来的
-    Derive3_1 d2_2(d2_1);//
+//    Derive3 d2(100);//supplymentary::Base3::Base3(int) is protected within this context.
+    //c++标准规定的行为：无法改变构造函数的访问权限
+
+    ///using与部分重写 -- 看上去是修改了构造函数的访问权限，其实是派生类能访问该成员：派生类由编译器合成的缺省构造
+    ///函数可以访问到基类的protected权限的缺省构造函数
+    Derive3_1 d2_1;//单参构造变成缺省构造就可以了，为什么？
+    //因为Derive3_1在构造过程中，编译器发现派生类中没有构造函数，编译器合成派生缺省构造，派生缺省构造调用基类的
+    //缺省构造函数（public）。就是说Derive3_1 d2_1;的合法性是通过派生类缺省构造函数调用基类缺省构造得来的
+    Derive3_1 d2_2(d2_1);//同理
 
     Derive4 d3;
     d3.fun();
@@ -281,7 +273,6 @@ int main() {
 
     Base6 b;
     fun(b);
-
 
     Base7 b1;
 //    fun(b1);//illegal.
@@ -296,14 +287,11 @@ int main() {
 
 
     //通过基类指针在容器中保存不同类型对象，有一个条件，类型需要找到一个公共类型可以代表的。比如double和int
-
     std::vector<std::shared_ptr<Base9>> vec;//可以用Base9保存int double类型的vector
     vec.emplace_back(new Derive9{1});
     vec.emplace_back(new Derive9_2{33.1});
 
-    std::cout << vec[0]->getValue() << std::endl;
-    std::cout << vec[1]->getValue() << std::endl;
-
+    std::cout << vec[0]->getValue() << ' ' << vec[1]->getValue() << std::endl;
 
     Derive11 d7;
 //    d7.x;//不知道是从Base11  的基类BBase11中获取x，
@@ -315,9 +303,9 @@ int main() {
     std::cout << sizeof(Base13) << std::endl;//还是1
     std::cout << alignof(Derive14) << std::endl;//输出4
     std::cout << sizeof(Derive14) << std::endl;//输出8 : 4 + 1 -> 8
-    //为了节省空间，同时还满足在Derive14中，可以使用Base14的函数，因此将Derive14设置派生为Base14中，
+
     //有Base15 Derive15。称之为 空基类优化（编译器优化）：如果基类没有成员变量或虚函数，基类所占内存可以省掉
     std::cout << sizeof(Derive15) << std::endl;//输出4
-    std::cout << sizeof(Derive16) << std::endl;//输出4 通过[[no_unique_address]]完成
+    std::cout << sizeof(Derive16) << std::endl;//输出4 通过[[no_unique_address]]来完成优化
 
 }

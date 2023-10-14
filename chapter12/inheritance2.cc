@@ -30,7 +30,7 @@ namespace inheritance2 {
     };
     class Derive1 : public Base1 {
     public:
-        Derive1(int a) : Base1(a)/*显式调用了基类的构造函数，不需要使用域操作符：Base1::Base1(a)*/ {
+        Derive1(int a) : Base1(a)/*在派生类中显式调用了基类的构造函数，不需要使用域操作符：Base1::Base1(a)*/ {
             std::cout << "Derive1 ctor is called.\n";
         }
     };

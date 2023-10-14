@@ -58,7 +58,7 @@
 
 
 **下图中，红框表示可能会废除的行为**
-![specialMembers](https://cdn.staticaly.com/gh/sakura745/Picx_image_host@master/20230924/specialMembers.2kr4lw8aw4g0.jpg)
+（单参构造函数不属于特殊函数，不可以使用`default`关键字）
 
 ![specialMembers](https://github.com/sakura745/Picx_image_host/raw/master/20230924/specialMembers.2kr4lw8aw4g0.jpg)
 
