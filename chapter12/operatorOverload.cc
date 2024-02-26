@@ -75,7 +75,7 @@ namespace operatorOverload {
         int& operator[](int id) {
             return val;
         }
-        int operator[](int id) const{//对于operator[]的又一次重载。重载不能基于返回类型重载。是基于有无const进行重载的
+        int operator[](int id) const {//对于operator[]的又一次重载。重载不能基于返回类型重载。是基于有无const进行重载的
             return val;
         }
 
