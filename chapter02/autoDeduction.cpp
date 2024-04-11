@@ -42,6 +42,7 @@ int main() {
 
     std::cout << std::endl << "Decltype:" << std::endl;
     int& q1 = x1;
+    //可能是因为q1有&，所以q1属于表达式，而不是变量
     auto q2 = q1;
     decltype(q1) q3 = q1;
     std::cout << std::is_same_v<decltype(q2), int> << std::endl;
@@ -49,7 +50,7 @@ int main() {
 
     int* ptr = &x1;
     std::cout << std::is_same_v<decltype(*ptr), int&> << std::endl;
-    std::cout << std::is_same_v<decltype(ptr), int*> << std::endl;
+    std::cout << std::is_same_v<decltype(ptr), int*> << std::endl;//如果既是表达式，又是变量时，变量的优先级高于表达式
     std::cout << std::is_same_v<decltype((ptr)), int*&> << std::endl;
 
     auto x = 3.5 + 15l;

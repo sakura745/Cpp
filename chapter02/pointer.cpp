@@ -26,10 +26,8 @@ void fun4(int* param) {
 struct Str {
     //...
 };
-void fun5(Str) {
-}
-void fun5(Str*) {
-}
+void fun5(Str) {}
+void fun5(Str*) {}
 int main() {
     int x = 42;
     int y = 56;
@@ -61,7 +59,7 @@ int main() {
     std::cout << "---------------" << std::endl;
 
     fun(0);//会匹配到int
-    int* p = 0;//指针的0是nullptr。意思是nullptr隐式转化为int。但nullptr不能隐式转换为int
+    int* p = 0;//指针的0表示的是nullptr。意思是int隐式转化为nullptr，但nullptr不能隐式转换为int
     fun2(p);//会匹配到int*。
     fun2(nullptr);
     std::cout << "---------------" << std::endl;

@@ -12,7 +12,7 @@ int main() {
     //是因为函数体内的变量不知道会用多少次，如果初始化为一个定值，每次调用带变量都会消耗cpu。但全局变量生命周期和程序一样
     //因此可以给全局变量初始化为0，构造成本较低。
 
-    int y =/*在初始化时，使用赋值操作符，相当于拷贝初始化*/ 10;//copy initialization
+    int y = /*在初始化时，使用赋值操作符，相当于拷贝初始化*/ 10;//copy initialization
     int z(10);//directly initialization1
     int w{10};//directly initialization2
 }
