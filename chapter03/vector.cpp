@@ -4,7 +4,7 @@
 int main() {
     std::vector<int> x;//default constructor. zero element.
     std::vector<int> x1 = {1, 2, 3};//aggregate initialization.
-    //x1 = x;//legal. array cannot copy, vector can
+//    x1 = x;//legal. array cannot copy, vector can
     std::vector<int> x2(3);//initialization numbers is 3 and elements are 0.
     std::vector<int> x3(3, 1);//initialization numbers is 3 and elements are 1.
     std::vector<int> x4{1, 2, 3};//initialization list.Same as x1.

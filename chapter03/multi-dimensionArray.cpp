@@ -8,7 +8,7 @@ int main() {
     int x1[3];
 
     int x2[3][4] = {};//x2[3],三个元素。每个元素类型都为int [4]
-    //A x2[3];->int[4] x2[3],注意维度.因为多维数组是嵌套的，因此别名的时候只能取最内层
+    //A x2[3];->int[4] x2[3],注意维度。因为多维数组是嵌套的，因此别名的时候只能取最内层
     x2[0];//its type is int [4]
     std::cout << sizeof(x2[0]) / sizeof(int) << '\n';
     std::cout << std::is_same_v<decltype(x2[0]), int (&)[4]> << '\n';//locator value with reference.
@@ -44,7 +44,7 @@ int main() {
     //int y5[][] = {1, 2, 3, 4};// error
     int y6[][2] = {1, 2, 3, 4};//legal
     int y7[][3] = {1, 2, 3, 4};
-    auto &a = y7;
+    auto& a = y7;
     std::cout << sizeof(y7) / sizeof(int) << '\n';
     std::cout << std::is_same_v<decltype(y7), int[2][3]> << '\n';
     //int y8[][] = {{1, 2, 3, 6}, {4, 5, 6, 7}};error
