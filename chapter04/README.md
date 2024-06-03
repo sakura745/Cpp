@@ -15,7 +15,7 @@
 ### 左值与右值
 `lvalRval.cpp`
 
-左右值的划分是针对表达式或表达式求值结果的，而不是针对对象或数值的。
+左右值的划分是针对**表达式或表达式求值结果**的，而不是针对对象或数值的。
 
 表达式有泛左值`glvalue`和右值`rvalue`，泛左值有左值`rvalue`和将亡值`xvalue`，右值有将亡值`xvalue`和纯右值`prvalue`。(左值和右值分出的将亡值是同一种)。
 纯右值和泛左值相对应。
@@ -29,7 +29,7 @@
 
 `rvalue`:可能是`xvalue`，意味着是用于标识一个对象、位或函数，但要被销毁的值；也可能`prvalue`是纯右值。
 
-**`rvalue reference`是只能绑定到'临时对象的引用'**,可以让临时对象不被消亡
+**`rvalue reference`是只能绑定到'临时对象的引用'**，可以让临时对象不被消亡
 
 左值可以转化为右值；纯右值可以转化为将亡值(Temporary Materialization)
 
@@ -61,7 +61,8 @@ C形式的类型转换[explicit_cast](https://en.cppreference.com/w/cpp/language
 ### 算数操作符 
 `arithmeticOperator.cpp`
 
-**一元**操作符 `+` `-`，配合`auto`使用，会产生integral promotion
+**一元**操作符 `+` `-`，配合`auto`使用，会产生integral promotion : the reason of integral promotion is avoiding overflowed
+and maintaining precision.
 ### 逻辑与关系操作符
 `logicOperator.cpp`
 
