@@ -4,7 +4,9 @@ struct Str {
     int x;
 };
 
-void fun(int x1, int x2) {}
+void fun(int x1, int x2) {
+
+}
 int main() {
     int a = 3;
     ++a;//等价a += 1;
@@ -18,7 +20,7 @@ int main() {
     std::cout << z << std::endl;
     std::cout << "----------" << std::endl;
     ++++x;//legal，但可读性低
-    //(x++)++;//illegal 返回值为右值(临时变量，返回的是自增之前的值)，右值不能++
+    //(x++)++;//illegal 返回值为右值，右值不能++
     //x++++;//illegal
 
     Str s = Str();
