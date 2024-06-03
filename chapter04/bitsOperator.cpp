@@ -21,7 +21,7 @@ int main() {
     std::cout << "----------" << std::endl;
 
     signed char x1 = -3;
-    //x1:1000 0011,但在计算机中是补码表示，x1:1111 1101
+    //x1:1000 0011,但在计算机中是补码表示 x1:1111 1101
     //~x1:0000 0010
     std::cout << ~x1 << std::endl;//~x1是2
     std::cout << (x1 << 1) << std::endl;//x1:1111 1101,移动后1111 1010是补码，原码为1000 0110 为-6
@@ -46,12 +46,13 @@ int main() {
     std::cout << w3 << std::endl;//输出不是-1，因为char对应ascii
     //c++insight:    auto w4 = ~w3;==> int w4 = ~static_cast<int>(w3);先提升再补反
     //w4's type is int,(integral promotion)
-    //w3(int):原码 1000 .... 0000 0001
-    //w3 补码   :  1111 .... 1111 1111
-    //~w3       :  0000 .... 0000 0000
+    //w3(int)原码:  1000 .... 0000 0001
+    //w3 补码    :  1111 .... 1111 1111
+    //w4(~w3)    :  0000 .... 0000 0000
     std::cout << w4 << std::endl;
     std::cout << "----------" << std::endl;
-    //以上看出是integral promotion是符号位都置为1，计算机是这么运行的
+    //以上看出是0xff->1111 1111 integral promotion： 1111 .... 1111 1111
+    //计算机(以补码的角度分析)是这么运行的
 
 
     int a = 0x80000000;//对于int（有符号）占4字符来说，正好溢出。最大为0x7fffffff

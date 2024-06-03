@@ -12,7 +12,7 @@ int main() {
 
     short c = 0x80000;
     std::cout << c << std::endl;
-//    short d  { 0x8000000 };// 直接报错error
+//    short d = { 0x8000000 };// 直接报错error
 
     int d = 3;
     short e;

@@ -10,9 +10,7 @@ void fun(std::vector<int>&& par) {//"&&" is rvalue reference
     //rvalue reference是只能绑定到临时对象的引用的一种
 }
 
-void fun1(const int& par) {
-
-}
+void fun1(const int& par) {}
 int main() {
     int x;
     x = 3;//讨论表达式，去掉分号。x为glvalue，3为prvalue
@@ -24,10 +22,9 @@ int main() {
     Str{};//prvalue 作为临时的对象
     std::vector<int> x1;//x1 is a glvalue,
     fun(std::move(x1));//std::move()将 x1 构造为 xvalue
-
     //... 后续代码不会继续使用xvalue 将亡值
 
-    const int a = 1;//a不能修改的左值(不能位于等号的左侧) "immutable lvalue"
+    const int a = 1;//a不能修改的左值(说明左值不能位于等号的左侧) "immutable lvalue"
     //首先a是一个glvalue。其次，a不是xvalue。因此a是lvalue
     //a = 5;//error:左值不一定能放到等号左边
 
@@ -36,9 +33,9 @@ int main() {
     Str{}/*prvalue可以放到等号左边*/ = Str{};
 
     int b = 3;//b 是 左值(首先是确定对象、位或函数的表达式，其次是资源没被释放，因此是左值)
-    int d = b;//当前语句中的b是右值，这是c++支持的左值与右值的转换
+    int d = b;//当前语句中的b是右值，这是c++支持的**左值与右值的转换**
     int c = 3;
-    b + c;//+运算符，b,c操作数是纯右值，b+c这个表达式就是将b,c从lvalue 转化为 rvalue
+    b + c;//+运算符。b,c操作数是纯右值，b+c这个表达式就是将b,c从lvalue 转化为 rvalue
 
     //Temporary Materialization。概念的引出就是为了满足下面的条件
     Str{}.x;//Str{}作为临时变量，是prvalue。通过操作符'.'，来访问结构体中的x。相当于访问结构体这一整块内存中的取出x。
