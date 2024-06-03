@@ -3,7 +3,7 @@
 
 int main() {
     int x = 3;
-    while (x) {//while (int x = 3) legal
+    while (x) {//while (int x = 3) legal，但是会一直循环
         std::cout << x << std::endl;
         --x;
     }
@@ -59,7 +59,8 @@ int main() {
     std::cout << "--------" << std::endl;
 
     std::vector<bool> arr4{true, false, true};
-    //for (auto& v : arr4) {//error 是因为bool内部逻辑问题
+    //for (auto& v : arr4) {//error 是因为bool内部逻辑问题，是因为vector<bool>的实现为了节省内存，其中的元素不是bool类型，
+//    而是std::vector<bool>::reference
     for (auto&& v : arr4) {//legal 使用万能引用 universal reference. 万能引用可以引用左值也可以引用右值
         v = false;
     }

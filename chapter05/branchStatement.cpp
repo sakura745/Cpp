@@ -36,20 +36,14 @@ int main() {
    int a = 3;
    {
        int b = 3 * a;//希望b是不可见的，在c++17之前加上域{}
-       if (b > 100) {
-
-       } else {
-
-       }
+       if (b > 100) {}
+       else {}
        // ...没有用到b
    }
 
    //from C17
-   if (int b = 3 * a; b > 100) {
-
-   } else {
-
-   }
+   if (int b = 3 * a; b > 100) {}
+   else {}
 
    //before c17
    int y;
@@ -66,11 +60,11 @@ int main() {
            std::cout << "China\n";
            break;
        case 2 + 1://case 3:
-            std::cout << "Hello\n";
-            break;
+           std::cout << "Hello\n";
+           break;
        case 4:
-            std::cout << "World\n";
-            break;
+           std::cout << "World\n";
+           break;
        case 5://5和6共享逻辑
        case 6:
            std::cout << "Beijing\n";
