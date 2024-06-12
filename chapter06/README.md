@@ -43,11 +43,7 @@
 `twoParaMain.cpp`
 `int main(int argc, char* argv[])`
 
-`argument count, argument vector`
-
-`argc`表示命令行参数的数量，当程序从命令行启动时，argc至少为1，因为程序的名称本身作为第一个变量
-
-`argv`是指针的数组，每个数组元素是`char*`类型的指针。`argv`数组最后一个元素指向空指针`NULL`
+`argument count, argument value` `argv`是指针的数组，每个数组元素是`char*`类型的指针。`argv`数组最后一个元素指向空指针`NULL`
 
 ## 3.函数体和返回类型
 `function.cpp`
@@ -68,24 +64,19 @@
 ### 函数重载
 `functionOverload.cpp`
 相同函数名、不同参数列表（类型、数目可以，但名称无关）
-不能基于不同的返回类型进行重载
-### 名称查找
-名称说明不一定是函数名称，也可以是变量名称
-`nameLookup.cpp`
-对于非限定查找来说，会进行域的逐级查找，当前域没找到，则会查找包含此域的更大的域：如派生类没找到，则会找对应基类。
-但是对于当前域的查找来说，不考虑形参的类型，只考虑单纯的名称查找
 
-实参依赖查找，只对自定义的类型生效
+不能基于不同的返回类型进行重载
+`nameLookup.cpp`
 ### 重载解析
 
-[重载解析](https://zh.cppreference.com/w/cpp/language/overload_resolution)：编译器如何选择正确的版本完成函数的调用
+重载解析：编译器如何选择正确的版本完成函数的调用
 
-`nonviableCandidates.cpp`过滤掉不能被调用的版本 + 再剩余版本中使用最匹配（实参与形参的匹配）的版本，匹配级别越低越好
+`nonviableCandidates.cpp`过滤掉不能被调用的版本
 ## 5.其他函数
 ### 递归函数
 
 ### 内联函数
-`inlineMain.cpp` `inlineSource.cpp`
+`inlineHeaded.cpp`
 内联函数不是函数的类型，是一种**优化机制**
 
 `inline`原本的操作是将函数体`a`直接赋到调用`a`函数的`b`函数中。省去函数调用这一过程。
