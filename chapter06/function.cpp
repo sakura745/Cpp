@@ -60,7 +60,7 @@ int /*main虽然返回类型是int，但可以隐式返回*/ main() {
     Str a;
     Str b = a;//copy constructor is called
 
-    Str res = fun6();//两次copy constructor.首先是fun6中返回的x拷贝出Str函数，构造临时对象（函数域中的临时对象），
+    Str res = fun6();//两次copy constructor。首先是fun6中返回的x拷贝出Str函数，构造临时对象（函数域中的临时对象），
     // 再是fun6()拷贝到res中。
     //named(具名)RVO:直接将构造临时对象省略，返回的对象直接在res上操作。底层是获取res的地址，
     // 直接在res上进行操作。目的是提升性能

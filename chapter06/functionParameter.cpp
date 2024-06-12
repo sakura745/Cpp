@@ -12,9 +12,7 @@ struct Str {
     }
 };
 
-void fun(Str par) {
-
-}
+void fun(Str par) {}
 
 void fun1(int par) {
     ++par;
@@ -25,29 +23,21 @@ void fun1(int* par) {
 void fun2(int& par) {
     ++par;
 }
-void fun3(int* par){
-
-}
+void fun3(int* par){}
 void fun4(int par[]){//等价于(int par[3])，但不建议par[]这么写，容易出错。
-
 }
 void fun5(int (*par)[4]) {//等价于(int par[3][4])但不建议这么写，容易出错。
 
 }
-void fun6(int (&par)[3]) {
+void fun6(int (&par)[3]) {}
 
-}
-
-void fun7(std::initializer_list<int> par){
-
-}
+void fun7(std::initializer_list<int> par){}
 
 std::initializer_list<int> fun8() {//初始化列表有风险
     return {1, 2, 3, 4};
 }
 
 void fun9(int x = 0) {//缺省实参
-
 }
 
 void funa(int x = 0, int y = 0){//legal
@@ -129,7 +119,7 @@ int main() {
     funa(1);
 
     func();//没给实参时，编译器会将func()解释为func(x)，而不是func(3).输出为3
-    x = 5;//修改全局变量。int x = 5;相当于修改局部变量。注意两者的区别
+    x = 5;//修改全局变量，注意是赋值给x，而不是初始化x: int x = 5;相当于修改局部变量。注意两者的区别
     func();//输出为5
 }
 
