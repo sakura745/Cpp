@@ -1,4 +1,4 @@
-`cin/cout`是out终端in，`ifstream/ofstream`是out文件in，`istringstream/ostringstream`是out缓冲区in
+`cin/cout`是`c`表示`character`，out终端in，`ifstream/ofstream`是out文件in，`istringstream/ostringstream`是out缓冲区in
 ## 1.IOStream概述
 `iostream.cc`
 采用流`stream`式，而非记录。stream是序列的意思，每个元素是一个字节。输入输出为字节流。
@@ -12,7 +12,7 @@ C++提出了底层基础的输入输出方式。
 输入的处理顺序：输入-->编码转换-->缓存-->解析
 
 ## 2.输入与输出
-`in_Output.cc`
+`inOutput.cc`
 分为格式化和非格式化
 ### 非格式化
 对计算机友好
@@ -23,7 +23,7 @@ C++提出了底层基础的输入输出方式。
 
 ### 格式控制
 对输出的修改，不再使用缺省参数
-- 位掩码类型 `showpos`
+- 显示正号 `showpos`
 - 字符类型 `fill`
 - 取值相对随意 `width` (触发后重置)
 
@@ -61,7 +61,7 @@ C++提出了底层基础的输入输出方式。
 
 注意`fail` 和 `eof` 的异同
 
-<img src="https://cdn.staticaly.com/gh/sakura745/Picx_image_host@master/20230906/Screenshot-from-2023-05-11-23-19-20.26o8gxzpu6f4.png" alt="Screenshot-from-2023-05-11-23-19-20" />
+<img src="https://github.com/sakura745/Picx_image_host/raw/master/20230906/Screenshot-from-2023-05-11-23-19-20.26o8gxzpu6f4.png" alt="Screenshot-from-2023-05-11-23-19-20" />
 
 `clear()` `setstate()`复位流的状态
 ## 5.流的定位

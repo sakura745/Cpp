@@ -13,8 +13,8 @@ int main() {
         int a;
         float b;
     };
-    a = 100;
-    std::cout << a << std::endl;//使用不同方式来解释 100所对应的二进制，整型形式
-    std::cout << b << std::endl;//float 浮点型形式
+    a = 100;//a和b共用同一块内存
+    std::cout << a << std::endl;//100所对应的二进制，整型形式
+    std::cout << b << std::endl;//100所对应的二进制表示为float 浮点型形式
 
 }

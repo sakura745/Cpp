@@ -38,9 +38,9 @@ int main() {
     std::cout << "---------------" << std::endl;
 
     std::ostringstream os("hello, world");
-    os.seekp(7);
+    os.seekp(7);//绝对位置
     os << 'W';
-    os.seekp(0, std::ios_base::end);
+    os.seekp(0, std::ios_base::end);//相对位置
     os << '!';
     os.seekp(0);
     os << 'H';

@@ -36,7 +36,7 @@ int main() {
 //              << static_cast<bool>(std::cin) << std::endl;
 //    //对终端直接输入`Ctrl + d` 会显示01010  显示eof被设置
 //    //输入10 输出10001
-//    //输出的01010和10001中，fail 和 eof都相同
+//    //输出的01010和10001中，fail 和 eof都相同（01010都是1，10001都是0）
 
 
 //    char x;
@@ -61,7 +61,7 @@ int main() {
 //    if (std::cin >> x) {//if中的内容被隐式转化为bool类型，static_cast<bool>(std::cin)的值
 //    }
 
-    std::ifstream file("example.txt");
+    std::ifstream file("../example.txt");
     int x;
 
     // 尝试读取文件中的数据
@@ -76,4 +76,5 @@ int main() {
     }
     // 继续使用流进行操作
     file >> x; // 现在可以继续使用流
+    std::cout << x << std::endl;
 }
