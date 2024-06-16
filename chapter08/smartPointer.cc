@@ -12,9 +12,7 @@ std::shared_ptr<int> fun1() {
     return res;
 }
 
-void fun2(int*) {
-
-}
+void fun2(int*) {}
 
 void fun3(int *ptr) {
     std::cout << "fun3 is called~" << std::endl;
@@ -27,6 +25,7 @@ std::unique_ptr<int> fun4() {
     return res;
 }
 
+//自定义删除器
 void fun5(int* ptr) {
     std::cout << "fun5 is called~" << std::endl;
     delete ptr;
@@ -49,7 +48,7 @@ int main() {
 
    ///shared_ptr
     //类型不同
-    int* x1(new int (3));
+    int* x1(new int(3));
     std::shared_ptr<int> x(new int (100));//类型为 shared_ptr<int>，不用担心内存泄漏，当x生命周期结束，调
     // 用析构函数自动销毁
     //包含引用计数默认为1，表示有多少个在引用该内存
@@ -77,12 +76,12 @@ int main() {
     fun2(yy1.get());//为了和正常指针相互调用而引入的get
 
     yy1.reset(new int(50));//先对yy1原有的进行引用计数减1，如果为0，则释放内存，重新接受50这块内存，计数变为1
-    yy1.reset((int*) nullptr);//不关联任何资源，重新分配成一个空指针，等价于std::shared_ptr<int> x;
+    yy1.reset(static_cast<int*>(nullptr));//不关联任何资源，重新分配成一个空指针，等价于std::shared_ptr<int> x;
 
+    //自定义销毁函数。fun3函数指针
     std::shared_ptr<int> x2(new int(100), fun3);
     //计数减一，为零。
     //fun3传给std::shared_ptr的构造函数，调用销毁函数：会执行fun3对应的代码，并销毁int(100)的内存。
-    //自定义销毁函数。fun3函数指针
 
     //shared_ptr有两个地址，一个存储100，一个存储引用技术，都是在heap上。这两个地址可能差的很远，用缓存进行读写，
     // 可能造成性能损失
@@ -113,7 +112,7 @@ int main() {
     std::cout << xx.get() << std::endl;
     std::cout << yy.get() << std::endl;
 
-    //这不是拷贝，函数内部是移动的方式到临时对象，临时对象初始化zz
+    //这不是拷贝，函数内部是移动(move)的方式到临时对象，临时对象初始化zz
     //把资源所有权从res给到zz
     std::unique_ptr<int> zz = fun4();
     std::unique_ptr<int, decltype(&fun5)> ww(new int(100), fun5);//指定回收内存

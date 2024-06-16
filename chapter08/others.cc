@@ -17,6 +17,10 @@ int main() {
     std::allocator<int> al;//分配器
     int* ptr2 = al.allocate(3);//分配了内存，并没有构造对象
     //在分配的内存上，可以使用placement new 构造对象
+    new (ptr) int(12);
+    new (ptr + 1) int(13);
+    new (ptr + 2) int(14);
+    //在释放通过分配器分配的内存时，有：对于int型，无需手动调用析构函数销毁对象。但是对于其他类型，记得要手动调用析构函数销毁对象
     al.deallocate(ptr2, 3);//这个3和分配的3必须相等
     std::cout << "--------------------" << std::endl;
 

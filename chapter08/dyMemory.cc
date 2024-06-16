@@ -39,7 +39,8 @@ int main() {
 
     //初始化
 //    int* a2 = new int{1};//也可以
-//    int* a3 = new int;//缺省初始化
+//    int* a3 = new int;//缺省初始化为不确定的值
+//    int* a3_1 = new int();//缺省初始化为0
 
     //初始化对象数组
 //    int* a3 = new int[5];//a3返回五个int的首地址，缺省初始化数组含有五个int
@@ -48,9 +49,8 @@ int main() {
 //    delete[] a4;//释放数组
 
 
-//    //如果内存分配失败，则不会抛出异常，如何区分内存是否分配成功, y 是否为nullptr
-//    int* y = new (std::nothrow) int(2);//如果nothrow去掉，则为错误的代码。因为内存开辟了，会执行else 失败了，会
-//    抛出异常，处理异常那段一直没用
+//    //对于使用new来说，如果内存分配失败，会抛出异常。通过nothrow的使用，内存分配失败，则不会抛出异常，而是变成返回nullptr
+//    int* y = new (std::nothrow) int(2);
 //    if (y == nullptr) {
 //        //.... 处理异常
 //    } else {
@@ -58,7 +58,7 @@ int main() {
 //        delete y;
 //    }
 
-//    char ch[sizeof(int)];//ch: char[4]
+//    char ch[sizeof(int)];//就是为了构造一个与int长度相匹配的char型数组（因为下面是构造int型的placement new）
 //
 //    int* y = new (ch) int(100);
 //    //ch 就是 placement new
