@@ -8,15 +8,15 @@ int main() {
     for (auto ptr = b; ptr < e; ++ptr) {
         std::cout << *ptr << ' ';
     }
+    std::cout << std::endl;
 
     auto f = a.rbegin();//reverse
     auto g = a.rend();
-    std::cout << std::endl;
     for (auto ptr = f; ptr < g; ++ptr) {
         std::cout << *ptr << ' ';
     }
-
     std::cout << std::endl;
+
     std::vector<int> a1{1, 2, 3};
     auto b1 = a1.cbegin();
     auto e1 = a1.cend();
@@ -24,6 +24,7 @@ int main() {
 //        *ptr = 3;//illegal:迭代器只读
         std::cout << *ptr << ' ';
     }
+    std::cout << std::endl;
 
     const std::vector<int> a2{1, 2, 3};
     auto b2 = a2.begin();

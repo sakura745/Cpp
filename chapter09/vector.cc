@@ -10,7 +10,6 @@ void print(const auto& a) {
 }
 int main() {
     std::vector<int> myVector;
-
     std::cout << "Initial capacity: " << myVector.capacity() << std::endl;
 
     for (int i = 0; i < 10; ++i) {
@@ -47,6 +46,10 @@ int main() {
     print(c1);
 
     c1.emplace(it, 200);//区别与push_back 和 emplace_back区别一样。同时，it迭代器会失效
-    //可以避免不必要的开销
+    //失效的原因是修改了元素的个数，原来的vector可能会重新分配内存，之前迭代器所指的位置会改变
+    //修改方法使用之后将返回新的迭代器，修改如下
+    //it = c1.insert(it, 200);
+    //it = c1.emplace(it, 200);
+    //insert和emplace的函数返回值就是为了这个作用
 
 }

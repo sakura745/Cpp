@@ -29,6 +29,7 @@ int main() {
     s1 < s2;//set支持比较操作
 
     //unordered_set/map 不支持比较操作，支持判等操作，但速度比较慢
+    //支持判等是因为根据元素哈希值的异同，来选择将其元素放入对应的bucket list中
     std::unordered_set<int> s3{3, 1, 5, 4, 1, 8};
     std::cout << (s != s3) << std::endl;
     //std::cout << (s < s3) << std::endl;//illegal

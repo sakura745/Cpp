@@ -9,7 +9,6 @@ std::ostream& operator<<(std::ostream& ostr, const std::list<int>& list)//运算
 {
     for (auto& i : list)
         ostr << ' ' << i;
-
     return ostr;
 }
 int main() {

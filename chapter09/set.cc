@@ -22,7 +22,7 @@ int main() {
     std::set<int> s3{100, 100, 3, 7, 56};
     std::cout << s3.size() << std::endl;//size为4，重复元素不算。
     for (auto ptr = s.begin(); ptr != s.end(); ++ptr) {//遍历set
-        std::cout << *ptr << ' ';//输出是有序的。中序遍历
+        std::cout << *ptr << ' ';//输出是有序的。因为set底层是红黑树，所以是中序遍历
     }
     std::cout << std::endl;
 
@@ -30,7 +30,7 @@ int main() {
     //std::set<Str> s5{Str{}};//illegal set赋值就报错。Str类型不能使用 < 。不能比较大小
     //set有个缺省的比较函数std::less
 
-    std::set<int, std::greater<int>> s6{100, 3, 7, 56};
+    std::set<int, std::greater<>> s6{100, 3, 7, 56};
     for (auto ptr = s6.begin(); ptr != s6.end(); ++ptr) {
         std::cout << *ptr << ' ';
     }
@@ -55,5 +55,6 @@ int main() {
 //    *s8.begin() = 100;//illegal 但是不能写
     //因为set迭代器指向的对象是const，维持数据结构
 
+    //由于set中的元素是const类型，因此在extract出现之前（c17），想要修改set中的元素，只能先删除再插入
     //extract见cppreference
 }

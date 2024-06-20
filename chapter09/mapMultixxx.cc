@@ -47,7 +47,7 @@ int main() {
     std::pair<int, double> p1(1, 1.1);
     auto p2 = std::make_pair(1, 1.1);
 
-    m.erase(3);//给一个key或者是迭代器即可
+    m.erase(3);//给erase一个key或者是迭代器即可
 
     auto ptr = m.find(2);//给一个key
     std::cout << ptr->first << ' ' << ptr->second << std::endl;
@@ -77,8 +77,8 @@ int main() {
     std::cout << s1.count(1) << std::endl;//元素个数 输出0 或者1，2，3...
 
     //寻找1的区间
-    auto a = s1.lower_bound(1);
-    auto b = s1.upper_bound(1);
+    auto a = s1.lower_bound/*理解为下界*/(1);
+    auto b = s1.upper_bound(/*理解为上界*/1);
 
     for (auto p = a; p != b; ++p) {
         std::cout << *p << ' ';
@@ -86,14 +86,14 @@ int main() {
     std::cout << std::endl;
 
     //上述区间需要lower和upper两行代码，麻烦。可以改为使用equal_range
-    auto c = s1.equal_range(1);//返回pair
-    for (auto cit = c.first; cit != c.second; ++cit) {
-        std::cout << *cit << ' ';
+    auto c = s1.equal_range(1);//返回pair:范围是[,)区间
+    for (; c.first != c.second; ++c.first) {
+        std::cout << *c.first << ' ';
     }
     std::cout << std::endl;
     auto [k2, v2] = s1.equal_range(1);//bind
-    for (auto cit2 = k2; cit2 != v2; ++cit2) {
-        std::cout << *cit2 << ' ';
+    for (; k2 != v2; ++k2) {
+        std::cout << *k2 << ' ';
     }
     std::cout << std::endl;
 

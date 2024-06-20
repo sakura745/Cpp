@@ -16,7 +16,7 @@
 int main() {
     std::vector<int> x(100);
     std::sort(std::begin(x), std::end(x));//sort是算法，独立于类
-    std::sort(x.begin(), x.end());//begin end是方法，获取迭代器。但是对于容器可以通过方法来或缺迭代器。
+    std::sort(x.begin(), x.end());//begin end是方法，获取迭代器。但是对于容器可以通过方法来获取迭代器。
     // 内建类型没有方法，只能通过算法来获取迭代器
 
     std::list<int> a;

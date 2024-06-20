@@ -2,9 +2,7 @@
 #include <array>//引入array
 #include <type_traits>
 
-void fun(int* ){
-
-}
+void fun(int* ){}
 void print(const auto& a) {
     for (auto i : a) {
         std::cout << i << ' ';

@@ -1,5 +1,7 @@
 ## 1.容器概述
 一种特殊的类型，其对象可以放置其他类型的对象。属于模板
+
+增删改查（CRUD）
 ### 容器分类
 - 序列容器：有序排列，使用整数值索引
 - 关联容器：顺序不重要，使用键索引
@@ -9,7 +11,8 @@
 `iterator.cc`
 用于指定容器的一段区间，以执行遍历、删除等操作
 
-用来模拟数组的指针，但没有指针那么强大。根据操作的不同，分为5类
+用来模拟数组的指针，但没有指针那么强大。根据操作的不同，分为5类:Input Iterator, Output Iterator, Forward Iterator, Bidirectional
+Iterator, Random Access Iterator.
 
 range：支持迭代器
 
@@ -45,19 +48,18 @@ range：支持迭代器
 ## 3.关联容器
 都是键值对，不过`set`的键是给一个变量，值是是否存在与该集合中。
 ### `set`,`map`,`multiset`,`multimap`
-底层是用红黑树实现的。
+底层是用红黑树实现的，key都为const类型
 
 `set.cc`元素支持比较大小，元素访问不支持`[]`  `set`迭代器指的对象是const类型
-
-`mapMultixxx.cc` `map`的键是const类型
 
 ### `unordered_xxx`底层是哈希表实现的。
 `unordered_xxx.cc`
 底层是hash表实现的
 
 ## 4.适配器与生成器
+对现有容器的调整，而产生新的接口
+
 **XXX_view的使用，是给XXX对象生成一种视图（view），既然是视图，不考虑复制操作，因此没必要使用引用&，来获取视图**
-对现有容器的调整，产生新的接口
 ### 类型适配器
 `typeAdaptor.cc`
 `string_view` c17支持字符串类型，推荐作为函数形参（不使用引用&的形式，直接使用），不推荐作为函数返回类型
