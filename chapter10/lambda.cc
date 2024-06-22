@@ -14,7 +14,7 @@ struct Str {
 struct Str1 {
     auto fun() {
         int val = 3;
-        auto lam = [val, this/* c17将this改为*this，解引用就不是指向这个对象了，变成就是这个对象，
+        auto lam = [val, *this/* c17将this改为*this，解引用就不是指向这个对象了，变成就是这个对象，
  *                                  变成值捕获，直接复制到函数体中 */] () {
             return val > x;
         };
@@ -51,17 +51,17 @@ int main() {
     auto a1 = [a] (int val) { return val > a; };
     std::cout << a1(5) << std::endl;
 
-    auto a2 = [a/*值捕获，复制到函数体中*/] (int val) mutable {
+    auto a2 = [a/*值捕获，复制到函数体中*/] (int val) mutable/*用于值捕获且修改值时*/ {
         ++a;
         return val > a;
     };
     std::cout << a2(12) << " " << a/*还是10，不会传递到lambda表达式外部*/ << std::endl;
 
-    auto a3 = [&a/*引用捕获*/] (int val) mutable/*可以去掉*/ {
+    auto a3 = [&a/*引用捕获*/] (int val) {
         ++a;
         return val > a;
     };
-    std::cout << a3(12) << " " << a/*是c11，引用*/ << std::endl;
+    std::cout << a3(12) << " " << a/*是11，引用*/ << std::endl;
 
     int aa = 3;
     auto a4 = [&a, aa/*混合捕获*/] (int val) {
@@ -95,6 +95,7 @@ int main() {
     std::cout << ss << std::endl;
     lam1();
 
+    ///初始化捕获的优点
     //通常情况下
     int bbb = 3;
     int ccc = 5;
@@ -108,10 +109,11 @@ int main() {
         return val > aaa;
     };
 
-    //用于建立一个新的同名变量，不会污染外部名字作用域
+    //用于建立一个新的同名变量，不会污染外部名字作用域 -- 相当于值捕获的显式
     auto lam4 = [bbb/*用来函数体计算的*/ = bbb/*给函数体bbb初始化的对象*/] (int val) {
         return val > bbb;
     };
+    std::cout << "------------" << std::endl;
 
     auto lamb = wrapper();
     //wrapper返回了lambda表达式，该表达式捕获了this指针，this指针指向的是wrapper中构造的局部自动对象s。

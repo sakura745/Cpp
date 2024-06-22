@@ -2,7 +2,7 @@
 #include <vector>
 #include <list>
 #include <algorithm>
-#include <iterator> //引入istream_iterator
+#include <iterator> //引入istream_iterator ostream_iterator等
 #include <sstream>
 #include <numeric>
 #include <iomanip>//引入quote
@@ -87,13 +87,15 @@ int main() {
     std::cout << res << std::endl << "----------------" << std::endl;
 
     ///ostream_iterator
-    std::ostream_iterator<char> oo (std::cout);//{} ()在括号里面有参数的时候，都可以。但是没有参数要注意区分
-    //以防c++解析错误
-    std::ostream_iterator<int> oi {std::cout, ", "};
+    //{} ()在括号里面有参数的时候，都可以。但是没有参数要注意区分以防c++解析错误
+    std::ostream_iterator<char> oo(std::cout);
+    std::ostream_iterator<char> oo2{std::cout};
+
+    std::ostream_iterator<int> oi{std::cout, ", "};
     std::fill_n(oi, 5, -1);
     *oo++ = '\n';
 
-    std::ostream_iterator<double> oi2 {std::cout, "; "};
+    std::ostream_iterator<double> oi2{std::cout, "; "};
     *oi2++ = 3.14;
     *oi2++ = 2.71;
     *oo++ = '\n';
@@ -110,7 +112,6 @@ int main() {
     std::copy(c.begin(), c.end(), std::ostream_iterator<int>{std::cout, " "});
     std::cout << std::endl;
     std::copy(c.rbegin(), c.rend(), std::ostream_iterator<int>{std::cout, " "});
-    std::cout << std::endl;
     std::cout << std::endl << "-------------------------" << std::endl;
 
     ///move_iterator

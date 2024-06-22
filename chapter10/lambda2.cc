@@ -10,8 +10,8 @@ auto fun(double val) {
     return val + 1;
 }
 
-int factorical(int n) {//n的阶乘
-    return n > 1 ? n * factorical(n - 1) : 1;
+int factorial(int n) {//n的阶乘
+    return n > 1 ? n * factorial(n - 1) : 1;
 }
 int main() {
     int y = 3;
@@ -77,19 +77,19 @@ int main() {
     //由于lam7的类型不确定，lam7(n - 1)行为不确定，所以不能接着解析。相当于a的问题是因为b，b的问题又是因为a，递归导致的。
     //由于不能接着解析，不能确定赋值右侧的部分，也不能使用。auto无法解析lam7类型
 
-    //但是函数可以：递归函数factorical如何解析。当遇到int factorical(int n)，编译器知道factorical是一个函数，输入int值，
-    // 返回int值，到了这一行， return n > 1 ? n * factorical(n - 1) : 1;自然可以解析
-    std::cout << factorical(5) << std::endl;
+    //但是函数可以：递归函数factorial如何解析。当遇到int factorial(int n)，编译器知道factorial是一个函数，输入int值，
+    // 返回int值，到了这一行， return n > 1 ? n * factorial(n - 1) : 1;自然可以解析
+    std::cout << factorial(5) << std::endl;
 
     //修改为如下
     auto lam7 = [](int n) {
-        auto lam8 = [](int n, const auto& lam9) -> int {
+        auto lam8 = [](int n, const auto& lam9) -> int/*最重要*/ {
             return n > 1 ? n * lam9(n - 1, lam9)/*递归lam9*/ : 1;
         };
         return lam8(n, lam8);//递归lam8
     };
     std::cout << lam7(5) << std::endl;
-    //auto类型判断是要整个语句解析完整，才知道。如何知道后面部分是lamb表达式，要整个解析完。lam7的函数体中没有调用lam7,
+    //auto类型判断是要整个语句解析完整才知道。如何知道后面部分是lamb表达式，要整个解析完。lam7的函数体中没有调用lam7,
     //因此可以解析出lam7是一个lambda表达式。为什么内部可以解析出是lambda表达式：lam8函数体中，也没有出现lam8
     //因此可以解析出lam8是一个lambda表达式。
     // return lam8(n, lam8);这一句，函数定义好了，正常调用也没问题。才将lam8变成递归。

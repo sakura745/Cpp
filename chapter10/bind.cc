@@ -3,29 +3,27 @@
 #include <functional>//引入bind bind1st bind2nd
 #include <memory>
 
-bool MyPredict(int val) {
+bool myPredict(int val) {
     return val > 3;
 }
-bool MyPredict2(int val1, int val2) {
+bool myPredict2(int val1, int val2) {
     return val1 > val2;
 }
 
-bool MyAnd(bool val1, bool val2) {
+bool myAnd(bool val1, bool val2) {
     return val1 && val2;
 }
 
-void MyProc(int* ptr) {
-
-}
+void myProc(int* ptr) {}
 auto fun() {
     int x;
-    return std::bind(MyProc, &x);
+    return std::bind(myProc, &x);
 }
 
-void MyProc1(std::shared_ptr<int> ptr) {}
+void myProc1(std::shared_ptr<int> ptr) {}
 auto fun1() {
     std::shared_ptr<int> x(new int());
-    return std::bind(MyProc1, x);
+    return std::bind(myProc1, x);
 }
 
 void Proc(int& x) {
@@ -37,7 +35,7 @@ int main() {
     std::vector<int> y2;
     std::vector<int> y3;
     std::vector<int> y4;
-    std::copy_if(x.begin(), x.end(), std::back_inserter(y1), MyPredict/*函数指针*/);
+    std::copy_if(x.begin(), x.end(), std::back_inserter(y1), myPredict/*函数指针*/);
 
     //bind_1st bind_2nd是c11之前给出的，现已舍弃
     std::copy_if(x.begin(), x.end(), std::back_inserter(y2),
@@ -60,11 +58,11 @@ int main() {
     }
     std::cout << std::endl << "-------------------------" << std::endl;
 
-//    std::copy_if(x.begin(), x.end(), std::back_inserter(y3),std::bind1st(MyPredict2, 3));//功能有限
+//    std::copy_if(x.begin(), x.end(), std::back_inserter(y3), std::bind1st(myPredict2, 3));//illegal功能有限
 
     //引入bind
-    using namespace std::placeholders;//用于在函数模板中指定占位符参数。bind中 _1 需要引入
-    std::copy_if(x.begin(), x.end(), std::back_inserter(y4), std::bind(MyPredict2, _1, 3));
+    using namespace std::placeholders;//用于在函数模板中指定占位符参数：bind中 _1 需要引入
+    std::copy_if(x.begin(), x.end(), std::back_inserter(y4), std::bind(myPredict2, _1, 3));
     //_1中的1表示的是copy_if中d_first的第1个参数（当然，d_first只有一个参数），而不是表示bind中的第1个
 
     for (auto i: y4) {
@@ -72,28 +70,28 @@ int main() {
     }
     std::cout << std::endl;
 
-    auto a = std::bind(MyPredict2, _1, 3);
+    auto a = std::bind(myPredict2, _1, 3);
     a(50);
-    //_1 表示 a 中的第一个参数。a(50)第一个参数是50。而不是表示MyPredict2 的第一个参数是 50
+    //_1 表示 a 中的第一个参数。a(50)第一个参数是50。而不是表示myPredict2 的第一个参数是 50
     std::cout << a(50) << std::endl;//50 > 3 。输出 true
     //bind绑定的函数复制给的函数至少有多少个参数，取决于_n的n的个数。如a至少有一个参数
 
-    auto b = std::bind(MyPredict2, 3, _1);
+    auto b = std::bind(myPredict2, 3, _1);
     b(50);
-    //就是说std::bind(MyPredict2, par1, par2)中par1、par2分别对应MyPredict2的两个参数
+    //就是说std::bind(myPredict2, par1, par2)中par1、par2分别对应myPredict2的两个参数
     //_1 对应b(par1)中的par1
     std::cout << b(50) << std::endl;//3 > 50 。输出 false
 
-    auto c = std::bind(MyPredict2, _2, 3);
+    auto c = std::bind(myPredict2, _2, 3);
     std::cout << c("asdf", 50) << std::endl;//50 > 3 。输出 true
     //_2 对应c(par1, par2)中的par2
 
-    auto d = std::bind(MyPredict2, _2, _1);
+    auto d = std::bind(myPredict2, _2, _1);
     std::cout << d(4, 50) << std::endl;//50 > 4 。输出 true
 
-    auto xx1 = std::bind(MyPredict2, _1, 3);
-    auto xx2 = std::bind(MyPredict2, 10, _1);
-    auto xx3 = std::bind(MyAnd, xx1, xx2);
+    auto xx1 = std::bind(myPredict2, _1, 3);
+    auto xx2 = std::bind(myPredict2, 10, _1);
+    auto xx3 = std::bind(myAnd, xx1, xx2);
     std::cout << xx3(5) << std::endl;// 5 > 3 && 10 > 5，就是5是否在(3, 10)区间内。输出true
     std::cout << xx3(51) << std::endl;// 51 > 3 && 10 > 51，就是51是否在(3, 10)区间内。输出false
     std::cout << "-------------------------" << std::endl;
@@ -119,7 +117,7 @@ int main() {
     zzz();
     std::cout << xxx << std::endl;//输出是2
 
-    auto q = std::bind_front(MyPredict2, 3);//把 3 绑定到了MyPredict2的第一个参数
+    auto q = std::bind_front(myPredict2, 3);//把 3 绑定到了myPredict2的第一个参数
     std::cout << q(2) << std::endl;//3 > 2 。输出 true
 }
 
