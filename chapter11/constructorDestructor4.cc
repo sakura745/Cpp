@@ -54,8 +54,9 @@ int main() {
 
     Str b(a);//会出现double free 错误。
     //是因为 &(a.ptr) = 1234, a.ptr = 5678 执行的拷贝构造时，&(b.ptr) = 2345, b.ptr = a.ptr = 5678.
+    //相当于浅拷贝
     //执行析构函数时，先销毁b 执行delete b。但是b和a指向的是同一块内存，再销毁a，delete a就相当于二次销毁
-    //修改 : 定义拷贝构造，不用默认的
+    //修改 : 定义拷贝构造（将其改为深拷贝），不用默认的
 
     Str c;
     c = a;//又会出现double free 错误。和拷贝构造一样原因的拷贝赋值错误。修改 ： 定义拷贝赋值，不用默认的
@@ -70,6 +71,7 @@ int main() {
     //fun(double)还需要隐式转换，
     //因此选用fun(int)，但是fun(int) 是delete ，所以会报错
     //但如果fun(int)未被声明，则会直接调用fun(double)
+    ///所以说，如果不想让fun()的参数为int，想让参数为double类型，可以使用 void fun(int) = delete;
 
     fun1(Str2{});//c11会报错 c17以上不会报错。因为c17对临时对象引入了named RVO
 

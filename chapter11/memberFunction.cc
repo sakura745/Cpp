@@ -16,7 +16,7 @@ namespace memberFunction {
     //将struct变为class
     class Str1 {
     public:
-        inline static int x = 3;
+        inline static int x = 3;//要想类内定义非类的变量就要显式给出inline
 
         void fun() {//类内定义 隐式内联
             std::cout << x << std::endl;
@@ -36,7 +36,7 @@ namespace memberFunction {
         int x;
     };
     //如果成员函数MyRes fun()是类外定义的话，既fun()需要使用 域操作符，函数返回类型也要使用 域操作符
-    //Str2::MyRes Str2::fun() {//...}，但是这么写需要些两遍Str2::。可以使用trail returnint type (c11)，改为
+    //Str2::MyRes Str2::fun() {//...}，但是这么写需要些两遍Str2::。可以使用trail returninh type (c11)，改为
     //auto Str2::fun() -> MyRes {//...}
 
     //illegal。因为第二遍处理的是函数定义
@@ -94,10 +94,13 @@ namespace memberFunction {
     struct Str7 {
         static void fun() {
             static int x;//就不是静态数据成员，而是局部静态变量。生存周期是从首次调用fun开始，一直到整个程序结束
+            //局部静态变量的局部是表示在函数体内
+            //而静态数据成员是在类内
         }
     };
 
     struct Str8 {
+        //静态成员函数中返回静态数据成员
         static auto& size() {
             return x;
         }

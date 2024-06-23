@@ -1,39 +1,43 @@
 #include <iostream>
-#include <vector>
-
+namespace access {
 //void abc();
-class Str {
-    friend int main();//可以被认为是函数的首次声明
-    friend/*friend是单向的*/ class/*如果友元类声明或定义在该类之前，可以省略；声明定义之后不可以省略*/ Str2;
-    //表示Str2是Str的朋友，Str的逻辑下，Str宣布谁是我的朋友。
-    //Str2可以访问Str的**任何**数据成员和接口。Str不是Str2的朋友
-    //friend关键字 不区分public  private protected
-    friend void fun();//可以被认为是函数的首次声明
+    class Str {
+        friend int main();//可以被认为是函数的首次声明
+        friend/*friend是单向的*/ class/*如果友元类声明或定义在该类之前，可以省略；声明定义之后不可以省略*/ Str2;
+
+        //表示Str2是Str的朋友，Str的逻辑下，Str宣布谁是我的朋友。
+        //Str2可以访问Str的**任何**数据成员和接口。Str不是Str2的朋友
+        //friend关键字 不区分public  private protected
+        friend void fun();//可以被认为是函数的首次声明
 //    friend void ::abc();//illegal: abc()前加了全局域操作符，说明是全局函数。则该行代码不表示为该函数声明。需要在全局域
-    //添加该函数的声明才能通过
+        //添加该函数的声明才能通过
 
-    inline static int x;
 
-    //友元类不能在类内定义
-    //友元函数可以区分类内定义和类外定义
-    friend void fun1(const Str&/*Str&才是友元函数的使用方式*/ val) {//友元函数的类内定义，会产生隐藏友元
-    //fun1函数的作用域是什么？
-    //一定不是Str内，因为属于Str的友元函数。所以是位于Str外的全局域中
-        std::cout << val.y << std::endl;
-    }
-public:
-    int y;
-    int z;
-};
+        //友元类不能在类内定义
+        //友元函数可以区分类内定义和类外定义
+        friend void fun1(const Str &/*Str&才是友元函数的使用方式*/ val) {//友元函数的类内定义，会产生隐藏友元
+            //fun1函数的作用域是什么？
+            //一定不是Str内，因为属于Str的友元函数。所以是位于Str外的全局域中
+            std::cout << val.y << std::endl;
+        }
 
-void fun() {}//友元函数的类外定义，不会产生隐藏友元
+    public:
+        int y;
+        int z;
+        inline static int x;
+    };
 
-class Str2 {
-    void fun2() {
-        std::cout << Str::x << std::endl;
-    }
-};
+    void fun() {
+        std::cout << "Call fun()" << std::endl;
+    }//友元函数的类外定义，不会产生隐藏友元
 
+    class Str2 {
+        friend void fun2() {
+            std::cout << Str::x << std::endl;
+        }
+    };
+}
+using namespace access;
 int main() {
     std::cout << Str::x << std::endl;
     fun();

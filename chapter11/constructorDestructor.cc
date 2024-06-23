@@ -72,6 +72,7 @@ namespace ctordtor {
         Str4(const std::string& val) {
             std::cout << "Pre-assignment: " << x << std::endl;//这一行没有报错，说明x已经被初始化了。
             //使用缺省初始化已经构造了，构造为空字符串
+
             x = val;//赋值
             std::cout << "Post-assignment: " << x << std::endl;
         }//性能不是很好，没有直接初始化为指定字符串。先通过缺省初始化，再赋值。等价于std::string x; x = "abc";
@@ -95,6 +96,7 @@ namespace ctordtor {
         int y;
         int z;
         int& ref;//引用在初始化时，要给定引用对象。因此只能使用初始化列表来初始化。因为函数体中的是属于赋值行为
+        //const 和 &一样，都要初始化列表来初始化
     };
 
     class Str6 {
@@ -117,7 +119,7 @@ namespace ctordtor {
     public:
         Str7() {}//缺省构造函数。不提供任何参数来构造
         Str7(int input = 3) {}//也是缺省构造函数，不提供任何参数来构造
-
+        //在广义定义上上述两个函数是相同的，但是要是准确的来说，函数是不同的。
     private:
         std::string x;
         size_t y;
@@ -138,7 +140,7 @@ namespace ctordtor {
     struct Str10 {
         size_t x;
         size_t y;
-        int &ref;
+        int& ref;
     };
     struct Str11 {
         //内建类型，缺省初始化为随机值

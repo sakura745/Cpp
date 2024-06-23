@@ -4,11 +4,11 @@ namespace ctordtor3 {
     struct Str {
         Str() = default;
 
-        Str(const Str &) = default;
+        Str(const Str&) = default;
 
-        Str(Str &&) noexcept = default;
+        Str(Str&&) noexcept = default;
 
-        Str&/*void也不是不行。&可以避免构建临时对象而产生的额外开销*/ operator=(const Str &x) {//拷贝赋值函数
+        Str&/*void也不是不行。&可以避免构建临时对象而产生的额外开销*/ operator=(const Str& x) {//拷贝赋值函数
             //处理给自身赋值的情况
             if (&x == this) {
                 return *this;
@@ -19,7 +19,7 @@ namespace ctordtor3 {
             return *this;
         }
 
-        Str& operator=(Str &&x) {//移动赋值函数
+        Str& operator=(Str&& x) {//移动赋值函数
             //处理移动自身的情况
             if (&x == this) {
                 std::cout << "Dummy assignment" << std::endl;
@@ -97,5 +97,6 @@ int main() {
     //显式的内存分配和销毁
     Str2* m9 = new Str2();
     delete m9;//如果不使用delete显式销毁，不会调用析构函数
+    std::cout << "-------------------" << std::endl;
 
 }

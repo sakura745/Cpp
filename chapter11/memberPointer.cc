@@ -3,20 +3,19 @@
 #include <functional>
 namespace memberPointer {
     class Str;//Str声明
-    /*class Str {//Str定义
-
-    };*/
+    //class Str {};//Str定义
     class Str2 {
     public:
         int x;
         int y;
-        inline static int z;
+        static int z;
+        inline static int z2;
 
         void fun() {}
 
         void fun(double) {}
 
-        void fun1(double val) {
+        void fun2(double val) {
             std::cout << val << std::endl;
         }
     };
@@ -47,7 +46,8 @@ int main() {
     //&(Str2::x)表示(Str2::x)有定义，然后对其取地址。为什么(Str2::x)没有定义，因为类中的x是声明。声明并没有为其分配内存
     //可以将int x改成 static int x;
 //    int Str2::* ptr6 = &(Str2::z);//illegal.静态成员的指针就是单纯的int*类型
-    int* ptr7 = &(Str2::z);//still illegal.因为静态变量z没有定义，添加关键字 inline实现了定义，虽然是缺省定义
+//    int* ptr7 = &(Str2::z);//still illegal.因为静态变量z没有定义
+    int* ptr7_2 = &(Str2::z2);//legal.添加关键字 inline实现了定义，虽然是缺省定义
 
 //    *ptr3;//illegal 因为ptr3没有指向真实的地址。Str2中的x只是声明，所以不能解引用
 
@@ -63,11 +63,11 @@ int main() {
     std::cout << ptr_obj->x<< std::endl;
     ptr_obj->x = 30;
     std::cout << ptr_obj->x<< std::endl;
-    std::cout << ptr_obj->*ptr3/* ->是ptr_obj的，*是ptr3的。*/ << std::endl;
+    std::cout << ptr_obj->*ptr3/* ->是ptr_obj的，*是ptr3的。->*也是一个整体 */ << std::endl;
     std::cout << "--------------------" << std::endl;
 
     ///bind
-    auto ptr8 = &Str2::fun1;//成员函数指针
+    auto ptr8 = &Str2::fun2;//成员函数指针
     Str2 obj3;
     (obj3.*ptr8)(100);//obj3.*ptr8(100)illegal。因为 .* 是一个整体，要先结合
 
@@ -80,5 +80,5 @@ int main() {
     obj3.*ptr9 = 344;
     auto yy = std::bind(ptr9, obj3);
     std::cout << yy()/*可调用对象，要给一个显式的调用 yy后加()*/ << std::endl;
-
+    //bind到函数指针时，需要第三个参数；bind到成员指针，就不需要第三个参数
 }

@@ -40,7 +40,7 @@ namespace structSpace {
         //相当于Str3内没有对象，属于不完全类型 incomplete type.只有声明，没有定义
     };
 //Str3 Str3::y;
-    inline Str3 Str3::y;
+    inline Str3/*表示类型*/ Str3/*表示所属的域*/::y;
 }
 using namespace structSpace;
 int main() {
@@ -71,7 +71,7 @@ int main() {
     Str m_str8;
     m_str7.x = 100;
     m_str7.www = 100;
-    std::cout << m_str8.x << std::endl;//输出为0
+    std::cout << m_str8.x << std::endl;//输出为不确定
     std::cout << m_str8./*.访问静态数据成员*/www << std::endl;//输出为100，因为www是静态数据成员，共享数据
 
     Str* ptr1 = &m_str;
