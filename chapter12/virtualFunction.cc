@@ -52,12 +52,13 @@ namespace virtualFunction {
         b.fun();
     }
 
+    //签名会改变的唯一例外
     class Base3 {};
     class Derive3 : public Base3 {};
     class Base4 {
     public:
         virtual Base3& fun() {
-            std::cout << "Base2::fun() is called.\n";
+            std::cout << "Base4::fun() is called.\n";
             static Base3 base3;
             return base3;
         }
@@ -65,16 +66,16 @@ namespace virtualFunction {
     class Derive4 : public Base4 {
     public:
         Derive3& fun() {//基类虚函数在派生类重写，函数签名改变了。由Base3& 变为 Derive3&。或由Base3* 变为 Derive3*。这是唯一的例外
-            std::cout << "Derive2::fun() is called.\n";
+            std::cout << "Derive4::fun() is called.\n";
             static Derive3 deri3;
             return deri3;
         }
     };
 
-    class Base5 {//包含了纯虚函数的基类叫抽象基类
+    class Base5 {//只要包含了纯虚函数的基类就叫抽象基类
     public:
         Base5() = default;
-        virtual void fun1() = 0/*纯虚函数*/;
+        virtual void fun() = 0/*纯虚函数*/;
         //通常纯虚函数不给定义。只是为了建立个vtable，给出了抽象接口：目的是让其在派生类给出具体的实现
         //比如说有Right Triangle **is a** Triangle，**is** also **a** Shape。直角三角形可以定义一个具体函数draw()，
         //用来画出形状，三角形也可以用函数draw()来画出形状，但Shape不能用函数draw()来画出形状，只能在Shape中定义一个
@@ -82,19 +83,21 @@ namespace virtualFunction {
     };
     class Derive5 : public Base5 {
     public:
-        void fun1() {
+        void fun() {
             std::cout << "Derive5::fun() is called.\n";
         }
     };
-    class Derive5_1 : public Base5 {};
+    class Derive5_1 : public Base5 {
+        void fff() {}
+    };
 
     class Base6 {
     public:
-        virtual void fun1() = 0;
+        virtual void fun() = 0;
     };
     class Derive6 : public Base6 {
     public:
-        void fun1() {
+        void fun() {
             std::cout << "Derive6::fun() is called.\n";
         }
     };
@@ -154,18 +157,22 @@ using namespace virtualFunction;
 
 int main () {
     myClassDerived2 d;
+
+    //是因为继承
     Base& ref = d;
     Base* ptr = &d;
+
+    //是因为virtual，多态
     //把基类的引用转换为派生类的引用
     myClassDerived2& d2 = dynamic_cast<myClassDerived2&>(ref);
     //把基类的指针转换为派生类的指针
     myClassDerived2* ptr2 = dynamic_cast<myClassDerived2*>(ptr);
-    //支持上述类型转换，是因为引入了动态类型信息typeinfo，typeinfo是vtable定义的，vtable是因为定义了virtual函数。
+    //支持上述类型转换，是因为基类引入了动态类型信息typeinfo，typeinfo是vtable定义的，vtable是因为定义了virtual函数。
     //vtable、typeinfo和操作都是通过指针来完成的
     //所以支持上述类型转换，是因为virtual函数引入。"virtual"去掉，error : source type is not polymorphic.
     //只要**基类**没有vtable，不支持动态类型转换。强调的基类，如果派生类 virtual去掉，还是可以动态类型转换
 
-    //可以将mmyClassDerived引入virtual，mmyClassDerived2就可以转换
+    //可以将mmyClassDerived引入virtual，mmyClassDerived2就可以转换；或者BBase有虚函数也可以
     mmyClassDerived2 dd;
     mmyClassDerived& rref = dd;
     mmyClassDerived* pptr = &dd;
@@ -193,18 +200,19 @@ int main () {
 
     Derive5 d5;
     Base5& b5 = d5;
-    b5.fun1();
-    //不能声明抽象基类的对象，有缺省构造函数也不行
+    b5.fun();
 //    Base5 b6;//illegal
-    //可以声明指针、引用:上面这个 Base5& b5 = d5; 就是
+    //不能声明抽象基类的对象，有缺省构造函数也不行
+    //但可以声明指针、引用:上面这个 Base5& b5 = d5; 就是
 
-//    Derive5_1 d5_1;//illegal. 因为Derive5_1，派生于Base5，没有对基类中的纯虚函数重写override，Derive5_1也被视为抽象基类。
+//    Derive5_1 d5_1;//illegal. 因为Derive5_1，派生于Base5，只要没有对基类中的纯虚函数重写override，Derive5_1也被视为抽象基类。
     //不能声明抽象基类的对象
     //如果Base5中有100个纯虚函数，Derive5_1想要声明对象，要对Base5中的所有纯虚函数进行一一重写(override)
 
     //Base6是抽象基类，Derive6派生于Base6，对纯虚函数有override，
-    //Derive6_1，派生于Derive6，没有对纯虚函数的override。但仍可以声明对象
-    Derive6_1 d6;//说明对于Derive6_1来继承自上一层类Derive6，Derive6是具体的类（不是抽象基类），因此Derive6_1可以正常使用
+    //Derive6_1派生于Derive6，没有对纯虚函数的override。但仍可以声明对象
+    Derive6_1 d6;//抽象类不能传递，只能影响一层继承
+    //说明对于Derive6_1来继承自上一层类Derive6，Derive6是具体的类（不是抽象基类），因此Derive6_1可以正常使用
     //只要是继承于具体的类就行。不用关心继承类Derive6的上一层继承类Base6是什么。
     std::cout << "----------------" << std::endl;
 

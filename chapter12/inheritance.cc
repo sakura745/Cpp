@@ -57,6 +57,7 @@ int main() {
     Derive d;
     Base& ref = d;
     Base* ptr = &d;
+    Base b = d;//存在派生到基类的隐式转换
 
     //反过来不行。不满足**是一个**的关系
 //    Base bb;
@@ -92,8 +93,6 @@ int main() {
     d3.ffun();
 //    d3.fffun();//illegal. protected里的private权限
 
-
     //基类和派生类的访问权限通常设置一致
-
 
 }

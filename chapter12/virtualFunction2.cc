@@ -46,7 +46,7 @@ namespace virtualFunction2 {
     };
     class Derive3 final : public Base3 {
     public:
-        Derive3() : Base3() {
+        Derive3() : Base3()/*有没有初始化列表构造Base3()不会影响输出结果*/ {
             fun();
         }
         void fun() {
@@ -106,13 +106,13 @@ using namespace virtualFunction2;
 
 int main() {
     Derive d;
-    proc(d);//输出为 Derive: 3000。虚函数的缺省实参只会考虑静态类型，d的静态类型为Base。在编译期，proc函数的行为变成
-    //b.fun(3000)。所以输出为 Derive（运行期）: 3000（编译期）。
+    proc(d);//输出为 Derive: 3000。虚函数的缺省实参只会考虑静态类型，d在proc()静态类型为Base。
+    //在编译期，proc函数的行为变成b.fun(Base)。所以输出为 Derive（运行期）: 3000（编译期）。
 
     proc1(d);//输出为 Base: 3000。构造Derive之前，先构造Base，构造Base时，Base内所有的虚函数都只有Base内定义。构造
     //完Base后，再构造Derive，会把原来指向Base内虚函数的指针，指向为Derive内的虚函数。当proc1()传入Derive类型，会有一个
     //Derive到Base的隐式转换。当然就输出Base内的虚函数了。
-//    Base tmp = d;///legal : 存在Derive到Base的隐式转换
+    Base tmp = d;///legal : 存在Derive到Base的隐式转换
     //为什么proc()形参为Base&或Base*就可以呢？指针指向的内存，就是对象，类型就是Derive类型，当然就调用Derive内的虚函数了
     //引用的底层也是指针。
     std::cout << "----------------------" << std::endl;
@@ -123,17 +123,20 @@ int main() {
     //完成初始化列表 Derive3() : Base3()，Derive3所有函数都初始化完毕，vtable中的fun()由Base3指向了Derive3版本，所以会输
     //出Derive3
 
-//    Derive4* d4 = new Derive4();
-//    delete d4;
+    Derive4* d4 = new Derive4();
+    delete d4;
     //先输出~Derive4() 再输出~Base4()，先构造的后析构
-
+    std::cout << "----------------------" << std::endl;
 
     //行为未定义（基类析构函数不是虚函数）
+    //因为当删除b4时，调用了基类的析构函数，但是由于不是virtual，不能调用派生类的析构函数
     Derive4* d5 = new Derive4();
-    Base4* b4 = d5;
+    Base4*/*注意类型，不是Derive4 */ b4 = d5;
     delete b4;
-    std::shared_ptr<Base4> ptr(new Derive4());
-    std::unique_ptr<Base4> ptr2(new Derive4());
+//    std::shared_ptr<Base4> ptr(new Derive4());
+    std::shared_ptr<Base4> ptr = std::make_shared<Derive4>();//不能使用auto，因为是Base4类型，而不是Derive4类型
+//    std::unique_ptr<Base4> ptr2(new Derive4());
+    std::unique_ptr<Base4> ptr2 = std::make_unique<Derive4>();
 
     //行为确定（基类析构函数为虚函数）：先输出~Derive5() 再输出~Base5()，先构造的后析构。
     Base5* b5 = new Derive5();
@@ -149,6 +152,6 @@ int main() {
     d6.fun();
     Base7& b7 = d6;
 //    b7.fun();//illegal。 动态绑定属于运行期行为。权限属于编译期行为，由于b7的静态类型为Base7& Base7中没有fun()的访问权
-    //限
+    //限，所以不能根据基类的虚函数表来调用派生类的fun()
 
 }

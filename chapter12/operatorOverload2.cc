@@ -123,7 +123,6 @@ int main() {
     std::cout << *ptr << std::endl;
     *ptr = 101;
 
-
     Str* pt = nullptr;
     pt->val;
     Str m1;

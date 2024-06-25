@@ -14,15 +14,14 @@ namespace operatorOverload {
         }
     };
 
-
 /*
+    //legal
     auto operator+(Str x, Str y) {
         Str z;
         z.val = x.val + y.val;
         return z;
     }
 */
-
 
 //    auto operator+(int x, double y) {}//illegal x y至少一个为类 类型
     auto operator+(int x, Str y) {}//legal
@@ -59,6 +58,7 @@ namespace operatorOverload {
             return Str4(input1.val + input2.val);
         }
 
+        //下述实现，维持了ostr << input的顺序，左侧参数在<<的左侧，右侧参数在<<的右侧
         friend auto&/*输出流不支持拷贝，只能返回引用*/ operator<<(std::ostream&/*由于ofstream, cout, ostringstream都派
         生自ostream，可以用ostream&表示任何输出流*/ ostr, Str4 input) {
             ostr << input.val;
@@ -72,10 +72,13 @@ namespace operatorOverload {
             val = static_cast<int>(input.size());
             return *this;
         }
-        int& operator[](int id) {
+        int&/*使用&的原因是[]是可读可写的*/ operator[](int id) {
             return val;
         }
         int operator[](int id) const {//对于operator[]的又一次重载。重载不能基于返回类型重载。是基于有无const进行重载的
+            //对于上一个operator[]的参数来说，第一个是this指针，类型为Str4*，
+            //该函数来说第一个参数是const this指针，类型为const Str4*
+            //但不会出现Str4* const这种类型的this指针
             return val;
         }
 
@@ -115,7 +118,7 @@ int main() {
     //+ 是对称运算，也应该支持4 + x1
 //    Str2 z3 = 4 + x1;//illegal:Invalid operands to binary expression ('int' and 'Str2'
     //因为编译器先看到4，再看到+。会直接使用内建类型的+，而不会使用Str2内的成员函数。
-    //对称运算符应该定义为非成员函数
+    ///对称运算符应该定义为非成员函数
     std::cout << "--------------" << std::endl;
 
     Str3 x2 = 3;

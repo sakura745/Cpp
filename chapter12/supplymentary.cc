@@ -13,19 +13,19 @@ namespace supplymentary {
     };
     class Derive_public : public /* **是一个** 的行为*/ Base {//99%的程序都是public继承
     public:
-//        int x;//x 在 Derive_public 还是public权限
+        int x;//x 在 Derive_public 还是public权限
     protected:
 //        int z;//z 在 Derive_public 还是protected权限
     };
     class Derive_private : private /* **根据基类实现出** 的行为*/ Base {
     private:
-//        int x;//x 在 Derive_public 是private权限
-//        int z;//z 在 Derive_public 是private权限
+//        int x;//x 在 Derive_private 是private权限
+//        int z;//z 在 Derive_private 是private权限
     };
     class Derive_protected : protected /*没人用*/ Base {
     protected:
-//        int x;//x 在 derive_public 是protected权限
-//        int z;//z 在 derive_public 是protected权限
+//        int x;//x 在 Derive_protected 是protected权限
+//        int z;//z 在 Derive_protected 是protected权限
     };
 
     class Base2 {
@@ -55,6 +55,8 @@ namespace supplymentary {
     class Derive3 : public Base3 {
     public:
         using Base3::Base3;
+        //无用的操作
+        //c++标准规定的行为：无法改变构造函数的访问权限
     };
 
     class Base3_1 {
@@ -70,10 +72,10 @@ namespace supplymentary {
     class Base4 {
     protected:
         virtual/*不是虚函数，也可以在派生类修改*/ void fun() {
-            std::cout << "1" << std::endl;
+            std::cout << "Base4 protected fun()" << std::endl;
         }
         virtual void fun(int) {
-            std::cout << "2" << std::endl;
+            std::cout << "Base4 protected fun(int)" << std::endl;
         }
     };
     class Derive4 : public Base4 {
@@ -84,10 +86,10 @@ namespace supplymentary {
     class Base5 {
     protected:
         virtual void fun() {
-            std::cout << "1" << std::endl;
+            std::cout << "Base5 protected fun()" << std::endl;
         }
         virtual void fun(int) {
-            std::cout << "2" << std::endl;
+            std::cout << "Base5 protected fun(int)" << std::endl;
         }
     };
     class Derive5 : public Base5 {
@@ -95,7 +97,7 @@ namespace supplymentary {
         using Base5::fun;
 
         void fun(int) override {
-            std::cout << "3" << std::endl;
+            std::cout << "Derive5 fun(int)" << std::endl;
         }
         //using的优先级低于override
     };
@@ -160,8 +162,7 @@ namespace supplymentary {
     class Derive9 final : public Base9 {
     public:
         Derive9(int x)
-            : val(x)
-        {}
+            : val(x) {}
         double getValue() override {
             return val;
         }
@@ -170,8 +171,7 @@ namespace supplymentary {
     class Derive9_2 final : public Base9 {
     public:
         Derive9_2(double x)
-                : val(x)
-        {}
+                : val(x) {}
         double getValue() override {
             return val;
         }
@@ -196,11 +196,11 @@ namespace supplymentary {
         int x;
         virtual ~BBase11() = default;
     };
-    class Base11 : virtual public BBase11 {
+    class Base11 : virtual/*虚继承*/ public BBase11 {
     public:
         virtual ~Base11() = default;
     };
-    class Base11_2 : virtual public BBase11{
+    class Base11_2 : virtual/*虚继承*/ public BBase11{
     public:
         virtual ~Base11_2() = default;
     };
@@ -244,7 +244,8 @@ namespace supplymentary {
 using namespace supplymentary;
 
 int main() {
-    //派生类的继承可以有public private protected。无论是哪种继承，派生类对基类成员的访问权限都不改变。
+    //派生类的继承可以有public private protected。
+    //无论是哪种继承，派生类对基类成员的访问权限都不改变。
     //基类public，派生可以访问；基类private，派生无法访问；基类protected，派生可以访问
 
     Derive2 d;
@@ -258,7 +259,7 @@ int main() {
 
     ///using与部分重写 -- 看上去是修改了构造函数的访问权限，其实是派生类能访问该成员：派生类由编译器合成的缺省构造
     ///函数可以访问到基类的protected权限的缺省构造函数
-    Derive3_1 d2_1;//单参构造变成缺省构造就可以了，为什么？
+    Derive3_1 d2_1;//由Derive3 d2(100)的报错，单参构造变成缺省构造就可以了，为什么？
     //因为Derive3_1在构造过程中，编译器发现派生类中没有构造函数，编译器合成派生缺省构造，派生缺省构造调用基类的
     //缺省构造函数（public）。就是说Derive3_1 d2_1;的合法性是通过派生类缺省构造函数调用基类缺省构造得来的
     Derive3_1 d2_2(d2_1);//同理
@@ -286,7 +287,7 @@ int main() {
     std::cout << "--------------------------" << std::endl;
 
 
-    //通过基类指针在容器中保存不同类型对象，有一个条件，类型需要找到一个公共类型可以代表的。比如double和int
+    //通过基类指针在容器中保存不同类型对象，有一个条件，类型需要找到一个公共类型可以代表的。比如double和int中double可以代表
     std::vector<std::shared_ptr<Base9>> vec;//可以用Base9保存int double类型的vector
     vec.emplace_back(new Derive9{1});
     vec.emplace_back(new Derive9_2{33.1});
@@ -299,6 +300,7 @@ int main() {
     //通过virtual虚继承来获取
     d7.x;//因为Base11和Base11_2都是虚继承于BBase11，编译器在构造的对象里只保存BBase11的一个实例
 
+    std::cout << "--------------------------" << std::endl;
     std::cout << sizeof(Base12) << std::endl;//输出1。为了区别Base12 a[10]中的 a[0] 和 a[1]的区别，所以为不能为0，设置为1
     std::cout << sizeof(Base13) << std::endl;//还是1
     std::cout << alignof(Derive14) << std::endl;//输出4
