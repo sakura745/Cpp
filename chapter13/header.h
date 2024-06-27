@@ -4,7 +4,7 @@
 //fun1的模板定义
 template <typename T>
 void fun1(T x) {
-    std::cout << x << std::endl;
+    std::cout << "Header.h's fun1() " << x << std::endl;
 }
 
 //fun1显式实例化定义
@@ -15,7 +15,7 @@ void fun1<int>/*显式提供模板实参*/(int x);
 //fun2的模板定义
 template <typename T>
 void fun2(T x) {
-    std::cout << x << std::endl;
+    std::cout << "Header.h's fun2() " << x << std::endl;
 }
 
 //fun2显式实例化定义
@@ -26,7 +26,7 @@ void fun2/*隐式提供模板实参*/(int x);
 //fun3的模板定义
 template <typename T>
 void fun3(T x) {
-    std::cout << "Template fun3 is called.\n";
+    std::cout << "Header.h's fun3()\n";
 }
 
 

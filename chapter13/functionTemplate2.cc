@@ -1,6 +1,6 @@
 #include <iostream>
-#include "header.h"
 #include <type_traits>
+#include "header.h"
 
 template <typename T>
 void fun(T x){
@@ -33,16 +33,16 @@ void fun<int*>(int* x);//它是template <typename T> void fun(T x)的显式实�
 template
 void fun/*如果把显式转换变为隐式转换*/(int* x);//它是template <typename T> void fun(T* x)的显式实例化定义。选择特殊的进行推导
 //现在它是处于template <typename T> void fun(T x) 和 template <typename T> void fun(T* x) 的下面
-//改为处于template <typename T> void fun(T x) 的下面 ，则实例化为template <typename T> void fun(T x) .编译器从上往下编译
+//改为处于template <typename T> void fun(T x) 的下面 ，则实例化为template <typename T> void fun(T x) 。编译器从上往下编译
 
 
 //模板的完全特化：对int的特化
 template <>
-void fun/*隐式推导*/(int x){
+void fun/*隐式推导*/(int x) {
     std::cout << x << std::endl;
 }
 template <>
-void fun<double>/*显示给定*/(double x){
+void fun<double>/*显式给定*/(double x) {
     std::cout << x << std::endl;
 }
 
@@ -57,7 +57,7 @@ void fun5(T* x) {
 }
 template<>
 void fun5(int* x) {
-    std::cout << "Fun5 template Specialization is called.\n";
+    std::cout << "Fun5 int template Specialization is called.\n";
 }
 
 template<typename T>
@@ -70,7 +70,7 @@ void fun6(T* x) {
 }
 template<>
 void fun6<int*>(int* x) {
-    std::cout << "Fun6 template Specialization is called.\n";
+    std::cout << "Fun6 int template Specialization is called.\n";
 }
 
 template<typename T>
@@ -79,7 +79,7 @@ void fun7(T x) {
 }
 template<>
 void fun7(int* x) {
-    std::cout << "Fun7 template Specialization is called.\n";
+    std::cout << "Fun7 int template Specialization is called.\n";
 }
 template<typename T>
 void fun7(T* x) {
@@ -135,9 +135,9 @@ int fun11(T1 x, const int&/*假参数*/) {
     return int{};
 }
 
-//illegal
-/*template<typename T>
-int fun10<int, T>(T x) {}*///error : Function template partial specialization is not allowed.只对Res进行特化
+//template<typename T>
+//int fun10<int, T>(T x) {}
+//error : Function template partial specialization is not allowed.只对Res进行特化
 
 
 //c20。通过auto简化函数模板
@@ -155,12 +155,12 @@ int main() {
     fun1<int>(4);//直接调用fun1()函数，不用再实例化了（header.h已经有了实例化的定义）
     fun2<int>(4);//直接调用fun2()函数，不用再实例化了（header.h已经有了实例化的定义）
 
-    fun3<int>(4);//声明是在本翻译单元中，显式实例化定义是在source翻译单元中，模板是在header.h中给出
+    fun3<int>(4);//声明是在本翻译单元中，显式实例化定义是在source.cc翻译单元中，模板是在header.h中给出
 
     int x = 77;
-    fun5(&x);//输出：Fun5 template Specialization is called. 因为模板特化不会引入新的名称，所以在Name Lookup时，只会查找
+    fun5(&x);//输出：Fun5 int template Specialization is called. 因为模板特化不会引入新的名称，所以在Name Lookup时，只会查找
     // fun5和其重载函数的名称，不会查找特化名称。编译器会选择T* （更特殊的版本）。然后再进行Function Template Specialization
-    //发现T*的模板特化，因此最后输出Fun5 template Specialization is called.
+    //发现T*的模板特化，因此最后输出Fun5 int template Specialization is called.
     //特化隐式给定类型为<int>。是T* 对于int* 的特化
 
 
@@ -183,7 +183,8 @@ int main() {
     fun10<int>(&x);//If constexpr int.
     fun10<double>(&x);//If constexpr else.
 
-    //还可以使用构造假形参（为了使用函数模板重载）
+    //还可以使用构造假形参：因为在重载中函数返回类型不会影响到重载，因此构造一个无实际意义的与函数返回类型相同的形参，
+    //来使用函数模板重载
     fun11(&x, int{});//No-op int arguments.
     fun11(&x, double{});//No-op  no-int arguments.
 

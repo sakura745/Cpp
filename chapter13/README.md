@@ -1,25 +1,119 @@
 ## 1.函数模板
-函数模板不是函数
+`functionTemplate.cc`
 
-避免使用函数模板特化
+### 函数模板不是函数，不能调用
+
+编译期的两段处理：
+- 模板语法检查
+- 模板实例化：模板形参赋予模板实参
+
+**翻译单元**的一处定义原则
+
+函数模板的重载，虽然底层都是函数的重载，只要相同函数名和不同函数形参类型和个数都可以，但是对于形参类型为`T`和`T&`，
+这种模糊的行为，编译器无法分辨
+### 模板实参的类型推导
+基于函数实参（表达式）确定模板实参（T）的过程（从函数实例化推向定义的过程），类似于`auto`
+- 函数形参为左值引用`&`和指针`*`：忽略表达式类型中的引用`&`
+- 函数形参为万能引用`&&`：表达式为右值，则类型为去掉引用；表达式为左值，则为左值引用（触发引用折叠）
+- 函数形参不包含引用：首先，忽略表达式类型中的引用`&`；其次，忽略顶层`const`；最后，数组、函数转换为对应的指针
+ 
+当模板实参推导不到时，可以使用模板缺省实参，但缺省实参不能解决有歧义的情况
+
+`functionTemplate2.cc` `source.cc` `header.h`
+
+### 显式实例化
+不同于 `fun<int>(10)`这种，这种属于**显式模板参数调用**，而显式实例化是`template void fun<int>(int)`，但有时会都称为
+显式实例化，注意区分。
+
+`template void fun(int);`既可以是显式实例化声明，也可以是显式实例化定义。区别在于所在的翻译单元与主程序的关系。
+如果和主程序在一个翻译单元，则称为实例化声明；如果在头文件，位于函数模板参数`template <typename T> void fun(T x) {}`下面，
+则称为实例化定义。当然，不能同时在头文件里有实例化定义，和在主程序里有实例化声明，重复了 
+      
+### 函数模板的（完全）特化
+**函数模板不支持部分特化，类模板支持部分特化**
+
+函数模板的特化会有种反直觉的效果，因此避免使用函数模板特化。通常使用**重载**进行替代**特化**
+
+但由于重载时的Name Lookup对函数返回值没有影响，所以存在重载不能替换特化的某种情况
+- 使用`if constexpr`解决
+- 引入假函数形参解决
+- 通过类模板特化解决
+
 ## 2.类模板与成员函数模板
-类模板不是类
+`classTemplate.cc`
 
-类模板的特化非常重要
+类模板不是类，类模板的成员函数只有在调用是才被实例化
+### 类模板的特化
+类模板的特化不像函数模板的特化一样不建议使用，相反非常重要
+
+特化版本与基础版本可以有完全不同的实现，包括函数名称的改变
+### 类模板的实参推导 c17
+- 基于构造函数的实参推导
+
 ## 3.Concepts (c20)
+`concepts.cc`
+
+模板存在的问题：参数是否正常工作，需要阅读定义中的代码来进行理解（因为是模板参数，具有太多的不确定性）
+和编译报错不友好（例如`std::vector<int&>`）
+
+因此C20将函数和模板函数的优点整合，引出了一个非常重要的概念：
 [Concepts](https://en.cppreference.com/w/cpp/language/constraints) 是一种新的语言特性，它是一种对类型进行约束的机制，
 可以帮助程序员编写更加通用和模板化的代码。它可以用于检查类型是否满足特定的要求，或检查函数的参数是否具有特定的行为和属性。
 Concepts 可以在编译时捕获错误，让编译器更容易推断类型和参数，提高代码的可读性，可维护性和可重用性。它是通过一种叫
 做“concept 模板”的语法进行定义和实现的。Concepts 是 C++ 中重要的语言特性之一，并成为了标准库和模板元编程的基础。
 
+### 编译期谓词
+作用于**编译期**：基于给定的输入，返回`true`或`false`
+
+与`requires从句`(constraints)一起使用来限制模板参数
+
+`requires`表达式：`bool`类型的纯右值表达式
+- 简单表达式：类似于`lambda`表达式
+- 类型表达式
+- 复合表达式
+- 嵌套表达式
+
+`requies`从句会影响重载解析和特化版本的选取
 ## 4.模板相关内容
-数值模板参数与模板模板参数：`templateParameters.cc`
+### 数值模板参数与模板模板参数
+`templateParameters.cc`
+模板参数不仅可以使用类型，还可以使用数值（编译期常量）或者模板
 
-别名模板与变长模板：`aliasVariadic.cc`
-通过引入`parameter_pack`从而引入可变长度的模板
+浮点数在C20才支持，是因为浮点数是有误差的
+### 别名模板
+`alias.cc`
+别名模板本质上是类型的别名，不过类型是带模板的
+- 为模板本身引入别名
+- 为类模板的成员引入别名
+- 别名模板不支持特化，但是可以基于类模板的特化引入别名：我个人的理解是因为别名模板的本质就是类型的别名，没有具体的实现；
+但是类模板的特化可以有不同的实现，当然也包含为特化引入的别名
+### 可变长模板
+`variadic.cc`
+通过引入`parameter_pack`从而引入零到n个可变长度的模板
+- 模板形参包
+- 函数形参包
+- 形参包展开
+### 包展开与折叠表达式
+`expensionFolding.cc`通过[包展开](https://en.cppreference.com/w/cpp/language/parameter_pack)(c11)和[折叠表达式](https://en.cppreference.com/w/cpp/language/fold)(c17)
+，使用可变长模板
 
-如何使用可变长模板，通过[包展开](https://en.cppreference.com/w/cpp/language/parameter_pack)和[折叠表达式](https://en.cppreference.com/w/cpp/language/fold)：`expensionFolding.cc`
+折叠表达式
+-  Unary right fold.`( pack op ... )`: (E op ...) -> (E_1 op (... op (E_N-1 op E_N)))
+-  Unary left fold.`( ... op pack )`: (... op E) -> (((E_1 op E_2) op ...) op E_N)
+-  Binary right fold.`( pack op ... op init )`: (E op ... op I) -> (E_1 op (... op (E_N−1 op (E_N op I))))
+-  Binary left fold.`( init op ... op pack )`: (I op ... op E) -> ((((I op E_1) op E_2) op ...) op E_N)
 
-完美转发与lambda表达式模板：`perfectForwardingLambda.cc`
+折叠表达式是求值的，对于类型却无法操作
+### 完美转发与lambda表达式模板
+`perfectForwardingLambda.cc`
 
-消除歧义和变量模板：`resolveAmbiguityVariableTemplates.cc`
+`std::forward<T>()`常常和万能引用`T&&`一起使用，用在同时处理传入的参数区分左右值的情形
+### 消除歧义和变量模板
+`resolveAmbiguityVariableTemplates.cc`
+
+消除歧义
+- 使用`typename`表示一个依赖名称是类型，而非静态数据成员
+- 使用`template`表示一个依赖名称是模板
+- `template`与成员函数模板调用
+
+变量模板c14

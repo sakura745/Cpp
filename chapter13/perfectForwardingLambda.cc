@@ -1,5 +1,5 @@
 #include <iostream>
-#include <utility>
+#include <utility>//引入forward
 
 void g(int&) {
     std::cout << "L-reference.\n";
@@ -40,7 +40,7 @@ int main() {
 
     fun(x);//输出：L-reference.
     fun(3);//输出：L-reference.
-    //因为input是左值
+    //因为T被推导为int，input是左值
 
     fun2(x);//输出：L-reference.
     fun2(3);//输出：L-reference.

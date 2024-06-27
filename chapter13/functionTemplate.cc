@@ -5,8 +5,9 @@
 template <typename T>
 void fun(T);
 
-template <class/*class也可以，与typename没区别*/ T>
-void fun(T);
+//legal
+//template <class/*class也可以，与typename没区别*/ T>
+//void fun(T);
 
 //函数模板的定义
 template <typename T/*模板形参，表明一种类型*/>
@@ -18,8 +19,7 @@ struct Str{};
 //函数模板的重载。函数名称相同，形参列表不同
 template <typename T1, typename T2/*模板的形参列表*/>
 void fun(T1 input1, T2 input2) {
-    std::cout << input1 << std::endl;
-    std::cout << input2 << std::endl;
+    std::cout << input1 << ' ' << input2 << std::endl;
 }
 
 //也是函数模板的重载
@@ -34,14 +34,14 @@ void fun2(T& input) {
 }
 
 template<typename T>
-void fun3(T&&/*很像右值引用，但是在这里是万能引用*/ input) {//如果T类型被确定下来了，是右值引用。如int&&。万能引用可以引用左值也可以引用右值
+void fun3(T&&/*很像右值引用，但是在这里是万能引用*/ input) {//如果T类型被确定下来了，是右值引用。
+    //如int&&。万能引用可以引用左值也可以引用右值
     std::cout << input << std::endl;
 }
 
 template <typename T>
 void fun4(T input1, T input2) {
-    std::cout << input1 << std::endl;
-    std::cout << input2 << std::endl;
+    std::cout << input1 << ' ' << input2 << std::endl;
 }
 
 template <typename T, typename Res>
@@ -68,8 +68,8 @@ Res fun10(T input1) {
     return Res{};
 }
 template <typename T = int>
-void fun11(T input1, T input2) {
-}
+void fun11(T input1, T input2) {}
+
 template <typename T1, typename Res = int, typename T2>//模板缺省实参的位置和函数缺省实参不一样，函数只能最右的缺省实参
 Res fun12(T1 x, T2 y) {
     return Res{};
@@ -114,9 +114,10 @@ void fun17(T1* x, T2 y) {
 template <typename T1, typename T2>
 void fun17(T1 x, T2* y) {
 }
+
 int main() {
     //对函数模板实例化才能调用
-    fun<int/*int为模板实参*/>(3/*3为函数实参*/);//显式实例化
+    fun<int/*int为模板实参*/>(3/*3为函数实参*/);//显式模板参数调用
     //模板形参在编译期要赋予实参，就可以把函数模板实例化为一个函数
     //函数实参是在运行期调用的
 
@@ -126,12 +127,12 @@ int main() {
     int x = 5;
     fun<int>(&x);//调用void fun(T* input)
 
-    fun(38);//隐式实例化
+    fun(38);//隐式模板参数调用
 
     int y = 12312;
     fun2(y);
     int& y2 = y;
-    fun2(y2);//通过y2类型：int& 推导，先忽略&；用T& 和 int匹配，所以T -> int
+    fun2(y2);//通过y2类型：int& 推导，先忽略&；用T& 和 int匹配，所以T -> int（T不能是其他类型吧，不能T-&吧）
     auto& a = y2;//通过y2类型：int&推导，先忽略&；用auto& 和 int匹配，所以 auto -> int
 
 
@@ -155,11 +156,11 @@ int main() {
     fun(z);//T -> int*。模板和auto一样，int [3]退化为int*
 
     fun(3, 5);//自行推导
-    fun<int/*匹配第一个模板形参，匹配T1*/>(3, 5);//T1显式实例化，T2隐式实例化
+    fun<int/*匹配第一个模板形参，匹配T1*/>(3, 5);//T1显式模板参数调用实例化，T2隐式实例化
 
     fun4<int>(3, 5.0);//T为int，因为显式给出类型。不管5.0是什么类型
-//    fun4(3, 5.0);//illegal. 系统尝试进行推导，但不知道听谁的
-    fun4(3,(int)5.0);
+//    fun4(3, 5.0);//illegal. 系统尝试进行推导，但不能确定T是int还是double
+    fun4(3,static_cast<int>(5.0));
 
 //    fun5(3);//illegal 模板形参 Res 与函数形参无关，无法推导
 //    fun6(3);//illegal  相关，也不一定能推导成功，无法推导
@@ -176,7 +177,7 @@ int main() {
     fun12<int, int, double/*按照模板形参的顺序显式指定*/>(3, 4);
     fun12<int, int/*按照模板形参的顺序部分显式指定*/>(3, 4);
     fun5<int, std::string>(1);//想要指定Res类型，必须要指定T类型。因为是按照顺序指定。可以将模板中Res和T调换顺序
-    fun13<std::string>(1);//少写了个实参类型。意思就是应该将最需要显式指定实参的放到最左侧
+    fun13<std::string>(1);///少写了个实参类型。意思就是应该将最需要显式指定实参的放到最左侧
 
 
     //SFINAE (Substitution Failure Is Not An Error) 指的是模板元编程中的一种技巧。它表示当一个模板被实例化时，
@@ -193,9 +194,9 @@ int main() {
 
     fun15(1, 13.0f);//输出 'T1 float' is called.编译器会选择特殊的版本
     fun16(&x);//输出 T* is called.编译器会选择特殊的版本
-    //如何判断特殊： 假设 fun16(T x)的T类型为 A     fun16(T* x)的T*类型为 B*   A,B为具体类型
-    //                      T 能匹配 B* 吗             T* 能匹配 A 吗
-    //                            能                        不能
+    //如何判断特殊    假设 fun16(T x)的T类型为 A     fun16(T* x)的T*类型为 B*   A,B为具体类型
+    //比较普遍性:                T 能匹配 B* 吗             T* 能匹配 A 吗
+    //                             能                        不能
     //所以 fun16(T* x) 比 fun16(T x) 特殊
 
 //    fun17(&x, &x);//illegal:Call to 'fun17' is ambiguous. 比较不出哪个特殊。
