@@ -84,7 +84,8 @@ int main() {
     //如果对静态成员使用类内内联初始化呢 inline static Str3 y;也会出错，但inline static int y可以。
     //因为编译器解析到inline时，会认为y有明确的定义，会对y的类型Str3有个全面的了解，但是Str3这个结构体没有明确的类型。
     //报错incomplete type
-    //可以在结构体外添加定义 inline Str3 Str3::y;这个和Str3 Str3::y;的区别是什么？就是inline的区别
+    //可以在结构体外添加定义 inline Str3 Str3::y;结构体内不能用c17的内联静态初始化，去掉类内的inline
+    //这个和Str3 Str3::y;的区别是什么？就是inline的区别
     //即在头文件中构造结构体，在多个编译单元中使用头文件，如果不是inline会出现重定义。
 
     //因此，对于类内声明静态的类类型的对象，需要在类外使用初始化。类外初始化是否声明为inline都行

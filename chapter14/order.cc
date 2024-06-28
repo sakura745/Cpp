@@ -4,7 +4,7 @@
 //元函数
 template <typename T>
 struct Fun {
-    using RemRef = typename std::remove_reference<T>::type;
+    using RemRef = typename std::remove_reference<T>::type;//type依赖与T，而T是模板参数，所以要加typename取消歧义
     using type = typename std::add_const<RemRef>::type;
 };
 
