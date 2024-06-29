@@ -1,14 +1,20 @@
 #include <iostream>
 
-enum Color_de : int;//无作用域枚举的声明：首先需要指定底层尺寸int，其次，要满足翻译单元的一次定义原则，且不能和定义放在同一翻译单元。
+enum Color_de : int;//无作用域枚举的声明：首先需要指定底层尺寸int，
+// 其次，要满足翻译单元的一次定义原则，且不能和定义放在同一翻译单元。
+//是因为当使用声明的情况，一般都是构造一个相应的变量，如 Color_de x;但是对于编译器来说，不知道给
+//x具体分多少内存，因此需要在声明时指定底层类型 :int :char 等
+
 enum class Color_cla;//有作用域枚举的声明，就像函数声明一样。底层尺寸缺省为int
 //使用枚举声明而使用对象，是极少数的行为。大多数还是使用定义
 
 
-//无作用域枚举，继承自C语言。但会造成名称污染，两个不同无作用域枚举中，有相同名称，会冲突。因此提出了有作用域枚举
+//无作用域枚举，继承自C语言。作用域和通常的作用域由{}来确定不同，是包含Color{}的作用域，也就是全局域
+//但会造成名称污染，不同两个 无作用域枚举中，有相同名称，会冲突。因此提出了有作用域枚举
 //枚举的定义
 enum Color {
-    Red,//枚举项。在底层保存时，枚举项对应整数值
+    Red,//枚举项。在底层保存时，枚举项对应整数值。
+    //对于底层便于区分各个枚举项，因此第一个枚举项缺省为0
     Green = 40,
     Yellow
 };
@@ -44,9 +50,7 @@ enum class Color_cla {
     Blue_cla,
     Yellow_cla
 };
-void fun(Color_cla a) {
-
-}
+void fun(Color_cla a) {}
 
 //在ABC2名字空间中的有作用域枚举
 namespace ABC2 {
@@ -59,13 +63,13 @@ namespace ABC2 {
 
 class A {
 public:
-    enum {x = 3};//早期的编译期常量
+    enum {x = 3};//早期的编译期常量。因为枚举项是常量表达式
     constexpr static int y = 100;//现在的编译期常量
 };
 
 int main() {
     Color x = Red;
-    ABC::Color2 x2 = ABC::Red2;
+    ABC::Color2 x2 = ABC::Red2;//表示Red2是属于ABC的
     cla::Color3 x3 = cla::Red3;
 
     Color_cla x4 = Color_cla::Red_cla;
@@ -80,10 +84,8 @@ int main() {
     std::cout << Color::Red << std::endl;//legal 对于无作用域的枚举项可以
 //    std::cout << Color_cla::Red_cla << std::endl;//illegal 对于有作用域的枚举项不可以。不安全
 
-//    fun(100);//illegal ：隐式转换不安全
+//    fun(100);//illegal ：隐式转换不安全。
     fun(static_cast<Color_cla>(100));//可以显式转换
     std::cout << static_cast<int>(Color_cla::Red_cla) << std::endl;//可以显式转换
-
-
 
 }

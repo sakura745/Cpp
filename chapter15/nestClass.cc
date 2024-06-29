@@ -29,8 +29,8 @@ public:
     class In3 {
     public:
         inline static MyInt val = val2;
-//        int xxx = vvv;//illegal 因为 int vvv = 100;不是定义，是声明（当初始化Out3的对象的时候，才是对其成员函数定义）。
-        // 因此对于xxx来说，不能通过vvv来声明。除非用static 就变成定义。是定义还是声明，是否分配内存
+//        int xxx = vvv;//illegal 因为 int vvv = 100;不是定义，是声明（当初始化Out3的对象时Out3 obj;才是对其成员函数定义）
+        // 因此对于xxx来说，不能通过vvv来声明。除非将其变为静态成员就变成定义。定义会分配内存，声明不会分配内存
         int xx = 100;
     };
 //    int vv = In3::xx;//illegal 同理于 int xxx = vvv;
@@ -42,7 +42,7 @@ void fun() {
     struct/*函数内定义类为局部类*/ Helper {
         MyInt x;
         int y;
-//        int z = val;//同理于int xxx = vvv;
+//        int z = val;//同理于int xxx = vvv;声明不能用定义
         int inc() {
             return ++x;
         }

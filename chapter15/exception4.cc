@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdexcept>
+#include <stdexcept>//异常
 #include <memory>
 #include <fstream>
 
@@ -11,8 +11,8 @@ void fun2() {
     int* ptr = new int [3];
     throw 11;
     delete []ptr;
-}//不是 异常安全 的代码，因为在通过栈展开销毁的ptr，只是销毁了ptr的指针，没有销毁ptr所指向的内存，也就是int [3]的内存存在泄漏
-//可以通过使用智能指针来保证代码属于 异常安全
+}//不是 异常安全 的代码，因为在通过栈展开销毁的ptr，只是销毁了ptr的指针，没有销毁ptr所指向的内存
+//也就是int [3]的内存存在泄漏可以通过使用智能指针来保证代码属于 异常安全
 
 void fun3() {
     std::unique_ptr<int> ptr = std::make_unique<int>(3);//通过调用智能指针的析构函数来进行内存销毁

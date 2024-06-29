@@ -35,7 +35,7 @@ struct S2 {
     union/*匿名联合*/ {
         char x;
         int y;
-    };
+    };//类似于无作用域枚举，作用域在S2内
 
     Type t;
 };
@@ -65,6 +65,7 @@ int main() {
     S s;
     s.t = S::Char;
     s.obj3.x = 'c';
+    //将enum和union联合到一起，一起使用。但s.obj3.x使用起来有点冗余。采用匿名联合
 
     S2 s2;
     s2.t = S2::Char;

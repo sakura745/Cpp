@@ -1,6 +1,6 @@
 #include <iostream>
 
-struct Str{};
+struct Str {};
 void f1() {
     //栈展开：异常产生后，对局部对象进行销毁，先构建后销毁的顺序。
     int x;
@@ -11,8 +11,8 @@ void f1() {
     std::cout << "Blabla2.\n";//抛出异常后的代码不会被执行
 }
 void f2() {
-    //从f1的异常产生后，对f2进行栈展开
-    // 对局部对象进行销毁，先构建后销毁的顺序。
+    //从f1的异常产生f1栈展开后，对f2进行栈展开
+    //对局部对象进行销毁，先构建后销毁的顺序。
     int x2;
     Str obj2;
     try {
@@ -72,8 +72,9 @@ void f222() {
     //throw出的类型，不会考虑类型转化被catch捕获：只有throw int ，catch const int
     //                                                throw int[], catch int*
     //                                                throw Derive, catch Base
-    // 只有这三种可以匹配
-    catch(...) {
+    //只有这三种可以匹配
+
+    catch(...)/*可以匹配任意异常*/ {
         std::cout << "Exception is caught in f222().\n";
     }
 }
@@ -122,8 +123,8 @@ int main() {
         std::cout << "Exception is occurred f3.\n";
     }
     //f1抛出异常，f1进行栈展开。执行到f2中的f1，发现位于try中，try会根catch子句，由于抛出的异常为1，int型。因此被catch(int)
-    // 捕获，执行Exception is caught in f2().；已经抓住了异常，会继续执行后序代码，输出Other logic in f2()，之后f2函数执行
-    // 完毕，返回到f3，没有异常，不需要栈展开。再返回到main，执行主函数的try，没有异常，因此不会执行主函数中的catch。
+    //捕获，执行Exception is caught in f2().已经抓住了异常，栈展开停止，后续没有异常会继续执行后续代码，输出Other logic in f2()，
+    //之后f2函数执行完毕，返回到f3。再返回到main，执行主函数的try，没有异常，因此不会执行主函数中的catch。
 
     std::cout << "---------------------------------" << std::endl;
     try {

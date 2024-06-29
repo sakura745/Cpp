@@ -1,14 +1,9 @@
 #include <iostream>
 
-void fun() throw()/*c98写法，不会抛出异常*/{
-
-}
-void fun2() noexcept/*限定符*/ /*c11写法，不会抛出异常*/{
-}
-void fun3() noexcept(false)/*c11写法，会抛出异常*/{
-}
-void fun4() /*noexcept(false)*/ {
-}
+void fun() throw()/*c98写法，不会抛出异常*/{}
+void fun2() noexcept/*限定符*/ /*c11写法，不会抛出异常*/{}
+void fun3() noexcept(false)/*c11写法，会抛出异常*/{}
+void fun4() /*noexcept(false)*/ {}
 void foo() noexcept/*限定符*/(noexcept/*操作符*/(fun3()) && noexcept(fun2())) /*fun2 和 fun3都不会抛出异常时，foo不抛出异常*/{
     fun2();
     fun3();
