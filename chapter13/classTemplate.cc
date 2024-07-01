@@ -44,6 +44,7 @@ private:
 
     //c11之后，声明模板参数为友元
     friend T;//T为友元之后，T类型的任何对象都可以使用类的private
+    friend B<int>;//将模板类实例化类型声明为友元
 
     int val = 123;
 };

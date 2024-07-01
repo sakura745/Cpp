@@ -7,6 +7,12 @@ public:
     class/*类内定义类为嵌套类*/ In {
     public:
         inline static MyInt val = val2;
+
+        //想要访问外围类的静态成员变量
+//        Out::val2;//illegal，因为不是In和Out不是继承关系
+        void ff() {
+            Out::val2;//legal。这么设计是为了封装。让具体实现细节不暴露在函数外部。
+        }
     };
 };
 

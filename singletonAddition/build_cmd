@@ -1,0 +1,4 @@
+g++ -O3 ./main.cpp
+
+valgrind --tool=callgrind ./a.out
+/usr/bin/time ./a.out
