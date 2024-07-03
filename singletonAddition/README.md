@@ -55,7 +55,9 @@ Sing1 destroy
 - [ios_base::init 类](https://en.cppreference.com/w/cpp/io/ios_base/Init)
 - [GCC的实现示例](https://github.com/gcc-mirror/gcc/blob/master/libstdc%2B%2B-v3/src/c%2B%2B98/ios_init.cc)
 
-### 如果在实现单例A的逻辑时：
-- 部分实现逻辑在源文件而非头文件中
+### 在实现单例A的逻辑时
+部分实现逻辑在源文件而非头文件中
 - 源文件中的逻辑使用了单例 **B** 的内容
 - 那么一定要将单例  **B** 的头文件置于单例 **A** 的 **头文件** 中
+
+目的是要保证单例**B**先于单例**A**初始化

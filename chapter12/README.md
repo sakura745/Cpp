@@ -46,6 +46,8 @@ Triangle **is a** Shape，Right Triangle **is a** Triangle，**is** also **a** S
 派生类所在的域位于基类的内部
 
 在派生类中可以直接调用基类的构造函数，而不是用域操作符
+
+派生类构造构造函数时，最好用初始化列表显式调用基类的构造函数。会避免潜在问题
 ### 虚函数
 `virtualFunction.cc`
 非静态、非构造函数可以声明为虚函数

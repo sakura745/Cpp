@@ -23,4 +23,6 @@ public:
 };
 
 static Sing1::Init sing1Init;
-static Sing1& singleton1 = *Sing1::Ptr();//单例Sing1的唯一接口
+//static SintTemp<Sing1>::Init sing1Init;//也可以，只要是调用Init进行初始化都行
+static Sing1& singleton1 = *Sing1::Ptr();//单例Sing1的唯一接口。只能用引用，不能用指针，指针是可以修改的
+//static Sing1* singleton1 = Sing1::Ptr();//不安全

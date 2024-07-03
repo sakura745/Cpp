@@ -18,3 +18,5 @@ extern Sing singletonInst;
 //没有extern的Sing singletonInst表示为定义一个全局（该翻译单元）变量
 //使用extern之后，变成声明了一个供其他翻译单元使用的全局变量
 //如果extern Sing singletonInst = Sing{};给定一个初始化的值，则又变成定义
+
+//std::cout << 1;//illegal 头文件不能包含执行语句

@@ -1,6 +1,8 @@
 #pragma once
 #include <atomic>
-
+//#include "sing1.h"//不用写，为什么在Init()和~Init()使用到T()和~T()，还不用写出T所在的头文件
+//因为SingTemp是模板，实例化之前是声明，不需要知道具体实现细节。退一步讲，如果都需要补上T所在的头文件
+//那这样的设计方式也有问题，还有实时的修改模板所在的头文件
 ///单例逻辑
 template <typename T>
 class SingTemp {

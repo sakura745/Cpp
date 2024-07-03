@@ -23,3 +23,5 @@ get value: 100
 Sing destroy
 ```
 输出结果相同
+
+**似乎没有问题**
