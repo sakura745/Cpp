@@ -9,7 +9,7 @@ class SingTemp {
 public:
     struct Init {
         Init() {//改为类内定义
-            auto& count = RefCount();
+            auto&/*不能去掉&，因为atomic对象没有copy ctor*/ count = RefCount();
             auto ori = count.fetch_add(1);
             if (ori == 0) {
                 T* ptr = SingTemp::Ptr();
