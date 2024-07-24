@@ -42,6 +42,7 @@ range：支持迭代器
 `forward_list` 迭代器只支持向后（递增）操作
 
 `deque` **double ended queue**的简写，是vector和list的折中组合。一段一段的。段中的元素是连续的，每段之间不连续
+`deque`可以执行的操作有：`back` `front` `push_back` `pop_back` `push_front` `pop_front`
 
 `basic_string` 
 
@@ -75,6 +76,7 @@ range：支持迭代器
 `stack`底层容器为`deque`
 
 `queue`底层容器为`deque`
+`queue`可执行的操作有`back` `front` `pop`
 
 `priority_queue`底层容器为`vector`
 ### 数值适配器(c20)
